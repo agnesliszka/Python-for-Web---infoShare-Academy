@@ -1,4 +1,4 @@
-# Defining variables
+# Define variables
 rows = []
 total = []
 control_sum = []
@@ -8,13 +8,13 @@ i = 0
 # Read a file
 file = open('rows.txt','r')
 
-# Split file into lines
-result = [line.split(" ") for line in file.readlines()]
+# Split file into lines 
+result = [line.split() for line in file.readlines()]
 
 # Get numbers from relative lines and save them as a list
-for element in result:
-    element = [int(k) for k in element]
-    rows.append(element)   
+for item in result:
+    item = [int(k) for k in item]
+    rows.append(item)   
 
 # Get minimum, maximum, difference, total and control sum values
 while True:

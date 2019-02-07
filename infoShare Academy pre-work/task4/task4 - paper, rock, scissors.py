@@ -9,6 +9,7 @@ message ={"tie": "Yupi it's a tie!",
           "won" : "Hurray you won!",
           "lost" : "Aww you lost!" }
 
+# Create a function which finds out who is the winner
 def who_is_the_winner(user_choice, computer_choice):
   print("You choose %s" % user_choice)
   print("The computer chose %s" %computer_choice)
@@ -23,11 +24,13 @@ def who_is_the_winner(user_choice, computer_choice):
     print (message['won'])  
   else:
     print (message['lost'])
-    
+
+# Create a function that enables to play the game    
 def play():
   user_choice=input("Enter - Rock, Paper, or Scissors: ").upper()
   computer_choice = options[randint(0, 2)]
   who_is_the_winner(user_choice, computer_choice)  
 
+# Play the game
 play()
   

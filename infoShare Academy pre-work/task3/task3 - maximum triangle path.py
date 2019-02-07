@@ -4,30 +4,46 @@
  i - lists in list
  j - element in list'''
 
+# Define variables
+triangle_basic = []
+triangle_final = []
+
+# Create a function to get the maximum path sum
 def maxPathSum(triangle, m, n): 
-    # loop for bottom-up calculation
-    for i in range(m-1, -1, -1): 
-        for j in range(i+1): 
-             ''' for each element, check both 
+    ''' for each element, check both 
              elements just below the number 
              and below right to the number 
              add the maximum of them to it '''
-            #checking if element below the number is greater than the element below right to the number 
-            if (triangle[i+1][j] > triangle[i+1][j+1]):
-                # adding element below the number to the number 
-                triangle[i][j] += triangle[i+1][j] 
+    # Loop for bottom-up calculation
+    for i in range(m-1, -1, -1): 
+        for j in range(i+1): 
+            if (triangle[i+1][j] > triangle[i+1][j+1]):  # Check if element below the number is greater than the element below right to the number 
+                triangle[i][j] += triangle[i+1][j] # Add element below the number to the number 
             else:
-                # adding element below right to the number 
-                triangle[i][j] += triangle[i+1][j+1] 
-    # return the top element which stores the maximum sum    
+                triangle[i][j] += triangle[i+1][j+1] # Add element below right to the number 
+    # Return the top element which stores the maximum sum    
     return triangle[0][0]
 
-triangle = [[1, 0, 0, 0], 
-           [2, 3, 0, 0], 
-           [4, 5, 6, 0],
-           [7, 8, 9, 10]]
+# Read a file
+file = open('task3_triangle_big.txt','r')
 
-m = len(triangle[0])-1
-n = len(triangle[0])-1
+# Split file into lines 
+result = [line.split() for line in file.readlines()]
 
-print(maxPathSum(triangle, m, n)) 
+# Get numbers from relative lines and save them as a list
+for element in result:
+    element = [int(k) for k in element]
+    triangle_basic.append(element)
+
+triangle_length = len(triangle_basic[-1])
+
+for short_list in triangle_basic:
+    length = len(short_list)
+    small_list_converted = short_list + [0] * (triangle_length - length)
+    triangle_final.append(small_list_converted)    
+
+m = len(triangle_final[0])-1
+n = len(triangle_final[0])-1
+
+# Get the maximum path sum
+print(maxPathSum(triangle_final, m, n)) 
