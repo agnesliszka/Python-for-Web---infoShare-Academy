@@ -1,3 +1,5 @@
+# Distribution / packaging
 .idea/*
-Day03/*
-Day*/*
+Day*/
+homework_work_in _progress/
+http_methods/
