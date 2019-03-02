@@ -9,25 +9,26 @@ content = response.text
 with open('content_file.txt', 'w') as content_file:
     content_file.write(content)
 
-# Read content_file and save it as string
+# Read content_file
 file = open('content_file.txt','r')
 file_content = file.readlines()
 file_content_string = ''.join(file_content)
 
-# Create empty list
 lotto_list =[]
 
 # Get number of lottery types
 text_to_find = 'classCenter'
 n = file_content_string.count(text_to_find)
+n = n-1 # For last lottery type Keno - lottery winning numbers are available only on Keno site
 
 # Get starting position of searched element
-lotto_starting_pos = file_content_string.find('resultLotto')
+lotto_start_pos = file_content_string.find('resultLotto')
+content_to_find_numbers_pos0 = lotto_start_pos
 
-for i in range(n):
+for j in range(n):
 
-    # Get lotto lottery name
-    results_item_pos1 = file_content_string.find('<div class="resultsItem ', lotto_starting_pos) + len('<div class="resultsItem ')
+    # Get lotto lottery type
+    results_item_pos1 = file_content_string.find('<div class="resultsItem ', lotto_start_pos) + len('<div class="resultsItem ')
     results_item_pos2 = file_content_string.find('">', results_item_pos1)
     lotto_result_item = file_content_string[results_item_pos1:results_item_pos2]
     lotto_list.append(lotto_result_item)
@@ -40,35 +41,33 @@ for i in range(n):
     lotto_list.append(lotto_date)
     results_item_pos2 = date_pos2
 
-    # Get winning numbers
-    content_to_find_numbers_pos1 = file_content_string.find('<div class="resultsItem ', date_pos2)
-    content_to_find_numbers_pos2 = file_content_string.find('"resultsItem', content_to_find_numbers_pos1)
+    # Get number of winning numbers of the corresponding lottery type
+    content_to_find_numbers_pos1 = file_content_string.find('<div class="resultnumber">', content_to_find_numbers_pos0)
+    content_to_find_numbers_pos2 = file_content_string.find('<div class="resultsItem ', content_to_find_numbers_pos1)
     content_to_find_numbers = file_content_string[content_to_find_numbers_pos1:content_to_find_numbers_pos2]
 
-    result_number_pos = file_content_string.find('resultnumber', lotto_start_pos)
+    content_to_find_numbers_pos0 = content_to_find_numbers_pos2
 
     m = content_to_find_numbers.count('<span>')
 
     lotto_single_list = []
 
-    for j in range(6):
-        span_pos1 = file_content_string.find('span', result_number_pos) + len('span>')
-        span_pos2 = file_content_string.find('</span', span_pos1)
+    # Get winning numbers
+    result_number_pos = file_content_string.find('resultnumber', lotto_start_pos)
 
-        lotto_number=file_content_string[span_pos1:span_pos2]
-        result_number_pos = span_pos2 + len('span')
-        lotto_single_list.append(lotto_number)
+    for i in range(m):
+            span_pos1 = file_content_string.find('span', result_number_pos) + len('span>')
+            span_pos2 = file_content_string.find('</span', span_pos1)
 
+            lotto_number=file_content_string[span_pos1:span_pos2]
+            result_number_pos = span_pos2 + len('span')
+            lotto_single_list.append(lotto_number)
 
-        lotto_list.append(lotto_number)
-        lotto_string = ' '.join(lotto_list)
+            result_number_pos = span_pos2 + len('span')
 
-        result_number_pos = span_pos2 + len('span')
+    lotto_list.append(lotto_single_list)
 
-# Print lotto results
-print(lotto_string)
-
-#---------------
+print(lotto_list)
 
 # Save output data to output_file.html as a table
 with open("lotto_output_file.html", "w") as output_file:
