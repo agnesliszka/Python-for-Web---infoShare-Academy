@@ -25,56 +25,57 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://www.lotto.pl" />
 	<!-- CSS aggregated by CDN module. -->
-<link type="text/css" rel="stylesheet" media="all" href="https://lottocdn.directtraffic.pl/sites/default/files/css/cdn_css_https_591faa82305fffa4e244b131a3bc6713_zdrapka_style.css" />
-<link type="text/css" rel="stylesheet" media="all" href="https://lottocdn.directtraffic.pl/sites/default/files/css/cdn_css_https_4c04d659da00006274bb289c97cd0830_wysokie_wygrane.css" />
-<link type="text/css" rel="stylesheet" media="all" href="https://lottocdn.directtraffic.pl/sites/default/files/css/cdn_css_https_0508024c76f27b96c8ad08a3748adc05_node.css" />
-<link type="text/css" rel="stylesheet" media="all" href="https://lottocdn.directtraffic.pl/sites/default/files/css/cdn_css_https_ef8a5629a3afb9e8976f5a0b5d8b3186_defaults.css" />
-<link type="text/css" rel="stylesheet" media="all" href="https://lottocdn.directtraffic.pl/sites/default/files/css/cdn_css_https_30f36daf08500d6a9c41b04724e4761e_system.css" />
-<link type="text/css" rel="stylesheet" media="all" href="https://lottocdn.directtraffic.pl/sites/default/files/css/cdn_css_https_72a8b0bda72dc2524d44dc113c55fdac_system-menus.css" />
-<link type="text/css" rel="stylesheet" media="all" href="https://lottocdn.directtraffic.pl/sites/default/files/css/cdn_css_https_23acb4422317703cfbf19082258e1be7_user.css" />
-<link type="text/css" rel="stylesheet" media="all" href="https://lottocdn.directtraffic.pl/sites/default/files/css/cdn_css_https_8d628c5418a7859ceb4330ac24dae07b_content-module.css" />
-<link type="text/css" rel="stylesheet" media="all" href="https://lottocdn.directtraffic.pl/sites/default/files/css/cdn_css_https_ca7a3541d11f03ebf892212541e9fee9_colorbox.css" />
-<link type="text/css" rel="stylesheet" media="all" href="https://lottocdn.directtraffic.pl/sites/default/files/css/cdn_css_https_776bc890242f87457a3693cc88c1e5a0_ctools.css" />
-<link type="text/css" rel="stylesheet" media="all" href="https://lottocdn.directtraffic.pl/sites/default/files/css/cdn_css_https_7f5bf62a5f8b3192eecac2d206b3944a_custompage.css" />
-<link type="text/css" rel="stylesheet" media="all" href="https://lottocdn.directtraffic.pl/sites/default/files/css/cdn_css_https_a9ea684facca29c264b49ad70710480f_datepicker.css" />
-<link type="text/css" rel="stylesheet" media="all" href="https://lottocdn.directtraffic.pl/sites/default/files/css/cdn_css_https_a1c8ae81f5f9d8876dd73f7a5ba9b308_jquery.timeentry.css" />
-<link type="text/css" rel="stylesheet" media="all" href="https://lottocdn.directtraffic.pl/sites/default/files/css/cdn_css_https_ff4d82801119403aa57fea83f480dc43_filefield.css" />
-<link type="text/css" rel="stylesheet" media="all" href="https://lottocdn.directtraffic.pl/sites/default/files/css/cdn_css_https_2fb280c72ddb1182a156714c2785a43b_panels.css" />
-<link type="text/css" rel="stylesheet" media="all" href="https://lottocdn.directtraffic.pl/sites/default/files/css/cdn_css_https_ffc8ec11f539b102dfb2b0faaecf317c_thickbox.css" />
-<link type="text/css" rel="stylesheet" media="all" href="https://lottocdn.directtraffic.pl/sites/default/files/css/cdn_css_https_736e04d659ac7b596160d931c23d5030_thickbox_ie.css" />
-<link type="text/css" rel="stylesheet" media="all" href="https://lottocdn.directtraffic.pl/sites/default/files/css/cdn_css_https_7d76e7e6e03b19cc23a736747afe3e2a_fieldgroup.css" />
-<link type="text/css" rel="stylesheet" media="all" href="https://lottocdn.directtraffic.pl/sites/default/files/css/cdn_css_https_61aff9371227fcfce158429439608e2d_views.css" />
-<link type="text/css" rel="stylesheet" media="all" href="https://lottocdn.directtraffic.pl/sites/default/files/css/cdn_css_https_1518120d9bfc1eb1ed5252ce042ef2bd_bootstrap.css" />
-<link type="text/css" rel="stylesheet" media="all" href="https://lottocdn.directtraffic.pl/sites/default/files/css/cdn_css_https_2ad5af627f688060bf0822e2dee798b1_owl.carousel.css" />
-<link type="text/css" rel="stylesheet" media="all" href="https://lottocdn.directtraffic.pl/sites/default/files/css/cdn_css_https_1ec6026a846c3d82beb7fd00331b0aeb_animate.min.css" />
-<link type="text/css" rel="stylesheet" media="all" href="https://lottocdn.directtraffic.pl/sites/default/files/css/cdn_css_https_05923b33e614714480e3ae68e4a97d52_awesome-bootstrap-checkbox.css" />
-<link type="text/css" rel="stylesheet" media="all" href="https://lottocdn.directtraffic.pl/sites/default/files/css/cdn_css_https_a8e337e1a6ada92147d22b258beab8db_font-awesome.min.css" />
-<link type="text/css" rel="stylesheet" media="all" href="https://lottocdn.directtraffic.pl/sites/default/files/css/cdn_css_https_47390c92115b7a952350171dace654ea_slick.css" />
-<link type="text/css" rel="stylesheet" media="all" href="https://lottocdn.directtraffic.pl/sites/default/files/css/cdn_css_https_bbe62abbf6b356fd510c1bbc0d82c12d_style.css" />
-<link type="text/css" rel="stylesheet" media="print" href="https://lottocdn.directtraffic.pl/sites/default/files/css/cdn_css_https_1c53192c9de22f4195b891d7cd7d0509_print.css" />
-<link type="text/css" rel="stylesheet" media="screen" href="https://lottocdn.directtraffic.pl/sites/default/files/css/cdn_css_https_f620aa73d166a9802d9bdb78b43d6b95_tabs.css" />
+<link type="text/css" rel="stylesheet" media="all" href="https://lottocdn.directtraffic.pl/sites/default/files/css/cdn_css_https_91658c9fffedc98e28a791a2c72e8691_zdrapka_style.css" />
+<link type="text/css" rel="stylesheet" media="all" href="https://lottocdn.directtraffic.pl/sites/default/files/css/cdn_css_https_460ff62bda4a06ef843f6cfdcf7f1b37_wysokie_wygrane.css" />
+<link type="text/css" rel="stylesheet" media="all" href="https://lottocdn.directtraffic.pl/sites/default/files/css/cdn_css_https_8a8ee631c04748660f385b98f6bbf2b7_node.css" />
+<link type="text/css" rel="stylesheet" media="all" href="https://lottocdn.directtraffic.pl/sites/default/files/css/cdn_css_https_9a690a8571ef12108f3958250a736ba1_defaults.css" />
+<link type="text/css" rel="stylesheet" media="all" href="https://lottocdn.directtraffic.pl/sites/default/files/css/cdn_css_https_815b4eea9d45047556d544b0140ef461_system.css" />
+<link type="text/css" rel="stylesheet" media="all" href="https://lottocdn.directtraffic.pl/sites/default/files/css/cdn_css_https_e2a101ed20cc76c7cc0213269b277d01_system-menus.css" />
+<link type="text/css" rel="stylesheet" media="all" href="https://lottocdn.directtraffic.pl/sites/default/files/css/cdn_css_https_8fb95c295aff621ea10f7165aa003513_user.css" />
+<link type="text/css" rel="stylesheet" media="all" href="https://lottocdn.directtraffic.pl/sites/default/files/css/cdn_css_https_4a343669e2e8c3b99cf0987ed455202c_content-module.css" />
+<link type="text/css" rel="stylesheet" media="all" href="https://lottocdn.directtraffic.pl/sites/default/files/css/cdn_css_https_7c1a0905593cc4bff1cbbf4a1d0a9438_colorbox.css" />
+<link type="text/css" rel="stylesheet" media="all" href="https://lottocdn.directtraffic.pl/sites/default/files/css/cdn_css_https_c56234c21086a20d5f9b8437b8bb5a57_ctools.css" />
+<link type="text/css" rel="stylesheet" media="all" href="https://lottocdn.directtraffic.pl/sites/default/files/css/cdn_css_https_fa24040a2a06a257797fc8a53a62bed6_custompage.css" />
+<link type="text/css" rel="stylesheet" media="all" href="https://lottocdn.directtraffic.pl/sites/default/files/css/cdn_css_https_23d8b06684c80ab8a8bd8fa788743bd9_datepicker.css" />
+<link type="text/css" rel="stylesheet" media="all" href="https://lottocdn.directtraffic.pl/sites/default/files/css/cdn_css_https_e1fb09e1ac1ae49bc5fa6e3857fe601f_jquery.timeentry.css" />
+<link type="text/css" rel="stylesheet" media="all" href="https://lottocdn.directtraffic.pl/sites/default/files/css/cdn_css_https_2290a0db49ba8d5fe024a7c7626484d7_filefield.css" />
+<link type="text/css" rel="stylesheet" media="all" href="https://lottocdn.directtraffic.pl/sites/default/files/css/cdn_css_https_37f43d330488698514275bd218ef8e2d_panels.css" />
+<link type="text/css" rel="stylesheet" media="all" href="https://lottocdn.directtraffic.pl/sites/default/files/css/cdn_css_https_16ab9415f59029da7537976d17b8e5b4_thickbox.css" />
+<link type="text/css" rel="stylesheet" media="all" href="https://lottocdn.directtraffic.pl/sites/default/files/css/cdn_css_https_bcb3abadc51f94084ec2f95b1e1dd3d5_thickbox_ie.css" />
+<link type="text/css" rel="stylesheet" media="all" href="https://lottocdn.directtraffic.pl/sites/default/files/css/cdn_css_https_2c96bbaa8b7f1a973715e834656746bc_fieldgroup.css" />
+<link type="text/css" rel="stylesheet" media="all" href="https://lottocdn.directtraffic.pl/sites/default/files/css/cdn_css_https_52bbe65de66621bc382e5d2aa1a5c218_views.css" />
+<link type="text/css" rel="stylesheet" media="all" href="https://lottocdn.directtraffic.pl/sites/default/files/css/cdn_css_https_ef47a584d7d4daf4205feb78c07e5653_bootstrap.css" />
+<link type="text/css" rel="stylesheet" media="all" href="https://lottocdn.directtraffic.pl/sites/default/files/css/cdn_css_https_1767bb24d3ccedcde57454e32f0d329c_owl.carousel.css" />
+<link type="text/css" rel="stylesheet" media="all" href="https://lottocdn.directtraffic.pl/sites/default/files/css/cdn_css_https_29653913375595963b25d523afd4b2fe_animate.min.css" />
+<link type="text/css" rel="stylesheet" media="all" href="https://lottocdn.directtraffic.pl/sites/default/files/css/cdn_css_https_ee9fa208d04cc54666ec52a10fcbd8e4_awesome-bootstrap-checkbox.css" />
+<link type="text/css" rel="stylesheet" media="all" href="https://lottocdn.directtraffic.pl/sites/default/files/css/cdn_css_https_db1af0a3136e428d0e112f23eaf5acad_font-awesome.min.css" />
+<link type="text/css" rel="stylesheet" media="all" href="https://lottocdn.directtraffic.pl/sites/default/files/css/cdn_css_https_8558b771ec01520c00f38a02aedea998_slick.css" />
+<link type="text/css" rel="stylesheet" media="all" href="https://lottocdn.directtraffic.pl/sites/default/files/css/cdn_css_https_2f68b8fa84766a76aa5a812f4b397ce6_style.css" />
+<link type="text/css" rel="stylesheet" media="print" href="https://lottocdn.directtraffic.pl/sites/default/files/css/cdn_css_https_c3a5f0d813010b9c319df3dc501d80b9_print.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="https://lottocdn.directtraffic.pl/sites/default/files/css/cdn_css_https_e35d0bae30047281f56f10c0b91b8920_tabs.css" />
 <!-- CSS aggregated by CDN module. -->
 	<link rel="stylesheet" href="https://use.typekit.net/vup1dbo.css">
-	<script type="text/javascript" src="https://lottocdn.directtraffic.pl/sites/all/modules/jquery_update/replace/jquery/1.12/jquery.min.js?7"></script>
-<script type="text/javascript" src="https://lottocdn.directtraffic.pl/misc/drupal.js?7"></script>
-<script type="text/javascript" src="https://lottocdn.directtraffic.pl/sites/default/files/languages/pl_ef79c334ec72a0a7849032bca763887f.js?7"></script>
-<script type="text/javascript" src="https://lottocdn.directtraffic.pl/sites/all/modules/beautytips/js/jquery.bt.min.js?7"></script>
-<script type="text/javascript" src="https://lottocdn.directtraffic.pl/sites/all/modules/beautytips/js/beautytips.js?7"></script>
-<script type="text/javascript" src="https://lottocdn.directtraffic.pl/sites/all/themes/basic/js_new/jquery.colorbox-min.js?7"></script>
-<script type="text/javascript" src="https://lottocdn.directtraffic.pl/sites/all/modules/colorbox/js/colorbox.js?7"></script>
-<script type="text/javascript" src="https://lottocdn.directtraffic.pl/sites/all/modules/colorbox/js/colorbox_load.js?7"></script>
-<script type="text/javascript" src="https://lottocdn.directtraffic.pl/sites/all/modules/colorbox/js/colorbox_inline.js?7"></script>
-<script type="text/javascript" src="https://lottocdn.directtraffic.pl/sites/all/modules/panels/js/panels.js?7"></script>
-<script type="text/javascript" src="https://lottocdn.directtraffic.pl/sites/all/modules/thickbox/thickbox.js?7"></script>
-<script type="text/javascript" src="https://lottocdn.directtraffic.pl/sites/all/themes/basic/js/swfobject.js?7"></script>
-<script type="text/javascript" src="https://lottocdn.directtraffic.pl/sites/all/themes/basic/js_new/tether.min.js?7"></script>
-<script type="text/javascript" src="https://lottocdn.directtraffic.pl/sites/all/themes/basic/bootstrap-4.0.0-alpha.6/dist/js/bootstrap.min.js?7"></script>
-<script type="text/javascript" src="https://lottocdn.directtraffic.pl/sites/all/themes/basic/js_new/owl.carousel.min.js?7"></script>
-<script type="text/javascript" src="https://lottocdn.directtraffic.pl/sites/all/themes/basic/js_new/slick.js?7"></script>
-<script type="text/javascript" src="https://lottocdn.directtraffic.pl/sites/all/themes/basic/js_new/frontend.js?7"></script>
+	<script type="text/javascript" src="https://lottocdn.directtraffic.pl/sites/all/modules/jquery_update/replace/jquery/1.12/jquery.min.js?L"></script>
+<script type="text/javascript" src="https://lottocdn.directtraffic.pl/misc/drupal.js?L"></script>
+<script type="text/javascript" src="https://lottocdn.directtraffic.pl/sites/default/files/languages/pl_ef79c334ec72a0a7849032bca763887f.js?L"></script>
+<script type="text/javascript" src="https://lottocdn.directtraffic.pl/sites/all/modules/beautytips/js/jquery.bt.min.js?L"></script>
+<script type="text/javascript" src="https://lottocdn.directtraffic.pl/sites/all/modules/beautytips/js/beautytips.js?L"></script>
+<script type="text/javascript" src="https://lottocdn.directtraffic.pl/sites/all/themes/basic/js_new/jquery.colorbox-min.js?L"></script>
+<script type="text/javascript" src="https://lottocdn.directtraffic.pl/sites/all/modules/colorbox/js/colorbox.js?L"></script>
+<script type="text/javascript" src="https://lottocdn.directtraffic.pl/sites/all/modules/colorbox/js/colorbox_load.js?L"></script>
+<script type="text/javascript" src="https://lottocdn.directtraffic.pl/sites/all/modules/colorbox/js/colorbox_inline.js?L"></script>
+<script type="text/javascript" src="https://lottocdn.directtraffic.pl/sites/all/modules/google_analytics/googleanalytics.js?L"></script>
+<script type="text/javascript" src="https://lottocdn.directtraffic.pl/sites/all/modules/panels/js/panels.js?L"></script>
+<script type="text/javascript" src="https://lottocdn.directtraffic.pl/sites/all/modules/thickbox/thickbox.js?L"></script>
+<script type="text/javascript" src="https://lottocdn.directtraffic.pl/sites/all/themes/basic/js/swfobject.js?L"></script>
+<script type="text/javascript" src="https://lottocdn.directtraffic.pl/sites/all/themes/basic/js_new/tether.min.js?L"></script>
+<script type="text/javascript" src="https://lottocdn.directtraffic.pl/sites/all/themes/basic/bootstrap-4.0.0-alpha.6/dist/js/bootstrap.min.js?L"></script>
+<script type="text/javascript" src="https://lottocdn.directtraffic.pl/sites/all/themes/basic/js_new/owl.carousel.min.js?L"></script>
+<script type="text/javascript" src="https://lottocdn.directtraffic.pl/sites/all/themes/basic/js_new/slick.js?L"></script>
+<script type="text/javascript" src="https://lottocdn.directtraffic.pl/sites/all/themes/basic/js_new/frontend.js?L"></script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
-jQuery.extend(Drupal.settings, {"basePath":"\/","beautytips":{".beautytips":{"fill":"#F7F7F7","padding":8,"strokeStyle":"#B7B7B7","cornerRadius":0,"cssStyles":{"fontFamily":"\"lucida grande\",tahoma,verdana,arial,sans-serif","fontSize":"11px"},"cssSelect":".beautytips","list":["fill","padding","strokeStyle","cornerRadius","cssStyles"]}},"colorbox":{"transition":"elastic","speed":350,"opacity":"0.85","slideshow":false,"slideshowAuto":false,"slideshowSpeed":2500,"slideshowStart":"","slideshowStop":"","current":"{current} z {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Zamknij","overlayClose":true,"maxWidth":"100%","maxHeight":"100%"},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"thickbox":{"close":"Zamknij","next":"Nast\u0119pny \u003e","prev":"\u003c Poprzedni","esc_key":" ","next_close":"Next \/ Close on last","image_count":"!current z !total"}});
+jQuery.extend(Drupal.settings, {"basePath":"\/","beautytips":{".beautytips":{"fill":"#F7F7F7","padding":8,"strokeStyle":"#B7B7B7","cornerRadius":0,"cssStyles":{"fontFamily":"\"lucida grande\",tahoma,verdana,arial,sans-serif","fontSize":"11px"},"cssSelect":".beautytips","list":["fill","padding","strokeStyle","cornerRadius","cssStyles"]}},"colorbox":{"transition":"elastic","speed":350,"opacity":"0.85","slideshow":false,"slideshowAuto":false,"slideshowSpeed":2500,"slideshowStart":"","slideshowStop":"","current":"{current} z {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Zamknij","overlayClose":true,"maxWidth":"100%","maxHeight":"100%"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"thickbox":{"close":"Zamknij","next":"Nast\u0119pny \u003e","prev":"\u003c Poprzedni","esc_key":" ","next_close":"Next \/ Close on last","image_count":"!current z !total"}});
 //--><!]]>
 </script>
 	<script src='//cdn2.pollster.pl/nw.js' type="text/javascript"></script>
@@ -182,7 +183,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","beautytips":{".beautytips":{"fi
  <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" class="form-text form-control" onblur="if (this.value == &#039;&#039;) {this.value = &#039;&#039;;} ;" onfocus="if (this.value == &#039;&#039;) {this.value = &#039;&#039;;} ;" />
 </div>
 <button type="submit" name="op" id="edit-submit" value="Szukaj"  class="form-submit btn btn-secondary">
-<img src="/sites/all/themes/basic/images/search_button2.png" alt="" class="img-fluid hidden-lg-down" ><img src="/sites/all/themes/basic/images/svg/search.svg" alt="" class="img-fluid hidden-xl-up" ></button><input type="hidden" name="form_build_id" id="form-5c7698516b9a87da1f443bd14526c458" value="form-5c7698516b9a87da1f443bd14526c458"  />
+<img src="/sites/all/themes/basic/images/search_button2.png" alt="" class="img-fluid hidden-lg-down" ><img src="/sites/all/themes/basic/images/svg/search.svg" alt="" class="img-fluid hidden-xl-up" ></button><input type="hidden" name="form_build_id" id="form-e2896599b8b7e2b8f37684b10fc72481" value="form-e2896599b8b7e2b8f37684b10fc72481"  />
 <input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
 </div>
 </div></form>
@@ -257,13 +258,13 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","beautytips":{".beautytips":{"fi
 				
 				
 		<div class="hidden-xl-up" style="background-image: url(https://lottocdn.directtraffic.pl/sites/all/themes/basic/images/Kulki-slider-tlo-RWD.jpg)">
-										<div class="lottoText"><div class="lottoKumulacja"><div class="lottoText1">KUMULACJA</div><div class="lottoText2"><div class="lottoText_3"></div><div class="lottoText_0 col"></div><div class="lottoText_0"></div><div class="lottoText_0"></div><div class="lottoText_0 col"></div><div class="lottoText_0"></div><div class="lottoText_0"></div><div class="lottoText3"></div></div><div class="lottoText4">MILIONY KRÊC¥ KA¯DEGO</div></div></div>
+										<div class="lottoText"><div class="lottoKumulacja"><div class="lottoText1">KUMULACJA</div><div class="lottoText2"><div class="lottoText_5"></div><div class="lottoText_0 col"></div><div class="lottoText_0"></div><div class="lottoText_0"></div><div class="lottoText_0 col"></div><div class="lottoText_0"></div><div class="lottoText_0"></div><div class="lottoText3"></div></div><div class="lottoText4">MILIONY KRÊC¥ KA¯DEGO</div></div></div>
 				<div class="button">zagraj!</div>
 				<a href="https://gry.lotto.pl/pl/lotto.html" onclick="_gaq.push(['_trackEvent', 'ZakladyOnline', 'Slider', 'Lotto']);" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0;" target="_blank"></a>
 								</div>
 			
 		<div class="hidden-lg-down" style="background-image: url(https://lottocdn.directtraffic.pl/sites/all/themes/basic/images/Kulki-slider-tlo.jpg)">
-										<div class="lottoText"><div class="lottoKumulacja"><div class="lottoText1">KUMULACJA</div><div class="lottoText2"><div class="lottoText_3"></div><div class="lottoText_0 col"></div><div class="lottoText_0"></div><div class="lottoText_0"></div><div class="lottoText_0 col"></div><div class="lottoText_0"></div><div class="lottoText_0"></div><div class="lottoText3"></div></div><div class="lottoText4">MILIONY KRÊC¥ KA¯DEGO</div></div></div>
+										<div class="lottoText"><div class="lottoKumulacja"><div class="lottoText1">KUMULACJA</div><div class="lottoText2"><div class="lottoText_5"></div><div class="lottoText_0 col"></div><div class="lottoText_0"></div><div class="lottoText_0"></div><div class="lottoText_0 col"></div><div class="lottoText_0"></div><div class="lottoText_0"></div><div class="lottoText3"></div></div><div class="lottoText4">MILIONY KRÊC¥ KA¯DEGO</div></div></div>
 				<div class="button">zagraj!</div>
 				<a href="https://gry.lotto.pl/pl/lotto.html" onclick="_gaq.push(['_trackEvent', 'ZakladyOnline', 'Slider', 'Lotto']);" style="width: 100%; height: 100%; position: absolute; top: 0; left: 0;" target="_blank"></a>
 								</div>
@@ -307,10 +308,10 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","beautytips":{".beautytips":{"fi
 	
 		<a href="/eurojackpot/wyniki-i-wygrane/wygrane?order=data">		
 				
-		<div class="hidden-xl-up" style="background-image: url(https://lottocdn.directtraffic.pl/sites/default/files/2018-02-25_EJ_MOBIL_0.jpg)">
+		<div class="hidden-xl-up" style="background-image: url(https://lottocdn.directtraffic.pl/sites/default/files/2018-03-01_EJ3_MOBIL_0.jpg)">
 											</div>
 			
-		<div class="hidden-lg-down" style="background-image: url(https://lottocdn.directtraffic.pl/sites/default/files/2018-02-25_EJ2_DESKTOP_0.jpg)">
+		<div class="hidden-lg-down" style="background-image: url(https://lottocdn.directtraffic.pl/sites/default/files/2018-03-01_EJ3_DESKTOP_0.jpg)">
 											</div>
 		
 		</a>		
@@ -594,21 +595,21 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","beautytips":{".beautytips":{"fi
 		</a>
 	    </h2>
 	    						    <div class="resultsTime">
-						<span>wyniki z dnia <strong>02-03-19</strong></span>
+						<span>wyniki z dnia <strong>04-03-19</strong></span>
 			<span>, godz.: <strong>21:40</strong></span>
 		    </div>
 		    <div class="resultnumber">
 				    		<div class="number text-center">
-	    		    <span>20</span>
+	    		    <span>10</span>
 	    		</div>
 				    		<div class="number text-center">
-	    		    <span>21</span>
+	    		    <span>23</span>
 	    		</div>
 				    		<div class="number text-center">
-	    		    <span>26</span>
+	    		    <span>24</span>
 	    		</div>
 				    		<div class="number text-center">
-	    		    <span>31</span>
+	    		    <span>33</span>
 	    		</div>
 				    		<div class="number text-center">
 	    		    <span>35</span>
@@ -617,7 +618,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","beautytips":{".beautytips":{"fi
 			    <span>+</span>
 			</div>
 			<div class="number text-center">
-			    <span>4</span>
+			    <span>2</span>
 			</div>
 		    </div>
 			    	</div>
@@ -629,30 +630,30 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","beautytips":{".beautytips":{"fi
 		</a>
 	    </h3>
 	    						    	    <div class="resultsTime">
-		    			<span>wyniki z dnia <strong>02-03-19</strong></span>
+		    			<span>wyniki z dnia <strong>04-03-19</strong></span>
 			<span>, godz.: <strong>21:40</strong></span>
 		        	    </div>
     	    <div class="resultnumber">
 		    				    		<div class="number text-center ">
-	    		    <span>2</span>
-	    		</div>	
-				    		<div class="number text-center ">
-	    		    <span>0</span>
+	    		    <span>7</span>
 	    		</div>	
 				    		<div class="number text-center ">
 	    		    <span>1</span>
 	    		</div>	
 				    		<div class="number text-center ">
-	    		    <span>3</span>
-	    		</div>	
-				    		<div class="number text-center ">
-	    		    <span>5</span>
+	    		    <span>1</span>
 	    		</div>	
 				    		<div class="number text-center ">
 	    		    <span>2</span>
 	    		</div>	
 				    		<div class="number text-center ">
-	    		    <span>9</span>
+	    		    <span>7</span>
+	    		</div>	
+				    		<div class="number text-center ">
+	    		    <span>4</span>
+	    		</div>	
+				    		<div class="number text-center ">
+	    		    <span>2</span>
 	    		</div>	
 					        	    </div>
 	    	</div>
@@ -666,24 +667,24 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","beautytips":{".beautytips":{"fi
 		<a class="button" href="https://gry.lotto.pl/pl/mini-lotto.html" onclick="_gaq.push(['_trackEvent', 'ZakladyOnline', 'WynikiGlowna', 'MiniLotto']);" target="_blank">zagraj</a>
 	    </h2>
 	    		    	    <div class="resultsTime">
-		        		<span>wyniki z dnia <strong>02-03-19</strong></span>
+		        		<span>wyniki z dnia <strong>04-03-19</strong></span>
     		<span>, godz.: <strong>21:40</strong></span>
     	    </div>
     	    <div class="resultnumber">
 		    			<div class="number text-center">
-			    <span>2 </span>
+			    <span>1 </span>
 			</div>
 		    			<div class="number text-center">
-			    <span>5 </span>
+			    <span>33 </span>
 			</div>
 		    			<div class="number text-center">
-			    <span>20 </span>
+			    <span>37 </span>
 			</div>
 		    			<div class="number text-center">
-			    <span>30 </span>
+			    <span>39 </span>
 			</div>
 		    			<div class="number text-center">
-			    <span>34 </span>
+			    <span>42 </span>
 			</div>
 		        	    </div>
 	    	</div>
@@ -694,30 +695,30 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","beautytips":{".beautytips":{"fi
 		</a>
 	    </h3>
 	    						    	    <div class="resultsTime">
-		    			<span>wyniki z dnia <strong>02-03-19</strong></span>
+		    			<span>wyniki z dnia <strong>04-03-19</strong></span>
 			<span>, godz.: <strong>21:40</strong></span>
 		        	    </div>
     	    <div class="resultnumber">
 		    				    		<div class="number text-center">
-	    		    <span>2 </span>
-	    		</div>	
-				    		<div class="number text-center">
-	    		    <span>0 </span>
+	    		    <span>7 </span>
 	    		</div>	
 				    		<div class="number text-center">
 	    		    <span>1 </span>
 	    		</div>	
 				    		<div class="number text-center">
-	    		    <span>3 </span>
-	    		</div>	
-				    		<div class="number text-center">
-	    		    <span>5 </span>
+	    		    <span>1 </span>
 	    		</div>	
 				    		<div class="number text-center">
 	    		    <span>2 </span>
 	    		</div>	
 				    		<div class="number text-center">
-	    		    <span>9 </span>
+	    		    <span>7 </span>
+	    		</div>	
+				    		<div class="number text-center">
+	    		    <span>4 </span>
+	    		</div>	
+				    		<div class="number text-center">
+	    		    <span>2 </span>
 	    		</div>	
 					        	    </div>
 	    	</div>
@@ -730,75 +731,75 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","beautytips":{".beautytips":{"fi
 		</a>
 	    </h2>
 	        	    <div class="resultsTime">
-		    		        		<span>wyniki z dnia <strong>02-03-19</strong></span>
+		    		        		<span>wyniki z dnia <strong>04-03-19</strong></span>
     		<span>, godz.: <strong>21:40</strong></span>
     	    </div>
     	    <div class="resultnumber">
 		    			<div class="number text-center ">
-			    <span>3 </span>
+			    <span>1 </span>
+			</div>
+		    			<div class="number text-center ">
+			    <span>2 </span>
 			</div>
 		    			<div class="number text-center ">
 			    <span>7 </span>
 			</div>
 		    			<div class="number text-center ">
-			    <span>16 </span>
+			    <span>8 </span>
+			</div>
+		    			<div class="number text-center ">
+			    <span>14 </span>
+			</div>
+		    			<div class="number text-center ">
+			    <span>19 </span>
 			</div>
 		    			<div class="number text-center ">
 			    <span>22 </span>
 			</div>
 		    			<div class="number text-center ">
-			    <span>33 </span>
+			    <span>32 </span>
 			</div>
 		    			<div class="number text-center ">
-			    <span>44 </span>
+			    <span>35 </span>
 			</div>
 		    			<div class="number text-center ">
-			    <span>46 </span>
+			    <span>39 </span>
 			</div>
 		    			<div class="number text-center ">
-			    <span>47 </span>
+			    <span>42 </span>
 			</div>
 		    			<div class="number text-center ">
-			    <span>49 </span>
-			</div>
-		    			<div class="number text-center ">
-			    <span>50 </span>
-			</div>
-		    			<div class="number text-center ">
-			    <span>63 </span>
-			</div>
-		    			<div class="number text-center ">
-			    <span>65 </span>
+			    <span>60 </span>
 			</div>
 		    			<div class="number text-center ">
 			    <span>66 </span>
 			</div>
 		    			<div class="number text-center ">
-			    <span>67 </span>
-			</div>
-		    			<div class="number text-center ">
-			    <span>70 </span>
+			    <span>68 </span>
 			</div>
 		    			<div class="number text-center ">
 			    <span>72 </span>
 			</div>
 		    			<div class="number text-center ">
+			    <span>73 </span>
+			</div>
+		    			<div class="number text-center ">
+			    <span>74 </span>
+			</div>
+		    			<div class="number text-center ">
 			    <span>75 </span>
 			</div>
 		    			<div class="number text-center ">
-			    <span>76 </span>
+			    <span>78 </span>
 			</div>
 		    			<div class="number text-center ">
-			    <span>77 </span>
-			</div>
-		    			<div class="number text-center ">
-			    <span>80 </span>
+			    <span>79 </span>
 			</div>
 		        	    </div>
     	    <div class="resultnumber clearfix">
 
     		<div class="number plusNumber text-center float-right">
-    		    <span>16</span>
+    		    <span>8</span>
     		</div>
     		<div class="number plus text-center float-right">
     		    <span>plus</span>
@@ -813,30 +814,30 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","beautytips":{".beautytips":{"fi
 		</a>
 	    </h3>
 	    						    	    <div class="resultsTime">
-		    			<span>wyniki z dnia <strong>02-03-19</strong></span>
+		    			<span>wyniki z dnia <strong>04-03-19</strong></span>
 			<span>, godz.: <strong>21:40</strong></span>
 		        	    </div>
     	    <div class="resultnumber">
 		    				    		<div class="number text-center ">
-	    		    <span>2 </span>
-	    		</div>	
-				    		<div class="number text-center ">
-	    		    <span>0 </span>
+	    		    <span>7 </span>
 	    		</div>	
 				    		<div class="number text-center ">
 	    		    <span>1 </span>
 	    		</div>	
 				    		<div class="number text-center ">
-	    		    <span>3 </span>
-	    		</div>	
-				    		<div class="number text-center ">
-	    		    <span>5 </span>
+	    		    <span>1 </span>
 	    		</div>	
 				    		<div class="number text-center ">
 	    		    <span>2 </span>
 	    		</div>	
 				    		<div class="number text-center ">
-	    		    <span>9 </span>
+	    		    <span>7 </span>
+	    		</div>	
+				    		<div class="number text-center ">
+	    		    <span>4 </span>
+	    		</div>	
+				    		<div class="number text-center ">
+	    		    <span>2 </span>
 	    		</div>	
 					        	    </div>
 	    	</div>
@@ -874,28 +875,22 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","beautytips":{".beautytips":{"fi
 		</a>
 	    </h2>
 	    				    	    <div class="resultsTime">
-    		<span>wyniki z dnia <strong>02-03-19</strong></span>
+    		<span>wyniki z dnia <strong>04-03-19</strong></span>
     		<span>, godz.: <strong>21:40</strong></span>
     	    </div>
 
     	    <div class="resultnumber">
 		    			<div class="number text-center ">
-			    <span>2</span>
+			    <span>5</span>
 			</div>	
 		    			<div class="number text-center ">
-			    <span>3</span>
+			    <span>6</span>
 			</div>	
 		    			<div class="number text-center ">
-			    <span>7</span>
+			    <span>11</span>
 			</div>	
 		    			<div class="number text-center ">
-			    <span>8</span>
-			</div>	
-		    			<div class="number text-center ">
-			    <span>10</span>
-			</div>	
-		    			<div class="number text-center ">
-			    <span>13</span>
+			    <span>12</span>
 			</div>	
 		    			<div class="number text-center ">
 			    <span>14</span>
@@ -907,13 +902,19 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","beautytips":{".beautytips":{"fi
 			    <span>16</span>
 			</div>	
 		    			<div class="number text-center ">
+			    <span>17</span>
+			</div>	
+		    			<div class="number text-center ">
+			    <span>19</span>
+			</div>	
+		    			<div class="number text-center ">
 			    <span>20</span>
 			</div>	
 		    			<div class="number text-center ">
 			    <span>21</span>
 			</div>	
 		    			<div class="number text-center ">
-			    <span>24</span>
+			    <span>23</span>
 			</div>	
 		        	    </div>
 	    
@@ -926,30 +927,30 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","beautytips":{".beautytips":{"fi
 		</a>
 	    </h3>
 	    						    	    <div class="resultsTime">
-		    			<span>wyniki z dnia <strong>02-03-19</strong></span>
+		    			<span>wyniki z dnia <strong>04-03-19</strong></span>
 			<span>, godz.: <strong>21:40</strong></span>
 		        	    </div>
     	    <div class="resultnumber">
 		    				    		<div class="number text-center ">
-	    		    <span>2</span>
-	    		</div>	
-				    		<div class="number text-center ">
-	    		    <span>0</span>
+	    		    <span>7</span>
 	    		</div>	
 				    		<div class="number text-center ">
 	    		    <span>1</span>
 	    		</div>	
 				    		<div class="number text-center ">
-	    		    <span>3</span>
-	    		</div>	
-				    		<div class="number text-center ">
-	    		    <span>5</span>
+	    		    <span>1</span>
 	    		</div>	
 				    		<div class="number text-center ">
 	    		    <span>2</span>
 	    		</div>	
 				    		<div class="number text-center ">
-	    		    <span>9</span>
+	    		    <span>7</span>
+	    		</div>	
+				    		<div class="number text-center ">
+	    		    <span>4</span>
+	    		</div>	
+				    		<div class="number text-center ">
+	    		    <span>2</span>
 	    		</div>	
 					        	    </div>
 	    	</div>
@@ -1214,21 +1215,21 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","beautytips":{".beautytips":{"fi
 		    </a>
 		</h2>
 				    		    			<div class="resultsTime">
-			    			    <span>wyniki z dnia <strong>02-03-19</strong></span>
+			    			    <span>wyniki z dnia <strong>04-03-19</strong></span>
 			    <span>, godz.: <strong>21:40</strong></span>
 			</div>
 			<div class="resultnumber">
 			    	    		    <div class="number text-center">
-	    			<span>20</span>
+	    			<span>10</span>
 	    		    </div>
 			    	    		    <div class="number text-center">
-	    			<span>21</span>
+	    			<span>23</span>
 	    		    </div>
 			    	    		    <div class="number text-center">
-	    			<span>26</span>
+	    			<span>24</span>
 	    		    </div>
 			    	    		    <div class="number text-center">
-	    			<span>31</span>
+	    			<span>33</span>
 	    		    </div>
 			    	    		    <div class="number text-center">
 	    			<span>35</span>
@@ -1237,7 +1238,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","beautytips":{".beautytips":{"fi
 				<span>+</span>
 			    </div>
 			    <div class="number text-center">
-				<span>4</span>
+				<span>2</span>
 			    </div>
 			</div>
 		    			    </div>
@@ -1249,30 +1250,30 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","beautytips":{".beautytips":{"fi
 		    </a>
 		</h3>
 				    		    		        		<div class="resultsTime">
-						    <span>wyniki z dnia <strong>02-03-19</strong></span>
+						    <span>wyniki z dnia <strong>04-03-19</strong></span>
 			    <span>, godz.: <strong>21:40</strong></span>
 			    		</div>
     		<div class="resultnumber">
 						    	    		    <div class="number text-center ">
-	    			<span>2</span>
-	    		    </div>	
-			    	    		    <div class="number text-center ">
-	    			<span>0</span>
+	    			<span>7</span>
 	    		    </div>	
 			    	    		    <div class="number text-center ">
 	    			<span>1</span>
 	    		    </div>	
 			    	    		    <div class="number text-center ">
-	    			<span>3</span>
-	    		    </div>	
-			    	    		    <div class="number text-center ">
-	    			<span>5</span>
+	    			<span>1</span>
 	    		    </div>	
 			    	    		    <div class="number text-center ">
 	    			<span>2</span>
 	    		    </div>	
 			    	    		    <div class="number text-center ">
-	    			<span>9</span>
+	    			<span>7</span>
+	    		    </div>	
+			    	    		    <div class="number text-center ">
+	    			<span>4</span>
+	    		    </div>	
+			    	    		    <div class="number text-center ">
+	    			<span>2</span>
 	    		    </div>	
 			    			    		</div>
 			    </div>
@@ -1287,24 +1288,24 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","beautytips":{".beautytips":{"fi
 		    </a>
 		</h2>
 				        		<div class="resultsTime">
-			    		    <span>wyniki z dnia <strong>02-03-19</strong></span>
+			    		    <span>wyniki z dnia <strong>04-03-19</strong></span>
     		    <span>, godz.: <strong>21:40</strong></span>
     		</div>
     		<div class="resultnumber">
 						    <div class="number text-center">
-				<span>2 </span>
+				<span>1 </span>
 			    </div>
 						    <div class="number text-center">
-				<span>5 </span>
+				<span>33 </span>
 			    </div>
 						    <div class="number text-center">
-				<span>20 </span>
+				<span>37 </span>
 			    </div>
 						    <div class="number text-center">
-				<span>30 </span>
+				<span>39 </span>
 			    </div>
 						    <div class="number text-center">
-				<span>34 </span>
+				<span>42 </span>
 			    </div>
 			    		</div>
 			    </div>
@@ -1315,30 +1316,30 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","beautytips":{".beautytips":{"fi
 		    </a>
 		</h3>
 				    		    		        		<div class="resultsTime">
-						    <span>wyniki z dnia <strong>02-03-19</strong></span>
+						    <span>wyniki z dnia <strong>04-03-19</strong></span>
 			    <span>, godz.: <strong>21:40</strong></span>
 			    		</div>
     		<div class="resultnumber">
 						    	    		    <div class="number text-center">
-	    			<span>2 </span>
-	    		    </div>	
-			    	    		    <div class="number text-center">
-	    			<span>0 </span>
+	    			<span>7 </span>
 	    		    </div>	
 			    	    		    <div class="number text-center">
 	    			<span>1 </span>
 	    		    </div>	
 			    	    		    <div class="number text-center">
-	    			<span>3 </span>
-	    		    </div>	
-			    	    		    <div class="number text-center">
-	    			<span>5 </span>
+	    			<span>1 </span>
 	    		    </div>	
 			    	    		    <div class="number text-center">
 	    			<span>2 </span>
 	    		    </div>	
 			    	    		    <div class="number text-center">
-	    			<span>9 </span>
+	    			<span>7 </span>
+	    		    </div>	
+			    	    		    <div class="number text-center">
+	    			<span>4 </span>
+	    		    </div>	
+			    	    		    <div class="number text-center">
+	    			<span>2 </span>
 	    		    </div>	
 			    			    		</div>
 			    </div>
@@ -1354,75 +1355,75 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","beautytips":{".beautytips":{"fi
 		    </a>
 		</h2>
 		    		<div class="resultsTime">
-						    		    <span>wyniki z dnia <strong>02-03-19</strong></span>
+						    		    <span>wyniki z dnia <strong>04-03-19</strong></span>
     		    <span>, godz.: <strong>21:40</strong></span>
     		</div>
     		<div class="resultnumber">
 						    <div class="number text-center ">
-				<span>3 </span>
+				<span>1 </span>
+			    </div>
+						    <div class="number text-center ">
+				<span>2 </span>
 			    </div>
 						    <div class="number text-center ">
 				<span>7 </span>
 			    </div>
 						    <div class="number text-center ">
-				<span>16 </span>
+				<span>8 </span>
+			    </div>
+						    <div class="number text-center ">
+				<span>14 </span>
+			    </div>
+						    <div class="number text-center ">
+				<span>19 </span>
 			    </div>
 						    <div class="number text-center ">
 				<span>22 </span>
 			    </div>
 						    <div class="number text-center ">
-				<span>33 </span>
+				<span>32 </span>
 			    </div>
 						    <div class="number text-center ">
-				<span>44 </span>
+				<span>35 </span>
 			    </div>
 						    <div class="number text-center ">
-				<span>46 </span>
+				<span>39 </span>
 			    </div>
 						    <div class="number text-center ">
-				<span>47 </span>
+				<span>42 </span>
 			    </div>
 						    <div class="number text-center ">
-				<span>49 </span>
-			    </div>
-						    <div class="number text-center ">
-				<span>50 </span>
-			    </div>
-						    <div class="number text-center ">
-				<span>63 </span>
-			    </div>
-						    <div class="number text-center ">
-				<span>65 </span>
+				<span>60 </span>
 			    </div>
 						    <div class="number text-center ">
 				<span>66 </span>
 			    </div>
 						    <div class="number text-center ">
-				<span>67 </span>
-			    </div>
-						    <div class="number text-center ">
-				<span>70 </span>
+				<span>68 </span>
 			    </div>
 						    <div class="number text-center ">
 				<span>72 </span>
 			    </div>
 						    <div class="number text-center ">
+				<span>73 </span>
+			    </div>
+						    <div class="number text-center ">
+				<span>74 </span>
+			    </div>
+						    <div class="number text-center ">
 				<span>75 </span>
 			    </div>
 						    <div class="number text-center ">
-				<span>76 </span>
+				<span>78 </span>
 			    </div>
 						    <div class="number text-center ">
-				<span>77 </span>
-			    </div>
-						    <div class="number text-center ">
-				<span>80 </span>
+				<span>79 </span>
 			    </div>
 			    		</div>
     		<div class="resultnumber clearfix">
 
     		    <div class="number plusNumber text-center float-right">
-    			<span>16</span>
+    			<span>8</span>
     		    </div>
     		    <div class="number plus text-center float-right">
     			<span>plus</span>
@@ -1437,30 +1438,30 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","beautytips":{".beautytips":{"fi
 		    </a>
 		</h3>
 				    		    		        		<div class="resultsTime">
-						    <span>wyniki z dnia <strong>02-03-19</strong></span>
+						    <span>wyniki z dnia <strong>04-03-19</strong></span>
 			    <span>, godz.: <strong>21:40</strong></span>
 			    		</div>
     		<div class="resultnumber">
 						    	    		    <div class="number text-center ">
-	    			<span>2 </span>
-	    		    </div>	
-			    	    		    <div class="number text-center ">
-	    			<span>0 </span>
+	    			<span>7 </span>
 	    		    </div>	
 			    	    		    <div class="number text-center ">
 	    			<span>1 </span>
 	    		    </div>	
 			    	    		    <div class="number text-center ">
-	    			<span>3 </span>
-	    		    </div>	
-			    	    		    <div class="number text-center ">
-	    			<span>5 </span>
+	    			<span>1 </span>
 	    		    </div>	
 			    	    		    <div class="number text-center ">
 	    			<span>2 </span>
 	    		    </div>	
 			    	    		    <div class="number text-center ">
-	    			<span>9 </span>
+	    			<span>7 </span>
+	    		    </div>	
+			    	    		    <div class="number text-center ">
+	    			<span>4 </span>
+	    		    </div>	
+			    	    		    <div class="number text-center ">
+	    			<span>2 </span>
 	    		    </div>	
 			    			    		</div>
 			    </div>
@@ -1475,41 +1476,41 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","beautytips":{".beautytips":{"fi
 		    </a>
 		</h2>
 				    		        		<div class="resultsTime">
-    		    <span>wyniki z dnia <strong>02-03-19</strong></span>
+    		    <span>wyniki z dnia <strong>04-03-19</strong></span>
     		    <span>, godz.: <strong>21:40</strong></span>
     		</div>
 
 		
     		<div class="resultnumber">
 						    					    		    <div class="number text-center ">
-	    			<span>2 </span>
+	    			<span>5 </span>
 	    		    </div>	
 							    					    		    <div class="number text-center ">
-	    			<span>3 </span>
+	    			<span>6 </span>
 	    		    </div>	
 							    					    		    <div class="number text-center ">
-	    			<span>7 </span>
+	    			<span>11 </span>
 	    		    </div>	
 							    					    		    <div class="number text-center ">
-	    			<span>8 </span>
+	    			<span>12 </span>
 	    		    </div>	
 							    					    		    <div class="number text-center ">
-	    			<span>10 </span>
-	    		    </div>	
-							    					    		    <div class="number text-center ">
-	    			<span>13 </span>
-	    		    </div>	
-							    					
-				</div>
-				<div class="resultnumber">
-					    		    <div class="number text-center ">
 	    			<span>14 </span>
 	    		    </div>	
 							    					    		    <div class="number text-center ">
 	    			<span>15 </span>
 	    		    </div>	
-							    					    		    <div class="number text-center ">
+							    					
+				</div>
+				<div class="resultnumber">
+					    		    <div class="number text-center ">
 	    			<span>16 </span>
+	    		    </div>	
+							    					    		    <div class="number text-center ">
+	    			<span>17 </span>
+	    		    </div>	
+							    					    		    <div class="number text-center ">
+	    			<span>19 </span>
 	    		    </div>	
 							    					    		    <div class="number text-center ">
 	    			<span>20 </span>
@@ -1518,7 +1519,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","beautytips":{".beautytips":{"fi
 	    			<span>21 </span>
 	    		    </div>	
 							    					    		    <div class="number text-center ">
-	    			<span>24 </span>
+	    			<span>23 </span>
 	    		    </div>	
 							        		</div>
 		
@@ -1531,30 +1532,30 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","beautytips":{".beautytips":{"fi
 		    </a>
 		</h3>
 				    		    		        		<div class="resultsTime">
-						    <span>wyniki z dnia <strong>02-03-19</strong></span>
+						    <span>wyniki z dnia <strong>04-03-19</strong></span>
 			    <span>, godz.: <strong>21:40</strong></span>
 			    		</div>
     		<div class="resultnumber">
 						    	    		    <div class="number text-center ">
-	    			<span>2</span>
-	    		    </div>	
-			    	    		    <div class="number text-center ">
-	    			<span>0</span>
+	    			<span>7</span>
 	    		    </div>	
 			    	    		    <div class="number text-center ">
 	    			<span>1</span>
 	    		    </div>	
 			    	    		    <div class="number text-center ">
-	    			<span>3</span>
-	    		    </div>	
-			    	    		    <div class="number text-center ">
-	    			<span>5</span>
+	    			<span>1</span>
 	    		    </div>	
 			    	    		    <div class="number text-center ">
 	    			<span>2</span>
 	    		    </div>	
 			    	    		    <div class="number text-center ">
-	    			<span>9</span>
+	    			<span>7</span>
+	    		    </div>	
+			    	    		    <div class="number text-center ">
+	    			<span>4</span>
+	    		    </div>	
+			    	    		    <div class="number text-center ">
+	    			<span>2</span>
 	    		    </div>	
 			    			    		</div>
 			    </div>
@@ -1630,17 +1631,17 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","beautytips":{".beautytips":{"fi
 <div class="row">
 		<div class="picWins col-xl-12 col-5">
 		<a href="/wysokie-wygrane">
-		    <img src="/sites/all/themes/basic/images/svg/kaskadaBorder.svg" alt="" class="img-fluid">
+		    <img src="/sites/all/themes/basic/images/svg/mini-lottoBorder.svg" alt="" class="img-fluid">
 		</a>
 		</div>
 		<div class="col-xl-12 col-7 text">
-		    <div class="winsBox kaskada">
+		    <div class="winsBox mini-lotto">
 			<span>
-			    250 000,00
+			    157 378,20
 			</span>
 		    </div>
 		    <div class="adressWins">
-			<p>Piastów, 25-02-19</p>
+			<p>Czaniec, 01-03-19</p>
 		    </div>
 		</div>
 		</div><div class="row">
@@ -1652,11 +1653,11 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","beautytips":{".beautytips":{"fi
 		<div class="col-xl-12 col-7 text">
 		    <div class="winsBox mini-lotto">
 			<span>
-			    73 750,50
+			    157 378,20
 			</span>
 		    </div>
 		    <div class="adressWins">
-			<p>Konin, 27-02-19</p>
+			<p>Krasnystaw, 01-03-19</p>
 		    </div>
 		</div>
 		</div><div class="moreBox">
@@ -1706,6 +1707,40 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","beautytips":{".beautytips":{"fi
         	<div class="views-field-title">
                 	<span class="field-content">
     
+    <h4><a href="/lotto/aktualnosci/okragly-1-000-000-zl-w-lotto-plus-w-poznaniu-oraz-347%C2%A037450%C2%A0zl-w-mini-lotto-w-bydg">Okr¹g³y 1 000 000 z³ w Lotto Plus w Poznaniu oraz  347 374,50 z³ w Mini Lotto w Bydgoszczy!</a></h4>
+    	</span>
+        	</div>
+    
+        	<div class="views-field-created">
+                	<span class="field-content">
+    
+    <div class="dateBox">
+    <span>					    
+04-03-19</span>
+</div>
+    	</span>
+        	</div>
+    
+        	<div class="views-field-body">
+                	<span class="field-content">
+    
+    <p>W tym roku pad³o ju¿ siedem g³ównych wygranych w Lotto Plus. Oznacza to, ¿e w siedmiu przypadkach osoby graj¹ce w Lotto do³o¿y³y z³otówkê do ceny zak³adu tej gry, ¿eby wzi¹æ...</p>
+    	</span>
+        	</div>
+    
+        	<div class="views-field-view-node">
+                	<span class="field-content">
+    
+    <div class="moreBox"><a href="/lotto/aktualnosci/okragly-1-000-000-zl-w-lotto-plus-w-poznaniu-oraz-347%C2%A037450%C2%A0zl-w-mini-lotto-w-bydg">wiêcej</a></div>
+    	</span>
+        	</div>
+            </div>
+            <div class="views-row views-row-2 views-row-even views-row-last flex-last flex-xl-unordered  ">
+	
+
+        	<div class="views-field-title">
+                	<span class="field-content">
+    
     <h4><a href="/eurojackpot/aktualnosci/eurojackpot-w-nastepny-piatek-do-wygrania-nawet-175-000-000-zlotych">Eurojackpot: w nastêpny pi¹tek do wygrania nawet 175 000 000 z³otych!</a></h4>
     	</span>
         	</div>
@@ -1735,40 +1770,6 @@ Oczywiœcie w Polsce...</p>
     	</span>
         	</div>
             </div>
-            <div class="views-row views-row-2 views-row-even views-row-last flex-last flex-xl-unordered  ">
-	
-
-        	<div class="views-field-title">
-                	<span class="field-content">
-    
-    <h4><a href="/zdrapki/aktualnosci/kochamy-zdrapki-juz-20-lat-przed-nami-jubileuszowy-debiut">Kochamy zdrapki ju¿ 20 lat! Przed nami jubileuszowy debiut!</a></h4>
-    	</span>
-        	</div>
-    
-        	<div class="views-field-created">
-                	<span class="field-content">
-    
-    <div class="dateBox">
-    <span>					    
-28-02-19</span>
-</div>
-    	</span>
-        	</div>
-    
-        	<div class="views-field-body">
-                	<span class="field-content">
-    
-    <p>Ju¿ 1 marca przekonacie siê Pañstwo jak jeszcze bardziej, o ile to mo¿liwe - mo¿na pokochaæ zdrapki! Wszystko to, za przyczyn¹ jubileuszowego 2019 roku, w którym zdrapki obchodziæ...</p>
-    	</span>
-        	</div>
-    
-        	<div class="views-field-view-node">
-                	<span class="field-content">
-    
-    <div class="moreBox"><a href="/zdrapki/aktualnosci/kochamy-zdrapki-juz-20-lat-przed-nami-jubileuszowy-debiut">wiêcej</a></div>
-    	</span>
-        	</div>
-            </div>
     	    </div>
     
 
@@ -1784,17 +1785,17 @@ Oczywiœcie w Polsce...</p>
 <div class="row">
 		<div class="picWins col-xl-12 col-5">
 		<a href="/wysokie-wygrane">
-		    <img src="/sites/all/themes/basic/images/svg/kaskadaBorder.svg" alt="" class="img-fluid">
+		    <img src="/sites/all/themes/basic/images/svg/mini-lottoBorder.svg" alt="" class="img-fluid">
 		</a>
 		</div>
 		<div class="col-xl-12 col-7 text">
-		    <div class="winsBox kaskada">
+		    <div class="winsBox mini-lotto">
 			<span>
-			    250 000,00
+			    157 378,20
 			</span>
 		    </div>
 		    <div class="adressWins">
-			<p>Piastów, 25-02-19</p>
+			<p>Czaniec, 01-03-19</p>
 		    </div>
 		</div>
 		</div><div class="row">
@@ -1806,11 +1807,11 @@ Oczywiœcie w Polsce...</p>
 		<div class="col-xl-12 col-7 text">
 		    <div class="winsBox mini-lotto">
 			<span>
-			    73 750,50
+			    157 378,20
 			</span>
 		    </div>
 		    <div class="adressWins">
-			<p>Konin, 27-02-19</p>
+			<p>Krasnystaw, 01-03-19</p>
 		    </div>
 		</div>
 		</div><div class="moreBox">
@@ -1992,21 +1993,21 @@ Oczywiœcie w Polsce...</p>
 		</a>
 	    </h2>
 	    						    <div class="resultsTime">
-						<span>wyniki z dnia <strong>02-03-19</strong></span>
+						<span>wyniki z dnia <strong>04-03-19</strong></span>
 			<span>, godz.: <strong>21:40</strong></span>
 		    </div>
 		    <div class="resultnumber">
 				    		<div class="number text-center">
-	    		    <span>20</span>
+	    		    <span>10</span>
 	    		</div>
 				    		<div class="number text-center">
-	    		    <span>21</span>
+	    		    <span>23</span>
 	    		</div>
 				    		<div class="number text-center">
-	    		    <span>26</span>
+	    		    <span>24</span>
 	    		</div>
 				    		<div class="number text-center">
-	    		    <span>31</span>
+	    		    <span>33</span>
 	    		</div>
 				    		<div class="number text-center">
 	    		    <span>35</span>
@@ -2015,7 +2016,7 @@ Oczywiœcie w Polsce...</p>
 			    <span>+</span>
 			</div>
 			<div class="number text-center">
-			    <span>4</span>
+			    <span>2</span>
 			</div>
 		    </div>
 			    	</div>
@@ -2027,30 +2028,30 @@ Oczywiœcie w Polsce...</p>
 		</a>
 	    </h3>
 	    						    	    <div class="resultsTime">
-		    			<span>wyniki z dnia <strong>02-03-19</strong></span>
+		    			<span>wyniki z dnia <strong>04-03-19</strong></span>
 			<span>, godz.: <strong>21:40</strong></span>
 		        	    </div>
     	    <div class="resultnumber">
 		    				    		<div class="number text-center ">
-	    		    <span>2</span>
-	    		</div>	
-				    		<div class="number text-center ">
-	    		    <span>0</span>
+	    		    <span>7</span>
 	    		</div>	
 				    		<div class="number text-center ">
 	    		    <span>1</span>
 	    		</div>	
 				    		<div class="number text-center ">
-	    		    <span>3</span>
-	    		</div>	
-				    		<div class="number text-center ">
-	    		    <span>5</span>
+	    		    <span>1</span>
 	    		</div>	
 				    		<div class="number text-center ">
 	    		    <span>2</span>
 	    		</div>	
 				    		<div class="number text-center ">
-	    		    <span>9</span>
+	    		    <span>7</span>
+	    		</div>	
+				    		<div class="number text-center ">
+	    		    <span>4</span>
+	    		</div>	
+				    		<div class="number text-center ">
+	    		    <span>2</span>
 	    		</div>	
 					        	    </div>
 	    	</div>
@@ -2064,24 +2065,24 @@ Oczywiœcie w Polsce...</p>
 		<a class="button" href="https://gry.lotto.pl/pl/mini-lotto.html" onclick="_gaq.push(['_trackEvent', 'ZakladyOnline', 'WynikiGlowna', 'MiniLotto']);" target="_blank">zagraj</a>
 	    </h2>
 	    		    	    <div class="resultsTime">
-		        		<span>wyniki z dnia <strong>02-03-19</strong></span>
+		        		<span>wyniki z dnia <strong>04-03-19</strong></span>
     		<span>, godz.: <strong>21:40</strong></span>
     	    </div>
     	    <div class="resultnumber">
 		    			<div class="number text-center">
-			    <span>2 </span>
+			    <span>1 </span>
 			</div>
 		    			<div class="number text-center">
-			    <span>5 </span>
+			    <span>33 </span>
 			</div>
 		    			<div class="number text-center">
-			    <span>20 </span>
+			    <span>37 </span>
 			</div>
 		    			<div class="number text-center">
-			    <span>30 </span>
+			    <span>39 </span>
 			</div>
 		    			<div class="number text-center">
-			    <span>34 </span>
+			    <span>42 </span>
 			</div>
 		        	    </div>
 	    	</div>
@@ -2092,30 +2093,30 @@ Oczywiœcie w Polsce...</p>
 		</a>
 	    </h3>
 	    						    	    <div class="resultsTime">
-		    			<span>wyniki z dnia <strong>02-03-19</strong></span>
+		    			<span>wyniki z dnia <strong>04-03-19</strong></span>
 			<span>, godz.: <strong>21:40</strong></span>
 		        	    </div>
     	    <div class="resultnumber">
 		    				    		<div class="number text-center">
-	    		    <span>2 </span>
-	    		</div>	
-				    		<div class="number text-center">
-	    		    <span>0 </span>
+	    		    <span>7 </span>
 	    		</div>	
 				    		<div class="number text-center">
 	    		    <span>1 </span>
 	    		</div>	
 				    		<div class="number text-center">
-	    		    <span>3 </span>
-	    		</div>	
-				    		<div class="number text-center">
-	    		    <span>5 </span>
+	    		    <span>1 </span>
 	    		</div>	
 				    		<div class="number text-center">
 	    		    <span>2 </span>
 	    		</div>	
 				    		<div class="number text-center">
-	    		    <span>9 </span>
+	    		    <span>7 </span>
+	    		</div>	
+				    		<div class="number text-center">
+	    		    <span>4 </span>
+	    		</div>	
+				    		<div class="number text-center">
+	    		    <span>2 </span>
 	    		</div>	
 					        	    </div>
 	    	</div>
@@ -2128,75 +2129,75 @@ Oczywiœcie w Polsce...</p>
 		</a>
 	    </h2>
 	        	    <div class="resultsTime">
-		    		        		<span>wyniki z dnia <strong>02-03-19</strong></span>
+		    		        		<span>wyniki z dnia <strong>04-03-19</strong></span>
     		<span>, godz.: <strong>21:40</strong></span>
     	    </div>
     	    <div class="resultnumber">
 		    			<div class="number text-center ">
-			    <span>3 </span>
+			    <span>1 </span>
+			</div>
+		    			<div class="number text-center ">
+			    <span>2 </span>
 			</div>
 		    			<div class="number text-center ">
 			    <span>7 </span>
 			</div>
 		    			<div class="number text-center ">
-			    <span>16 </span>
+			    <span>8 </span>
+			</div>
+		    			<div class="number text-center ">
+			    <span>14 </span>
+			</div>
+		    			<div class="number text-center ">
+			    <span>19 </span>
 			</div>
 		    			<div class="number text-center ">
 			    <span>22 </span>
 			</div>
 		    			<div class="number text-center ">
-			    <span>33 </span>
+			    <span>32 </span>
 			</div>
 		    			<div class="number text-center ">
-			    <span>44 </span>
+			    <span>35 </span>
 			</div>
 		    			<div class="number text-center ">
-			    <span>46 </span>
+			    <span>39 </span>
 			</div>
 		    			<div class="number text-center ">
-			    <span>47 </span>
+			    <span>42 </span>
 			</div>
 		    			<div class="number text-center ">
-			    <span>49 </span>
-			</div>
-		    			<div class="number text-center ">
-			    <span>50 </span>
-			</div>
-		    			<div class="number text-center ">
-			    <span>63 </span>
-			</div>
-		    			<div class="number text-center ">
-			    <span>65 </span>
+			    <span>60 </span>
 			</div>
 		    			<div class="number text-center ">
 			    <span>66 </span>
 			</div>
 		    			<div class="number text-center ">
-			    <span>67 </span>
-			</div>
-		    			<div class="number text-center ">
-			    <span>70 </span>
+			    <span>68 </span>
 			</div>
 		    			<div class="number text-center ">
 			    <span>72 </span>
 			</div>
 		    			<div class="number text-center ">
+			    <span>73 </span>
+			</div>
+		    			<div class="number text-center ">
+			    <span>74 </span>
+			</div>
+		    			<div class="number text-center ">
 			    <span>75 </span>
 			</div>
 		    			<div class="number text-center ">
-			    <span>76 </span>
+			    <span>78 </span>
 			</div>
 		    			<div class="number text-center ">
-			    <span>77 </span>
-			</div>
-		    			<div class="number text-center ">
-			    <span>80 </span>
+			    <span>79 </span>
 			</div>
 		        	    </div>
     	    <div class="resultnumber clearfix">
 
     		<div class="number plusNumber text-center float-right">
-    		    <span>16</span>
+    		    <span>8</span>
     		</div>
     		<div class="number plus text-center float-right">
     		    <span>plus</span>
@@ -2211,30 +2212,30 @@ Oczywiœcie w Polsce...</p>
 		</a>
 	    </h3>
 	    						    	    <div class="resultsTime">
-		    			<span>wyniki z dnia <strong>02-03-19</strong></span>
+		    			<span>wyniki z dnia <strong>04-03-19</strong></span>
 			<span>, godz.: <strong>21:40</strong></span>
 		        	    </div>
     	    <div class="resultnumber">
 		    				    		<div class="number text-center ">
-	    		    <span>2 </span>
-	    		</div>	
-				    		<div class="number text-center ">
-	    		    <span>0 </span>
+	    		    <span>7 </span>
 	    		</div>	
 				    		<div class="number text-center ">
 	    		    <span>1 </span>
 	    		</div>	
 				    		<div class="number text-center ">
-	    		    <span>3 </span>
-	    		</div>	
-				    		<div class="number text-center ">
-	    		    <span>5 </span>
+	    		    <span>1 </span>
 	    		</div>	
 				    		<div class="number text-center ">
 	    		    <span>2 </span>
 	    		</div>	
 				    		<div class="number text-center ">
-	    		    <span>9 </span>
+	    		    <span>7 </span>
+	    		</div>	
+				    		<div class="number text-center ">
+	    		    <span>4 </span>
+	    		</div>	
+				    		<div class="number text-center ">
+	    		    <span>2 </span>
 	    		</div>	
 					        	    </div>
 	    	</div>
@@ -2272,28 +2273,22 @@ Oczywiœcie w Polsce...</p>
 		</a>
 	    </h2>
 	    				    	    <div class="resultsTime">
-    		<span>wyniki z dnia <strong>02-03-19</strong></span>
+    		<span>wyniki z dnia <strong>04-03-19</strong></span>
     		<span>, godz.: <strong>21:40</strong></span>
     	    </div>
 
     	    <div class="resultnumber">
 		    			<div class="number text-center ">
-			    <span>2</span>
+			    <span>5</span>
 			</div>	
 		    			<div class="number text-center ">
-			    <span>3</span>
+			    <span>6</span>
 			</div>	
 		    			<div class="number text-center ">
-			    <span>7</span>
+			    <span>11</span>
 			</div>	
 		    			<div class="number text-center ">
-			    <span>8</span>
-			</div>	
-		    			<div class="number text-center ">
-			    <span>10</span>
-			</div>	
-		    			<div class="number text-center ">
-			    <span>13</span>
+			    <span>12</span>
 			</div>	
 		    			<div class="number text-center ">
 			    <span>14</span>
@@ -2305,13 +2300,19 @@ Oczywiœcie w Polsce...</p>
 			    <span>16</span>
 			</div>	
 		    			<div class="number text-center ">
+			    <span>17</span>
+			</div>	
+		    			<div class="number text-center ">
+			    <span>19</span>
+			</div>	
+		    			<div class="number text-center ">
 			    <span>20</span>
 			</div>	
 		    			<div class="number text-center ">
 			    <span>21</span>
 			</div>	
 		    			<div class="number text-center ">
-			    <span>24</span>
+			    <span>23</span>
 			</div>	
 		        	    </div>
 	    
@@ -2324,30 +2325,30 @@ Oczywiœcie w Polsce...</p>
 		</a>
 	    </h3>
 	    						    	    <div class="resultsTime">
-		    			<span>wyniki z dnia <strong>02-03-19</strong></span>
+		    			<span>wyniki z dnia <strong>04-03-19</strong></span>
 			<span>, godz.: <strong>21:40</strong></span>
 		        	    </div>
     	    <div class="resultnumber">
 		    				    		<div class="number text-center ">
-	    		    <span>2</span>
-	    		</div>	
-				    		<div class="number text-center ">
-	    		    <span>0</span>
+	    		    <span>7</span>
 	    		</div>	
 				    		<div class="number text-center ">
 	    		    <span>1</span>
 	    		</div>	
 				    		<div class="number text-center ">
-	    		    <span>3</span>
-	    		</div>	
-				    		<div class="number text-center ">
-	    		    <span>5</span>
+	    		    <span>1</span>
 	    		</div>	
 				    		<div class="number text-center ">
 	    		    <span>2</span>
 	    		</div>	
 				    		<div class="number text-center ">
-	    		    <span>9</span>
+	    		    <span>7</span>
+	    		</div>	
+				    		<div class="number text-center ">
+	    		    <span>4</span>
+	    		</div>	
+				    		<div class="number text-center ">
+	    		    <span>2</span>
 	    		</div>	
 					        	    </div>
 	    	</div>
@@ -2612,21 +2613,21 @@ Oczywiœcie w Polsce...</p>
 		    </a>
 		</h2>
 				    		    			<div class="resultsTime">
-			    			    <span>wyniki z dnia <strong>02-03-19</strong></span>
+			    			    <span>wyniki z dnia <strong>04-03-19</strong></span>
 			    <span>, godz.: <strong>21:40</strong></span>
 			</div>
 			<div class="resultnumber">
 			    	    		    <div class="number text-center">
-	    			<span>20</span>
+	    			<span>10</span>
 	    		    </div>
 			    	    		    <div class="number text-center">
-	    			<span>21</span>
+	    			<span>23</span>
 	    		    </div>
 			    	    		    <div class="number text-center">
-	    			<span>26</span>
+	    			<span>24</span>
 	    		    </div>
 			    	    		    <div class="number text-center">
-	    			<span>31</span>
+	    			<span>33</span>
 	    		    </div>
 			    	    		    <div class="number text-center">
 	    			<span>35</span>
@@ -2635,7 +2636,7 @@ Oczywiœcie w Polsce...</p>
 				<span>+</span>
 			    </div>
 			    <div class="number text-center">
-				<span>4</span>
+				<span>2</span>
 			    </div>
 			</div>
 		    			    </div>
@@ -2647,30 +2648,30 @@ Oczywiœcie w Polsce...</p>
 		    </a>
 		</h3>
 				    		    		        		<div class="resultsTime">
-						    <span>wyniki z dnia <strong>02-03-19</strong></span>
+						    <span>wyniki z dnia <strong>04-03-19</strong></span>
 			    <span>, godz.: <strong>21:40</strong></span>
 			    		</div>
     		<div class="resultnumber">
 						    	    		    <div class="number text-center ">
-	    			<span>2</span>
-	    		    </div>	
-			    	    		    <div class="number text-center ">
-	    			<span>0</span>
+	    			<span>7</span>
 	    		    </div>	
 			    	    		    <div class="number text-center ">
 	    			<span>1</span>
 	    		    </div>	
 			    	    		    <div class="number text-center ">
-	    			<span>3</span>
-	    		    </div>	
-			    	    		    <div class="number text-center ">
-	    			<span>5</span>
+	    			<span>1</span>
 	    		    </div>	
 			    	    		    <div class="number text-center ">
 	    			<span>2</span>
 	    		    </div>	
 			    	    		    <div class="number text-center ">
-	    			<span>9</span>
+	    			<span>7</span>
+	    		    </div>	
+			    	    		    <div class="number text-center ">
+	    			<span>4</span>
+	    		    </div>	
+			    	    		    <div class="number text-center ">
+	    			<span>2</span>
 	    		    </div>	
 			    			    		</div>
 			    </div>
@@ -2685,24 +2686,24 @@ Oczywiœcie w Polsce...</p>
 		    </a>
 		</h2>
 				        		<div class="resultsTime">
-			    		    <span>wyniki z dnia <strong>02-03-19</strong></span>
+			    		    <span>wyniki z dnia <strong>04-03-19</strong></span>
     		    <span>, godz.: <strong>21:40</strong></span>
     		</div>
     		<div class="resultnumber">
 						    <div class="number text-center">
-				<span>2 </span>
+				<span>1 </span>
 			    </div>
 						    <div class="number text-center">
-				<span>5 </span>
+				<span>33 </span>
 			    </div>
 						    <div class="number text-center">
-				<span>20 </span>
+				<span>37 </span>
 			    </div>
 						    <div class="number text-center">
-				<span>30 </span>
+				<span>39 </span>
 			    </div>
 						    <div class="number text-center">
-				<span>34 </span>
+				<span>42 </span>
 			    </div>
 			    		</div>
 			    </div>
@@ -2713,30 +2714,30 @@ Oczywiœcie w Polsce...</p>
 		    </a>
 		</h3>
 				    		    		        		<div class="resultsTime">
-						    <span>wyniki z dnia <strong>02-03-19</strong></span>
+						    <span>wyniki z dnia <strong>04-03-19</strong></span>
 			    <span>, godz.: <strong>21:40</strong></span>
 			    		</div>
     		<div class="resultnumber">
 						    	    		    <div class="number text-center">
-	    			<span>2 </span>
-	    		    </div>	
-			    	    		    <div class="number text-center">
-	    			<span>0 </span>
+	    			<span>7 </span>
 	    		    </div>	
 			    	    		    <div class="number text-center">
 	    			<span>1 </span>
 	    		    </div>	
 			    	    		    <div class="number text-center">
-	    			<span>3 </span>
-	    		    </div>	
-			    	    		    <div class="number text-center">
-	    			<span>5 </span>
+	    			<span>1 </span>
 	    		    </div>	
 			    	    		    <div class="number text-center">
 	    			<span>2 </span>
 	    		    </div>	
 			    	    		    <div class="number text-center">
-	    			<span>9 </span>
+	    			<span>7 </span>
+	    		    </div>	
+			    	    		    <div class="number text-center">
+	    			<span>4 </span>
+	    		    </div>	
+			    	    		    <div class="number text-center">
+	    			<span>2 </span>
 	    		    </div>	
 			    			    		</div>
 			    </div>
@@ -2752,75 +2753,75 @@ Oczywiœcie w Polsce...</p>
 		    </a>
 		</h2>
 		    		<div class="resultsTime">
-						    		    <span>wyniki z dnia <strong>02-03-19</strong></span>
+						    		    <span>wyniki z dnia <strong>04-03-19</strong></span>
     		    <span>, godz.: <strong>21:40</strong></span>
     		</div>
     		<div class="resultnumber">
 						    <div class="number text-center ">
-				<span>3 </span>
+				<span>1 </span>
+			    </div>
+						    <div class="number text-center ">
+				<span>2 </span>
 			    </div>
 						    <div class="number text-center ">
 				<span>7 </span>
 			    </div>
 						    <div class="number text-center ">
-				<span>16 </span>
+				<span>8 </span>
+			    </div>
+						    <div class="number text-center ">
+				<span>14 </span>
+			    </div>
+						    <div class="number text-center ">
+				<span>19 </span>
 			    </div>
 						    <div class="number text-center ">
 				<span>22 </span>
 			    </div>
 						    <div class="number text-center ">
-				<span>33 </span>
+				<span>32 </span>
 			    </div>
 						    <div class="number text-center ">
-				<span>44 </span>
+				<span>35 </span>
 			    </div>
 						    <div class="number text-center ">
-				<span>46 </span>
+				<span>39 </span>
 			    </div>
 						    <div class="number text-center ">
-				<span>47 </span>
+				<span>42 </span>
 			    </div>
 						    <div class="number text-center ">
-				<span>49 </span>
-			    </div>
-						    <div class="number text-center ">
-				<span>50 </span>
-			    </div>
-						    <div class="number text-center ">
-				<span>63 </span>
-			    </div>
-						    <div class="number text-center ">
-				<span>65 </span>
+				<span>60 </span>
 			    </div>
 						    <div class="number text-center ">
 				<span>66 </span>
 			    </div>
 						    <div class="number text-center ">
-				<span>67 </span>
-			    </div>
-						    <div class="number text-center ">
-				<span>70 </span>
+				<span>68 </span>
 			    </div>
 						    <div class="number text-center ">
 				<span>72 </span>
 			    </div>
 						    <div class="number text-center ">
+				<span>73 </span>
+			    </div>
+						    <div class="number text-center ">
+				<span>74 </span>
+			    </div>
+						    <div class="number text-center ">
 				<span>75 </span>
 			    </div>
 						    <div class="number text-center ">
-				<span>76 </span>
+				<span>78 </span>
 			    </div>
 						    <div class="number text-center ">
-				<span>77 </span>
-			    </div>
-						    <div class="number text-center ">
-				<span>80 </span>
+				<span>79 </span>
 			    </div>
 			    		</div>
     		<div class="resultnumber clearfix">
 
     		    <div class="number plusNumber text-center float-right">
-    			<span>16</span>
+    			<span>8</span>
     		    </div>
     		    <div class="number plus text-center float-right">
     			<span>plus</span>
@@ -2835,30 +2836,30 @@ Oczywiœcie w Polsce...</p>
 		    </a>
 		</h3>
 				    		    		        		<div class="resultsTime">
-						    <span>wyniki z dnia <strong>02-03-19</strong></span>
+						    <span>wyniki z dnia <strong>04-03-19</strong></span>
 			    <span>, godz.: <strong>21:40</strong></span>
 			    		</div>
     		<div class="resultnumber">
 						    	    		    <div class="number text-center ">
-	    			<span>2 </span>
-	    		    </div>	
-			    	    		    <div class="number text-center ">
-	    			<span>0 </span>
+	    			<span>7 </span>
 	    		    </div>	
 			    	    		    <div class="number text-center ">
 	    			<span>1 </span>
 	    		    </div>	
 			    	    		    <div class="number text-center ">
-	    			<span>3 </span>
-	    		    </div>	
-			    	    		    <div class="number text-center ">
-	    			<span>5 </span>
+	    			<span>1 </span>
 	    		    </div>	
 			    	    		    <div class="number text-center ">
 	    			<span>2 </span>
 	    		    </div>	
 			    	    		    <div class="number text-center ">
-	    			<span>9 </span>
+	    			<span>7 </span>
+	    		    </div>	
+			    	    		    <div class="number text-center ">
+	    			<span>4 </span>
+	    		    </div>	
+			    	    		    <div class="number text-center ">
+	    			<span>2 </span>
 	    		    </div>	
 			    			    		</div>
 			    </div>
@@ -2873,41 +2874,41 @@ Oczywiœcie w Polsce...</p>
 		    </a>
 		</h2>
 				    		        		<div class="resultsTime">
-    		    <span>wyniki z dnia <strong>02-03-19</strong></span>
+    		    <span>wyniki z dnia <strong>04-03-19</strong></span>
     		    <span>, godz.: <strong>21:40</strong></span>
     		</div>
 
 		
     		<div class="resultnumber">
 						    					    		    <div class="number text-center ">
-	    			<span>2 </span>
+	    			<span>5 </span>
 	    		    </div>	
 							    					    		    <div class="number text-center ">
-	    			<span>3 </span>
+	    			<span>6 </span>
 	    		    </div>	
 							    					    		    <div class="number text-center ">
-	    			<span>7 </span>
+	    			<span>11 </span>
 	    		    </div>	
 							    					    		    <div class="number text-center ">
-	    			<span>8 </span>
+	    			<span>12 </span>
 	    		    </div>	
 							    					    		    <div class="number text-center ">
-	    			<span>10 </span>
-	    		    </div>	
-							    					    		    <div class="number text-center ">
-	    			<span>13 </span>
-	    		    </div>	
-							    					
-				</div>
-				<div class="resultnumber">
-					    		    <div class="number text-center ">
 	    			<span>14 </span>
 	    		    </div>	
 							    					    		    <div class="number text-center ">
 	    			<span>15 </span>
 	    		    </div>	
-							    					    		    <div class="number text-center ">
+							    					
+				</div>
+				<div class="resultnumber">
+					    		    <div class="number text-center ">
 	    			<span>16 </span>
+	    		    </div>	
+							    					    		    <div class="number text-center ">
+	    			<span>17 </span>
+	    		    </div>	
+							    					    		    <div class="number text-center ">
+	    			<span>19 </span>
 	    		    </div>	
 							    					    		    <div class="number text-center ">
 	    			<span>20 </span>
@@ -2916,7 +2917,7 @@ Oczywiœcie w Polsce...</p>
 	    			<span>21 </span>
 	    		    </div>	
 							    					    		    <div class="number text-center ">
-	    			<span>24 </span>
+	    			<span>23 </span>
 	    		    </div>	
 							        		</div>
 		
@@ -2929,30 +2930,30 @@ Oczywiœcie w Polsce...</p>
 		    </a>
 		</h3>
 				    		    		        		<div class="resultsTime">
-						    <span>wyniki z dnia <strong>02-03-19</strong></span>
+						    <span>wyniki z dnia <strong>04-03-19</strong></span>
 			    <span>, godz.: <strong>21:40</strong></span>
 			    		</div>
     		<div class="resultnumber">
 						    	    		    <div class="number text-center ">
-	    			<span>2</span>
-	    		    </div>	
-			    	    		    <div class="number text-center ">
-	    			<span>0</span>
+	    			<span>7</span>
 	    		    </div>	
 			    	    		    <div class="number text-center ">
 	    			<span>1</span>
 	    		    </div>	
 			    	    		    <div class="number text-center ">
-	    			<span>3</span>
-	    		    </div>	
-			    	    		    <div class="number text-center ">
-	    			<span>5</span>
+	    			<span>1</span>
 	    		    </div>	
 			    	    		    <div class="number text-center ">
 	    			<span>2</span>
 	    		    </div>	
 			    	    		    <div class="number text-center ">
-	    			<span>9</span>
+	    			<span>7</span>
+	    		    </div>	
+			    	    		    <div class="number text-center ">
+	    			<span>4</span>
+	    		    </div>	
+			    	    		    <div class="number text-center ">
+	    			<span>2</span>
 	    		    </div>	
 			    			    		</div>
 			    </div>
@@ -3368,7 +3369,12 @@ Totalizator Sportowy prowadzi dzia³alnoœæ sponsoringow¹,
 	    </section>
 
 	</div>
-		<div class="fixedFacebook hidden-lg-down">
+	<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-8741095-1"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+	<div class="fixedFacebook hidden-lg-down">
 	    <a href="https://www.facebook.com/markaLOTTO/" target="_blank"
 	       onclick="javascript:_gaq.push(['_trackEvent', 'Facebook', 'Badge']);" id="fb">Do³¹cz do nas na<i
 		    class="fa fa-facebook-official"></i> </a>
