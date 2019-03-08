@@ -1,0 +1,2499 @@
+<!DOCTYPE html>
+<html xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml">
+	<head>
+		            <link rel="dns-prefetch" href="//otomotopl-staticstmp.akamaized.net">
+            <link rel="dns-prefetch" href="//otomotopl-imagestmp.akamaized.net">
+            <link rel="dns-prefetch" href="//cdn.optimizely.com">
+            <link rel="dns-prefetch" href="//maps.otomoto.pl">
+            <link rel="dns-prefetch" href="//apis.google.com">
+            <link rel="dns-prefetch" href="//tpc.googlesyndication.com">
+            <link rel="dns-prefetch" href="//securepubads.g.doubleclick .net">
+            <link rel="dns-prefetch" href="//pagead2.googlesyndication.com">
+            <link rel="dns-prefetch" href="//api.mixpanel.com">
+            <link rel="dns-prefetch" href="//fonts.googleapis.com">
+    
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1099.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+		<title>Używane Ford Focus - 17 900 PLN, 225 000 km, 2011  - otomoto.pl</title>
+						<meta name="robots" content="index, follow" />					<link rel="canonical" href="https://www.otomoto.pl/oferta/ford-focus-salon-polska-klima-sprawy-zadbany-polecam-ID6BxpMS.html" />
+						<meta http-equiv="Content-Language" content="pl" />
+		<meta name="description" content="Nie Uszkodzony Ford Focus - Nie Pierwszy właściciel, Niebieski, Nie Metalik, Nie Perłowy, Diesel, 90 KM, 1 600 cm3. ABS,  Centralny zamek, ABS,  Elektryczne szyby przednie, ABS,  Centralny zamek, ABS," />
+					<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+							<meta property="og:title" content="Używane Ford Focus - 17 900 PLN, 225 000 km, 2011  - otomoto.pl"/>
+					<meta property="og:type" content="website"/>
+					<meta property="og:url" content="https://www.otomoto.pl/oferta/ford-focus-salon-polska-klima-sprawy-zadbany-polecam-ID6BxpMS.html"/>
+					<meta property="og:site_name" content="otomoto.pl"/>
+					<meta property="fb:app_id" content="1563466353912532"/>
+					<meta property="og:description" content="Nie Uszkodzony Ford Focus - Nie Pierwszy właściciel, Niebieski, Nie Metalik, Nie Perłowy, Diesel, 90 KM, 1 600 cm3. ABS,  Centralny zamek, ABS,  Elektryczne szyby przednie, ABS,  Centralny zamek, ABS,"/>
+					<meta property="og:image" content="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_5_732x488_salon-polska-klima-sprawy-zadbany-polecam-wielkopolskie.jpg"/>
+					<meta property="og:updated_time" content="2018-11-26T20:28:00"/>
+					<meta property="og:ttl" content="345600"/>
+					<meta property="al:ios:url" content="otomoto.pl://otomoto.pl/oferta/ford-focus-salon-polska-klima-sprawy-zadbany-polecam-ID6BxpMS.html"/>
+					<meta property="al:ios:app_store_id" content="444086109"/>
+					<meta property="al:ios:app_name" content="Otomoto"/>
+					<meta property="al:android:url" content="https://ssl.otomoto.pl/oferta/ford-focus-salon-polska-klima-sprawy-zadbany-polecam-ID6BxpMS.html"/>
+					<meta property="al:android:app_name" content="Otomoto"/>
+					<meta property="al:android:package" content="pl.otomoto"/>
+					<meta property="al:web:url" content="https://www.otomoto.pl"/>
+					<meta property="al:web:should_fallback" content="true"/>
+				            <link rel="icon" type="image/x-icon" href="https://otomotopl-staticstmp.akamaized.net/statics-otomotopl/naspersclassifieds-regional/verticals-cars-atlas-web-otomotopl/static/img/favicon.ico?v=4">
+				
+																							<link rel="stylesheet" type="text/css" href="https://otomotopl-staticstmp.akamaized.net/statics-otomotopl/packed/sw1e36e75b37d0a6128e9edd7c1c534107.css">
+																										<link rel="stylesheet" type="text/css" href="https://otomotopl-staticstmp.akamaized.net/statics-otomotopl/packed/swcb1775e0d9c598b31435c68e01c65156.css">
+																										<link rel="stylesheet" type="text/css" href="https://otomotopl-staticstmp.akamaized.net/statics-otomotopl/packed/swbd15902f275ba1b88260302ce8eca250.css">
+														        <script>
+WebFontConfig = {
+    custom: { families: ['ProximaNova:n4,n7,n9', 'Verveine:n4'] }
+};
+(function(d) {
+    var wf = d.createElement('script'), s = d.scripts[0];
+    wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+    wf.async = true;
+    s.parentNode.insertBefore(wf, s);
+})(document);
+</script>
+
+<style>
+@font-face {
+    font-family: 'atlas-cars-icons';
+    src:url('https://otomotopl-staticstmp.akamaized.net/statics-otomotopl/naspersclassifieds-regional/verticals-cars-atlas-web-otomotopl/static/fonts/atlas-cars-icons.eot?k8nh66');
+    src:url('https://otomotopl-staticstmp.akamaized.net/statics-otomotopl/naspersclassifieds-regional/verticals-cars-atlas-web-otomotopl/static/fonts/atlas-cars-icons.eot?#k8nh66iefix') format('embedded-opentype'),
+    url('https://otomotopl-staticstmp.akamaized.net/statics-otomotopl/naspersclassifieds-regional/verticals-cars-atlas-web-otomotopl/static/fonts/atlas-cars-icons.woff?k8nh66') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('https://otomotopl-staticstmp.akamaized.net/statics-otomotopl/naspersclassifieds-regional/verticals-cars-atlas-web/static/fonts/proxima-nova.woff2') format('woff2'),
+    url('https://otomotopl-staticstmp.akamaized.net/statics-otomotopl/naspersclassifieds-regional/verticals-cars-atlas-web/static/fonts/proxima-nova.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('https://otomotopl-staticstmp.akamaized.net/statics-otomotopl/naspersclassifieds-regional/verticals-cars-atlas-web/static/fonts/proxima-nova-semibold.woff2') format('woff2'),
+    url('https://otomotopl-staticstmp.akamaized.net/statics-otomotopl/naspersclassifieds-regional/verticals-cars-atlas-web/static/fonts/proxima-nova-semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('https://otomotopl-staticstmp.akamaized.net/statics-otomotopl/naspersclassifieds-regional/verticals-cars-atlas-web/static/fonts/proxima-nova-bold.woff2') format('woff2'),
+    url('https://otomotopl-staticstmp.akamaized.net/statics-otomotopl/naspersclassifieds-regional/verticals-cars-atlas-web/static/fonts/proxima-nova-bold.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Verveine';
+    src: url('https://otomotopl-staticstmp.akamaized.net/statics-otomotopl/naspersclassifieds-regional/verticals-cars-atlas-web/static/fonts/verveine.woff2') format('woff2'),
+    url('https://otomotopl-staticstmp.akamaized.net/statics-otomotopl/naspersclassifieds-regional/verticals-cars-atlas-web/static/fonts/verveine.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+html.wf-active body {
+    font-family: "ProximaNova", Helvetica, Arial, sans-serif;
+}
+</style>
+
+
+									<script type="text/javascript">
+					var _adblock = false;
+			    </script>
+		    	    
+					<script type="text/javascript">
+				window.suggestmeyes_loaded = true;
+								var action='ad';
+								var method='index';
+								var user_logged=0;
+								var www_base='https://www.otomoto.pl';
+								var www_base_no_namespace='https://www.otomoto.pl';
+								var www_base_ajax='https://www.otomoto.pl/ajax';
+								var static_files_www_base='https://otomotopl-staticstmp.akamaized.net/statics-otomotopl/';
+								var external_static_files_www_base='https://otomotopl-staticstmp.akamaized.net/statics-otomotopl/naspersclassifieds-regional/verticals-cars-atlas-web-otomotopl/static/';
+								var external_static_files_www_base_main='https://otomotopl-staticstmp.akamaized.net/statics-otomotopl/naspersclassifieds-regional/verticals-cars-atlas-web/static/';
+								var session_domain='otomoto.pl';
+								var site_domain='otomoto.pl';
+								var decimal_separator=',';
+								var thousands_separator=' ';
+								var sitecode='otomotopl';
+								var defaultCurrency='PLN';
+								var config_currency='PLN';
+								var useExternalScripts=1;
+								var lang='pl';
+								var hasRwd=1;
+								var module_atlasorm=1;
+								var module_newcategories=1;
+								var module_adding_refactor=1;
+								var module_googleplus=1;
+								var module_new_params_dependencies=1;
+								var module_ad_featured=1;
+								var module_paid_for_post=1;
+								var module_export_olx=1;
+								var module_answers_with_phone=1;
+								var module_postpay=1;
+								var module_price_gross_net=1;
+								var module_mobile_app=1;
+								var module_ap_invoice_data=1;
+								var module_highlight_extended=1;
+								var module_adocean=1;
+								var module_i2_payment=1;
+								var module_ads_promotion_session=1;
+								var module_monitoring=1;
+								var module_pdlaenau=1;
+								var module_connection_port=1;
+								var module_last_update_ad=1;
+								var module_gpt_banners=1;
+								var module_native_listing_advertisement=1;
+								var module_comperiabox=1;
+								var module_homepage_baner=1;
+								var module_olxpromo=1;
+								var module_ads_bighomepage=1;
+								var module_rest_api=1;
+								var module_authorized_dealer=1;
+								var module_basecrm=1;
+								var module_magazine=1;
+								var module_new_controllers=1;
+								var module_bump=1;
+								var module_appleAllowLongPushes=1;
+								var module_ads_duration_for_packages=1;
+								var module_link_to_change_dealer_package_in_admin=1;
+								var module_private_packages=1;
+								var module_einvoices=1;
+								var module_atinternet_tracking_v2_set_2016=1;
+								var module_zopim_chat=1;
+								var module_ad_views=1;
+								var module_xss_filter=1;
+								var module_use_www_subdomain=1;
+								var module_ssl_only=1;
+								var module_needs_business_approval=1;
+								var module_sapinvoicing=1;
+								var module_dynamic_ad_renewal=1;
+								var module_custom_police_reports=1;
+								var module_myaccount_statistics_last_day_stats=1;
+								var module_ninja=1;
+								var module_rtbhouse_tracking=1;
+								var module_set_gross_price=1;
+								var module_form_suggestions=1;
+								var module_google_sign_ap=1;
+								var module_promote_tour=1;
+								var module_stay_safe_advise=1;
+								var module_gdpr=1;
+								var module_trust_badges=1;
+								var module_ads_seotitles=1;
+								var module_send_pagerduty_alerts=1;
+								var module_listings_ad_preview=1;
+								var module_ad_grid_gallery=1;
+								var module_lazy_load=1;
+								var module_faster_page_render=1;
+								var module_price_project_tariff_tester_prerelease=1;
+								var module_prepare_description=1;
+								var module_price_project_tariff_tester=1;
+								var module_extra_css_groups=1;
+								var module_export_olx_ua=1;
+								var module_popular_links=1;
+								var module_myaccount_solr_indexer_consumer=1;
+								var module_myaccount_solr_indexer_producer=1;
+								var module_myaccount_solr_search=1;
+								var module_myaccount_per_page_results=1;
+								var module_myaccount_bulk_deactivate=1;
+								var module_myaccount_bulk_remove=1;
+								var module_myaccount_bulk_activate=1;
+								var module_strategy_solr_search=1;
+								var module_shingle_index_solr_search=1;
+								var module_shingle_search_solr_search=1;
+								var module_feature_bundle=1;
+								var module_laquesis_web=1;
+								var module_ads_search_dismax=1;
+								var mapkey='AIzaSyAw9VS8sVTVoalwBATi9EQhGKWC4iWbETA';
+								var fb_app_id='1563466353912532';
+								var ad_title='Ford Focus Salon Polska klima sprawy zadbany polecam';
+								var ad_photo='https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_5_732x488_salon-polska-klima-sprawy-zadbany-polecam-wielkopolskie.jpg';
+								var region_id='1';
+								var subregion_id='180';
+								var city_id='70249';
+								var cat_path='osobowe';
+								var saveFavLink="https://www.otomoto.pl/konto/?origin=observepopup&ref%5B0%5D%5Bdocument%5D=ford-focus-salon-polska-klima-sprawy-zadbany-polecam-ID6BxpMS.html&ref%5B0%5D%5Bshop%5D=0&ref%5B0%5D%5Baction%5D=ad&ref%5B0%5D%5Bmethod%5D=index";
+								var marker_default='https://otomotopl-staticstmp.akamaized.net/statics-otomotopl/naspersclassifieds-regional/verticals-cars-atlas-web/static/img/maps/marker_default.png';
+								var marker_zone='https://otomotopl-staticstmp.akamaized.net/statics-otomotopl/naspersclassifieds-regional/verticals-cars-atlas-web/static/img/maps/marker_zone.png';
+								var adID='6051485378';
+								var equal_address_provided='0';
+								var messageSent='';
+								var map_show_detailed='';
+								var regionName="Wielkopolskie";
+								var subregionName="Ostr\u00f3w Wielkopolski";
+								var category_id='29';
+								var categoryName="Osobowe";
+								var categoryCode="osobowe";
+								var categoryAdsenseText=null;
+								var root_category_id='29';
+								var rootCategoryName="Osobowe";
+								var rootCategoryCode="osobowe";
+								var rootCategoryAdsenseText=null;
+								var setSeoPageName="";
+								var sendCriteoConversionShowPhone='1';
+								var ad_id='6051485378';
+								var brand='ford';
+								var model='focus';
+								var city_code='ostrow-wielkopolski';
+								var subregion_code='ostrow-wielkopolski';
+								var region_code='wielkopolskie';
+								var zopim_chat_on=0;
+								var gemius_identifier=new String('B8Y66KtfL292diKbFwT4AKcU.K3IRiR9DAUulxWWAlf.n7');
+								var old_gemius_identifier=new String('B8Y66KtfL292diKbFwT4AKcU.K3IRiR9DAUulxWWAlf.n7');
+								var user_business=false;
+								function __(txt) {
+					if (typeof translations == 'object') {
+						if (translations[txt] == undefined) {
+							return txt;
+						} else {
+							return translations[txt];
+						}
+					}
+					return txt;
+				}
+			</script>
+		
+		<script src="//cdn.optimizely.com/js/2103950122.js"></script>
+<meta name="google-site-verification" content="IcyrH_2J4-o_raifHvWiCUpE3c-1csKMffD8ISM25Ig">
+<script type="text/javascript" src="https://static.criteo.net/js/ld/ld.js" async="true"></script><script type="text/javascript">window.criteo_q = window.criteo_q || [];window.criteo_q.push([{"event":"setAccount","account":"10828"},{"event":"setCustomerId","id":""},{"event":"setSiteType","type":"d"},{"event":"viewItem","item":6051485378}]);</script>
+
+		<!-- HEAD CONTRIB -->            <meta name="google-play-app" content="app-id=pl.otomoto">
+            <meta name="apple-itunes-app" content="app-id=444086109">
+            <meta name="msApplication-ID" content="898c5867-6efb-4d85-b40d-28f73bba63f0">
+            <meta name="msApplication-PackageFamilyName" content="OLXCEEclassifieds.OTOMOTO_eecqq6cqq4yct">
+    
+<script type="text/javascript">
+    <!--
+    /**
+     * get the ids of active experiments from optimizely
+     * @return  active experiments ids and active variation
+     */
+    function getOptimizelyDataForNinja() {
+        var dataForNinja = null;
+
+        if (typeof window.optimizely == "object") {
+            dataForNinja = {
+                experiments: []
+            };
+
+            // optimizely
+            if (optimizely.data.state.activeExperiments.length > 0) {
+                optimizely.data.state.activeExperiments.forEach(function(experimentId) {
+                    dataForNinja.experiments.push(experimentId + ":" + optimizely.data.state.variationIdsMap[experimentId][0]);
+                });
+            }
+
+            // optimizely X
+            if(typeof optimizely.get == "function") {
+                var variationMap = optimizely.get('state').getVariationMap();
+                optimizely.get('state').getActiveExperimentIds().forEach(function(experimentId){
+                    dataForNinja.experiments.push(experimentId + ":" + variationMap[experimentId].id);
+                });
+            }
+
+            // nothing found, reset to default value :(
+            if(dataForNinja.experiments.length < 1){
+                dataForNinja = null;
+            }
+
+        }
+        return dataForNinja;
+    }
+
+    // export object for usage in NinjaTracker
+    window.optimizelyDataForNinja = getOptimizelyDataForNinja();
+
+    // prepare pageview object
+    window.ninjaPV = {"user_status":"unlogged","cat_l1_id":29,"cat_l1_name":"cars","ad_id":6051485378,"ad_photo":8,"poster_type":"private","seller_id":3362591,"item_condition":"used","ad_price":17900,"price_currency":"PLN","brand":"ford","model":"focus","year":2011,"mileage":225000,"city_id":70249,"region_id":1,"city_name":"Ostr\u00f3w Wielkopolski","region_name":"Wielkopolskie","ad_packages":[7],"ad_featured":["add_olx"],"language":"pl_PL","platform":"desktop","trackPage":"ad_page","event_type":"pv","action_type":"ad_page"};
+
+    // concat optimizely data only for the pageview pixel
+    if (window.optimizelyDataForNinja != null && optimizelyDataForNinja.hasOwnProperty("experiments")) {
+        window.ninjaPV.experiments = optimizelyDataForNinja.experiments;
+    }
+
+    // push to datalayer so that ninja can generate the pixel
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push(window.ninjaPV);
+
+    var ninjaTag = document.getElementById("ninja-script-tag");
+    if (!ninjaTag) {
+        (function () {
+            "use strict";
+            window.configTracking = {"siteUrl":"www.otomoto.pl","environment":"production"};
+            var script = document.createElement("script");
+            script.type = "text/javascript";
+            script.id = "ninja-script-tag";
+            script.async = true;
+            script.src = ("https:" === document.location.protocol ? "https://" : "http://") + "ninja.akamaized.net\/ninja-verticals.js";
+            (document.getElementsByTagName("head")[0] || document.getElementsByTagName("body")[0]).appendChild(script);
+        }());
+    }
+    //-->
+</script>
+<noscript><img width="1" height="1" src="https://tracking.olx-st.com/h/v2/v-otomoto-web?nw=1&cC=PL&bR=otomoto&rE=v&eN=ad_page&tN=p&extra=%7B%22user_status%22%3A%22unlogged%22%2C%22cat_l1_name%22%3A%22cars%22%2C%22seller_id%22%3A3362591%2C%22item_condition%22%3A%22used%22%2C%22brand%22%3A%22ford%22%2C%22model%22%3A%22focus%22%2C%22city_name%22%3A%22Ostr%5Cu00f3w+Wielkopolski%22%2C%22region_name%22%3A%22Wielkopolskie%22%2C%22ad_packages%22%3A%22%5B7%5D%22%2C%22ad_featured%22%3A%22%5B%5C%22add_olx%5C%22%5D%22%2C%22language%22%3A%22pl_PL%22%7D&cat_l1_id=29&ad_id=6051485378&ad_photo=8&city_id=70249&region_id=1&platform=desktop&cP=oferta%2Fford-focus-salon-polska-klima-sprawy-zadbany-polecam-ID6BxpMS&mv=1.0.2&t=1543268088&host=www.otomoto.pl&ivd=olx-pl_organic&js=0"/>
+<img width="1" height="1" src="https://api.mixpanel.com/track/?data=eyJldmVudCI6ImFkX3BhZ2UiLCJwcm9wZXJ0aWVzIjp7InRva2VuIjoiYjJiOWM2OWJiODg3MzZjN2U4MzNlOWQ2MDkwMDRlNmEiLCJ1c2VyX3N0YXR1cyI6InVubG9nZ2VkIiwiY2F0X2wxX2lkIjoyOSwiY2F0X2wxX25hbWUiOiJjYXJzIiwiYWRfaWQiOjYwNTE0ODUzNzgsImFkX3Bob3RvIjo4LCJwb3N0ZXJfdHlwZSI6InByaXZhdGUiLCJzZWxsZXJfaWQiOjMzNjI1OTEsIml0ZW1fY29uZGl0aW9uIjoidXNlZCIsImFkX3ByaWNlIjoxNzkwMCwicHJpY2VfY3VycmVuY3kiOiJQTE4iLCJicmFuZCI6ImZvcmQiLCJtb2RlbCI6ImZvY3VzIiwieWVhciI6MjAxMSwibWlsZWFnZSI6MjI1MDAwLCJjaXR5X2lkIjo3MDI0OSwicmVnaW9uX2lkIjoxLCJjaXR5X25hbWUiOiJPc3RyXHUwMGYzdyBXaWVsa29wb2xza2kiLCJyZWdpb25fbmFtZSI6IldpZWxrb3BvbHNraWUiLCJhZF9wYWNrYWdlcyI6Ils3XSIsImFkX2ZlYXR1cmVkIjoiW1wiYWRkX29seFwiXSIsImxhbmd1YWdlIjoicGxfUEwiLCJwbGF0Zm9ybSI6ImRlc2t0b3AiLCJldmVudF90eXBlIjoicHYiLCJhY3Rpb25fdHlwZSI6ImFkX3BhZ2UifX0%3D&ip=1&img=1"/>
+</noscript>
+
+					<div id="rtbhouse-div"></div>
+<script>
+    (function(){
+        var key = 'rtbhouse-split';
+        var cookieDay = 720;
+        var splitValue = getCookie(key);
+
+        if (splitValue === null) {
+            splitValue = Math.floor(Math.random() * 2) + 3;
+            setCookie(key, splitValue, cookieDay);
+        }
+
+        var x = document.createElement('iframe');
+
+        setAttributes(x, {'src': '//creativecdn.com/tags?id=pr_H2B0uP1rY2pmNOj01qlP&id2=pr_H2B0uP1rY2pmNOj01qlP_custom_split_' + splitValue,
+            'width': '1',
+            'height': '1',
+            'scrolling': 'no',
+            'frameBorder':'0',
+            'style': 'display: none;'});
+        var div = document.getElementById('rtbhouse-div');
+        div.appendChild(x);
+        dataLayer.push({'RTBCookieSplit': splitValue }, {'event': 'RTBCookieSplitEvent'});
+        window.ninjaPV.testgroup = splitValue;
+
+        function setAttributes(el, attrs) {
+            for (var attkey in attrs) {
+                el.setAttribute(attkey, attrs[attkey]);
+            }
+        }
+
+        function setCookie(name, value, days) {
+            var d = new Date();
+            d.setTime(d.getTime() + (days*24*60*60*1000));
+            var expires = "expires="+ d.toUTCString();
+            document.cookie = name + "=" + value + ";" + expires + ";path=/;domain=otomoto.pl";
+        }
+
+
+        function getCookie(cname) {
+            var name = cname + "=";
+            var decodedCookie = decodeURIComponent(document.cookie);
+            var ca = decodedCookie.split(';');
+            for(var i = 0; i <ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) == ' ') {
+                    c = c.substring(1);
+                }
+                if (c.indexOf(name) == 0) {
+                    return c.substring(name.length, c.length);
+                }
+            }
+            return null;
+        }
+
+    })()
+</script>		        <!--[if lt IE 9]>
+        	<script type="text/javascript" src="https://otomotopl-staticstmp.akamaized.net/statics-otomotopl/js/scripts/html5shiv.min.js"></script>
+		<![endif]-->
+
+		
+				<!-- Hotjar Tracking Code for www.otomoto.pl -->
+			<script>
+				(function(h,o,t,j,a,r){ h.hj=h.hj||function(){
+					(h.hj.q=h.hj.q||[]).push(arguments)
+				};
+				h._hjSettings={hjid:5591,hjsv:6};
+				a=o.getElementsByTagName('head')[0];
+				r=o.createElement('script');r.async=1;
+				r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+				a.appendChild(r);
+				})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+			</script>
+		
+	</head>
+	<body class="otomotopl  detailpage">
+		    <script type="text/javascript">
+        window.lazySizesConfig = window.lazySizesConfig || {};
+        window.lazySizesConfig.throttleDelay = 100;
+        window.lazySizesConfig.loadHidden = false;
+        window.lazySizesConfig.loadMode = 1;
+        window.lazySizesConfig.init = true;
+    </script>
+
+    <script type="text/javascript" src="https://otomotopl-staticstmp.akamaized.net/statics-otomotopl/naspersclassifieds-regional/verticals-cars-atlas-web/static/js/ls.unveilhooks.min.js" async=""></script>
+    <script type="text/javascript" src="https://otomotopl-staticstmp.akamaized.net/statics-otomotopl/naspersclassifieds-regional/verticals-cars-atlas-web/static/js/lazysizes.min.js" async=""></script>
+
+					<script type="text/javascript">
+    window.laquesisCookie = null;
+    window.laquesisResults = [];
+    window.listenLaquesisCookieChange = function () {
+        var cookieValue = (document.cookie).split('laquesis_result=').pop().split(';').shift();
+        if (cookieValue.length > 0 && cookieValue.indexOf('=') < 0) {
+            if (cookieValue != window.laquesisCookie) {
+                window.laquesisCookie = cookieValue;
+                window.laquesisResults.push({'newResult': cookieValue});
+            }
+        }
+        setTimeout(window.listenLaquesisCookieChange, 50);
+    };
+
+    window.listenLaquesisCookieChange();
+</script>
+
+		
+		
+		    <!-- Start: GPT -->
+
+            <script type='text/javascript'>
+            var gptadslots=[];
+            var googletag = googletag || {};
+            googletag.cmd = googletag.cmd || [];
+            (function(){ var gads = document.createElement('script');
+                gads.async = true; gads.type = 'text/javascript';
+                var useSSL = 'https:' == document.location.protocol;
+                gads.src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js';
+                var node = document.getElementsByTagName('script')[0];
+                node.parentNode.insertBefore(gads, node);
+            })();
+        </script>
+
+        <script type="text/javascript">
+            var GPT = GPT || {};
+            GPT.slots = [{"divId":"div-gpt-ad-halfpage","adUnitId":"AdPage\/HalfPage","adUnitSizes":"[[300,600],[300,250]]","outOfPage":false,"targeting":{"pos":"[\"Right_Sidebar\"]"},"isCollapsing":false,"exclusion":false,"sizeMapping":[]},{"divId":"div-gpt-ad-mrec","adUnitId":"AdPage\/Rectangle","adUnitSizes":"[[300,250]]","outOfPage":false,"targeting":{"pos":"[\"Right_Sidebar\"]"},"isCollapsing":false,"exclusion":false,"sizeMapping":[]},{"divId":"div-gpt-ad-double-billboard-bottom","adUnitId":"AdPage\/DoubleBillboard_BOTTOM","adUnitSizes":"[[750,200],[750,100],[980,200],[728,90]]","outOfPage":false,"targeting":{"pos":"[\"Bottom\"]"},"isCollapsing":false,"exclusion":false,"sizeMapping":[]},{"divId":"div-gpt-ad-1448450895418-0","adUnitId":"AdPage\/Rectangle_GALLERY","adUnitSizes":"[[300,250],[300,600]]","outOfPage":false,"targeting":{"pos":"[\"Bottom\"]"},"isCollapsing":false,"exclusion":false,"sizeMapping":[]},{"divId":"div-gpt-ad-1443183005470-0","adUnitId":"AdPage\/Belka_kalkulator_809_53","adUnitSizes":"[[483,66]]","outOfPage":false,"targeting":{"pos":"[\"Bottom\"]"},"isCollapsing":false,"exclusion":false,"sizeMapping":[]},{"divId":"div-gpt-ad-1458218458164-0","adUnitId":"AdPage\/link_txt_w_dane_techniczne","adUnitSizes":"[[232,44]]","outOfPage":false,"targeting":{"pos":"[\"Bottom\"]"},"isCollapsing":false,"exclusion":false,"sizeMapping":[]},{"divId":"div-gpt-ad-1483354248495-0","adUnitId":"AdPage\/link_txt_w_dane_techniczne_2","adUnitSizes":"[[232,44]]","outOfPage":false,"targeting":{"pos":"[\"Bottom\"]"},"isCollapsing":false,"exclusion":false,"sizeMapping":[]},{"divId":"div-gpt-ad-1524837569825-0","adUnitId":"AdPage\/link_txt_below_price","adUnitSizes":"[[180,20]]","outOfPage":false,"targeting":{"pos":"[\"Top\"]"},"isCollapsing":false,"exclusion":false,"sizeMapping":[]}];
+            GPT.targeting = {"title":"ford focus salon polska klima sprawy zadbany polecam","offer_seek":"offer","private_business":"private","category":"osobowe","region":"wielkopolskie","subregion":"ostrow-wielkopolski","ad_id":"6051485378","city":"ostrow-wielkopolski","make":["ford"],"model":["focus"],"version":["mk3-2010"],"year":["2011"],"mileage":["225000"],"engine_capacity":["1600"],"fuel_type":["diesel"],"engine_power":["90"],"gearbox":["manual"],"transmission":["front-wheel"],"body_type":["compact"],"door_count":["5"],"nr_seats":["5"],"color":["blue"],"features":["abs","central-lock","front-electric-windows","electronic-rearview-mirrors","front-airbags","front-passenger-airbags","aux-in","isofix","air-conditioning","system-start-stop","velour-interior"],"price":["15000-20000"],"price_raw":"17900","user_status":0,"env":"prod"};
+            googletag.cmd.push(function() {
+                                gptadslots['div-gpt-ad-halfpage']= googletag.defineSlot('/55100874/Otomoto_pl/AdPage/HalfPage', [[300,600],[300,250]], 'div-gpt-ad-halfpage')
+                                                .setTargeting('pos',["Right_Sidebar"])
+                                                                .addService(googletag.pubads());
+                                gptadslots['div-gpt-ad-mrec']= googletag.defineSlot('/55100874/Otomoto_pl/AdPage/Rectangle', [[300,250]], 'div-gpt-ad-mrec')
+                                                .setTargeting('pos',["Right_Sidebar"])
+                                                                .addService(googletag.pubads());
+                                gptadslots['div-gpt-ad-double-billboard-bottom']= googletag.defineSlot('/55100874/Otomoto_pl/AdPage/DoubleBillboard_BOTTOM', [[750,200],[750,100],[980,200],[728,90]], 'div-gpt-ad-double-billboard-bottom')
+                                                .setTargeting('pos',["Bottom"])
+                                                                .addService(googletag.pubads());
+                                gptadslots['div-gpt-ad-1448450895418-0']= googletag.defineSlot('/55100874/Otomoto_pl/AdPage/Rectangle_GALLERY', [[300,250],[300,600]], 'div-gpt-ad-1448450895418-0')
+                                                .setTargeting('pos',["Bottom"])
+                                                                .addService(googletag.pubads());
+                                gptadslots['div-gpt-ad-1443183005470-0']= googletag.defineSlot('/55100874/Otomoto_pl/AdPage/Belka_kalkulator_809_53', [[483,66]], 'div-gpt-ad-1443183005470-0')
+                                                .setTargeting('pos',["Bottom"])
+                                                                .addService(googletag.pubads());
+                                gptadslots['div-gpt-ad-1458218458164-0']= googletag.defineSlot('/55100874/Otomoto_pl/AdPage/link_txt_w_dane_techniczne', [[232,44]], 'div-gpt-ad-1458218458164-0')
+                                                .setTargeting('pos',["Bottom"])
+                                                                .addService(googletag.pubads());
+                                gptadslots['div-gpt-ad-1483354248495-0']= googletag.defineSlot('/55100874/Otomoto_pl/AdPage/link_txt_w_dane_techniczne_2', [[232,44]], 'div-gpt-ad-1483354248495-0')
+                                                .setTargeting('pos',["Bottom"])
+                                                                .addService(googletag.pubads());
+                                gptadslots['div-gpt-ad-1524837569825-0']= googletag.defineSlot('/55100874/Otomoto_pl/AdPage/link_txt_below_price', [[180,20]], 'div-gpt-ad-1524837569825-0')
+                                                .setTargeting('pos',["Top"])
+                                                                .addService(googletag.pubads());
+                                googletag.pubads().enableSingleRequest();
+                                        googletag.pubads().setTargeting('title',"ford focus salon polska klima sprawy zadbany polecam");
+                                        googletag.pubads().setTargeting('offer_seek',"offer");
+                                        googletag.pubads().setTargeting('private_business',"private");
+                                        googletag.pubads().setTargeting('category',"osobowe");
+                                        googletag.pubads().setTargeting('region',"wielkopolskie");
+                                        googletag.pubads().setTargeting('subregion',"ostrow-wielkopolski");
+                                        googletag.pubads().setTargeting('ad_id',"6051485378");
+                                        googletag.pubads().setTargeting('city',"ostrow-wielkopolski");
+                                        googletag.pubads().setTargeting('make',["ford"]);
+                                        googletag.pubads().setTargeting('model',["focus"]);
+                                        googletag.pubads().setTargeting('version',["mk3-2010"]);
+                                        googletag.pubads().setTargeting('year',["2011"]);
+                                        googletag.pubads().setTargeting('mileage',["225000"]);
+                                        googletag.pubads().setTargeting('engine_capacity',["1600"]);
+                                        googletag.pubads().setTargeting('fuel_type',["diesel"]);
+                                        googletag.pubads().setTargeting('engine_power',["90"]);
+                                        googletag.pubads().setTargeting('gearbox',["manual"]);
+                                        googletag.pubads().setTargeting('transmission',["front-wheel"]);
+                                        googletag.pubads().setTargeting('body_type',["compact"]);
+                                        googletag.pubads().setTargeting('door_count',["5"]);
+                                        googletag.pubads().setTargeting('nr_seats',["5"]);
+                                        googletag.pubads().setTargeting('color',["blue"]);
+                                        googletag.pubads().setTargeting('features',["abs","central-lock","front-electric-windows","electronic-rearview-mirrors","front-airbags","front-passenger-airbags","aux-in","isofix","air-conditioning","system-start-stop","velour-interior"]);
+                                        googletag.pubads().setTargeting('price',["15000-20000"]);
+                                        googletag.pubads().setTargeting('price_raw',"17900");
+                                        googletag.pubads().setTargeting('user_status',0);
+                                        googletag.pubads().setTargeting('env',"prod");
+                                googletag.pubads().enableAsyncRendering();
+                googletag.pubads().collapseEmptyDivs(true);
+                googletag.enableServices();
+            });
+        </script>
+        <!-- End: GPT -->
+
+
+	    
+        <div id="burgerNav" class="burger-nav"></div>
+<div id="siteWrap" class="site-wrap">
+	<header class="header-container">
+	<div class="inner">
+		<a class="website-icon" href="https://www.otomoto.pl" title="OTOMOTO - nowe i używane samochody i motocykle">
+    </a>
+
+		    
+		
+		<div class="nav-box">
+							<a href="https://www.otomoto.pl/osobowe/nowe-ogloszenie/" class="postnewlink om-button blue icon-plus">Dodaj ogłoszenie</a>
+						<script type="text/javascript">
+	observedNC = [];
+	observedNC['ads'] = [];
+	observedNC['searches'] = [];
+	observedNC['toSynchronize'] = '';
+</script>
+<ul class="userbox">
+					<li id="observed-counter" class="star-box hidden">
+		<a id="observed-ads-link" class="icon-observe_Active hidden" href="https://www.otomoto.pl/obserwowane/" title="Obserwowane">
+			<strong class="counter"></strong>
+			<span class="text hidden-sm hidden-md">Obserwowane</span>
+		</a>
+		<a id="observed-search-link" class="icon-observe_Active " href="https://www.otomoto.pl/obserwowane/wyszukiwania/" title="Obserwowane">
+			<strong class="counter"></strong>
+			<span class="text hidden-sm hidden-md">Obserwowane</span>
+		</a>
+    </li>
+    	    <li class="headsearch-box hidden">
+		    <a id="openHeaderSearch" class="icon-sercz" href="">
+			    <span class="arrow"></span>
+		    </a>
+	    </li>
+    
+	<li id="my-account-link" class="user-box">
+					<a class="icon-mojeotomoto action-link" href="https://www.otomoto.pl/mojekonto/" id="topLoginLink" data-tracking="login_click">
+					<span class="text hidden-sm hidden-md">
+               Moje OTOMOTO                	        </span>
+        </a>
+        			</li>
+</ul>
+<div class="hidden" id="burgerNavSource">
+        <a class="icon-plus newad-link" href="https://www.otomoto.pl/nowe-ogloszenie/">Dodaj ogłoszenie</a>
+<h5>Favorite:</h5>
+<ul>
+    <li><a href="https://www.otomoto.pl/obserwowane/">Ogłoszenia <span class="notifycircle hidden" id="observed-counter-ads-rwd">0</span></a></li>
+    <li><a href="https://www.otomoto.pl/obserwowane/wyszukiwania/">Wyszukiwania <span class="notifycircle hidden" id="observed-counter-searches-rwd">0</span></a></li>
+</ul>
+    <h5>Moje OTOMOTO:</h5>
+    <ul>
+        <li><a class="login-link" href="https://www.otomoto.pl/mojekonto/przeglad/">Zaloguj się <span class="icon-mojeotomoto"></span></a></li>
+        <li><a href="https://www.otomoto.pl/konto/rejestracja/">Zarejestruj się</a></li>
+                    <li><a href="https://www.otomoto.pl/konto/rejestracja-dealer/">Utwórz konto dealera</a></li>
+            </ul>
+</div>
+
+			
+
+					</div>
+		<div class="nav-box-mobile visible-xs-block">
+			<a id="openLeftMenu" class="menu-burger icon-burger abs" href=""></a>
+							<a class="icon-plus om-button blue" href="https://www.otomoto.pl/nowe-ogloszenie/" title="Dodaj ogłoszenie"><span>Dodaj ogłoszenie</span></a>
+										<a class="menu-filters icon-search_filters_bars abs"
+				   href="https://www.otomoto.pl/osobowe/#form"><span class="icon-sercz"></span></a>
+					</div>
+
+		
+	</div>
+	</header>
+	
+<main class="page-offer     ">
+    <section class="offer-header">
+                    <div class="ab-button-block ab-button-block-mobile version-a-block">
+                <a class="ab-button version-a" href="https://www.otomoto.pl/osobowe/ford/focus/wielkopolskie/">
+                    <span class="ab-button-text">Sprawdź więcej ofert dla Ford Focus, Wielkopolskie</span>
+                </a>
+            </div>
+            <div class="ab-button-block ab-button-block-mobile version-b-block">
+                <a class="ab-button version-b" href="https://www.otomoto.pl/osobowe/ford/focus/wielkopolskie/">
+                    <span class="version-b-icon"></span> <span class="ab-button-text">Sprawdź więcej ofert dla Ford Focus, Wielkopolskie</span>
+                </a>
+            </div>
+                <div class="offer-header__row">
+            <h1 class="offer-title big-text">
+            Ford Focus Mk3    </h1>
+            <div class="offer-price" data-price="17 900">
+    <span class="offer-price__number">17 900        <span class="offer-price__currency">PLN</span>
+    </span>
+
+    
+    <span class="offer-price__details">Cena Brutto, Do negocjacji</span>
+    <div class="offer-price__loan">
+                                                                                <div id="div-gpt-ad-1524837569825-0"><script type="text/javascript">googletag.cmd.push(function() { googletag.display('div-gpt-ad-1524837569825-0'); });</script></div><div id="div-gpt-ad-1524837569825-0-after"></div>                                                    <a href="https://www.otomoto.pl/oferta/comperia/1/6051485378/84/" target="_blank" rel="nofollow" style="display:none" class="offer-price__loan__link">
+                                            lub od <strong>241,19 PLN</strong>/mc
+                                        <span class="offer-price__loan__label"> Oblicz &raquo;</span>
+                </a>
+                                </div>
+</div>
+
+            <div class="favorite-box in-ad-header">
+    <a href="#" class="favorite-button observe-link observed-6051485378"
+       rel="nofollow" data-statkey="ad.observed.right" data-id="6051485378"
+       data-tracking="favourite_ad_click"
+       data-ninja-extradata='{"ad_id": "6051485378"}'>
+        <span class="favorite-button__icon icon-observe_Active"
+          title="Usuń z obserwowanych" data-toggle="tooltip" data-placement="bottom"></span>
+        <span class="favorite-button__icon icon-observe_Inactive"
+          title="Obserwuj" data-toggle="tooltip" data-placement="bottom"></span>
+            </a>
+</div>            <span class="offer-main-params">
+            <span class="offer-main-params__item">
+                            2011                     </span>
+                <span class="offer-main-params__item">
+                            225 000 km                    </span>
+                <span class="offer-main-params__item">
+                            Diesel                    </span>
+                <span class="offer-main-params__item">
+                            Kompakt                    </span>
+    </span>
+                        <div class="offer-header__actions">
+                            <span class="seller-phones" data-bind="phone-spoiler">
+            <span class="number-box">
+                <span class="icon-phone2 seller-phones__icon"></span>
+                <span class="phone-number seller-phones__number">691</span>
+                <span class="om-button blue spoiler seller-phones__button" data-path="multi_phone" data-id="6BxpMS" data-id_raw="6051485378"
+                      data-business="0" data-index="0" data-type="left"
+                      data-tracking="showing_phone"
+                                            title="Kontakt arkadiusz">Wyświetl numer</span>
+            </span>
+        </span>
+                                        <div class="contact-box">
+    <a class="om-button contact-button" data-tracking="contact_button_click">
+        <span class="contact-button__icon icon-email"></span>
+        <span class="contact-box__label">Kontakt ze sprzedającym</span></a>
+</div>
+                    <div class="share-box">
+        <div data-component="Modules/ShareButton" data-hydrate-identifier="component">
+    
+    <script type="text/json" data-hydrate-identifier="props">{"facebookUrl":"http:\/\/www.facebook.com\/dialog\/feed?app_id=1563466353912532&link=https%3A%2F%2Fwww.otomoto.pl%2Foferta%2Fford-focus-salon-polska-klima-sprawy-zadbany-polecam-ID6BxpMS.html&picture=https%3A%2F%2Fotomotopl-imagestmp.akamaized.net%2Fimages_otomotopl%2F917247999_5_732x488_salon-polska-klima-sprawy-zadbany-polecam-wielkopolskie.jpg&name=Salon+Polska+klima+sprawy+zadbany+polecam&caption=Salon+Polska+klima+sprawy+zadbany+polecam&description=&redirect_uri=https%3A%2F%2Fwww.otomoto.pl%2Foferta%2Fford-focus-salon-polska-klima-sprawy-zadbany-polecam-ID6BxpMS.html&updated_time=2018-11-26T20%3A28%3A00&scrape=true","tracking":{"touchPointPage":"ad_page"}}</script>
+    <script type="text/json" data-hydrate-identifier="locales">{"Share":"Udost\u0119pnij","page_addetails_sharebox_confirmation_text":"Link skopiowany do schowka"}</script>
+</div>
+</div>
+
+                            </div>
+        </div>
+    </section>
+
+    <div class="offer-content offer-content--primary">
+        <div class="offer-content__row">
+                            <div class="ab-button-block ab-button-block-rwd version-a-block">
+                    <a class="ab-button version-a" href="https://www.otomoto.pl/osobowe/ford/focus/wielkopolskie/">
+                        <span class="ab-button-text">Sprawdź więcej ofert dla Ford Focus, Wielkopolskie</span>
+                    </a>
+                </div>
+                <div class="ab-button-block ab-button-block-rwd version-b-block">
+                    <a class="ab-button version-b" href="https://www.otomoto.pl/osobowe/ford/focus/wielkopolskie/">
+                        <span class="version-b-icon"></span> <span class="ab-button-text">Sprawdź więcej ofert dla Ford Focus, Wielkopolskie</span>
+                    </a>
+                </div>
+                        <ul itemscope itemtype="http://schema.org/BreadcrumbList" class="breadcrumb">
+                        <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="breadcrumb__item">
+                <a itemprop="item" class="breadcrumb__link breadcrumb__link--home" href="https://www.otomoto.pl">
+                    <span>Strona główna</span>
+                </a>
+                <meta itemprop="position" content="1">
+            </li>
+                                                <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="breadcrumb__item">
+                    <a itemprop="item" class="breadcrumb__link breadcrumb__link--category" href="https://www.otomoto.pl/osobowe/">
+                        <span>Osobowe</span>
+                    </a>
+                    <meta itemprop="position" content="2">
+                </li>
+                                                                                <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="breadcrumb__item" class="breadcrumb__item">
+                        <a itemprop="item" href="https://www.otomoto.pl/osobowe/ford/" class="breadcrumb__link breadcrumb__link--params ">
+                            <span itemprop="name">Ford</span>
+                        </a>
+
+                        <meta itemprop="position" content="3">
+                    </li>
+                                                                                                <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="breadcrumb__item" class="breadcrumb__item">
+                        <a itemprop="item" href="https://www.otomoto.pl/osobowe/ford/focus/" class="breadcrumb__link breadcrumb__link--params ">
+                            <span itemprop="name">Focus</span>
+                        </a>
+
+                        <meta itemprop="position" content="4">
+                    </li>
+                                                                                                <li itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem" class="breadcrumb__item" class="breadcrumb__item">
+                        <a itemprop="item" href="https://www.otomoto.pl/osobowe/ford/focus/mk3-2010/" class="breadcrumb__link breadcrumb__link--params breadcrumb__link--active">
+                            <span itemprop="name">Ford Focus Mk3 (2010-)</span>
+                        </a>
+
+                        <meta itemprop="position" content="5">
+                    </li>
+                                        </ul>
+
+            <div class="offer-content__message">
+                            </div>
+            <div class="offer-content__gallery">
+                <div class="offer-photos  ">
+    <div class="om-offer-photos om-offer-photos-slick">
+                    <div class="photo-item">
+                
+                                    <img
+                        class="bigImage lazyload"
+                        data-nr="5"
+                        data-tracking="gallery_open"
+                        data-src="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_5_1080x720_salon-polska-klima-sprawy-zadbany-polecam-wielkopolskie.jpg"                                                onload="(this.className+=this.clientWidth>this.clientHeight?' landscape':' portrait')"
+                        alt="Ford Focus Salon Polska klima sprawy zadbany polecam - 5"
+                    />
+                            </div>
+                    <div class="photo-item">
+                                    <img
+                        class="bigImage"
+                        data-nr="1"
+                        data-tracking="gallery_open"
+                        src="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_1_1080x720_salon-polska-klima-sprawy-zadbany-polecam-ostrow-wielkopolski.jpg"
+                        onload="(this.className+=this.clientWidth>this.clientHeight?' landscape':' portrait')"
+                        alt="Ford Focus Salon Polska klima sprawy zadbany polecam - 1"
+                    />
+                
+                            </div>
+                    <div class="photo-item">
+                
+                                    <img
+                        class="bigImage lazyload"
+                        data-nr="2"
+                        data-tracking="gallery_open"
+                        data-src="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_2_1080x720_salon-polska-klima-sprawy-zadbany-polecam-dodaj-zdjecia.jpg"                                                onload="(this.className+=this.clientWidth>this.clientHeight?' landscape':' portrait')"
+                        alt="Ford Focus Salon Polska klima sprawy zadbany polecam - 2"
+                    />
+                            </div>
+                    <div class="photo-item">
+                
+                                    <img
+                        class="bigImage lazyload"
+                        data-nr="3"
+                        data-tracking="gallery_open"
+                        data-src="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_3_1080x720_salon-polska-klima-sprawy-zadbany-polecam-osobowe.jpg"                                                onload="(this.className+=this.clientWidth>this.clientHeight?' landscape':' portrait')"
+                        alt="Ford Focus Salon Polska klima sprawy zadbany polecam - 3"
+                    />
+                            </div>
+                    <div class="photo-item">
+                
+                                    <img
+                        class="bigImage lazyload"
+                        data-nr="4"
+                        data-tracking="gallery_open"
+                        data-src="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_4_1080x720_salon-polska-klima-sprawy-zadbany-polecam-osobowe.jpg"                                                onload="(this.className+=this.clientWidth>this.clientHeight?' landscape':' portrait')"
+                        alt="Ford Focus Salon Polska klima sprawy zadbany polecam - 4"
+                    />
+                            </div>
+                    <div class="photo-item">
+                
+                                    <img
+                        class="bigImage lazyload"
+                        data-nr="6"
+                        data-tracking="gallery_open"
+                        data-src="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_6_1080x720_salon-polska-klima-sprawy-zadbany-polecam-.jpg"                                                onload="(this.className+=this.clientWidth>this.clientHeight?' landscape':' portrait')"
+                        alt="Ford Focus Salon Polska klima sprawy zadbany polecam - 6"
+                    />
+                            </div>
+                    <div class="photo-item">
+                
+                                    <img
+                        class="bigImage lazyload"
+                        data-nr="7"
+                        data-tracking="gallery_open"
+                        data-src="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_7_1080x720_salon-polska-klima-sprawy-zadbany-polecam-.jpg"                                                onload="(this.className+=this.clientWidth>this.clientHeight?' landscape':' portrait')"
+                        alt="Ford Focus Salon Polska klima sprawy zadbany polecam - 7"
+                    />
+                            </div>
+                    <div class="photo-item">
+                
+                                    <img
+                        class="bigImage lazyload"
+                        data-nr="8"
+                        data-tracking="gallery_open"
+                        data-src="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_8_1080x720_salon-polska-klima-sprawy-zadbany-polecam-.jpg"                                                onload="(this.className+=this.clientWidth>this.clientHeight?' landscape':' portrait')"
+                        alt="Ford Focus Salon Polska klima sprawy zadbany polecam - 8"
+                    />
+                            </div>
+            </div>
+
+    
+    <div class="offer-photos-thumbs">
+                                    <li class="offer-photos-thumbs__item">
+                    <a
+                        class="offer-photos-thumbs__link"
+                        data-nr="5"
+                        href="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_5_1080x720_salon-polska-klima-sprawy-zadbany-polecam-wielkopolskie.jpg"
+                        data-thumb="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_5_148x110_salon-polska-klima-sprawy-zadbany-polecam-wielkopolskie.jpg"
+                        alt="Ford Focus Salon Polska klima sprawy zadbany polecam - 5"
+                    >
+
+                        <img
+                            class="lazyload"
+                            data-src="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_5_148x110_salon-polska-klima-sprawy-zadbany-polecam-wielkopolskie.jpg"                                                        data-src="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_5_148x110_salon-polska-klima-sprawy-zadbany-polecam-wielkopolskie.jpg"
+                            alt="Ford Focus Salon Polska klima sprawy zadbany polecam - 5"
+                        />
+                    </a>
+                </li>
+                                                <li class="offer-photos-thumbs__item">
+                    <a
+                        class="offer-photos-thumbs__link"
+                        data-nr="1"
+                        href="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_1_1080x720_salon-polska-klima-sprawy-zadbany-polecam-ostrow-wielkopolski.jpg"
+                        data-thumb="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_1_148x110_salon-polska-klima-sprawy-zadbany-polecam-ostrow-wielkopolski.jpg"
+                        alt="Ford Focus Salon Polska klima sprawy zadbany polecam - 1"
+                    >
+
+                        <img
+                            class="lazyload"
+                            data-src="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_1_148x110_salon-polska-klima-sprawy-zadbany-polecam-ostrow-wielkopolski.jpg"                                                        data-src="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_1_148x110_salon-polska-klima-sprawy-zadbany-polecam-ostrow-wielkopolski.jpg"
+                            alt="Ford Focus Salon Polska klima sprawy zadbany polecam - 1"
+                        />
+                    </a>
+                </li>
+                                                <li class="offer-photos-thumbs__item">
+                    <a
+                        class="offer-photos-thumbs__link"
+                        data-nr="2"
+                        href="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_2_1080x720_salon-polska-klima-sprawy-zadbany-polecam-dodaj-zdjecia.jpg"
+                        data-thumb="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_2_148x110_salon-polska-klima-sprawy-zadbany-polecam-dodaj-zdjecia.jpg"
+                        alt="Ford Focus Salon Polska klima sprawy zadbany polecam - 2"
+                    >
+
+                        <img
+                            class="lazyload"
+                            data-src="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_2_148x110_salon-polska-klima-sprawy-zadbany-polecam-dodaj-zdjecia.jpg"                                                        data-src="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_2_148x110_salon-polska-klima-sprawy-zadbany-polecam-dodaj-zdjecia.jpg"
+                            alt="Ford Focus Salon Polska klima sprawy zadbany polecam - 2"
+                        />
+                    </a>
+                </li>
+                                                <li class="offer-photos-thumbs__item">
+                    <a
+                        class="offer-photos-thumbs__link"
+                        data-nr="3"
+                        href="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_3_1080x720_salon-polska-klima-sprawy-zadbany-polecam-osobowe.jpg"
+                        data-thumb="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_3_148x110_salon-polska-klima-sprawy-zadbany-polecam-osobowe.jpg"
+                        alt="Ford Focus Salon Polska klima sprawy zadbany polecam - 3"
+                    >
+
+                        <img
+                            class="lazyload"
+                            data-src="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_3_148x110_salon-polska-klima-sprawy-zadbany-polecam-osobowe.jpg"                                                        data-src="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_3_148x110_salon-polska-klima-sprawy-zadbany-polecam-osobowe.jpg"
+                            alt="Ford Focus Salon Polska klima sprawy zadbany polecam - 3"
+                        />
+                    </a>
+                </li>
+                                                                                                                        <a class="offer-photos-thumbs__link-more">
+                <span class="count">+ 4</span>
+                więcej            </a>
+            </div>
+</div>
+
+                
+                                    <button
+                        class="hidden-md gallery-grid__open-action"
+                        data-action="open-gallery-grid"
+                    >
+                        Zobacz wszystkie zdjęcia                        8                        <span class="icon-photocamera offer-photos-count__icon"></span>
+                    </button>
+                            </div>
+            <div class="offer-content__aside">
+                
+                <div class="seller-box">
+    <div class="seller-box__seller-info">
+                    <small class="seller-box__seller-registration">Sprzedający na OTOMOTO od 2016</small>
+                <small class="seller-box__seller-type">Osoba prywatna</small>
+        <h2 class="seller-box__seller-name">
+                                        arkadiusz                    </h2>
+    </div>
+
+    
+    
+    <span class="seller-box__seller-logo-main">
+            </span>
+
+    <div class="seller-box__seller-address">
+        <span class="seller-box__seller-address__icon icon-lokalizacja"></span>
+        <span class="seller-box__seller-address__label">
+                                                Ostrów Wielkopolski, ostrowski, Wielkopolskie                                    </span>
+    </div>
+
+    <span class="seller-box__seller-logo-alternative">
+            </span>
+
+    <div class="seller-box__seller-links seller-box__seller-links--secondary">
+                            </div>
+
+                <div class="seller-phones" data-bind="phone-spoiler">
+                            <div class="number-box">
+                    <span class="icon-phone2 seller-phones__icon"></span>
+                    <span class="phone-number seller-phones__number">691</span>
+                    <span class="om-button blue spoiler seller-phones__button"
+                        data-path="multi_phone" data-id="6BxpMS" data-id_raw="6051485378" data-index="0"
+                                                    title="Kontakt arkadiusz">Wyświetl numer</span>
+                </div>
+                    </div>
+    
+    <div class="seller-box__seller-links">
+                    </div>
+</div>
+
+                            </div>
+            <div class="offer-content__metabar">
+                                <ul class="offer-meta-actions">
+                                            <li class="offer-meta-actions__item">
+                <a class="offer-meta-actions__link duplicate-ad"
+                   href="https://www.otomoto.pl/nowe-ogloszenie/duplicate/6051485378/?ref%5B0%5D%5Bdocument%5D=ford-focus-salon-polska-klima-sprawy-zadbany-polecam-ID6BxpMS.html&ref%5B0%5D%5Bshop%5D=0&ref%5B0%5D%5Baction%5D=ad&ref%5B0%5D%5Bmethod%5D=index"
+                   title="Dodaj podobne ogłoszenie">Dodaj podobne ogłoszenie                </a>
+            </li>
+                        <li class="offer-meta-actions__item">
+            <a class="reportMe offer-meta-actions__link" rel="nofollow" href="#" title="Zgłoś naruszenie">Zgłoś naruszenie</a>
+        </li>
+    </ul>
+                                <div class="offer-meta">
+    <span class="offer-meta__item">
+        <span class="offer-meta__icon icon-calendar"></span>
+        <span class="offer-meta__value">20:27, 26 listopada 2018</span>
+    </span>
+    <span class="offer-meta__item">
+        <span class="offer-meta__label">ID: </span>
+        <span class="offer-meta__value">6051485378</span>
+    </span>
+</div>
+            </div>
+            <ul class="offer-jumpbar" data-jumpbar>
+    <li class="offer-jumpbar__item">
+        <a class="offer-jumpbar__link" href="#parameters"><span class="offer-jumpbar__icon icon-checkmark-circle"></span>Wyposażenie</a>
+    </li>
+    <li class="offer-jumpbar__item">
+        <a class="offer-jumpbar__link" href="#description"><span class="offer-jumpbar__icon icon-burger"></span>Opis</a>
+    </li>
+    <li class="offer-jumpbar__item">
+        <a class="offer-jumpbar__link" href="#seller"><span class="offer-jumpbar__icon icon-seller"></span>Sprzedający</a>
+    </li>
+</ul>
+        </div>
+    </div>
+
+    <div class="offer-content offer-content--secondary">
+        <div class="offer-content__row om-offer-main">
+            <div class="offer-content__main-column">
+                
+                <div class="seller-box">
+    <div class="seller-box__seller-info">
+                    <small class="seller-box__seller-registration">Sprzedający na OTOMOTO od 2016</small>
+                <small class="seller-box__seller-type">Osoba prywatna</small>
+        <h2 class="seller-box__seller-name">
+                                        arkadiusz                    </h2>
+    </div>
+
+    
+    
+    <span class="seller-box__seller-logo-main">
+            </span>
+
+    <div class="seller-box__seller-address">
+        <span class="seller-box__seller-address__icon icon-lokalizacja"></span>
+        <span class="seller-box__seller-address__label">
+                                                Ostrów Wielkopolski, ostrowski, Wielkopolskie                                    </span>
+    </div>
+
+    <span class="seller-box__seller-logo-alternative">
+            </span>
+
+    <div class="seller-box__seller-links seller-box__seller-links--secondary">
+                            </div>
+
+                <div class="seller-phones" data-bind="phone-spoiler">
+                            <div class="number-box">
+                    <span class="icon-phone2 seller-phones__icon"></span>
+                    <span class="phone-number seller-phones__number">691</span>
+                    <span class="om-button blue spoiler seller-phones__button"
+                        data-path="multi_phone" data-id="6BxpMS" data-id_raw="6051485378" data-index="0"
+                                                    title="Kontakt arkadiusz">Wyświetl numer</span>
+                </div>
+                    </div>
+    
+    <div class="seller-box__seller-links">
+                    </div>
+</div>
+
+                <div class="visible-xs offer-content__mobile-seller-info">
+                    <div class="offer-content__rwd-metabar">
+                        <ul class="offer-meta-actions">
+                                            <li class="offer-meta-actions__item">
+                <a class="offer-meta-actions__link duplicate-ad"
+                   href="https://www.otomoto.pl/nowe-ogloszenie/duplicate/6051485378/?ref%5B0%5D%5Bdocument%5D=ford-focus-salon-polska-klima-sprawy-zadbany-polecam-ID6BxpMS.html&ref%5B0%5D%5Bshop%5D=0&ref%5B0%5D%5Baction%5D=ad&ref%5B0%5D%5Bmethod%5D=index"
+                   title="Dodaj podobne ogłoszenie">Dodaj podobne ogłoszenie                </a>
+            </li>
+                        <li class="offer-meta-actions__item">
+            <a class="reportMe offer-meta-actions__link" rel="nofollow" href="#" title="Zgłoś naruszenie">Zgłoś naruszenie</a>
+        </li>
+    </ul>
+                        <div class="offer-meta">
+    <span class="offer-meta__item">
+        <span class="offer-meta__icon icon-calendar"></span>
+        <span class="offer-meta__value">20:27, 26 listopada 2018</span>
+    </span>
+    <span class="offer-meta__item">
+        <span class="offer-meta__label">ID: </span>
+        <span class="offer-meta__value">6051485378</span>
+    </span>
+</div>
+                    </div>
+                                                        </div>
+                    <div class="offer-params" data-read-more data-text="Pokaż wszystkie dane techniczne" id="parameters">
+                    <ul class="offer-params__list">
+                                                                                        <li class="offer-params__item">
+                                <span class="offer-params__label">Oferta od</span>
+<div class="offer-params__value">
+            <a class="offer-params__link" href="https://www.otomoto.pl/osobowe/?search%5Bprivate_business%5D=private"
+           title="Osoby prywatnej">
+                Osoby prywatnej                </a>
+    </div>
+                            </li>
+                                                                                                                                    <li class="offer-params__item">
+                                <span class="offer-params__label">Kategoria</span>
+<div class="offer-params__value">
+            <a class="offer-params__link" href="https://www.otomoto.pl/osobowe/"
+           title="Osobowe">
+                Osobowe                </a>
+    </div>
+                            </li>
+                                                                                                                                    <li class="offer-params__item">
+                                <span class="offer-params__label">Marka pojazdu</span>
+<div class="offer-params__value">
+            <a class="offer-params__link" href="https://www.otomoto.pl/osobowe/ford/"
+           title="Ford">
+                Ford                </a>
+    </div>
+                            </li>
+                                                                                                                                    <li class="offer-params__item">
+                                <span class="offer-params__label">Model pojazdu</span>
+<div class="offer-params__value">
+            <a class="offer-params__link" href="https://www.otomoto.pl/osobowe/ford/focus/"
+           title="Osobowe Focus">
+                Focus                </a>
+    </div>
+                            </li>
+                                                                                                                                    <li class="offer-params__item">
+                                <span class="offer-params__label">Wersja</span>
+<div class="offer-params__value">
+            <a class="offer-params__link" href="https://www.otomoto.pl/osobowe/ford/focus/mk3-2010/"
+           title="Mk3 (2010-)">
+                Mk3 (2010-)                </a>
+    </div>
+                            </li>
+                                                                                                                                    <li class="offer-params__item">
+                                <span class="offer-params__label">Rok produkcji</span>
+<div class="offer-params__value">
+                2011         </div>
+                            </li>
+                                                                                                                                    <li class="offer-params__item">
+                                <span class="offer-params__label">Przebieg</span>
+<div class="offer-params__value">
+                225 000 km        </div>
+                            </li>
+                                                                                                                                    <li class="offer-params__item">
+                                <span class="offer-params__label">Pojemność skokowa</span>
+<div class="offer-params__value">
+                1 600 cm3        </div>
+                            </li>
+                                                                                                                                    <li class="offer-params__item">
+                                <span class="offer-params__label">Rodzaj paliwa</span>
+<div class="offer-params__value">
+            <a class="offer-params__link" href="https://www.otomoto.pl/osobowe/ford/focus/mk3-2010/?search%5Bfilter_enum_fuel_type%5D%5B0%5D=diesel"
+           title="Diesel">
+                Diesel                </a>
+    </div>
+                            </li>
+                                                                                                                                    <li class="offer-params__item">
+                                <span class="offer-params__label">Moc</span>
+<div class="offer-params__value">
+                90 KM        </div>
+                            </li>
+                                                                                                                                    <li class="offer-params__item">
+                                <span class="offer-params__label">Skrzynia biegów</span>
+<div class="offer-params__value">
+            <a class="offer-params__link" href="https://www.otomoto.pl/osobowe/ford/focus/mk3-2010/?search%5Bfilter_enum_gearbox%5D%5B0%5D=manual"
+           title="Manualna">
+                Manualna                </a>
+    </div>
+                            </li>
+                                                                                                                        <li class="offer-params__loan-link">
+                            <div id="div-gpt-ad-1483354248495-0"><script type="text/javascript">googletag.cmd.push(function() { googletag.display('div-gpt-ad-1483354248495-0'); });</script></div><div id="div-gpt-ad-1483354248495-0-after"></div>                        </li>
+                                                                </ul>
+                    <ul class="offer-params__list">
+                                                                                        <li class="offer-params__item">
+                                <span class="offer-params__label">Napęd</span>
+<div class="offer-params__value">
+            <a class="offer-params__link" href="https://www.otomoto.pl/osobowe/ford/focus/mk3-2010/?search%5Bfilter_enum_transmission%5D%5B0%5D=front-wheel"
+           title="Na przednie koła">
+                Na przednie koła                </a>
+    </div>
+                            </li>
+                                                                                                                                    <li class="offer-params__item">
+                                <span class="offer-params__label">Typ</span>
+<div class="offer-params__value">
+            <a class="offer-params__link" href="https://www.otomoto.pl/osobowe/ford/focus/mk3-2010/seg-compact/"
+           title="Kompakt">
+                Kompakt                </a>
+    </div>
+                            </li>
+                                                                                                                                    <li class="offer-params__item">
+                                <span class="offer-params__label">Liczba drzwi</span>
+<div class="offer-params__value">
+                5         </div>
+                            </li>
+                                                                                                                                    <li class="offer-params__item">
+                                <span class="offer-params__label">Liczba miejsc</span>
+<div class="offer-params__value">
+                5         </div>
+                            </li>
+                                                                                                                                    <li class="offer-params__item">
+                                <span class="offer-params__label">Kolor</span>
+<div class="offer-params__value">
+            <a class="offer-params__link" href="https://www.otomoto.pl/osobowe/ford/focus/mk3-2010/?search%5Bfilter_enum_color%5D%5B0%5D=blue"
+           title="Niebieski">
+                Niebieski                </a>
+    </div>
+                            </li>
+                                                                                                                                                                                                                    <li class="offer-params__item">
+                                <span class="offer-params__label">Zarejestrowany w Polsce</span>
+<div class="offer-params__value">
+            <a class="offer-params__link" href="https://www.otomoto.pl/osobowe/ford/focus/mk3-2010/?search%5Bfilter_enum_registered%5D%5B0%5D=1"
+           title="Tak">
+                Tak                </a>
+    </div>
+                            </li>
+                                                                                                                                    <li class="offer-params__item">
+                                <span class="offer-params__label">Stan</span>
+<div class="offer-params__value">
+            <a class="offer-params__link" href="https://www.otomoto.pl/osobowe/uzywane/ostrow-wielkopolski/"
+           title="Używane">
+                Używane                </a>
+    </div>
+                            </li>
+                                                                                                                <li class="offer-params__loan-link user-has-ad-block hidden">
+    <small>Finanse</small>
+    <a id="RanTextLink" href="" target="_blank" data-urlcompareform="https://form.comperia.pl/otomoto-srodek-nowy?">
+        <span id="rataval" data-compare="241,19"></span>
+    </a>
+</li>
+
+                                            <li class="offer-params__loan-link">
+                            <div id="div-gpt-ad-1458218458164-0"><script type="text/javascript">googletag.cmd.push(function() { googletag.display('div-gpt-ad-1458218458164-0'); });</script></div><div id="div-gpt-ad-1458218458164-0-after"></div>                        </li>
+                                                </ul>
+            </div>
+                                	<div class="offer-features">
+		<h4 class="offer-features__title">Wyposażenie</h4>
+		<div class="offer-features__row" data-read-more data-text="Pokaż więcej">
+			                <ul class="offer-features__list">
+                                            <li class="offer-features__item">
+                            <span class="offer-features__icon icon-tick"></span>ABS                        </li>
+                                            <li class="offer-features__item">
+                            <span class="offer-features__icon icon-tick"></span>Elektrycznie ustawiane lusterka                        </li>
+                                            <li class="offer-features__item">
+                            <span class="offer-features__icon icon-tick"></span>Gniazdo AUX                        </li>
+                                            <li class="offer-features__item">
+                            <span class="offer-features__icon icon-tick"></span>System Start-Stop                        </li>
+                                    </ul>
+			                <ul class="offer-features__list">
+                                            <li class="offer-features__item">
+                            <span class="offer-features__icon icon-tick"></span>Centralny zamek                        </li>
+                                            <li class="offer-features__item">
+                            <span class="offer-features__icon icon-tick"></span>Poduszka powietrzna kierowcy                        </li>
+                                            <li class="offer-features__item">
+                            <span class="offer-features__icon icon-tick"></span>Isofix                        </li>
+                                            <li class="offer-features__item">
+                            <span class="offer-features__icon icon-tick"></span>Tapicerka welurowa                        </li>
+                                    </ul>
+			                <ul class="offer-features__list">
+                                            <li class="offer-features__item">
+                            <span class="offer-features__icon icon-tick"></span>Elektryczne szyby przednie                        </li>
+                                            <li class="offer-features__item">
+                            <span class="offer-features__icon icon-tick"></span>Poduszka powietrzna pasażera                        </li>
+                                            <li class="offer-features__item">
+                            <span class="offer-features__icon icon-tick"></span>Klimatyzacja manualna                        </li>
+                                    </ul>
+					</div>
+	</div>
+                <div class="offer-description" id="description">
+        <h3 class="offer-description__title">Opis</h3>
+    <div data-read-more data-text="Pokaż pełny opis">
+        witam auto bardzo zadbane !!! nie posiada śladów użytkowania, zawieszenie ok silnik ok. Kupiony w Polskim salonie książki oraz dwa kluczyki.  Posiada bardzo dobra mało awaryjna jednostkę napędowa. Polecam    </div>
+</div>
+
+                
+                
+                                                            <div id="div-gpt-ad-calc">
+            <!-- DIV_GPT_AD_CALC -->
+            <div id="div-gpt-ad-1443183005470-0"><script type="text/javascript">googletag.cmd.push(function() { googletag.display('div-gpt-ad-1443183005470-0'); });</script></div><div id="div-gpt-ad-1443183005470-0-after"></div>        </div>
+                            </div>
+                <div id="div-gpt-rwd-adp-billboard-2" class="visible-sm-block">
+        <!-- DIV_GPT_RWD_AD_PAGE_BILLBOARD_2 -->
+        <div id="div-gpt-ad-1451392411975-0"><script type="text/javascript">googletag.cmd.push(function() { googletag.display('div-gpt-ad-1451392411975-0'); });</script></div><div id="div-gpt-ad-1451392411975-0-after"></div>    </div>
+                <div id="div-gpt-rwd-adp-mob-ldb-2" class="visible-xs-block">
+        <!-- DIV_GPT_RWD_AD_PAGE_MOB_LDB_2 -->
+        <div id="div-gpt-ad-1450447090597-0"><script type="text/javascript">googletag.cmd.push(function() { googletag.display('div-gpt-ad-1450447090597-0'); });</script></div><div id="div-gpt-ad-1450447090597-0-after"></div>    </div>
+
+            <div class="sidebar-box">
+                                                    
+<div class="ad-slot rectangle300x250">
+            <!-- DIV_GPT_AD_MREC -->
+        <div id="div-gpt-ad-mrec"><script type="text/javascript">googletag.cmd.push(function() { googletag.display('div-gpt-ad-mrec'); });</script></div><div id="div-gpt-ad-mrec-after"></div>    </div>
+                    <div class="adPageStickyGPT">
+                        <div class="ad-slot halfpage300x600">
+            <!-- DIV_GPT_AD_HALFPAGE -->
+        <div id="div-gpt-ad-halfpage"><script type="text/javascript">googletag.cmd.push(function() { googletag.display('div-gpt-ad-halfpage'); });</script></div><div id="div-gpt-ad-halfpage-after"></div>    </div>
+                    </div>
+                                            </div>
+        </div>
+        <div class="offer-content__row om-offer-main">
+                            <div class="offers-box offers-small offers-small--similar">
+        <h4 class="offers-small__title">Podobne ogłoszenia</h4>
+        <div class="scroller">
+            <div class="scroller__content">
+                                    <div class="item-box">
+                        <div class="item-body">
+                            <a class="rel  img-cover"
+                               data-ad-id="6027667372"
+                               data-tracking-ad-id="6027667372"
+                               data-tracking="similar_ads"
+                               href="https://www.otomoto.pl/oferta/ford-focus-rok-2011-oszczedny-i-zadbany-ID6zWtDu.html"
+                               title="Ford Focus Rok 2011 Oszczędny i zadbany"
+                               style="background-image: url('https://otomotopl-imagestmp.akamaized.net/images_otomotopl/885471462_15_320x240_rok-2011-oszczedny-i-zadbany-_rev025.jpg')"
+                               data-ninja-extradata='{"ad_id": "6027667372"}'>
+                                <span class="img-overlay"></span>
+                            </a>
+                            <div class="details">
+                                <div class="inner">
+                                    <h3 class="om-title">
+                                        <a href="https://www.otomoto.pl/oferta/ford-focus-rok-2011-oszczedny-i-zadbany-ID6zWtDu.html" title="Ford Focus Rok 2011 Oszczędny i zadbany"
+                                           data-tracking="similar_ads"
+                                           data-ad-id="6027667372"
+                                           data-tracking-ad-id="6027667372"
+                                           data-ninja-extradata='{"ad_id": "6027667372"}'>
+                                            <span class="visible-tablet-up">Ford Focus </span>
+                                            <span class="visible-mobile">Ford Focus Rok 2011 Oszczędny i zadbany</span>
+                                        </a>
+                                    </h3>
+                            <span class="om-price">20 550                                <sup>PLN</sup></span>
+                                </div>
+                                <ul class="params">
+                                    <li>2011</li>                                    <li>193050 km</li>                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="item-box">
+                        <div class="item-body">
+                            <a class="rel  img-cover"
+                               data-ad-id="6027089707"
+                               data-tracking-ad-id="6027089707"
+                               data-tracking="similar_ads"
+                               href="https://www.otomoto.pl/oferta/ford-focus-mk3-1-6-tdci-95-km-serwis-aso-bezwypadkowy-oryg-przebieg-ID6zT3mj.html"
+                               title="Ford Focus MK3 1.6 TDCI 95 KM, serwis ASO, bezwypadkowy, oryg. przebieg."
+                               style="background-image: url('https://otomotopl-imagestmp.akamaized.net/images_otomotopl/883882472_6_320x240_mk3-16-tdci-95-km-serwis-aso-bezwypadkowy-oryg-przebieg-_rev045.jpg')"
+                               data-ninja-extradata='{"ad_id": "6027089707"}'>
+                                <span class="img-overlay"></span>
+                            </a>
+                            <div class="details">
+                                <div class="inner">
+                                    <h3 class="om-title">
+                                        <a href="https://www.otomoto.pl/oferta/ford-focus-mk3-1-6-tdci-95-km-serwis-aso-bezwypadkowy-oryg-przebieg-ID6zT3mj.html" title="Ford Focus MK3 1.6 TDCI 95 KM, serwis ASO, bezwypadkowy, oryg. przebieg."
+                                           data-tracking="similar_ads"
+                                           data-ad-id="6027089707"
+                                           data-tracking-ad-id="6027089707"
+                                           data-ninja-extradata='{"ad_id": "6027089707"}'>
+                                            <span class="visible-tablet-up">Ford Focus </span>
+                                            <span class="visible-mobile">Ford Focus MK3 1.6 TDCI 95 KM, serwis ASO, bezwypadkowy, oryg. przebieg.</span>
+                                        </a>
+                                    </h3>
+                            <span class="om-price">25 900                                <sup>PLN</sup></span>
+                                </div>
+                                <ul class="params">
+                                    <li>2011</li>                                    <li>130000 km</li>                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="item-box">
+                        <div class="item-body">
+                            <a class="rel  img-cover"
+                               data-ad-id="6050882093"
+                               data-tracking-ad-id="6050882093"
+                               data-tracking="similar_ads"
+                               href="https://www.otomoto.pl/oferta/ford-focus-auto-z-gwarancja-navi-115p-s-klimatronik-zapraszam-ID6BuSQt.html"
+                               title="Ford Focus Auto z Gwarancja+Navi+115p.s+Klimatronik+Zapraszam"
+                               style="background-image: url('https://otomotopl-imagestmp.akamaized.net/images_otomotopl/916506407_4_320x240_auto-z-gwarancja-navi-115ps-klimatronik-zapraszam-osobowe.jpg')"
+                               data-ninja-extradata='{"ad_id": "6050882093"}'>
+                                <span class="img-overlay"></span>
+                            </a>
+                            <div class="details">
+                                <div class="inner">
+                                    <h3 class="om-title">
+                                        <a href="https://www.otomoto.pl/oferta/ford-focus-auto-z-gwarancja-navi-115p-s-klimatronik-zapraszam-ID6BuSQt.html" title="Ford Focus Auto z Gwarancja+Navi+115p.s+Klimatronik+Zapraszam"
+                                           data-tracking="similar_ads"
+                                           data-ad-id="6050882093"
+                                           data-tracking-ad-id="6050882093"
+                                           data-ninja-extradata='{"ad_id": "6050882093"}'>
+                                            <span class="visible-tablet-up">Ford Focus </span>
+                                            <span class="visible-mobile">Ford Focus Auto z Gwarancja+Navi+115p.s+Klimatronik+Zapraszam</span>
+                                        </a>
+                                    </h3>
+                            <span class="om-price">24 900                                <sup>PLN</sup></span>
+                                </div>
+                                <ul class="params">
+                                    <li>2011</li>                                    <li>147000 km</li>                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                                    <div class="item-box">
+                        <div class="item-body">
+                            <a class="rel  img-cover"
+                               data-ad-id="6050926165"
+                               data-tracking-ad-id="6050926165"
+                               data-tracking="similar_ads"
+                               href="https://www.otomoto.pl/oferta/ford-focus-1-6-tdci-115km-serwisowany-zadbany-gwar-ford-12-mcy-dealer-forda-ID6Bw4jj.html"
+                               title="Ford Focus 1,6 TDCi 115KM Serwisowany, zadbany. Gwar. Ford 12 mcy. DEALER FORDA"
+                               style="background-image: url('https://otomotopl-imagestmp.akamaized.net/images_otomotopl/916556677_1_320x240_16-tdci-115km-serwisowany-zadbany-gwar-ford-12-mcy-dealer-forda-lublin.jpg')"
+                               data-ninja-extradata='{"ad_id": "6050926165"}'>
+                                <span class="img-overlay"></span>
+                            </a>
+                            <div class="details">
+                                <div class="inner">
+                                    <h3 class="om-title">
+                                        <a href="https://www.otomoto.pl/oferta/ford-focus-1-6-tdci-115km-serwisowany-zadbany-gwar-ford-12-mcy-dealer-forda-ID6Bw4jj.html" title="Ford Focus 1,6 TDCi 115KM Serwisowany, zadbany. Gwar. Ford 12 mcy. DEALER FORDA"
+                                           data-tracking="similar_ads"
+                                           data-ad-id="6050926165"
+                                           data-tracking-ad-id="6050926165"
+                                           data-ninja-extradata='{"ad_id": "6050926165"}'>
+                                            <span class="visible-tablet-up">Ford Focus </span>
+                                            <span class="visible-mobile">Ford Focus 1,6 TDCi 115KM Serwisowany, zadbany. Gwar. Ford 12 mcy. DEALER FORDA</span>
+                                        </a>
+                                    </h3>
+                            <span class="om-price">31 300                                <sup>PLN</sup></span>
+                                </div>
+                                <ul class="params">
+                                    <li>2011</li>                                    <li>106200 km</li>                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                            </div>
+        </div>
+    </div>
+
+        </div>
+    </div>
+
+        
+    <div class="offer-content offer-content--tertiary">
+        <div class="offer-content__row offer-content__anchor">
+            <a class="contact-anchor" name="contact_form"></a>
+            <div class="offer-content__footer-seller">
+                <div class="seller-box">
+    <div class="seller-box__seller-info">
+                    <small class="seller-box__seller-registration">Sprzedający na OTOMOTO od 2016</small>
+                <small class="seller-box__seller-type">Osoba prywatna</small>
+        <h2 class="seller-box__seller-name">
+                                        arkadiusz                    </h2>
+    </div>
+
+    
+    
+    <span class="seller-box__seller-logo-main">
+            </span>
+
+    <div class="seller-box__seller-address">
+        <span class="seller-box__seller-address__icon icon-lokalizacja"></span>
+        <span class="seller-box__seller-address__label">
+                                                Ostrów Wielkopolski, ostrowski, Wielkopolskie                                    </span>
+    </div>
+
+    <span class="seller-box__seller-logo-alternative">
+            </span>
+
+    <div class="seller-box__seller-links seller-box__seller-links--secondary">
+                            </div>
+
+                <div class="seller-phones" data-bind="phone-spoiler">
+                            <div class="number-box">
+                    <span class="icon-phone2 seller-phones__icon"></span>
+                    <span class="phone-number seller-phones__number">691</span>
+                    <span class="om-button blue spoiler seller-phones__button"
+                        data-path="multi_phone" data-id="6BxpMS" data-id_raw="6051485378" data-index="0"
+                                                    title="Kontakt arkadiusz">Wyświetl numer</span>
+                </div>
+                    </div>
+    
+    <div class="seller-box__seller-links">
+                    </div>
+</div>
+
+            </div>
+            <div class="offer-content__contact"  id="seller">
+                                    <form id="contact-form" class="om-quickcontact" action="https://www.otomoto.pl/oferta/ford-focus-salon-polska-klima-sprawy-zadbany-polecam-ID6BxpMS.html" method="POST" enctype="multipart/form-data">
+    <h2>Wyślij wiadomość</h2>
+    <fieldset>
+        <div class="om-fbox double clr">
+            <div class="field fblock">
+                                    <div class="focusbox">
+                        <input type="text" name="contact[email]" value="" placeholder="Twój e-mail" />
+                        <p class="desc errorboxContainer">
+                            <small class="ca6 lheight24" id="se_emailError"></small>
+                        </p>
+                    </div>
+                            </div>
+
+            <div class="field fblock">
+                <div class="focusbox">
+                    <input type="text" name="contact[phone]" value="" placeholder="Podaj swój nr telefonu" />
+                    <p class="desc errorboxContainer">
+                        <small class="ca6 lheight24" id="se_phoneError"></small>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="om-fbox fblock">
+            <div class="focusbox">
+                <textarea id="ask-text" placeholder="Treść wiadomości" name="contact[txt]"></textarea>
+                <p class="desc errorboxContainer">
+                    <small class="ca6 lheight24" id="se_messageError"></small>
+                </p>
+            </div>
+        </div>
+
+        
+
+        <div class="om-fbox button-bar">
+            <p class="addattachment">
+                <a href="" id="upload-a">
+                    <span class="icon-attach"></span>
+                    Dodaj załącznik                </a>
+                <small>Dopuszczalne typy plików: jpg, jpeg, png, doc, pdf, gif, txt, xls, docx, xlsx, odt</small>
+                <small>Maksymalny rozmiar pliku to 2 MB</small>
+            </p>
+            <input class="button-submit om-button blue" type="submit" value="Wyślij">
+                    </div>
+    </fieldset>
+
+    <div id="upload-div" class="om-upload-div" style="display: none">
+        <div id="safariWarning" style="display: none;">
+            It seems that you are using a browser "Mobile Safari" that does not support sending files. Adding pictures is not possible. We are sorry.        </div>
+                    <p class="file-item clr">
+                <input type="file" id="attachment0" name="attachment[0]" size="39" class="attachment fleft">
+                <input type="button" class="removeAtachment fright" value="usuń">
+                <input type="hidden" name="attachment[0]" value="file">
+            </p>
+                    <p class="file-item clr">
+                <input type="file" id="attachment1" name="attachment[1]" size="39" class="attachment fleft">
+                <input type="button" class="removeAtachment fright" value="usuń">
+                <input type="hidden" name="attachment[1]" value="file">
+            </p>
+                    <p class="file-item clr">
+                <input type="file" id="attachment2" name="attachment[2]" size="39" class="attachment fleft">
+                <input type="button" class="removeAtachment fright" value="usuń">
+                <input type="hidden" name="attachment[2]" value="file">
+            </p>
+                    <p class="file-item clr">
+                <input type="file" id="attachment3" name="attachment[3]" size="39" class="attachment fleft">
+                <input type="button" class="removeAtachment fright" value="usuń">
+                <input type="hidden" name="attachment[3]" value="file">
+            </p>
+                    <p class="file-item clr">
+                <input type="file" id="attachment4" name="attachment[4]" size="39" class="attachment fleft">
+                <input type="button" class="removeAtachment fright" value="usuń">
+                <input type="hidden" name="attachment[4]" value="file">
+            </p>
+            </div>
+</form>
+                            </div>
+        </div>
+    </div>
+
+    <div class="offer-content">
+        <div class="offer-content__row">
+                                        
+<div class="ad-slot double750x200_bottom hidden-sm hidden-xs">
+                    <!-- DIV_GPT_AD_DOUBLE_BOTTOM -->
+            <div id="div-gpt-ad-double-billboard-bottom"><script type="text/javascript">googletag.cmd.push(function() { googletag.display('div-gpt-ad-double-billboard-bottom'); });</script></div><div id="div-gpt-ad-double-billboard-bottom-after"></div>        </div>
+                    </div>
+    </div>
+
+    </main>
+
+
+
+    <div class="offer-mobilebar">
+    <div class="offer-mobilebar__row">
+        <div class="offer-mobilebar__item">
+            <div class="call-box">
+    <a class="call-button om-button open-submenu" data-submenu="mobilebar-call-more" data-id="6BxpMS" href="">
+        <span class="call-button__icon icon-phone2"></span>
+        <span class="call-button__label">Zadzwoń</span>
+    </a>
+    <ul class="mobilebar-submenu mobilebar-call-more hidden">
+        <li>
+            <span>
+                <small>Numer telefonu:</small>
+                <span class="phone-number"></span>
+            </span>
+        </li>
+        <li><a class="link-tel" href="tel://" data-ninja-extradata='{"touch_point_page": "bottom"}'>Zadzwoń</a></li>
+        <li><a class="link-sms" href="sms://" data-ninja-extradata='{"touch_point_page": "bottom"}'>Wyślij SMS</a></li>
+    </ul>
+</div>
+        </div>
+        <div class="offer-mobilebar__item offer-mobilebar__item--contact">
+            <div class="contact-box">
+    <a class="om-button blue contact-button">
+        <span class="contact-button__icon icon-email"></span>
+        <span class="contact-box__label">Napisz</span></a>
+</div>
+        </div>
+        <div class="offer-mobilebar__item">
+            <div class="favorite-box">
+    <a href="#" class="om-button transparent-blue favorite-button observe-link observed-6051485378" rel="nofollow"
+         data-statkey="ad.observed.right" data-id="6051485378" data-tracking="favourite_ad_click">
+        <span class="favorite-button__icon icon-observe_Active"></span>
+        <span class="favorite-button__icon icon-observe_Inactive"></span>
+        <span class="favorite-button__label for-favorite">Obserwuj</span>
+        <span class="favorite-button__label for-unfavorite">Usuń z obserwowanych</span>
+    </a>
+</div>
+        </div>
+    </div>
+</div>
+
+
+<div class="overgallery fix hidden" id="bigImageContent">
+    <div class="overgallery-container">
+        <div class="overgallery-cell photos-box">
+            <div class="photos-box-rel">
+                <div class="header-bar">
+    <div class="col-sm-12 gallery-header hidden-xs hidden-sm">
+        <a id="overgalleryback" href="" class="gallery-back link link__basic link-icon link-icon__gray">
+            <i class="icon-arrow_left"></i>
+            Wróć do ogłoszenia Ford Focus Salon Polska klima sprawy zadbany polecam        </a>
+
+        <div class="gallery-details">
+            <div class="gallery-ad-details">
+                <div class="gallery-ad-title">
+                    Ford Focus                                    </div>
+
+                <div class="gallery-ad-price">
+                    17 900                    <sup class="text-xs">PLN</sup>
+                </div>
+
+                <div class="gallery-ad-price-details">
+                    <span class="offer-price__details">Cena Brutto, Do negocjacji                                            </span>
+                </div>
+            </div>
+
+            <div class="gallery-ad-contacts">
+                <div class="favorite-box">
+    <a href="#" class="om-button transparent-blue favorite-button observe-link observed-6051485378" rel="nofollow"
+         data-statkey="ad.observed.right" data-id="6051485378" data-tracking="favourite_ad_click">
+        <span class="favorite-button__icon icon-observe_Active"></span>
+        <span class="favorite-button__icon icon-observe_Inactive"></span>
+        <span class="favorite-button__label for-favorite">Obserwuj</span>
+        <span class="favorite-button__label for-unfavorite">Usuń z obserwowanych</span>
+    </a>
+</div>
+                <div>
+                                <span class="seller-phones" data-bind="phone-spoiler">
+            <span class="number-box">
+                <span class="icon-phone2 seller-phones__icon"></span>
+                <span class="phone-number seller-phones__number">691</span>
+                <span class="om-button blue spoiler seller-phones__button" data-path="multi_phone" data-id="6BxpMS" data-id_raw="6051485378"
+                      data-business="0" data-index="0" data-type="left"
+                      data-tracking="showing_phone"
+                                            title="Kontakt arkadiusz">Wyświetl numer</span>
+            </span>
+        </span>
+                        <div class="contact-box">
+    <a class="om-button contact-button" data-tracking="contact_button_click">
+        <span class="contact-button__icon icon-email"></span>
+        <span class="contact-box__label">Kontakt ze sprzedającym</span></a>
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-12 pull-right close-area hidden-md hidden-lg">
+        <a id="overgalleryclose" href="" class="layerbutton icon-zamknij layerclose"></a>
+    </div>
+</div>
+
+<div class="overgallery-banners">
+        <a href="https://www.otomoto.pl/oferta/comperia/1/6051485378/84/" target="_blank" rel="nofollow" class="overgallery-banner--link">
+                    lub od <strong>241,19 PLN</strong>/mc
+                <span class="offer-price__loan__label"> Oblicz &raquo;</span>
+    </a>
+
+</div>
+
+
+                <a href="" class="layerbutton nav-button bigImagePrev icon-arrow_left rprev"></a>
+                <a href="" class="layerbutton nav-button bigImageNext icon-arrow_right lprev"></a>
+
+                <div id="bigImage" class="photospace"></div>
+                <div class="photosbar hidden-xs hidden-sm">
+                    <div class="photosbar-inner">
+                        <p class="show-photos">Pokaż więcej zdjęć</p>
+                        <ul class="overgallery-thumbs" id="bigGallery" style="display: block; margin: auto;">
+                                                            <li class="thumb-item">
+                                    <a class="thumb" data-nr="5"
+                                       href="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_5_1080x720_salon-polska-klima-sprawy-zadbany-polecam-wielkopolskie.jpg" rel="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_5_148x110_salon-polska-klima-sprawy-zadbany-polecam-wielkopolskie.jpg"
+                                       alt="Ford Focus Salon Polska klima sprawy zadbany polecam - 5"></a>
+                                </li>
+                                                            <li class="thumb-item">
+                                    <a class="thumb" data-nr="1"
+                                       href="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_1_1080x720_salon-polska-klima-sprawy-zadbany-polecam-ostrow-wielkopolski.jpg" rel="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_1_148x110_salon-polska-klima-sprawy-zadbany-polecam-ostrow-wielkopolski.jpg"
+                                       alt="Ford Focus Salon Polska klima sprawy zadbany polecam - 1"></a>
+                                </li>
+                                                            <li class="thumb-item">
+                                    <a class="thumb" data-nr="2"
+                                       href="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_2_1080x720_salon-polska-klima-sprawy-zadbany-polecam-dodaj-zdjecia.jpg" rel="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_2_148x110_salon-polska-klima-sprawy-zadbany-polecam-dodaj-zdjecia.jpg"
+                                       alt="Ford Focus Salon Polska klima sprawy zadbany polecam - 2"></a>
+                                </li>
+                                                            <li class="thumb-item">
+                                    <a class="thumb" data-nr="3"
+                                       href="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_3_1080x720_salon-polska-klima-sprawy-zadbany-polecam-osobowe.jpg" rel="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_3_148x110_salon-polska-klima-sprawy-zadbany-polecam-osobowe.jpg"
+                                       alt="Ford Focus Salon Polska klima sprawy zadbany polecam - 3"></a>
+                                </li>
+                                                            <li class="thumb-item">
+                                    <a class="thumb" data-nr="4"
+                                       href="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_4_1080x720_salon-polska-klima-sprawy-zadbany-polecam-osobowe.jpg" rel="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_4_148x110_salon-polska-klima-sprawy-zadbany-polecam-osobowe.jpg"
+                                       alt="Ford Focus Salon Polska klima sprawy zadbany polecam - 4"></a>
+                                </li>
+                                                            <li class="thumb-item">
+                                    <a class="thumb" data-nr="6"
+                                       href="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_6_1080x720_salon-polska-klima-sprawy-zadbany-polecam-.jpg" rel="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_6_148x110_salon-polska-klima-sprawy-zadbany-polecam-.jpg"
+                                       alt="Ford Focus Salon Polska klima sprawy zadbany polecam - 6"></a>
+                                </li>
+                                                            <li class="thumb-item">
+                                    <a class="thumb" data-nr="7"
+                                       href="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_7_1080x720_salon-polska-klima-sprawy-zadbany-polecam-.jpg" rel="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_7_148x110_salon-polska-klima-sprawy-zadbany-polecam-.jpg"
+                                       alt="Ford Focus Salon Polska klima sprawy zadbany polecam - 7"></a>
+                                </li>
+                                                            <li class="thumb-item">
+                                    <a class="thumb" data-nr="8"
+                                       href="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_8_1080x720_salon-polska-klima-sprawy-zadbany-polecam-.jpg" rel="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_8_148x110_salon-polska-klima-sprawy-zadbany-polecam-.jpg"
+                                       alt="Ford Focus Salon Polska klima sprawy zadbany polecam - 8"></a>
+                                </li>
+                                                    </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="overgallery-cell banner-box">
+            <div class="ad-slot">
+    <div id="div-gpt-ad-1448450895418-0"><script type="text/javascript">googletag.cmd.push(function() { googletag.display('div-gpt-ad-1448450895418-0'); });</script></div><div id="div-gpt-ad-1448450895418-0-after"></div>            </div>
+        </div>
+            </div>
+</div>
+
+    <div class="gallery-grid" data-component="gallery-grid">
+    <a href="#" data-action="gallery-grid-back" class="gallery-grid-back">
+        Wróć    </a>
+
+    
+                        <div class="gallery-grid-item">
+                <div class="gallery-image" data-action="gallery-image-show" data-index="4">
+                    <img
+                        data-src="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_5_1080x720_salon-polska-klima-sprawy-zadbany-polecam-wielkopolskie.jpg"                                                alt="Ford Focus Salon Polska klima sprawy zadbany polecam 5"
+                        onerror="(this.parentElement.parentElement.className += ' gallery-item--hidden')"
+                        class="lazyload"
+                    />
+                </div>
+            </div>
+        
+                                <div class="gallery-grid-item">
+                <div class="gallery-image" data-action="gallery-image-show" data-index="0">
+                    <img
+                        data-src="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_1_1080x720_salon-polska-klima-sprawy-zadbany-polecam-ostrow-wielkopolski.jpg"                                                alt="Ford Focus Salon Polska klima sprawy zadbany polecam 1"
+                        onerror="(this.parentElement.parentElement.className += ' gallery-item--hidden')"
+                        class="lazyload"
+                    />
+                </div>
+            </div>
+        
+                                <div class="gallery-grid-item">
+                <div class="gallery-image" data-action="gallery-image-show" data-index="1">
+                    <img
+                        data-src="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_2_1080x720_salon-polska-klima-sprawy-zadbany-polecam-dodaj-zdjecia.jpg"                                                alt="Ford Focus Salon Polska klima sprawy zadbany polecam 2"
+                        onerror="(this.parentElement.parentElement.className += ' gallery-item--hidden')"
+                        class="lazyload"
+                    />
+                </div>
+            </div>
+        
+                                <div class="gallery-grid-item">
+                <div class="gallery-image" data-action="gallery-image-show" data-index="2">
+                    <img
+                        data-src="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_3_1080x720_salon-polska-klima-sprawy-zadbany-polecam-osobowe.jpg"                                                alt="Ford Focus Salon Polska klima sprawy zadbany polecam 3"
+                        onerror="(this.parentElement.parentElement.className += ' gallery-item--hidden')"
+                        class="lazyload"
+                    />
+                </div>
+            </div>
+        
+                                <div class="gallery-grid-item">
+                <div class="gallery-image" data-action="gallery-image-show" data-index="3">
+                    <img
+                        data-src="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_4_1080x720_salon-polska-klima-sprawy-zadbany-polecam-osobowe.jpg"                                                alt="Ford Focus Salon Polska klima sprawy zadbany polecam 4"
+                        onerror="(this.parentElement.parentElement.className += ' gallery-item--hidden')"
+                        class="lazyload"
+                    />
+                </div>
+            </div>
+        
+                                <div class="gallery-grid-item">
+                <div class="gallery-image" data-action="gallery-image-show" data-index="5">
+                    <img
+                        data-src="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_6_1080x720_salon-polska-klima-sprawy-zadbany-polecam-.jpg"                                                alt="Ford Focus Salon Polska klima sprawy zadbany polecam 6"
+                        onerror="(this.parentElement.parentElement.className += ' gallery-item--hidden')"
+                        class="lazyload"
+                    />
+                </div>
+            </div>
+        
+                                <div class="gallery-grid-item">
+                <div class="gallery-image" data-action="gallery-image-show" data-index="6">
+                    <img
+                        data-src="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_7_1080x720_salon-polska-klima-sprawy-zadbany-polecam-.jpg"                                                alt="Ford Focus Salon Polska klima sprawy zadbany polecam 7"
+                        onerror="(this.parentElement.parentElement.className += ' gallery-item--hidden')"
+                        class="lazyload"
+                    />
+                </div>
+            </div>
+        
+                                <div class="gallery-grid-item">
+                <div class="gallery-image" data-action="gallery-image-show" data-index="7">
+                    <img
+                        data-src="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_8_1080x720_salon-polska-klima-sprawy-zadbany-polecam-.jpg"                                                alt="Ford Focus Salon Polska klima sprawy zadbany polecam 8"
+                        onerror="(this.parentElement.parentElement.className += ' gallery-item--hidden')"
+                        class="lazyload"
+                    />
+                </div>
+            </div>
+        
+            
+    <div class="gallery-grid-nav">
+        <button class="gallery-grid-nav-prev" data-action="gallery-grid-nav-prev">
+            <span class="icon-arrow_left"></span>
+        </button>
+        <button class="gallery-grid-nav-next" data-action="gallery-grid-nav-next">
+            <span class="icon-arrow_right"></span>
+        </button>
+    </div>
+</div>
+
+
+<noindex>
+    <div id="report-form" class="modal fade" tabindex="-1"	role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close icon-zamknij" data-dismiss="modal" aria-hidden="true"></button>
+                    <h4 class="modal-title">Zgłoś naruszenie</h4>
+                </div>
+                <div class="modal-body">
+                    <form id="report-form-fill" class="modal-inner om-reasons" action="" method="post" autocomplete="off">
+                        <fieldset class="modal-inner-row">
+                            <ul class="checkboxlist">
+                                                                    <li>
+                                        <input id="reason-spam" type="radio" name="report[reason]" value="spam" autocomplete="off">
+                                        <label for="reason-spam"> Spam</label>
+                                    </li>
+                                                                    <li>
+                                        <input id="reason-badCategory" type="radio" name="report[reason]" value="badCategory" autocomplete="off">
+                                        <label for="reason-badCategory"> Niewłaściwa kategoria</label>
+                                    </li>
+                                                                    <li>
+                                        <input id="reason-violation" type="radio" name="report[reason]" value="violation" autocomplete="off">
+                                        <label for="reason-violation"> Inne naruszenie zasad</label>
+                                    </li>
+                                                                    <li>
+                                        <input id="reason-outofdate" type="radio" name="report[reason]" value="outofdate" autocomplete="off">
+                                        <label for="reason-outofdate"> Ogłoszenie nieaktualne</label>
+                                    </li>
+                                                            </ul>
+                        </fieldset>
+                        <fieldset class="textarea-box">
+                            <div id="report_form_description_field" style="display:none">
+                                <p>W polu poniżej opisz dlaczego ogłoszenie narusza nasze zasady:</p>
+                                <div class="fblock">
+                                    <div class="focusbox">
+                                        <textarea id="report-textarea" class="required do-not-validate" name="report[content]" autocomplete="off"></textarea>
+                                    </div>
+                                    <p>
+                                        Pozostało znaków: <b class="report-countdown">1000</b>
+                                    </p>
+                                </div>
+                            </div>
+                        </fieldset>
+                        <div class="modal-actions">
+                            <div class="modal-actions-row">
+                                <input id="report-submit" class="btn-default om-button" type="submit" value="Wyślij" data-id="6BxpMS">
+                            </div>
+                        </div>
+                    </form>
+                    <div id="report-form-confirmation" style="display: none">
+                        <div class="modal-inner">
+                            <h4>Dziękujemy za zgłoszenie.</h4>
+                            <p>
+                                Sprawdzimy czy ogłoszenie narusza nasze zasady. Ponieważ otrzymujemy wiele zgłoszeń, nie możemy na nie odpowiadać. Jeśli chcesz się z nami skontaktować skorzystaj z formularza dostępnego <a href="/kontakt/">tutaj</a>.                            </p>
+                            <div class="modal-actions">
+                                <div class="modal-actions-row">
+                                    <a href="" class="close">Zamknij</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</noindex>
+<div id="printOfferDiv" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close icon-zamknij" data-dismiss="modal" aria-hidden="true"></button>
+                <h4 class="modal-title">Drukuj</h4>
+            </div>
+            <div class="modal-body">
+                <form class="modal-inner" action="https://www.otomoto.pl/drukuj/ford-focus-salon-polska-klima-sprawy-zadbany-polecam-ID6BxpMS.html" method="post" target="_blank">
+                    <fieldset>
+                        <div class="om-fbox">
+                            <input checked="checked" type="radio" name="print-option" id="print-opt-1" value="print-opt-1">
+                            <label for="print-opt-1" class="marginleft10"><span>wydrukuj całe ogłoszenie</span></label>
+                        </div>
+                        <div class="om-fbox">
+                            <input type="radio" name="print-option" id="print-opt-2" value="print-opt-2">
+                            <label for="print-opt-2" class="marginleft10"><span>drukuj z wybranymi zdjęciami</span></label>
+                        </div>
+                        <div class="hidden" id="printOfferPhotos">
+                            <ul class="om-print-offer printphotoselect">
+                                                                    <li>
+                                        <label class="box-item" for="photoprint-5">
+                                                <img class=" lazyload" data-src="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_5_320x240_salon-polska-klima-sprawy-zadbany-polecam-wielkopolskie.jpg">
+
+
+                                        </label>
+                                        <input id="photoprint-5" type="checkbox" checked="checked" name="selectedImages[]" value="5">
+                                        <label for="photoprint-5"></label>
+                                    </li>
+                                                                    <li>
+                                        <label class="box-item" for="photoprint-1">
+                                                <img class=" lazyload" data-src="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_1_320x240_salon-polska-klima-sprawy-zadbany-polecam-ostrow-wielkopolski.jpg">
+
+
+                                        </label>
+                                        <input id="photoprint-1" type="checkbox" checked="checked" name="selectedImages[]" value="1">
+                                        <label for="photoprint-1"></label>
+                                    </li>
+                                                                    <li>
+                                        <label class="box-item" for="photoprint-2">
+                                                <img class=" lazyload" data-src="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_2_320x240_salon-polska-klima-sprawy-zadbany-polecam-dodaj-zdjecia.jpg">
+
+
+                                        </label>
+                                        <input id="photoprint-2" type="checkbox" checked="checked" name="selectedImages[]" value="2">
+                                        <label for="photoprint-2"></label>
+                                    </li>
+                                                                    <li>
+                                        <label class="box-item" for="photoprint-3">
+                                                <img class=" lazyload" data-src="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_3_320x240_salon-polska-klima-sprawy-zadbany-polecam-osobowe.jpg">
+
+
+                                        </label>
+                                        <input id="photoprint-3" type="checkbox" checked="checked" name="selectedImages[]" value="3">
+                                        <label for="photoprint-3"></label>
+                                    </li>
+                                                                    <li>
+                                        <label class="box-item" for="photoprint-4">
+                                                <img class=" lazyload" data-src="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_4_320x240_salon-polska-klima-sprawy-zadbany-polecam-osobowe.jpg">
+
+
+                                        </label>
+                                        <input id="photoprint-4" type="checkbox" checked="checked" name="selectedImages[]" value="4">
+                                        <label for="photoprint-4"></label>
+                                    </li>
+                                                                    <li>
+                                        <label class="box-item" for="photoprint-6">
+                                                <img class=" lazyload" data-src="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_6_320x240_salon-polska-klima-sprawy-zadbany-polecam-.jpg">
+
+
+                                        </label>
+                                        <input id="photoprint-6" type="checkbox" checked="checked" name="selectedImages[]" value="6">
+                                        <label for="photoprint-6"></label>
+                                    </li>
+                                                                    <li>
+                                        <label class="box-item" for="photoprint-7">
+                                                <img class=" lazyload" data-src="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_7_320x240_salon-polska-klima-sprawy-zadbany-polecam-.jpg">
+
+
+                                        </label>
+                                        <input id="photoprint-7" type="checkbox" checked="checked" name="selectedImages[]" value="7">
+                                        <label for="photoprint-7"></label>
+                                    </li>
+                                                                    <li>
+                                        <label class="box-item" for="photoprint-8">
+                                                <img class=" lazyload" data-src="https://otomotopl-imagestmp.akamaized.net/images_otomotopl/917247999_8_320x240_salon-polska-klima-sprawy-zadbany-polecam-.jpg">
+
+
+                                        </label>
+                                        <input id="photoprint-8" type="checkbox" checked="checked" name="selectedImages[]" value="8">
+                                        <label for="photoprint-8"></label>
+                                    </li>
+                                                            </ul>
+                        </div>
+                    </fieldset>
+                    <div class="modal-actions">
+                        <div class="modal-actions-row">
+                            <input id="printButton" class="om-button" type="submit" value="Drukuj">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <script type="application/ld+json">
+        {"@context":"http:\/\/schema.org","@type":"Vehicle","url":"https:\/\/www.otomoto.pl\/oferta\/ford-focus-salon-polska-klima-sprawy-zadbany-polecam-ID6BxpMS.html","name":"Ford Focus Salon Polska klima sprawy zadbany polecam","bodyType":"Kompakt","fuelType":"Diesel","brand":"Ford","model":"Focus","color":"Niebieski","numberOfDoors":"5 ","itemCondition":"used","vehicleSeatingCapacity":"","vehicleIdentificationNumber":"","dateVehicleFirstRegistered":"2011","vehicleEngine":{"@type":"EngineSpecification","engineDisplacement":"1 600 cm3"},"mileageFromOdometer":{"@type":"QuantitativeValue","unitCode":"KMT","value":"225000"},"offers":{"@type":"Offer","price":"17900","priceCurrency":"PLN"},"description":"witam auto bardzo zadbane !!! nie posiada \u015blad\u00f3w u\u017cytkowania, zawieszenie ok silnik ok. Kupiony w Polskim salonie ksi\u0105\u017cki oraz dwa kluczyki.  Posiada bardzo dobra ma\u0142o awaryjna jednostk\u0119 nap\u0119dowa. Polecam"}    </script>
+
+	    <!-- help costumer service -->
+    <div class="helpinfo">
+                                    <div class="professional-box">
+                    <span>Jesteś klientem profesjonalnym?</span>
+                                            <a href="https://www.otomoto.pl/konto/rejestracja-dealer/">
+                        <em class="om-button-em">Załóż konto firmowe</em>
+                    </a>
+                                    </div>
+                            <!-- share box -->
+        <div class="main-share-box">
+            <h5>Znajdź nas na:</h5>
+            <a id="facebook" href="https://www.facebook.com/otomotopl" target="_blank"><span class="icon-facebook2"></span>Facebook</a>
+            <a id="youtube" href="https://www.youtube.com/user/otomotopl" target="_blank"><span class="icon-youtube"></span>Youtube</a>
+                        <br/><a id="instagram" href="https://www.instagram.com/otomotopl/" target="_blank"><span class="icon-instagram"></span>Instagram</a>
+                                </div>
+        <!-- /share box -->
+    </div>
+
+    <!-- /help costumer service -->
+
+    <footer class="footer-container">
+        <div class="container-fluid container-fluid-sm">
+            <div class="row footerlinks">
+
+                                    <div class="col-item hidden-xs social-network">
+                        <h5>Znajdź nas na:</h5>
+                        <a class="facebook-logo" href="https://www.facebook.com/otomotopl" target="_blank"><span class="icon-facebook2"></span>Facebook</a>
+                        <a class="youtube-logo" href="https://www.youtube.com/user/otomotopl" target="_blank"><span class="icon-youtube"></span>Youtube</a>
+                                                    <br/><a class="instagram-logo" href="https://www.instagram.com/otomotopl/" target="_blank"><span class="icon-instagram"></span>Instagram</a>
+                                            </div>
+                
+                                    <div class="col-item inline">
+                        <h4 class="strong-upper">OTOMOTO</h4>
+                        <ul>
+                            <li><a href="https://pomoc.otomoto.pl" target="_blank" title="Pomoc">Pomoc</a></li>
+                            <li><a href="https://pomoc.otomoto.pl/hc/pl/requests/new?ticket_form_id=70373" title="Kontakt"                         >Kontakt</a>
+                            </li>
+                                                            <li><a href="mailto:reklama@otomoto.pl" title="Reklama" target="_blank">Reklama</a></li>
+                                                                                        <li><a href="http://akademia.otomoto.pl/" title="Akademia Rozwoju Dealera">Akademia Rozwoju Dealera</a>
+                                </li>
+                                                                                        <li><a href="https://media.otomoto.pl/" title="Biuro prasowe">Biuro prasowe</a></li>
+                                                                                        <li><a href="https://www.otomoto.pl/privacy/" title="Polityka prywatności">Polityka prywatności</a></li>
+                                                                                        <li><a href="https://www.otomoto.pl/cookies/" title="Polityka plików "cookies"">Polityka plików "cookies"</a></li>
+                                                        <li><a href="https://www.otomoto.pl/zasady/" title="Regulamin OTOMOTO">Regulamin OTOMOTO</a>
+                                                            </li>
+                            <li><a href="https://www.otomoto.pl/zasady/business/" title="Regulamin dla Klientów Biznesowych ">Regulamin dla Klientów Biznesowych </a>
+                                                            </li>
+                                                            <li class="drop">
+                                        <a href="#" class="tdnone link spoiler graydot" title="Partnerzy" id="footerPartners">
+                                                <span class="inlblk">Partnerzy</span>
+                                            </a>
+                                            <div class="partners box" id="footerPartnersContainer">
+	<ul class="clr">
+						<li class="links-partners">
+				<a href="https://www.olx.pl" target="_blank" class="link gray">
+					<span class="icon fleft flag olxpl">&nbsp;</span><span>OLX.pl</span>
+				</a>
+			</li>
+								<li class="links-partners">
+				<a href="https://www.otodom.pl/" target="_blank" class="link gray">
+					<span class="icon fleft flag otodom">&nbsp;</span><span>Otodom.pl</span>
+				</a>
+			</li>
+								<li class="links-partners">
+				<a href="https://www.tradus.com/pl" target="_blank" class="link gray">
+					<span class="icon fleft flag tradus">&nbsp;</span><span>tradus.com</span>
+				</a>
+			</li>
+								<li class="links-partners">
+				<a href="https://fixly.pl/?utm_source=footer-otomoto&utm_medium=footer&utm_campaign=Otomoto" target="_blank" class="link gray">
+					<span class="icon fleft flag fixly">&nbsp;</span><span>Fixly.pl</span>
+				</a>
+			</li>
+				</ul>
+</div>
+                                </li>
+                                                    </ul>
+                    </div>
+                
+                                    <div class="col-item  inline">
+                        <h4 class="strong-upper">Usługi i narzędzia</h4>
+                        <ul>
+                            <li>
+                                <a href="https://www.otomoto.pl/umowa-kupna-sprzedazy/" target="_blank" title="Umowa kupna sprzedaży">Umowa kupna sprzedaży</a>
+                            </li>
+                                                                                </ul>
+                    </div>
+                
+                                    <div class="col-item hidden-xs">
+                        <h4 class="strong-upper">Przydatne informacje</h4>
+                        <ul>
+                                                                                        <li><a target="_blank" href="https://pomoc.otomoto.pl/hc/pl/articles/216416787-Cennik-dla-Klient%C3%B3w-Indywidualnych" title="Cennik dla Klientów Indywidualnych">Cennik dla Klientów Indywidualnych</a></li>
+                                                                                        <li><a target="_blank" href="https://pomoc.otomoto.pl/hc/pl/articles/206872787-Cennik-dla-Klient%C3%B3w-Biznesowych" title="Cennik dla Klientów Biznesowych">Cennik dla Klientów Biznesowych</a></li>
+                                                                                        <li><a target="_blank" href="/pdf/magazyn_otomoto_2016_04.pdf" title="Magazyn OTOMOTO">Magazyn OTOMOTO</a></li>
+                                                                                        <li><a target="_blank" href="http://motogazeta.mojeauto.pl/Testy_samochodow/" title="Testy samochodów">Testy samochodów</a>
+                                </li>
+                                                        <!---->
+                                                            <li><a target="_blank" href="https://www.otomoto.pl/isr/" title="Internetowy Samochód Roku 2017">Internetowy Samochód Roku 2017</a></li>
+                                                        <li><a href="https://www.otomoto.pl/sitemap/" title="Mapa kategorii">Mapa kategorii</a></li>
+                                                            <li><a href="https://www.otomoto.pl/sitemap/regions/" title="Mapa miejscowości">Mapa miejscowości</a></li>
+                                                                                        <li><a href="https://otomoto.zendesk.com/hc/pl/categories/200385037-Aktualno%C5%9Bci-i-komunikaty" target="_blank" title="Ważne informacje">Ważne informacje</a></li>
+                                                        <li><a href="https://www.olxgroup.com/careers" target="_blank" rel="nofollow" title="Kariera">Kariera</a></li>
+                                                                                        <li><a href="https://kongres.otomoto.pl" target="_blank" title="Kongres Liderów Motoryzacji">Kongres Liderów Motoryzacji</a></li>
+                                                    </ul>
+                        
+                    </div>
+                            </div>
+            <div class="footerapps">
+    <h5 class="strong-upper">Nasze aplikacje w Twoim telefonie:</h5>
+    <a href="https://play.google.com/store/apps/details?id=pl.otomoto" id="footerAppAndroid" target="_blank" class="inlblk"
+       title="otomoto.pl w Google Play">
+        <span class="icon block googleplay">otomoto.pl w Google Play</span>
+        <span class="tag-line tleft hidden">
+            Do pobrania w            <strong class="block">Google Play</strong>
+        </span>
+    </a>
+    <a href="https://itunes.apple.com/us/app/id444086109?mt=8&uo=4" id="footerAppIphone" target="_blank" class="inlblk"
+       title="otomoto.pl w AppStore">
+        <span class="icon block appstore">otomoto.pl w AppStore</span>
+        <span class="tag-line hidden">
+            Pobierz w            <strong class="block">AppStore</strong>
+        </span>
+    </a>
+    </div>
+
+
+        </div>
+    </footer>
+
+    <div class="col-sm-12 footer-logo hidden-xs hidden-sm">
+        <img src="https://otomotopl-staticstmp.akamaized.net/statics-otomotopl/naspersclassifieds-regional/verticals-cars-atlas-web-otomotopl/static/img/otomoto-footer.png">
+    </div>
+    <div class="modal fade" id="postAdLayer" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+        <div class="modal-dialog postad-dialog" data-tracking="posting_form_click">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close icon-zamknij" data-dismiss="modal" aria-hidden="true"></button>
+                    <h4 class="modal-title">Wybierz kategorię</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="postad-dialog-content">
+    <ul class="category-select postad-dialog-content-cell">
+                    <li>
+                <a class="cat" href="https://www.otomoto.pl/osobowe/nowe-ogloszenie/"
+                   data-ninja-extradata='{"cat_l1_id": "29", "cat_l1_name": "Cars"}'>
+                    <span class="car-type icon-osobowe"></span>
+                    <span class="cat-label">Osobowe</span>
+                </a>
+            </li>
+                    <li>
+                <a class="cat" href="https://www.otomoto.pl/czesci/nowe-ogloszenie/"
+                   data-ninja-extradata='{"cat_l1_id": "161", "cat_l1_name": "Parts"}'>
+                    <span class="car-type icon-czesci"></span>
+                    <span class="cat-label">Części</span>
+                </a>
+            </li>
+                    <li>
+                <a class="cat" href="https://www.otomoto.pl/motocykle-i-quady/nowe-ogloszenie/"
+                   data-ninja-extradata='{"cat_l1_id": "65", "cat_l1_name": "Motorbikes"}'>
+                    <span class="car-type icon-motocykle-i-quady"></span>
+                    <span class="cat-label">Motocykle</span>
+                </a>
+            </li>
+                    <li>
+                <a class="cat" href="https://www.otomoto.pl/dostawcze/nowe-ogloszenie/"
+                   data-ninja-extradata='{"cat_l1_id": "73", "cat_l1_name": "Commercial"}'>
+                    <span class="car-type icon-dostawcze"></span>
+                    <span class="cat-label">Dostawcze</span>
+                </a>
+            </li>
+                    <li>
+                <a class="cat" href="https://www.otomoto.pl/ciezarowe/nowe-ogloszenie/"
+                   data-ninja-extradata='{"cat_l1_id": "57", "cat_l1_name": "Trucks"}'>
+                    <span class="car-type icon-ciezarowe"></span>
+                    <span class="cat-label">Ciężarowe</span>
+                </a>
+            </li>
+                    <li>
+                <a class="cat" href="https://www.otomoto.pl/maszyny-budowlane/nowe-ogloszenie/"
+                   data-ninja-extradata='{"cat_l1_id": "31", "cat_l1_name": "Construction"}'>
+                    <span class="car-type icon-maszyny-budowlane"></span>
+                    <span class="cat-label">Budowlane</span>
+                </a>
+            </li>
+                    <li>
+                <a class="cat" href="https://www.otomoto.pl/przyczepy/nowe-ogloszenie/"
+                   data-ninja-extradata='{"cat_l1_id": "9", "cat_l1_name": "Trailers"}'>
+                    <span class="car-type icon-przyczepy"></span>
+                    <span class="cat-label">Przyczepy</span>
+                </a>
+            </li>
+                    <li>
+                <a class="cat" href="https://www.otomoto.pl/maszyny-rolnicze/nowe-ogloszenie/"
+                   data-ninja-extradata='{"cat_l1_id": "1", "cat_l1_name": "Agro"}'>
+                    <span class="car-type icon-maszyny-rolnicze"></span>
+                    <span class="cat-label">Rolnicze</span>
+                </a>
+            </li>
+            </ul>
+            <div class="professional-account postad-dialog-content-cell">
+            <h4>Jesteś klientem <strong>profesjonalnym?</strong></h4>
+            <div>
+                <a href="https://www.otomoto.pl/konto/?ref%5B0%5D%5Baction%5D=adding&ref%5B0%5D%5Bmethod%5D=index&ref%5B0%5D%5Bcategory%5D=29" class="om-button">Zaloguj się</a>
+            </div>
+            <span>lub</span>
+            <div>
+                <a href="https://www.otomoto.pl/konto/rejestracja-dealer/" class="om-button blue">Utwórz konto</a>
+            </div>
+        </div>
+    </div>                    
+                </div>
+            </div>
+        </div>
+    </div>
+                <div class="modal fade" id="mandatoryLoginLayer" tabindex="-1" role="dialog" aria-labelledby="basicModal"
+             aria-hidden="true">
+            <div class="modal-dialog postad-dialog" data-tracking="posting_form_click">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close icon-zamknij" data-dismiss="modal" aria-hidden="true"></button>
+                        <h4 class="modal-title">Zaloguj się</h4>
+                    </div>
+                    <div class="modal-body row">
+                        <div class="om-account-mandatory col-sm-6 col-sm-offset-3">
+                            <h4>Zaloguj się na swoje konto, by łatwo i szybko dodać ogłoszenie</h4>
+                            <ul class="alternative-login">
+			<li>
+			<a class="om-button om-button-facebook login-button" href="https://www.otomoto.pl/konto/facebooklogin/?ref%5B0%5D%5Bdocument%5D=bmw-seria-3-bardzo-ladne-ID6AZtDL.html&ref%5B0%5D%5Bshop%5D=0&ref%5B0%5D%5Baction%5D=ad&ref%5B0%5D%5Bmethod%5D=index" data-tracking="login_fb_click"
+    data-ninja-extradata='{"trackLinkEvent":["login_fb_click"], "action_type":"login_fb_click"}'>
+    <span class="icon-facebook2"></span>Zaloguj się przez Facebook</a>
+		</li>
+		<li>
+			<div id="signinButton" class="g-signinbox">
+		<div class="om-button om-button-google login-button g-signin"
+			data-scope="https://www.googleapis.com/auth/plus.login https://www.googleapis.com/auth/userinfo.email" 
+			data-clientid="481307402717-4lqauaovelhsl426oteuslerk670cqec.apps.googleusercontent.com" 
+			data-redirecturi="postmessage" 
+			data-accesstype="offline" 
+			data-apppackagename="" 
+			data-cookiepolicy="single_host_origin" 
+			data-approvalprompt="auto"
+			data-state="" 
+			data-callback="signInCallback"
+			data-tracking="login_gmail_click"
+
+			 data-ninja-extradata='{"trackEvent":["login_gmail_click"], "action_type":"login_gmail_click"}'
+		>
+			<span class="icon-gplus"></span>
+			Zaloguj się przez Google Plus		</div>
+	</div>
+	</li>
+</ul>
+
+                            <span class="separator"><hr><span>lub</span><hr></span></span>
+                            <div class="container-fluid">
+    <div class="om-account">
+        
+        <form class="om-login-form" action="https://www.otomoto.pl/konto/?ref%5B0%5D%5Baction%5D=osobowe&ref%5B0%5D%5Bmethod%5D=adding" method="post" id="loginFormMandatory">
+                <div class="om-fbox fblock">
+                    <div class="focusbox">
+                        <input placeholder="E-mail" type="text" value="" class="" id="userEmail" name="login[email]">
+                    </div>
+                </div>
+                <div class="om-fbox fblock">
+                    <div class="focusbox">
+                        <input placeholder="Hasło" type="password" value="" class="" id="userPass" name="login[password]">
+                    </div>
+                </div>
+                <div class="om-fbox button-bar">
+                    <input type="submit" class="om-button blue" value="Zaloguj się" id="se_userLogin" data-tracking="login_password_click">
+                </div>
+                <div class="om-fbox">
+                    <p>
+                        <input name="login[remember-me]" type="checkbox" id="user-remember">
+                        <label for="user-remember"><span>Zapamiętaj mnie</span></label>
+                    </p>
+                </div>
+                <div class="om-fbox">
+                    <p>
+                        <a id="newpassword" href="">Zapomniałeś hasła?</a>
+                    </p>
+                </div>
+                <div class="om-fbox">
+                    <p>
+                        <a class="register-link link" href="https://www.otomoto.pl/konto/rejestracja/">Zarejestruj się</a>
+                    </p>
+                </div>
+        </form>
+    </div>
+</div>
+
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div id="message_system" style="display: none">
+    <div class="messagesystem">
+        <p>
+            <span class="msg"></span>
+        </p>
+    </div>
+</div>
+<div id="dialogMessage" class="hidden">
+    <div class="inner"></div>
+</div>
+<div id="saveFavDiv" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close icon-zamknij" data-dismiss="modal" aria-hidden="true"></button>
+				<h4 class="modal-title typeSearch">Wyszukiwanie zapisane w schowku</h4>
+				<h4 class="modal-title typeOffer">Ogłoszenie zapisane w schowku</h4>
+			</div>
+			<div class="modal-body">
+				<div class="modal-inner">
+					<h4 class="typeSearch">Wyszukiwanie zostało dodane do obserwowanych</h4>
+					<h4 class="typeOffer">Ogłoszenie dodane do obserwowanych</h4>
+					<p>Zaloguj się do otomoto.pl aby zapamiętać je na "stałe"</p>
+					<div class="modal-actions">
+						<div class="modal-actions-row">
+							<a class="om-button" href="https://www.otomoto.pl/konto/?origin=observepopup">Zaloguj się</a>
+							<a class="om-button" href="https://www.otomoto.pl/konto/rejestracja/">Utwórz konto</a>
+						</div>
+						<div class="modal-actions-row">
+							<a id="saveFavCancel" href="">Nie, dziękuję</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="synchroFavDiv" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close icon-zamknij" data-dismiss="modal" aria-hidden="true"></button>
+				<h4 class="modal-title typeSearch">Obserwowane ogłoszenia i wyszukiwania w Twoim Schowku</h4>
+			</div>
+			<div class="modal-body">
+				<div class="modal-inner">
+					<div class="inner"></div>
+					<div class="modal-actions">
+						<div class="modal-actions-row">
+							<a id="synchronizeObservedConfirm" class="om-button" href="">Zapisz w Obserwowanych</a>
+						</div>
+						<div class="modal-actions-row">
+							<a id="synchronizeObservedCancel" href="">Nie, dziękuję</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+    <div id="cookiesBar" class="om-cookies-bar hidden">
+        <div class="container-fluid container-fluid-sm">
+            <div class="inner">
+                <span class="cookie-icon"></span>
+                <p>
+                    Nasze usługi korzystają z plików cookie oraz podobnych technologii. Możesz zarządzać plikami cookie za pomocą swojej przeglądarki lub urządzenia.                    <a href="https://pomoc.otomoto.pl/hc/pl/articles/360004178673" target="_blank">Dowiedz się więcej</a>
+                    <!--<strong>Ta strona używa plików cookies</strong> w celu realizacji usług i zgodnie z <a href="https://www.otomoto.pl/cookies/" target="_blank">Polityką Plików Cookies</a>-->
+                </p>
+                <a href="" class="agree-button cookiesBarClose">Ok</a>
+            </div>
+        </div>
+    </div>
+
+<!-- otomotopl:bs -->
+<!-- otomotopl:w -->
+</div>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+		<!-- BODY CONTRIB -->
+
+	    
+
+	    
+		<!-- Start: ATI -->
+		<script type="text/javascript">
+	<!--
+	xtnv = document;
+	xtsd = "https://LOGS1269"
+	xtsite = "remove";
+	xtcustom = {"platform":"desktop","page_name":"ad_page","action_type":"ad_page","referral":null,"ad_id":"6051485378","poster_id":"3362591","ad_photo":8,"poster_type":"private","category":"osobowe","subcategory":"ford","provinces":"wielkopolskie","cities":"ostrow-wielkopolski","ad_price":"17900","ad_currency":"PLN","item_condition":"used","ad_packages":0,"ad_featured":["hightlight","topads"],"extra_data":"with_featured_ads","user_status":"unlogged_user"};
+ if (document.querySelectorAll("article.promoted").length) { if (xtcustom) { xtcustom.extra_data = "with_featured_ads"; } }
+	//-->
+</script>
+<noscript>
+	<img width="1" height="1" alt="" src="https://LOGS1269.ati-host.net/hit.xiti?s=remove&stc={"platform":"desktop","page_name":"ad_page","action_type":"ad_page","referral":null,"ad_id":"6051485378","poster_id":"3362591","ad_photo":8,"poster_type":"private","category":"osobowe","subcategory":"ford","provinces":"wielkopolskie","cities":"ostrow-wielkopolski","ad_price":"17900","ad_currency":"PLN","item_condition":"used","ad_packages":0,"ad_featured":["hightlight","topads"],"extra_data":"with_featured_ads","user_status":"unlogged_user"}" >
+</noscript>
+	    <!-- End: ATI -->
+
+					<script type="text/javascript" src="/ajax/jsdata/params/"></script>
+		
+									<script type="text/javascript" src="https://otomotopl-staticstmp.akamaized.net/statics-otomotopl/packed/sw240e527bad14d32fc2d807252fe2b57f.js"></script>
+												<script type="text/javascript" src="https://otomotopl-staticstmp.akamaized.net/statics-otomotopl/packed/sw74ade7e2c42523d202820418b66c6863.js"></script>
+							<script type="text/javascript" src="https://otomotopl-staticstmp.akamaized.net/statics-otomotopl/naspersclassifieds-regional/verticals-cars-atlas-web/static/js/dist/hydrate.09e98d40b8652aa8490a.js"></script>
+					
+				<script type="text/javascript">
+    var AdClass = AdClass.extend({
+        init : function(){
+            this._super();
+            this.initCriteoTracking();
+            this.initCriteoContacts();
+        },
+
+        initCriteoTracking:function(){
+
+            var elContact =  $('[data-bind="phone-spoiler"] .spoiler');
+            var elThis = this;
+
+            elContact.on('click', function(){
+                elThis.addTransaction('tel_');
+            });
+
+        },
+
+        initCriteoContacts:function(){
+
+            var elContactBtn = $('.contact-button');
+            var elForm       =  $('#contact-form');
+            var elThis = this;
+
+            elContactBtn.click(function(){
+
+                elThis.addTransaction();
+            });
+
+            elForm.on('submit', function(){
+
+                if ($(this).valid()) {
+                    elThis.addTransaction('mail_');
+                }
+            });
+        },
+
+        addTransaction:function(prefix){
+
+            var elId =  adID;
+            var elParam = this.getUrlVars()["utm_source"] || '';
+
+            var _prefix = prefix || null;
+            window.criteo_q = window.criteo_q || [];
+
+            var id_ =  new Date().getTime();
+            if(_prefix != null) {
+                id_ = _prefix + new Date().getTime();
+            }
+
+            var elDeduplication = 0;
+            if(elParam == 'criteo'){
+
+                $.cookie('criteo') ? $.cookie('criteo') : $.cookie('criteo', '1');
+
+                elDeduplication = $.cookie('criteo');
+            }
+
+            if (sendCriteoConversionShowPhone) {
+                window.criteo_q.push({
+                    event: "trackTransaction",
+                    id: id_,
+                    deduplication: elDeduplication,
+                    item: [{
+                        id: elId,
+                        quantity: 1,
+                        price: 1
+                    }]
+                });
+            }
+
+            $.ajax({
+                type: 'GET',
+                url: '/ajax/account/hashuemail/',
+                success: function (result) {
+                    if (result.hasOwnProperty('hash')) {
+                        window.criteo_q.push({
+                            event: "setHashedEmail",
+                            email :result.hash
+                        });
+                    }
+                }
+            });
+        },
+
+        getUrlVars: function()
+        {
+            var vars = [], hash;
+            var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+            for(var i = 0; i < hashes.length; i++)
+            {
+                hash = hashes[i].split('=');
+                vars.push(hash[0]);
+                vars[hash[0]] = hash[1];
+            }
+            return vars;
+        }
+
+    });
+
+</script>	                <script type="text/javascript">
+            $(function(){
+                if(typeof GoogleObj != 'undefined') {
+                    setTimeout(function() {
+                        var conversions = GoogleObj.getConversions();
+                        for(k in conversions) {
+                            var data = conversions[k];
+                            window['google_conversion_id'] = data.id;
+                            window['google_conversion_language'] = data.language;
+                            window['google_conversion_format'] = data.format;
+                            window['google_conversion_color'] = data.color;
+                            window['google_conversion_label'] = data.label;
+                            window['google_conversion_value'] = data.value;
+                            oldWrite = document.write;
+                            document.write = (function(params)
+                            {
+                                $(document.body).append(params);
+                            });
+                            $.getScript(document.location.protocol + "//www.googleadservices.com/pagead/conversion.js", function(){
+                                document.write = oldWrite;
+                            });
+                        }
+                    }, 10);
+                };
+
+                if(typeof GoogleObj != 'undefined') {
+                    setTimeout(function() {var adsDetails = GoogleObj.getAdsDetails();
+                        if(typeof adsDetails[0] != 'undefined') {
+                            GoogleObj.loadGoogleAds(adsDetails[0]);
+                        }
+                    }, 100);
+                }
+            });
+        </script>
+            	    <!--APP R3NDR www.otomoto.pl--><!--B4CK3ND OK-->
+	    <!-- BOTTOM CONTRIB -->
+	<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"03c2d95870","applicationID":"27030240","transactionName":"NgBUMhdWVhdWUBIPDQ9KdRMWQ1cJGFcDFQkVCkZJBFMXDVlXAx4=","queueTime":0,"applicationTime":94,"atts":"GkdXRF9MRRk=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
+<!-- otomotoplweb2.fixeaws -->
