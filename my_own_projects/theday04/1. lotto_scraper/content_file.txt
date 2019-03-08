@@ -64,7 +64,6 @@
 <script type="text/javascript" src="https://lottocdn.directtraffic.pl/sites/all/modules/colorbox/js/colorbox.js?L"></script>
 <script type="text/javascript" src="https://lottocdn.directtraffic.pl/sites/all/modules/colorbox/js/colorbox_load.js?L"></script>
 <script type="text/javascript" src="https://lottocdn.directtraffic.pl/sites/all/modules/colorbox/js/colorbox_inline.js?L"></script>
-<script type="text/javascript" src="https://lottocdn.directtraffic.pl/sites/all/modules/google_analytics/googleanalytics.js?L"></script>
 <script type="text/javascript" src="https://lottocdn.directtraffic.pl/sites/all/modules/panels/js/panels.js?L"></script>
 <script type="text/javascript" src="https://lottocdn.directtraffic.pl/sites/all/modules/thickbox/thickbox.js?L"></script>
 <script type="text/javascript" src="https://lottocdn.directtraffic.pl/sites/all/themes/basic/js/swfobject.js?L"></script>
@@ -75,7 +74,7 @@
 <script type="text/javascript" src="https://lottocdn.directtraffic.pl/sites/all/themes/basic/js_new/frontend.js?L"></script>
 <script type="text/javascript">
 <!--//--><![CDATA[//><!--
-jQuery.extend(Drupal.settings, {"basePath":"\/","beautytips":{".beautytips":{"fill":"#F7F7F7","padding":8,"strokeStyle":"#B7B7B7","cornerRadius":0,"cssStyles":{"fontFamily":"\"lucida grande\",tahoma,verdana,arial,sans-serif","fontSize":"11px"},"cssSelect":".beautytips","list":["fill","padding","strokeStyle","cornerRadius","cssStyles"]}},"colorbox":{"transition":"elastic","speed":350,"opacity":"0.85","slideshow":false,"slideshowAuto":false,"slideshowSpeed":2500,"slideshowStart":"","slideshowStop":"","current":"{current} z {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Zamknij","overlayClose":true,"maxWidth":"100%","maxHeight":"100%"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"thickbox":{"close":"Zamknij","next":"Nast\u0119pny \u003e","prev":"\u003c Poprzedni","esc_key":" ","next_close":"Next \/ Close on last","image_count":"!current z !total"}});
+jQuery.extend(Drupal.settings, {"basePath":"\/","beautytips":{".beautytips":{"fill":"#F7F7F7","padding":8,"strokeStyle":"#B7B7B7","cornerRadius":0,"cssStyles":{"fontFamily":"\"lucida grande\",tahoma,verdana,arial,sans-serif","fontSize":"11px"},"cssSelect":".beautytips","list":["fill","padding","strokeStyle","cornerRadius","cssStyles"]}},"colorbox":{"transition":"elastic","speed":350,"opacity":"0.85","slideshow":false,"slideshowAuto":false,"slideshowSpeed":2500,"slideshowStart":"","slideshowStop":"","current":"{current} z {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Zamknij","overlayClose":true,"maxWidth":"100%","maxHeight":"100%"},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"thickbox":{"close":"Zamknij","next":"Nast\u0119pny \u003e","prev":"\u003c Poprzedni","esc_key":" ","next_close":"Next \/ Close on last","image_count":"!current z !total"}});
 //--><!]]>
 </script>
 	<script src='//cdn2.pollster.pl/nw.js' type="text/javascript"></script>
@@ -183,7 +182,7 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","beautytips":{".beautytips":{"fi
  <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" class="form-text form-control" onblur="if (this.value == &#039;&#039;) {this.value = &#039;&#039;;} ;" onfocus="if (this.value == &#039;&#039;) {this.value = &#039;&#039;;} ;" />
 </div>
 <button type="submit" name="op" id="edit-submit" value="Szukaj"  class="form-submit btn btn-secondary">
-<img src="/sites/all/themes/basic/images/search_button2.png" alt="" class="img-fluid hidden-lg-down" ><img src="/sites/all/themes/basic/images/svg/search.svg" alt="" class="img-fluid hidden-xl-up" ></button><input type="hidden" name="form_build_id" id="form-e2896599b8b7e2b8f37684b10fc72481" value="form-e2896599b8b7e2b8f37684b10fc72481"  />
+<img src="/sites/all/themes/basic/images/search_button2.png" alt="" class="img-fluid hidden-lg-down" ><img src="/sites/all/themes/basic/images/svg/search.svg" alt="" class="img-fluid hidden-xl-up" ></button><input type="hidden" name="form_build_id" id="form-a880f6d369a946ad23f393f794daa98c" value="form-a880f6d369a946ad23f393f794daa98c"  />
 <input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
 </div>
 </div></form>
@@ -1631,17 +1630,17 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","beautytips":{".beautytips":{"fi
 <div class="row">
 		<div class="picWins col-xl-12 col-5">
 		<a href="/wysokie-wygrane">
-		    <img src="/sites/all/themes/basic/images/svg/mini-lottoBorder.svg" alt="" class="img-fluid">
+		    <img src="/sites/all/themes/basic/images/svg/kenoBorder.svg" alt="" class="img-fluid">
 		</a>
 		</div>
 		<div class="col-xl-12 col-7 text">
-		    <div class="winsBox mini-lotto">
+		    <div class="winsBox keno">
 			<span>
-			    157 378,20
+			    200 000,00
 			</span>
 		    </div>
 		    <div class="adressWins">
-			<p>Czaniec, 01-03-19</p>
+			<p>K³aj, 04-03-19</p>
 		    </div>
 		</div>
 		</div><div class="row">
@@ -1653,11 +1652,11 @@ jQuery.extend(Drupal.settings, {"basePath":"\/","beautytips":{".beautytips":{"fi
 		<div class="col-xl-12 col-7 text">
 		    <div class="winsBox mini-lotto">
 			<span>
-			    157 378,20
+			    347 374,50
 			</span>
 		    </div>
 		    <div class="adressWins">
-			<p>Krasnystaw, 01-03-19</p>
+			<p>Bydgoszcz, 02-03-19</p>
 		    </div>
 		</div>
 		</div><div class="moreBox">
@@ -1785,17 +1784,17 @@ Oczywiœcie w Polsce...</p>
 <div class="row">
 		<div class="picWins col-xl-12 col-5">
 		<a href="/wysokie-wygrane">
-		    <img src="/sites/all/themes/basic/images/svg/mini-lottoBorder.svg" alt="" class="img-fluid">
+		    <img src="/sites/all/themes/basic/images/svg/kenoBorder.svg" alt="" class="img-fluid">
 		</a>
 		</div>
 		<div class="col-xl-12 col-7 text">
-		    <div class="winsBox mini-lotto">
+		    <div class="winsBox keno">
 			<span>
-			    157 378,20
+			    200 000,00
 			</span>
 		    </div>
 		    <div class="adressWins">
-			<p>Czaniec, 01-03-19</p>
+			<p>K³aj, 04-03-19</p>
 		    </div>
 		</div>
 		</div><div class="row">
@@ -1807,11 +1806,11 @@ Oczywiœcie w Polsce...</p>
 		<div class="col-xl-12 col-7 text">
 		    <div class="winsBox mini-lotto">
 			<span>
-			    157 378,20
+			    347 374,50
 			</span>
 		    </div>
 		    <div class="adressWins">
-			<p>Krasnystaw, 01-03-19</p>
+			<p>Bydgoszcz, 02-03-19</p>
 		    </div>
 		</div>
 		</div><div class="moreBox">
@@ -3369,12 +3368,7 @@ Totalizator Sportowy prowadzi dzia³alnoœæ sponsoringow¹,
 	    </section>
 
 	</div>
-	<script type="text/javascript">
-<!--//--><![CDATA[//><!--
-var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-8741095-1"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
-//--><!]]>
-</script>
-	<div class="fixedFacebook hidden-lg-down">
+		<div class="fixedFacebook hidden-lg-down">
 	    <a href="https://www.facebook.com/markaLOTTO/" target="_blank"
 	       onclick="javascript:_gaq.push(['_trackEvent', 'Facebook', 'Badge']);" id="fb">Do³¹cz do nas na<i
 		    class="fa fa-facebook-official"></i> </a>

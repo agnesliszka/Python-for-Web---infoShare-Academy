@@ -49,7 +49,7 @@ for j in range(n):
     content_to_find_numbers_pos0 = content_to_find_numbers_pos2
 
     m = content_to_find_numbers.count('<span>')
-    print(m)
+
     lotto_single_list = []
 
     # Get winning numbers
