@@ -40,7 +40,6 @@ def get_details(_data):
 
     # Search for auction title
     print(soup.title.text)
-    # print(soup.title.string)
 
     return ''
 
@@ -53,4 +52,5 @@ for offer in offers:
     data = load_offer(offer)
     get_details(data)
     print('-' * 80)
-    break
+
+

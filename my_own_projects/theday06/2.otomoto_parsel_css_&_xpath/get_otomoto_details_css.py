@@ -39,7 +39,7 @@ def get_details(_data):
     # Get location
     print(selector.css('#siteWrap > main > div.offer-content.offer-content--primary > div > div.offer-content__aside > div > div.seller-box__seller-address > span.seller-box__seller-address__label::text').getall())
 
-    # Get an invoice type
+    # Invoice
 
 
     # Get an additional information
