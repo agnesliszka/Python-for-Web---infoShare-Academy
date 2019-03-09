@@ -1,13 +1,5 @@
 import os
-import requests
 from parsel import Selector
-
-def get_page(url, filename):
-    response = requests.get(url)
-    _data = response.text
-    with open(filename, 'w', encoding='utf-8') as output_data:
-        output_data.write(_data)
-    return _data
 
 def load_offer(_offer):
     file_name = os.path.join('data', _offer)
@@ -60,24 +52,7 @@ offers = (
     'ford-focus-1-6-tdci-salon-polska-serwis-aso-klima-ID6BwGlg.html'
 )
 
-urls = (
-    'https://www.otomoto.pl/oferta/ford-focus-focus-1-6-tdci-115km-salon-polska-serwisowany-ID6BKDkl.html#de41e6ae06',
-    'https://www.otomoto.pl/oferta/ford-focus-1-8-tdci-fv23-ID6BBmwH.html#de41e6ae06'
-)
-
-filenames = (
-    'data\\ford-focus-salon-polska-klima-sprawy-zadbany-polecam-ID6BxpMS.html',
-    'data\\ford-focus-1-6-tdci-salon-polska-serwis-aso-klima-ID6BwGlg.html'
-)
-
-for filename in filenames:
-    filename_index = filenames.index(filename)
-    if os.path.isfile(filename):
-        data = load_offer(offers[filename_index])
-        get_details(data)
-        print('-' * 80)
-    else:
-        get_page(urls[filename_index], filename)
-        data = load_offer(offers[filename_index])
-        get_details(data)
-        print('-' * 80)
+for offer in offers:
+    data = load_offer(offer)
+    get_details(data)
+    print('-' * 40)
