@@ -1,12 +1,14 @@
 import os
 from parsel import Selector
 
+# Function to load offer data from file
 def load_offer(_offer):
     file_name = os.path.join('data', _offer)
     with open(file_name, encoding='utf-8') as _file_in:
         _data = _file_in.read()
     return _data
 
+# Function to get searched data from the page
 def get_details(_data):
     selector = Selector(text=_data)
 
@@ -52,6 +54,7 @@ offers = (
     'ford-focus-1-6-tdci-salon-polska-serwis-aso-klima-ID6BwGlg.html'
 )
 
+# For each offer load the file, get required data and print them in console
 for offer in offers:
     data = load_offer(offer)
     get_details(data)

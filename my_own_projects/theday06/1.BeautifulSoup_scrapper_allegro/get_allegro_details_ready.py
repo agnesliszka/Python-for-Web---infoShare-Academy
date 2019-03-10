@@ -2,6 +2,7 @@ import os
 import requests
 from bs4 import BeautifulSoup
 
+# Function to get page from url
 def get_page(url, filename):
     response = requests.get(url)
     _data = response.text
@@ -9,18 +10,21 @@ def get_page(url, filename):
         output_data.write(_data)
     return _data
 
+# Function to load offer data from file
 def load_offer(_offer):
     file_name = os.path.join('data', _offer)
     with open(file_name, encoding='utf-8') as _file_in:
         _data = _file_in.read()
     return _data
 
+# Function to get searched data from the page
 def get_details(_data):
     soup = BeautifulSoup(_data, 'html.parser')
 
     # Search for a container with the indicated attribute
     filtered = soup.find_all(attrs={"data-box-name": "Parameters"})
 
+    # Create the list of searched parameters
     labels = ("Faktura", "Informacje dodatkowe", "Pojemność silnika", "Moc", "Kolor", "Przebieg", "Rodzaj paliwa", "Rok produkcji")
 
     for element in filtered:
@@ -67,6 +71,8 @@ filenames = (
     'data\offer_7350326221_mk3.html'
 )
 
+''' For each file if file exists load the file, get searched data and print them in console; 
+if file does not exist get page from url, save the data in file, load the file, get searched data and print them in console'''
 for filename in filenames:
     filename_index = filenames.index(filename)
     if os.path.isfile(filename):

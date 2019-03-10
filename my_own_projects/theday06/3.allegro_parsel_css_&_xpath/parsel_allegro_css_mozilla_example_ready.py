@@ -4,6 +4,7 @@ from parsel import Selector
 # project imports
 from beautiful_soup_example import get_page
 
+# Get page from url
 if __name__ =='__main__':
     url = 'https://allegro.pl/ogloszenie/porsche-911-turbo-s-techart-680km-salonpl-fv23-7867148731'
     filename = 'allegro_mozilla_css.html'
@@ -11,6 +12,7 @@ if __name__ =='__main__':
 
     selector = Selector(text=html_content)
 
+    # Search for particular item on the page
     invoice = selector.css('div.e6337613:nth-child(1) > ul:nth-child(1) > li:nth-child(2) > div:nth-child(1) > div:nth-child(2)::text').get()
     print(invoice)
 
