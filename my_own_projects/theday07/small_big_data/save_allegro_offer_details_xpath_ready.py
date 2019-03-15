@@ -1,8 +1,8 @@
 
 import os
+import json
 from bs4 import BeautifulSoup
 from parsel import Selector
-import json
 
 offers_data = {}
 
@@ -16,12 +16,14 @@ def load_offer(_offer):
 # Function to get required data of the corresponding offer
 def get_details(_data):
     soup = BeautifulSoup(_data, 'html.parser')
+
     # Get table where searched parameters and their values are stored
     filtered = soup.find_all(attrs={"data-box-name": "Parameters"})
     filtered_string = str(filtered)
+
     # Get each element of table where searched parameters and their values are stored as a separate list element
     selector = Selector(text=filtered_string)
-    filtered_div_data = selector.css('div::text').getall()
+    filtered_div_data = selector.xpath('//div/text()').getall()
 
     # List searched labels
     labels = ["Faktura", "Informacje dodatkowe",
