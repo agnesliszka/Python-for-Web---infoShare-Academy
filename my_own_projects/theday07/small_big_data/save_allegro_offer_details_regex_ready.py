@@ -2,7 +2,6 @@
 import os
 import re
 import json
-
 from bs4 import BeautifulSoup
 
 offers_data = {}
@@ -68,7 +67,7 @@ def get_details(_data):
     return ''
 
 # Create a json file to store the offers data
-with open('stored_offers_data_regex.json', 'w') as data_file:
+with open('stored_offers_data.json', 'w') as data_file:
     offers = os.listdir('offers')
     for offer in offers:
         # Print offer file name

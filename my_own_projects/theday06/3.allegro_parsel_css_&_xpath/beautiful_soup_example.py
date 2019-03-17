@@ -1,8 +1,6 @@
-
-import os
-import requests
-
 from bs4 import BeautifulSoup
+import requests
+import os
 
 # Function to get page from url if file does not exist, if file exists open the file
 def get_page(url, filename):

@@ -1,6 +1,5 @@
 import os
 import requests
-
 from parsel import Selector
 
 # Function to get page from url

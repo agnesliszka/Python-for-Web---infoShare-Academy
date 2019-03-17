@@ -1,5 +1,4 @@
 import os
-
 from bs4 import BeautifulSoup
 
 # Function to load offer data from file
