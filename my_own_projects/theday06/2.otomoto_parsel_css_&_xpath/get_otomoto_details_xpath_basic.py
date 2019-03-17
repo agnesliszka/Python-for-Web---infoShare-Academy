@@ -1,4 +1,5 @@
 import os
+
 from parsel import Selector
 
 # Function to load offer data from file

@@ -1,5 +1,6 @@
 import os
 import requests
+
 from bs4 import BeautifulSoup
 
 # Function to get page from url
