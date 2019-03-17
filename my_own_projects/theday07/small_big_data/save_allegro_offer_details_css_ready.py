@@ -68,19 +68,19 @@ def get_details(_data):
     return ''
 
 # Create a json file to store the offers data
-with open('stored_offers_data_css.json', 'w') as data_file:
+with open('stored_offers_data_css.json', 'w', encoding="utf-8") as data_file:
     offers = os.listdir('offers')
     for offer in offers:
         # Print offer file name
         print(offer)
         # Save offers title to json's file
-        json.dump(offer, data_file, indent=4)
+        json.dump(offer, data_file, indent=4, ensure_ascii=False)
         # Load an offer file data from offer catalog
         data = load_offer(offer)
         # Print searched data of the corresponding offer
         print(get_details(data))
         # Save offers details to json's file
-        json.dump(offers_data, data_file, indent=4)
+        json.dump(offers_data, data_file, indent=4, ensure_ascii=False)
 
 ''' Total size of html files: 26 MB
     Total size of json file:  34 KB
