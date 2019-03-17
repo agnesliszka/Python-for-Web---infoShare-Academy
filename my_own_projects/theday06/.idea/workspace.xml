@@ -14,14 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="get_allegro_details_basic.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="get_allegro_details_basic.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/1.BeautifulSoup_scrapper_allegro/get_allegro_details_basic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="17">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -29,11 +26,8 @@
       <file leaf-file-name="get_otomoto_details_css_basic.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2.otomoto_parsel_css_&amp;_xpath/get_otomoto_details_css_basic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="935">
-              <caret line="56" column="75" selection-start-line="56" selection-start-column="75" selection-end-line="56" selection-end-column="75" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="17">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -41,11 +35,8 @@
       <file leaf-file-name="get_otomoto_details_css_ready.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2.otomoto_parsel_css_&amp;_xpath/get_otomoto_details_css_ready.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="52" column="22" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -53,11 +44,8 @@
       <file leaf-file-name="get_otomoto_details_xpath_basic.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2.otomoto_parsel_css_&amp;_xpath/get_otomoto_details_xpath_basic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="17">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -65,22 +53,19 @@
       <file leaf-file-name="get_otomoto_details_xpath_ready.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2.otomoto_parsel_css_&amp;_xpath/get_otomoto_details_xpath_ready.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1241">
-              <caret line="75" column="126" selection-start-line="75" selection-start-column="126" selection-end-line="75" selection-end-column="126" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="beautiful_soup_example.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="beautiful_soup_example.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/3.allegro_parsel_css_&amp;_xpath/beautiful_soup_example.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+            <state relative-caret-position="85">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
               <folding>
-                <element signature="e#0#29#0" expanded="true" />
+                <element signature="e#1#10#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -89,7 +74,7 @@
       <file leaf-file-name="parsel_allegro_css_chrome_example_ready.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/3.allegro_parsel_css_&amp;_xpath/parsel_allegro_css_chrome_example_ready.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="187">
               <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="e#20#47#0" expanded="true" />
@@ -101,8 +86,11 @@
       <file leaf-file-name="parsel_allegro_css_mozilla_example_ready.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/3.allegro_parsel_css_&amp;_xpath/parsel_allegro_css_mozilla_example_ready.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
+            <state relative-caret-position="238">
               <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+              <folding>
+                <element signature="e#20#47#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,8 +98,11 @@
       <file leaf-file-name="parsel_allegro_xpath_example_ready.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/3.allegro_parsel_css_&amp;_xpath/parsel_allegro_xpath_example_ready.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
+            <state relative-caret-position="85">
               <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="e#20#47#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -119,8 +110,8 @@
       <file leaf-file-name="get_allegro_details_ready.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1.BeautifulSoup_scrapper_allegro/get_allegro_details_ready.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+            <state relative-caret-position="68">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -138,16 +129,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/1.BeautifulSoup_scrapper_allegro/get_allegro_details_basic.py" />
-        <option value="$PROJECT_DIR$/2.otomoto_parsel_css_&amp;_xpath/get_otomoto_details_css_ready.py" />
-        <option value="$PROJECT_DIR$/1.BeautifulSoup_scrapper_allegro/get_allegro_details_ready.py" />
-        <option value="$PROJECT_DIR$/2.otomoto_parsel_css_&amp;_xpath/get_otomoto_details_xpath_ready.py" />
-        <option value="$PROJECT_DIR$/2.otomoto_parsel_css_&amp;_xpath/get_otomoto_details_css_basic.py" />
-        <option value="$PROJECT_DIR$/2.otomoto_parsel_css_&amp;_xpath/get_otomoto_details_xpath_basic.py" />
-        <option value="$PROJECT_DIR$/3.allegro_parsel_css_&amp;_xpath/beautiful_soup_example.py" />
         <option value="$PROJECT_DIR$/3.allegro_parsel_css_&amp;_xpath/parsel_allegro_css_chrome_example_ready.py" />
         <option value="$PROJECT_DIR$/3.allegro_parsel_css_&amp;_xpath/parsel_allegro_css_mozilla_example_ready.py" />
         <option value="$PROJECT_DIR$/3.allegro_parsel_css_&amp;_xpath/parsel_allegro_xpath_example_ready.py" />
+        <option value="$PROJECT_DIR$/1.BeautifulSoup_scrapper_allegro/get_allegro_details_basic.py" />
+        <option value="$PROJECT_DIR$/1.BeautifulSoup_scrapper_allegro/get_allegro_details_ready.py" />
+        <option value="$PROJECT_DIR$/2.otomoto_parsel_css_&amp;_xpath/get_otomoto_details_css_basic.py" />
+        <option value="$PROJECT_DIR$/2.otomoto_parsel_css_&amp;_xpath/get_otomoto_details_css_ready.py" />
+        <option value="$PROJECT_DIR$/2.otomoto_parsel_css_&amp;_xpath/get_otomoto_details_xpath_basic.py" />
+        <option value="$PROJECT_DIR$/2.otomoto_parsel_css_&amp;_xpath/get_otomoto_details_xpath_ready.py" />
+        <option value="$PROJECT_DIR$/3.allegro_parsel_css_&amp;_xpath/beautiful_soup_example.py" />
       </list>
     </option>
   </component>
@@ -171,7 +162,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -198,11 +188,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Day04" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.vagrant" />
@@ -267,6 +258,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -306,13 +298,20 @@
     <option name="SHOW_UNVERSIONED_FILES_WHILE_COMMIT" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/3.allegro_parsel_css_&amp;_xpath/beautiful_soup_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+          <folding>
+            <element signature="e#1#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/1.BeautifulSoup_scrapper_allegro/get_allegro_details_basic.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -320,9 +319,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="952">
           <caret line="56" column="75" selection-start-line="56" selection-start-column="75" selection-end-line="56" selection-end-column="75" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -330,9 +326,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -340,9 +333,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1275">
           <caret line="75" column="126" selection-start-line="75" selection-start-column="126" selection-end-line="75" selection-end-column="126" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -351,7 +341,7 @@
         <state relative-caret-position="34">
           <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#1#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -394,9 +384,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="884">
           <caret line="52" column="22" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -404,9 +391,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -414,9 +398,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="935">
           <caret line="56" column="75" selection-start-line="56" selection-start-column="75" selection-end-line="56" selection-end-column="75" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -424,9 +405,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1275">
           <caret line="77" column="26" selection-start-line="77" selection-start-column="26" selection-end-line="77" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -434,9 +412,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -444,9 +419,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1241">
           <caret line="75" column="126" selection-start-line="75" selection-start-column="126" selection-end-line="75" selection-end-column="126" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -455,7 +427,7 @@
         <state relative-caret-position="34">
           <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#1#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -498,9 +470,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -508,9 +477,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="952">
           <caret line="56" column="75" selection-start-line="56" selection-start-column="75" selection-end-line="56" selection-end-column="75" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -518,9 +484,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1309">
           <caret line="77" column="26" selection-start-line="77" selection-start-column="26" selection-end-line="77" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -528,9 +491,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -538,9 +498,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1275">
           <caret line="75" column="126" selection-start-line="75" selection-start-column="126" selection-end-line="75" selection-end-column="126" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -549,7 +506,7 @@
         <state relative-caret-position="34">
           <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#1#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -592,9 +549,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -602,9 +556,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="952">
           <caret line="56" column="75" selection-start-line="56" selection-start-column="75" selection-end-line="56" selection-end-column="75" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -612,9 +563,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1309">
           <caret line="77" column="26" lean-forward="true" selection-start-line="77" selection-start-column="26" selection-end-line="77" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -622,9 +570,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -632,9 +577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1241">
           <caret line="75" column="126" selection-start-line="75" selection-start-column="126" selection-end-line="75" selection-end-column="126" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -643,7 +585,7 @@
         <state relative-caret-position="34">
           <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#1#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -682,10 +624,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1.BeautifulSoup_scrapper_allegro/get_allegro_details_ready.py">
+    <entry file="file://$PROJECT_DIR$/3.allegro_parsel_css_&amp;_xpath/parsel_allegro_css_chrome_example_ready.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#20#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.allegro_parsel_css_&amp;_xpath/parsel_allegro_css_mozilla_example_ready.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+          <folding>
+            <element signature="e#20#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.allegro_parsel_css_&amp;_xpath/parsel_allegro_xpath_example_ready.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#20#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.allegro_parsel_css_&amp;_xpath/beautiful_soup_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#1#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.otomoto_parsel_css_&amp;_xpath/get_otomoto_details_xpath_ready.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.otomoto_parsel_css_&amp;_xpath/get_otomoto_details_xpath_basic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.otomoto_parsel_css_&amp;_xpath/get_otomoto_details_css_ready.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.otomoto_parsel_css_&amp;_xpath/get_otomoto_details_css_basic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.BeautifulSoup_scrapper_allegro/get_allegro_details_ready.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
@@ -694,85 +704,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/1.BeautifulSoup_scrapper_allegro/get_allegro_details_basic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.otomoto_parsel_css_&amp;_xpath/get_otomoto_details_xpath_basic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.otomoto_parsel_css_&amp;_xpath/get_otomoto_details_xpath_ready.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="75" column="126" selection-start-line="75" selection-start-column="126" selection-end-line="75" selection-end-column="126" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3.allegro_parsel_css_&amp;_xpath/parsel_allegro_xpath_example_ready.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3.allegro_parsel_css_&amp;_xpath/parsel_allegro_css_mozilla_example_ready.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3.allegro_parsel_css_&amp;_xpath/parsel_allegro_css_chrome_example_ready.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#20#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.otomoto_parsel_css_&amp;_xpath/get_otomoto_details_css_basic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="56" column="75" selection-start-line="56" selection-start-column="75" selection-end-line="56" selection-end-column="75" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.otomoto_parsel_css_&amp;_xpath/get_otomoto_details_css_ready.py">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="52" column="22" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/3.allegro_parsel_css_&amp;_xpath/beautiful_soup_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
