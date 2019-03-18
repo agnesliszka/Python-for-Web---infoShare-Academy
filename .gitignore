@@ -1,5 +1,6 @@
 # Distribution / packaging
 __pycache__
+*/*/.idea/*
 */.idea/*
 .idea/*
 dist/
