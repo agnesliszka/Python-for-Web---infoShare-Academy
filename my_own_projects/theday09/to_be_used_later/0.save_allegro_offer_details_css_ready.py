@@ -24,7 +24,7 @@ def get_details(_data):
 
     # Get each element of table where searched parameters and their values are stored as a separate list element
     selector = Selector(text=filtered_string)
-    filtered_div_data = selector.css('href::text').getall()
+    filtered_div_data = selector.css('div::text').getall()
 
     # List searched labels
     labels = ["Faktura", "Informacje dodatkowe",

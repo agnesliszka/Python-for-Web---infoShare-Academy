@@ -1,0 +1,17 @@
+0. stworzyc schemat tabeli - done 
+1. pobrac strone, w ktorej sa linki - done
+2. pobrac te linki i zapisac plik jako json -done
+3. pobrac liste linkow z jsona - done
+4. pobrac dane z linkow
+4b zaladowac dane do tabeli
+5. przygotuj metodê wyœwietlaj¹c¹ statystyki:
+	1. ogólna liczba ofert w bazie
+	2. liczba ofert w podziale na modele
+6. przygotuj metodê wyœwietlaj¹c¹ cenê minimaln¹ i maksymaln¹, najmniejszy i najwiêkszy
+przebieg dla ka¿dego modelu
+7. wykonaj prost¹ pêtlê realizuj¹c¹:
+	1. wyœwietlenie menu prezentuj¹cego dostêpne metody (ka¿da metoda podpiêta
+pod inny klawisz):
+		1. wyœwietlenie statystyk
+		2. wyœwietlenie wartoœci min/max
+	2. wyjœcie z aplikacji

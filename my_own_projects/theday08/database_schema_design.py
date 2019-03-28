@@ -9,7 +9,7 @@ engine = create_engine('sqlite:///clients_orm.db')
 Base.metadata.create_all(engine)
 Session = sessionmaker(bind=engine)
 
-# Create 'kampanie' database schema
+# Create 'campaign' database schema
 class Campaign(Base):
     # Set a table name
     __tablename__ = 'campaign'
@@ -28,6 +28,7 @@ class Campaign(Base):
     portal = relationship('portal', back_populates='campaign')
     offers = relationship('offers', back_populates='campaign')
 
+# Create 'portal' database schema
 class Portal(Base):
     # Set a table name
     __tablename__ = 'portal'
@@ -41,6 +42,7 @@ class Portal(Base):
     # Creating a relation between tables
     campaign = relationship('campaign', back_populates='portal')
 
+# Create 'offers' database schema
 class Offers(Base):
     # Set a table name
     __tablename__ = 'offers'
@@ -72,5 +74,5 @@ class Offers(Base):
     driving_gear = Column(String)
     number_of_seats = Column(String)
 
-    # Creating a relation between tables
+    # Create a relation between tables
     campaign = relationship('campaign', back_populates='offers')
