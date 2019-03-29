@@ -2,42 +2,35 @@
 from sqlalchemy import Column, Integer, String, ForeignKey
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import relationship
-from sqlalchemy import create_engine
-from sqlalchemy.orm import sessionmaker
+
 
 Base = declarative_base()
 
-# Create engine
-# Indicate where to create a database
-engine = create_engine('sqlite:///clients_orm.db')
-# Create a structure
-Base.metadata.create_all(engine)
-# Create session object
-Session = sessionmaker(bind=engine)
 
 # Create 'campaign' database schema
 class Campaign(Base):
     # Set a table name
-    __tablename__ = 'campaign'
+    __tablename__ = 'campaigns'
 
     # Primary key
     id = Column(Integer, primary_key=True)
 
     # Foreign key
-    portal_id = Column(Integer, ForeignKey('portal.id'))
+    portal_id = Column(Integer, ForeignKey('portals.id'))
 
     # Additional columns
     date = Column(String)
     api_type = Column(String)
 
     # Creating a relation between tables
-    portal = relationship('portal', back_populates='campaign')
-    offers = relationship('offers', back_populates='campaign')
+    portals = relationship('Portal', back_populates='campaigns')
+    offers = relationship('Offer', back_populates='campaigns')
+
 
 # Create 'portal' database schema
 class Portal(Base):
     # Set a table name
-    __tablename__ = 'portal'
+    __tablename__ = 'portals'
 
     # Primary key
     id = Column(Integer, primary_key=True)
@@ -46,10 +39,11 @@ class Portal(Base):
     name = Column(String)
 
     # Creating a relation between tables
-    campaign = relationship('campaign', back_populates='portal')
+    campaigns = relationship('Campaign', back_populates='portals')
+
 
 # Create 'offers' database schema
-class Offers(Base):
+class Offer(Base):
     # Set a table name
     __tablename__ = 'offers'
 
@@ -57,7 +51,7 @@ class Offers(Base):
     id = Column(Integer, primary_key=True)
 
     # Foreign key
-    campaign_id = Column(Integer, ForeignKey('campaign.id'))
+    campaign_id = Column(Integer, ForeignKey('campaigns.id'))
 
     # Additional columns
     offer_id = Column(String)
@@ -81,4 +75,4 @@ class Offers(Base):
     number_of_seats = Column(String)
 
     # Create a relation between tables
-    campaign = relationship('campaign', back_populates='offers')
+    campaigns = relationship('Campaign', back_populates='offers')

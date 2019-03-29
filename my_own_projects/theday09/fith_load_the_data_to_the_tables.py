@@ -1,6 +1,6 @@
-
 # Project imports
-from first_database_schema_design import Session, Campaign, Portal, Offers
+from second_db_engine import Session
+from first_database_schema_design import Campaign, Portal, Offer
 
 session = Session()
 
