@@ -1,9 +1,10 @@
 0. stworzyc schemat tabeli - done 
 1. pobrac html ze strony, w ktorej sa linki do ofert - done
-2. pobrac te linki i zapisac plik jako json -done
+2. pobrac te linki i zapisac plik jako json - done
 3. pobrac liste linkow z jsona - done
-4. pobrac dane z linkow
-4b. zaladowac dane do tabeli
+4a. pobrac linki jako html
+4b. pobrac dane z linkow
+4c. zaladowac dane do tabeli
 5. przygotuj metodê wyœwietlaj¹c¹ statystyki:
 	1. ogólna liczba ofert w bazie
 	2. liczba ofert w podziale na modele

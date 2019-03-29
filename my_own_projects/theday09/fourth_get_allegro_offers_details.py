@@ -84,6 +84,3 @@ with open('stored_offers_data_css.json', 'w', encoding="utf-8") as data_file:
         # Save offers details to json's file
         json.dump(offers_data, data_file, indent=4, ensure_ascii=False)
 
-''' Total size of html files: 26 MB
-    Total size of json file:  34 KB
-'''
