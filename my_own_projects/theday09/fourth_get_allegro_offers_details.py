@@ -6,7 +6,6 @@ import json
 from bs4 import BeautifulSoup
 from parsel import Selector
 
-
 offers_data = {}
 
 # Function to load an offer file data from offer catalog
@@ -62,7 +61,7 @@ def get_details(_data):
         offers_data['Nazwa firmy'] = i, len(filtered), '--'
 
     # Search for location
-    filtered = soup.find(attrs={'data-analytics-interaction-value': "LocationShow"})
+    filtered = soup.find(attrs={'data-analytics-interaction-value': "locationShow"})
     for i in filtered:
         print("Lokalizacja : "+i, '---', len(filtered), '+++')
         offers_data['Lokalizacja'] = i, '---', len(filtered), '+++'

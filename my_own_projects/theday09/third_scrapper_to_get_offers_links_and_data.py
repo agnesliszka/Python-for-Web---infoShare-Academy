@@ -24,16 +24,11 @@ with open('stored_links.json', 'w', encoding="utf-8") as stored_links:
 with open('stored_links.json', 'r') as data_file:
     data = json.load(data_file)
     for item in data:
+        print(item)
         i=data.index(item)+1
         # Get offers html data and save each offer data as separate file
         url = item
         response = requests.get(url)
         content = response.text
-        # Create a json file to store the page data
-        with open(f'offers/offer_{i}.json', 'w', encoding="utf-8") as offer_data:
-            # Save offers links to json's file
-            json.dump(content, offer_data, indent=4, ensure_ascii=False)
-        print(item)
-
-
-
+        with open(f'offers/offer_{i}.html', 'w', encoding='utf-8') as output_data:
+            output_data.write(content)
