@@ -3,7 +3,7 @@
 2. pobrac te linki i zapisac plik jako json - done
 3. pobrac liste linkow z jsona - done
 4a. pobrac linki jako html - done
-4b. pobrac dane z linkow - odpowiednie dane 
+4b. pobrac dane z linkow - odpowiednie dane - done
 4c. zaladowac dane do tabeli
 5. przygotuj metodê wyœwietlaj¹c¹ statystyki:
 	1. ogólna liczba ofert w bazie

@@ -1,4 +1,4 @@
-"offer_1.html"{
+{
     "ID oferty": "7891447148",
     "ID sprzedajacego": "ArletUncia",
     "Lokalizacja": "Zielona Góra, woj. lubuskie",
@@ -16,7 +16,7 @@
     "Faktura": "Wystawiam fakturę VAT",
     "Napęd": "4x4",
     "Liczba miejsc": "2"
-}"offer_10.html"{
+}{
     "ID oferty": "7928932784",
     "ID sprzedajacego": "Autoryzowany dealer marki Porsche",
     "Lokalizacja": "Warszawa, woj. mazowieckie",
@@ -35,7 +35,7 @@
     "Napęd": "4x4",
     "Liczba miejsc": "4",
     "Informacje dodatkowe": "Bezwypadkowy, Serwisowany w ASO, Zarejestrowany w Polsce"
-}"offer_11.html"{
+}{
     "ID oferty": "7928933104",
     "ID sprzedajacego": "Autoryzowany dealer marki Porsche",
     "Lokalizacja": "Warszawa, woj. mazowieckie",
@@ -54,7 +54,7 @@
     "Napęd": "Na tylne koła",
     "Liczba miejsc": "4",
     "Informacje dodatkowe": "Bezwypadkowy, Pierwszy właściciel, Serwisowany w ASO, Zarejestrowany w Polsce"
-}"offer_12.html"{
+}{
     "ID oferty": "7929913567",
     "ID sprzedajacego": "Autoryzowany dealer marki Porsche",
     "Lokalizacja": "Poznań, woj. wielkopolskie",
@@ -73,7 +73,7 @@
     "Napęd": "4x4",
     "Liczba miejsc": "4",
     "Informacje dodatkowe": "Bezwypadkowy, Serwisowany w ASO, Zarejestrowany w Polsce"
-}"offer_13.html"{
+}{
     "ID oferty": "7818132380",
     "ID sprzedajacego": "gregorwos",
     "Lokalizacja": "wroclaw, woj. dolnośląskie",
@@ -93,7 +93,7 @@
     "Liczba miejsc": "4",
     "Informacje dodatkowe": "Bezwypadkowy, Dodatkowy komplet opon, Pierwszy właściciel, Serwisowany w ASO, Zarejestrowany w Polsce",
     "Kraj pochodzenia": "Niemcy"
-}"offer_14.html"{
+}{
     "ID oferty": "7934906453",
     "ID sprzedajacego": "Autoryzowany dealer marki Porsche",
     "Lokalizacja": "Warszawa, woj. mazowieckie",
@@ -113,7 +113,7 @@
     "Liczba miejsc": "4",
     "Informacje dodatkowe": "Serwisowany w ASO, Zarejestrowany w Polsce",
     "Kraj pochodzenia": "Niemcy"
-}"offer_15.html"{
+}{
     "ID oferty": "7928933077",
     "ID sprzedajacego": "Autoryzowany dealer marki Porsche",
     "Lokalizacja": "Warszawa, woj. mazowieckie",
@@ -133,7 +133,7 @@
     "Liczba miejsc": "4",
     "Informacje dodatkowe": "Bezwypadkowy, Pierwszy właściciel, Serwisowany w ASO, Zarejestrowany w Polsce",
     "Kraj pochodzenia": "Niemcy"
-}"offer_16.html"{
+}{
     "ID oferty": "7929913636",
     "ID sprzedajacego": "Autoryzowany dealer marki Porsche",
     "Lokalizacja": "Poznań, woj. wielkopolskie",
@@ -153,7 +153,7 @@
     "Liczba miejsc": "4",
     "Informacje dodatkowe": "Zarejestrowany w Polsce",
     "Kraj pochodzenia": "Niemcy"
-}"offer_17.html"{
+}{
     "ID oferty": "7929913505",
     "ID sprzedajacego": "Autoryzowany dealer marki Porsche",
     "Lokalizacja": "Poznań, woj. wielkopolskie",
@@ -173,7 +173,7 @@
     "Liczba miejsc": "4",
     "Informacje dodatkowe": "Bezwypadkowy, Pierwszy właściciel, Serwisowany w ASO, Zarejestrowany w Polsce",
     "Kraj pochodzenia": "Niemcy"
-}"offer_18.html"{
+}{
     "ID oferty": "7938270897",
     "ID sprzedajacego": "Autoryzowany dealer marki Porsche",
     "Lokalizacja": "Warszawa, woj. mazowieckie",
@@ -193,7 +193,7 @@
     "Liczba miejsc": "4",
     "Informacje dodatkowe": "Pierwszy właściciel, Serwisowany w ASO, Zarejestrowany w Polsce",
     "Kraj pochodzenia": "Niemcy"
-}"offer_19.html"{
+}{
     "ID oferty": "7875560117",
     "ID sprzedajacego": "Ukleja Zawady autoryzowany dealer marki Lexus Poznań",
     "Lokalizacja": "Poznań, woj. wielkopolskie",
@@ -213,7 +213,7 @@
     "Liczba miejsc": "4",
     "Informacje dodatkowe": "Zarejestrowany w Polsce",
     "Kraj pochodzenia": "Inny"
-}"offer_2.html"{
+}{
     "ID oferty": "7928932886",
     "ID sprzedajacego": "Autoryzowany dealer marki Porsche",
     "Lokalizacja": "Warszawa, woj. mazowieckie",
@@ -233,7 +233,7 @@
     "Liczba miejsc": "2",
     "Informacje dodatkowe": "Bezwypadkowy, Pierwszy właściciel, Serwisowany w ASO, Zarejestrowany w Polsce",
     "Kraj pochodzenia": "Inny"
-}"offer_20.html"{
+}{
     "ID oferty": "7856692282",
     "ID sprzedajacego": "ErbeWerk_com",
     "Lokalizacja": "Żory, woj. śląskie",
@@ -253,7 +253,7 @@
     "Liczba miejsc": "4",
     "Informacje dodatkowe": "Bezwypadkowy, Pierwszy właściciel, Serwisowany w ASO, Zarejestrowany w Polsce",
     "Kraj pochodzenia": "Inny"
-}"offer_21.html"{
+}{
     "ID oferty": "7826111020",
     "ID sprzedajacego": "GrandAutoSalon",
     "Lokalizacja": "Kolbudy, woj. pomorskie",
@@ -273,7 +273,7 @@
     "Liczba miejsc": "4",
     "Informacje dodatkowe": "Bezwypadkowy, Serwisowany w ASO, Zarejestrowany w Polsce",
     "Kraj pochodzenia": "Polska"
-}"offer_22.html"{
+}{
     "ID oferty": "7531877976",
     "ID sprzedajacego": "GrandAutoSalon",
     "Lokalizacja": "Kolbudy, woj. pomorskie",
@@ -293,7 +293,7 @@
     "Liczba miejsc": "4",
     "Informacje dodatkowe": "Bezwypadkowy, Pierwszy właściciel, Serwisowany w ASO, Zarejestrowany w Polsce",
     "Kraj pochodzenia": "Polska"
-}"offer_23.html"{
+}{
     "ID oferty": "7701087415",
     "ID sprzedajacego": "killmar",
     "Lokalizacja": "Warszawa, woj. mazowieckie",
@@ -313,7 +313,7 @@
     "Liczba miejsc": "4",
     "Informacje dodatkowe": "Bezwypadkowy, Pierwszy właściciel, Serwisowany w ASO, Tuning, Zarejestrowany w Polsce",
     "Kraj pochodzenia": "Polska"
-}"offer_24.html"{
+}{
     "ID oferty": "7411976490",
     "ID sprzedajacego": "auto-teka",
     "Lokalizacja": "Gdynia, woj. pomorskie",
@@ -333,7 +333,7 @@
     "Liczba miejsc": "2",
     "Informacje dodatkowe": "Bezwypadkowy, Serwisowany w ASO, Zarejestrowany w Polsce",
     "Kraj pochodzenia": "Polska"
-}"offer_25.html"{
+}{
     "ID oferty": "7088017627",
     "ID sprzedajacego": "ClassicExpert",
     "Lokalizacja": "Warszawa, woj. mazowieckie",
@@ -353,7 +353,7 @@
     "Liczba miejsc": "4",
     "Informacje dodatkowe": "Zarejestrowany w Polsce",
     "Kraj pochodzenia": "Stany Zjednoczone"
-}"offer_26.html"{
+}{
     "ID oferty": "7935189299",
     "ID sprzedajacego": "BMWPremiumArena",
     "Lokalizacja": "Łódź, woj. łódzkie",
@@ -373,7 +373,7 @@
     "Liczba miejsc": "4",
     "Informacje dodatkowe": "Bezwypadkowy, Zarejestrowany w Polsce, Serwisowany w ASO",
     "Kraj pochodzenia": "Polska"
-}"offer_27.html"{
+}{
     "ID oferty": "7937448185",
     "ID sprzedajacego": "factory-auto",
     "Lokalizacja": "Warszawa, woj. mazowieckie",
@@ -393,7 +393,7 @@
     "Liczba miejsc": "4",
     "Informacje dodatkowe": "Bezwypadkowy, Pierwszy właściciel, Serwisowany w ASO, Zarejestrowany w Polsce",
     "Kraj pochodzenia": "Niemcy"
-}"offer_28.html"{
+}{
     "ID oferty": "7656992665",
     "ID sprzedajacego": "factory-auto",
     "Lokalizacja": "Warszawa, woj. mazowieckie",
@@ -413,7 +413,7 @@
     "Liczba miejsc": "4",
     "Informacje dodatkowe": "Bezwypadkowy, Zarejestrowany w Polsce, Serwisowany w ASO, Pierwszy właściciel",
     "Kraj pochodzenia": "Niemcy"
-}"offer_29.html"{
+}{
     "ID oferty": "7656992665",
     "ID sprzedajacego": "factory-auto",
     "Lokalizacja": "Warszawa, woj. mazowieckie",
@@ -433,7 +433,7 @@
     "Liczba miejsc": "4",
     "Informacje dodatkowe": "Bezwypadkowy, Zarejestrowany w Polsce, Serwisowany w ASO, Pierwszy właściciel",
     "Kraj pochodzenia": "Niemcy"
-}"offer_3.html"{
+}{
     "ID oferty": "7888223098",
     "ID sprzedajacego": "lajfer",
     "Lokalizacja": "poznań, woj. wielkopolskie",
@@ -453,7 +453,7 @@
     "Liczba miejsc": "4",
     "Informacje dodatkowe": "Bezwypadkowy, Serwisowany w ASO",
     "Kraj pochodzenia": "Niemcy"
-}"offer_4.html"{
+}{
     "ID oferty": "7928932906",
     "ID sprzedajacego": "Autoryzowany dealer marki Porsche",
     "Lokalizacja": "Warszawa, woj. mazowieckie",
@@ -473,7 +473,7 @@
     "Liczba miejsc": "4",
     "Informacje dodatkowe": "Serwisowany w ASO, Zarejestrowany w Polsce",
     "Kraj pochodzenia": "Niemcy"
-}"offer_5.html"{
+}{
     "ID oferty": "7929843583",
     "ID sprzedajacego": "mrcichy1976",
     "Lokalizacja": "Blok Dobryszyce, woj. łódzkie",
@@ -493,7 +493,7 @@
     "Liczba miejsc": "4",
     "Informacje dodatkowe": "Pierwszy właściciel, Bezwypadkowy, Zarejestrowany w Polsce, Serwisowany w ASO",
     "Kraj pochodzenia": "Polska"
-}"offer_6.html"{
+}{
     "ID oferty": "7939750702",
     "ID sprzedajacego": "Autoryzowany dealer marki Porsche",
     "Lokalizacja": "Warszawa, woj. mazowieckie",
@@ -513,7 +513,7 @@
     "Liczba miejsc": "4",
     "Informacje dodatkowe": "Bezwypadkowy, Pierwszy właściciel, Serwisowany w ASO, Zarejestrowany w Polsce",
     "Kraj pochodzenia": "Polska"
-}"offer_7.html"{
+}{
     "ID oferty": "7928932757",
     "ID sprzedajacego": "Autoryzowany dealer marki Porsche",
     "Lokalizacja": "Warszawa, woj. mazowieckie",
@@ -533,7 +533,7 @@
     "Liczba miejsc": "2",
     "Informacje dodatkowe": "Bezwypadkowy, Pierwszy właściciel, Serwisowany w ASO, Zarejestrowany w Polsce",
     "Kraj pochodzenia": "Polska"
-}"offer_8.html"{
+}{
     "ID oferty": "7928932945",
     "ID sprzedajacego": "Autoryzowany dealer marki Porsche",
     "Lokalizacja": "Warszawa, woj. mazowieckie",
@@ -553,7 +553,7 @@
     "Liczba miejsc": "2",
     "Informacje dodatkowe": "Bezwypadkowy, Pierwszy właściciel, Serwisowany w ASO, Zarejestrowany w Polsce",
     "Kraj pochodzenia": "Polska"
-}"offer_9.html"{
+}{
     "ID oferty": "7882095989",
     "ID sprzedajacego": "YanosikMoto",
     "Lokalizacja": "Gdańsk , woj. pomorskie",
