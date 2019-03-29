@@ -1,9 +1,11 @@
-
+# Standard library imports
 import os
 import json
 
+# 3rd party imports
 from bs4 import BeautifulSoup
 from parsel import Selector
+
 
 offers_data = {}
 

@@ -6,13 +6,6 @@ import requests
 from parsel import Selector
 
 
-# Function to load offer data from file
-def load_offer(offer):
-    file_name = os.path.join('data', offer)
-    with open(file_name, 'r', encoding='utf-8') as _file_in:
-        data = _file_in.read()
-    return data
-
 # Get page from url
 url = 'https://allegro.pl/kategoria/porsche-911-14667?order=m&bmatch=baseline-n-ann-1-2-0131'
 response = requests.get(url)
