@@ -5,9 +5,6 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
 Base = declarative_base()
-engine = create_engine('sqlite:///clients_orm.db')
-Base.metadata.create_all(engine)
-Session = sessionmaker(bind=engine)
 
 # Create 'campaign' database schema
 class Campaign(Base):
@@ -76,3 +73,8 @@ class Offers(Base):
 
     # Create a relation between tables
     campaign = relationship('campaign', back_populates='offers')
+
+# Create database setup
+engine = create_engine('sqlite:///clients_orm.db')
+Base.metadata.create_all(engine)
+Session = sessionmaker(bind=engine)

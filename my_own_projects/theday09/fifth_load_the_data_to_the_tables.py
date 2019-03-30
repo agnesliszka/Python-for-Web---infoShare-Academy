@@ -36,9 +36,11 @@ with open('stored_offers_data.json', 'r', encoding="utf-8") as data_file:
     #         print(key, value)
 
         # To be thought over:
-        # offer[i] = Offer(offer_id = , seller_id = , location = , title = , price = , brand = , model = ,
+        # offer = Offer(offer_id = , seller_id = , location = , title = , price = , brand = , model = ,
         # production_year = , course = , capacity = , power = , fuel_type = , colour = , damaged = ,
         # country = , driving_gear = , number_of_seats = )
+        # session.add(offer)
+        # session.commit()
 
 
 # Check database status
