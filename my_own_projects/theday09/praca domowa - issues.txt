@@ -1,0 +1,2 @@
+liczba ofert w podziale na modele (sixth_statistics): 
+1) mam QUERY_MAP, moge "wyciagnac ilosc modeli kazdego typu (count_models_of cars) i rodzaje tych modeli (models_of_cars) - jak teraz to przelozyc na zapisanie liczby ofert w podziale na modele
