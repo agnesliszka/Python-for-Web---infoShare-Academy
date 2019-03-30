@@ -4,7 +4,10 @@
 3. pobrac liste linkow z jsona - done
 4a. pobrac linki jako html - done
 4b. pobrac dane z linkow - odpowiednie dane - done
-4c. zaladowac dane do tabeli
+4c. zaladowac dane do bazy
+	1) wyciagnac dane z jsona
+	2) przeiterowac sie po slowniku i wyciagnac dane key i value dla poszczegolnych 	   ofert 
+	3) zaladowac dane do bazy offers
 5. przygotuj metodê wyœwietlaj¹c¹ statystyki:
 	1. ogólna liczba ofert w bazie
 	2. liczba ofert w podziale na modele

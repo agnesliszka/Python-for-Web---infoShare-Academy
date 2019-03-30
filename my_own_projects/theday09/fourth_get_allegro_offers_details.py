@@ -1,6 +1,5 @@
 # Standard library imports
 import os
-import re
 import json
 
 # 3rd party imports
@@ -100,7 +99,7 @@ with open('stored_offers_data.json', 'w', encoding="utf-8") as data_file:
         # Print offer file name
         print(offer)
         # # Save offers title to json's file
-        # json.dump(offer, data_file, indent=4, ensure_ascii=False)
+        json.dump(offer, data_file, indent=4, ensure_ascii=False)
         # Load an offer file data from offer catalog
         data = load_offer(offer)
         # Print searched data of the corresponding offer
