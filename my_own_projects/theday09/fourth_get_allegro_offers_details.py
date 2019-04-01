@@ -30,9 +30,12 @@ def get_details(_data):
     filtered_div_data = selector.css('div::text').getall()
 
     # List searched labels
+    # labels = ["Rok produkcji", "Przebieg", "Pojemność silnika", "Moc", "Rodzaj paliwa",
+    #           "Kolor", "Uszkodzony", "Faktura", "Informacje dodatkowe", "Kraj pochodzenia",
+    #           "Napęd", "Liczba miejsc"]
+
     labels = ["Rok produkcji", "Przebieg", "Pojemność silnika", "Moc", "Rodzaj paliwa",
-              "Kolor", "Uszkodzony", "Faktura", "Informacje dodatkowe", "Kraj pochodzenia",
-              "Napęd", "Liczba miejsc"]
+              "Kolor", "Uszkodzony", "Kraj pochodzenia", "Napęd", "Liczba miejsc"]
 
     # Loop for searched data (listed as labels)
     for element in filtered:
@@ -90,7 +93,10 @@ def get_details(_data):
                 print(label, ':', anchor.find_next_sibling("div").text)
                 offers_data[label] = anchor.find_next_sibling("div").text
             else:
-                continue
+                offers_data[label] = 'none' #why it does not work?
+                # continue
+
+        print('')
 
     return ''
 

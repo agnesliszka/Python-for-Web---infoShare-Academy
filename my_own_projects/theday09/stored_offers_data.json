@@ -14,7 +14,7 @@
         "Rodzaj paliwa": "Benzyna",
         "Kolor": "inny",
         "Uszkodzony": "Nie",
-        "Faktura": "Wystawiam fakturę VAT",
+        "Kraj pochodzenia": "none",
         "Napęd": "4x4",
         "Liczba miejsc": "2"
     },
@@ -32,8 +32,8 @@
         "Moc": "530 KM",
         "Rodzaj paliwa": "Benzyna",
         "Kolor": "Szary",
-        "Faktura": "Wystawiam fakturę VAT-marża",
-        "Informacje dodatkowe": "Bezwypadkowy, Serwisowany w ASO, Zarejestrowany w Polsce",
+        "Uszkodzony": "none",
+        "Kraj pochodzenia": "none",
         "Napęd": "4x4",
         "Liczba miejsc": "4"
     },
@@ -51,8 +51,8 @@
         "Moc": "450 KM",
         "Rodzaj paliwa": "Benzyna",
         "Kolor": "inny",
-        "Faktura": "Wystawiam fakturę VAT",
-        "Informacje dodatkowe": "Bezwypadkowy, Pierwszy właściciel, Serwisowany w ASO, Zarejestrowany w Polsce",
+        "Uszkodzony": "none",
+        "Kraj pochodzenia": "none",
         "Napęd": "Na tylne koła",
         "Liczba miejsc": "4"
     },
@@ -70,8 +70,8 @@
         "Moc": "560 KM",
         "Rodzaj paliwa": "Benzyna",
         "Kolor": "Biały",
-        "Faktura": "Wystawiam fakturę VAT",
-        "Informacje dodatkowe": "Bezwypadkowy, Serwisowany w ASO, Zarejestrowany w Polsce",
+        "Uszkodzony": "none",
+        "Kraj pochodzenia": "none",
         "Napęd": "4x4",
         "Liczba miejsc": "4"
     },
@@ -90,8 +90,6 @@
         "Rodzaj paliwa": "Benzyna",
         "Kolor": "Czarny",
         "Uszkodzony": "Nie",
-        "Faktura": "Wystawiam fakturę VAT-marża",
-        "Informacje dodatkowe": "Bezwypadkowy, Dodatkowy komplet opon, Pierwszy właściciel, Serwisowany w ASO, Zarejestrowany w Polsce",
         "Kraj pochodzenia": "Niemcy",
         "Napęd": "Na tylne koła",
         "Liczba miejsc": "4"
@@ -110,8 +108,8 @@
         "Moc": "285 KM",
         "Rodzaj paliwa": "Benzyna",
         "Kolor": "Fioletowy",
-        "Faktura": "Wystawiam fakturę VAT",
-        "Informacje dodatkowe": "Serwisowany w ASO, Zarejestrowany w Polsce",
+        "Uszkodzony": "none",
+        "Kraj pochodzenia": "none",
         "Napęd": "Na tylne koła",
         "Liczba miejsc": "4"
     },
@@ -129,8 +127,8 @@
         "Moc": "420 KM",
         "Rodzaj paliwa": "Benzyna",
         "Kolor": "Szary",
-        "Faktura": "Wystawiam fakturę VAT",
-        "Informacje dodatkowe": "Bezwypadkowy, Pierwszy właściciel, Serwisowany w ASO, Zarejestrowany w Polsce",
+        "Uszkodzony": "none",
+        "Kraj pochodzenia": "none",
         "Napęd": "Na tylne koła",
         "Liczba miejsc": "4"
     },
@@ -148,8 +146,8 @@
         "Moc": "420 KM",
         "Rodzaj paliwa": "Benzyna",
         "Kolor": "Srebrny",
-        "Faktura": "Wystawiam fakturę VAT-marża",
-        "Informacje dodatkowe": "Zarejestrowany w Polsce",
+        "Uszkodzony": "none",
+        "Kraj pochodzenia": "none",
         "Napęd": "4x4",
         "Liczba miejsc": "4"
     },
@@ -167,8 +165,8 @@
         "Moc": "420 KM",
         "Rodzaj paliwa": "Benzyna",
         "Kolor": "Biały",
-        "Faktura": "Wystawiam fakturę VAT",
-        "Informacje dodatkowe": "Bezwypadkowy, Pierwszy właściciel, Serwisowany w ASO, Zarejestrowany w Polsce",
+        "Uszkodzony": "none",
+        "Kraj pochodzenia": "none",
         "Napęd": "4x4",
         "Liczba miejsc": "4"
     },
@@ -186,8 +184,8 @@
         "Moc": "370 KM",
         "Rodzaj paliwa": "Benzyna",
         "Kolor": "Czarny",
-        "Faktura": "Wystawiam fakturę VAT",
-        "Informacje dodatkowe": "Pierwszy właściciel, Serwisowany w ASO, Zarejestrowany w Polsce",
+        "Uszkodzony": "none",
+        "Kraj pochodzenia": "none",
         "Napęd": "Na tylne koła",
         "Liczba miejsc": "4"
     },
@@ -206,8 +204,6 @@
         "Rodzaj paliwa": "Benzyna",
         "Kolor": "Srebrny",
         "Uszkodzony": "Nie",
-        "Faktura": "Nie wystawiam faktury",
-        "Informacje dodatkowe": "Zarejestrowany w Polsce",
         "Kraj pochodzenia": "Inny",
         "Napęd": "Na tylne koła",
         "Liczba miejsc": "4"
@@ -226,8 +222,8 @@
         "Moc": "700 KM",
         "Rodzaj paliwa": "Benzyna",
         "Kolor": "Czerwony",
-        "Faktura": "Wystawiam fakturę VAT",
-        "Informacje dodatkowe": "Bezwypadkowy, Pierwszy właściciel, Serwisowany w ASO, Zarejestrowany w Polsce",
+        "Uszkodzony": "none",
+        "Kraj pochodzenia": "none",
         "Napęd": "Na tylne koła",
         "Liczba miejsc": "2"
     },
@@ -246,7 +242,7 @@
         "Rodzaj paliwa": "Benzyna",
         "Kolor": "Srebrny",
         "Uszkodzony": "Nie",
-        "Faktura": "Nie wystawiam faktury",
+        "Kraj pochodzenia": "none",
         "Napęd": "4x4",
         "Liczba miejsc": "4"
     },
@@ -265,8 +261,6 @@
         "Rodzaj paliwa": "Benzyna",
         "Kolor": "Czarny",
         "Uszkodzony": "Nie",
-        "Faktura": "Wystawiam fakturę VAT",
-        "Informacje dodatkowe": "Bezwypadkowy, Serwisowany w ASO, Zarejestrowany w Polsce",
         "Kraj pochodzenia": "Polska",
         "Napęd": "4x4",
         "Liczba miejsc": "4"
@@ -286,8 +280,6 @@
         "Rodzaj paliwa": "Benzyna",
         "Kolor": "Biały",
         "Uszkodzony": "Nie",
-        "Faktura": "Wystawiam fakturę VAT",
-        "Informacje dodatkowe": "Bezwypadkowy, Pierwszy właściciel, Serwisowany w ASO, Zarejestrowany w Polsce",
         "Kraj pochodzenia": "Polska",
         "Napęd": "4x4",
         "Liczba miejsc": "4"
@@ -307,8 +299,7 @@
         "Rodzaj paliwa": "Benzyna",
         "Kolor": "Czarny",
         "Uszkodzony": "Nie",
-        "Faktura": "Nie wystawiam faktury",
-        "Informacje dodatkowe": "Bezwypadkowy, Pierwszy właściciel, Serwisowany w ASO, Tuning, Zarejestrowany w Polsce",
+        "Kraj pochodzenia": "none",
         "Napęd": "4x4",
         "Liczba miejsc": "4"
     },
@@ -327,8 +318,7 @@
         "Rodzaj paliwa": "Benzyna",
         "Kolor": "Biały",
         "Uszkodzony": "Nie",
-        "Faktura": "Wystawiam fakturę VAT",
-        "Informacje dodatkowe": "Bezwypadkowy, Serwisowany w ASO, Zarejestrowany w Polsce",
+        "Kraj pochodzenia": "none",
         "Napęd": "Na tylne koła",
         "Liczba miejsc": "2"
     },
@@ -347,8 +337,6 @@
         "Rodzaj paliwa": "Benzyna",
         "Kolor": "Czerwony",
         "Uszkodzony": "Nie",
-        "Faktura": "Nie wystawiam faktury",
-        "Informacje dodatkowe": "Zarejestrowany w Polsce",
         "Kraj pochodzenia": "Stany Zjednoczone",
         "Napęd": "Na tylne koła",
         "Liczba miejsc": "4"
@@ -368,8 +356,6 @@
         "Rodzaj paliwa": "Benzyna",
         "Kolor": "Srebrny",
         "Uszkodzony": "Nie",
-        "Faktura": "Wystawiam fakturę VAT",
-        "Informacje dodatkowe": "Bezwypadkowy, Zarejestrowany w Polsce, Serwisowany w ASO",
         "Kraj pochodzenia": "Polska",
         "Napęd": "4x4",
         "Liczba miejsc": "4"
@@ -388,8 +374,7 @@
         "Moc": "420 KM",
         "Rodzaj paliwa": "Benzyna",
         "Kolor": "Czarny",
-        "Faktura": "Wystawiam fakturę VAT",
-        "Informacje dodatkowe": "Bezwypadkowy, Pierwszy właściciel, Serwisowany w ASO, Zarejestrowany w Polsce",
+        "Uszkodzony": "none",
         "Kraj pochodzenia": "Niemcy",
         "Napęd": "4x4",
         "Liczba miejsc": "4"
@@ -409,8 +394,6 @@
         "Rodzaj paliwa": "Benzyna",
         "Kolor": "Czarny",
         "Uszkodzony": "Nie",
-        "Faktura": "Wystawiam fakturę VAT",
-        "Informacje dodatkowe": "Bezwypadkowy, Zarejestrowany w Polsce, Serwisowany w ASO, Pierwszy właściciel",
         "Kraj pochodzenia": "Niemcy",
         "Napęd": "4x4",
         "Liczba miejsc": "4"
@@ -430,8 +413,6 @@
         "Rodzaj paliwa": "Benzyna",
         "Kolor": "Czarny",
         "Uszkodzony": "Nie",
-        "Faktura": "Wystawiam fakturę VAT",
-        "Informacje dodatkowe": "Bezwypadkowy, Zarejestrowany w Polsce, Serwisowany w ASO, Pierwszy właściciel",
         "Kraj pochodzenia": "Niemcy",
         "Napęd": "4x4",
         "Liczba miejsc": "4"
@@ -451,8 +432,6 @@
         "Rodzaj paliwa": "Benzyna",
         "Kolor": "Czarny",
         "Uszkodzony": "Nie",
-        "Faktura": "Wystawiam fakturę VAT",
-        "Informacje dodatkowe": "Bezwypadkowy, Serwisowany w ASO",
         "Kraj pochodzenia": "Niemcy",
         "Napęd": "4x4",
         "Liczba miejsc": "4"
@@ -471,8 +450,8 @@
         "Moc": "250 KM",
         "Rodzaj paliwa": "Benzyna",
         "Kolor": "Czarny",
-        "Faktura": "Wystawiam fakturę VAT",
-        "Informacje dodatkowe": "Serwisowany w ASO, Zarejestrowany w Polsce",
+        "Uszkodzony": "none",
+        "Kraj pochodzenia": "none",
         "Napęd": "4x4",
         "Liczba miejsc": "4"
     },
@@ -491,8 +470,6 @@
         "Rodzaj paliwa": "Benzyna",
         "Kolor": "Srebrny",
         "Uszkodzony": "Nie",
-        "Faktura": "Wystawiam fakturę VAT",
-        "Informacje dodatkowe": "Pierwszy właściciel, Bezwypadkowy, Zarejestrowany w Polsce, Serwisowany w ASO",
         "Kraj pochodzenia": "Polska",
         "Napęd": "4x4",
         "Liczba miejsc": "4"
@@ -511,8 +488,8 @@
         "Moc": "450 KM",
         "Rodzaj paliwa": "Benzyna",
         "Kolor": "Srebrny",
-        "Faktura": "Wystawiam fakturę VAT",
-        "Informacje dodatkowe": "Bezwypadkowy, Pierwszy właściciel, Serwisowany w ASO, Zarejestrowany w Polsce",
+        "Uszkodzony": "none",
+        "Kraj pochodzenia": "none",
         "Napęd": "4x4",
         "Liczba miejsc": "4"
     },
@@ -530,8 +507,8 @@
         "Moc": "500 KM",
         "Rodzaj paliwa": "Benzyna",
         "Kolor": "Czerwony",
-        "Faktura": "Wystawiam fakturę VAT",
-        "Informacje dodatkowe": "Bezwypadkowy, Pierwszy właściciel, Serwisowany w ASO, Zarejestrowany w Polsce",
+        "Uszkodzony": "none",
+        "Kraj pochodzenia": "none",
         "Napęd": "Na tylne koła",
         "Liczba miejsc": "2"
     },
@@ -549,7 +526,8 @@
         "Moc": "430 KM",
         "Rodzaj paliwa": "Benzyna",
         "Kolor": "Biały",
-        "Faktura": "Wystawiam fakturę VAT",
+        "Uszkodzony": "none",
+        "Kraj pochodzenia": "none",
         "Napęd": "4x4",
         "Liczba miejsc": "2"
     },
@@ -568,8 +546,6 @@
         "Rodzaj paliwa": "Benzyna",
         "Kolor": "Czarny",
         "Uszkodzony": "Nie",
-        "Faktura": "Nie wystawiam faktury",
-        "Informacje dodatkowe": "Pierwszy właściciel, Bezwypadkowy, Zarejestrowany w Polsce",
         "Kraj pochodzenia": "Stany Zjednoczone",
         "Napęd": "Na tylne koła",
         "Liczba miejsc": "4"
