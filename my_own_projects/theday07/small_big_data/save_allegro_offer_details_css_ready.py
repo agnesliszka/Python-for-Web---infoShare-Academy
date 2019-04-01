@@ -5,7 +5,9 @@ import json
 from bs4 import BeautifulSoup
 from parsel import Selector
 
-offers_data = {}
+
+# Create output list
+output = []
 
 # Function to load an offer file data from offer catalog
 def load_offer(_offer):
@@ -24,7 +26,7 @@ def get_details(_data):
 
     # Get each element of table where searched parameters and their values are stored as a separate list element
     selector = Selector(text=filtered_string)
-    filtered_div_data = selector.css('href::text').getall()
+    filtered_div_data = selector.css('div::text').getall()
 
     # List searched labels
     labels = ["Faktura", "Informacje dodatkowe",
@@ -70,6 +72,7 @@ def get_details(_data):
 # Create a json file to store the offers data
 with open('stored_offers_data_css.json', 'w', encoding="utf-8") as data_file:
     offers = os.listdir('offers')
+    offers_data = {}
     for offer in offers:
         # Print offer file name
         print(offer)
@@ -78,9 +81,12 @@ with open('stored_offers_data_css.json', 'w', encoding="utf-8") as data_file:
         # Load an offer file data from offer catalog
         data = load_offer(offer)
         # Print searched data of the corresponding offer
-        print(get_details(data))
-        # Save offers details to json's file
-        json.dump(offers_data, data_file, indent=4, ensure_ascii=False)
+        get_details(data)
+        # Add searched data to the output list
+        output.append(offers_data)
+
+    # Save offers details to json's file
+    json.dump(output, data_file, indent=4, ensure_ascii=False)
 
 ''' Total size of html files: 26 MB
     Total size of json file:  34 KB

@@ -1,561 +1,1242 @@
-"offer_7186600321_e60.html"{
-    "Cena": "10500.00",
-    "Waluta": "PLN",
-    "Nazwa firmy": [
-        "MOTO-LEG",
-        1,
-        "--"
-    ],
-    "Lokalizacja": [
-        "Grzybiany, woj. dolnośląskie",
-        "---",
-        1,
-        "+++"
-    ]
-}"offer_7192730975_mk3.html"{
-    "Cena": "26900.00",
-    "Waluta": "PLN",
-    "Nazwa firmy": [
-        "ulka9999",
-        1,
-        "--"
-    ],
-    "Lokalizacja": [
-        "Warszawa, woj. mazowieckie",
-        "---",
-        1,
-        "+++"
-    ]
-}"offer_7233616545_e60.html"{
-    "Cena": "23500.00",
-    "Waluta": "PLN",
-    "Nazwa firmy": [
-        "jurek19651216",
-        1,
-        "--"
-    ],
-    "Lokalizacja": [
-        "Kraków, woj. małopolskie",
-        "---",
-        1,
-        "+++"
-    ]
-}"offer_7241087132_e60.html"{
-    "Cena": "47500.00",
-    "Waluta": "PLN",
-    "Nazwa firmy": [
-        "BATER_2004",
-        1,
-        "--"
-    ],
-    "Lokalizacja": [
-        "Mielec, woj. podkarpackie",
-        "---",
-        1,
-        "+++"
-    ]
-}"offer_7324652851_e60.html"{
-    "Cena": "45000.00",
-    "Waluta": "PLN",
-    "Nazwa firmy": [
-        "doktorczyk",
-        1,
-        "--"
-    ],
-    "Lokalizacja": [
-        "Tarnów, woj. małopolskie",
-        "---",
-        1,
-        "+++"
-    ]
-}"offer_7350326221_mk3.html"{
-    "Cena": "31900.00",
-    "Waluta": "PLN",
-    "Nazwa firmy": [
-        "GLINIK-LACKO",
-        1,
-        "--"
-    ],
-    "Lokalizacja": [
-        "Łącko, woj. małopolskie",
-        "---",
-        1,
-        "+++"
-    ]
-}"offer_7360271118_e60.html"{
-    "Cena": "42900.00",
-    "Waluta": "PLN",
-    "Nazwa firmy": [
-        "adamblabla",
-        1,
-        "--"
-    ],
-    "Lokalizacja": [
-        "Łódź, woj. łódzkie",
-        "---",
-        1,
-        "+++"
-    ]
-}"offer_7416899668_e60.html"{
-    "Cena": "36400.00",
-    "Waluta": "PLN",
-    "Nazwa firmy": [
-        "bolanka",
-        1,
-        "--"
-    ],
-    "Lokalizacja": [
-        "Drużbice, woj. łódzkie",
-        "---",
-        1,
-        "+++"
-    ]
-}"offer_7426766798_e60.html"{
-    "Cena": "37900.00",
-    "Waluta": "PLN",
-    "Nazwa firmy": [
-        "Auto_Marzen",
-        1,
-        "--"
-    ],
-    "Lokalizacja": [
-        "Nowy Sącz, woj. małopolskie",
-        "---",
-        1,
-        "+++"
-    ]
-}"offer_7433526768_mk3.html"{
-    "Cena": "26900.00",
-    "Waluta": "PLN",
-    "Nazwa firmy": [
-        "adamek274",
-        1,
-        "--"
-    ],
-    "Lokalizacja": [
-        "CHEŁM, woj. lubelskie",
-        "---",
-        1,
-        "+++"
-    ]
-}"offer_7436521721_e60.html"{
-    "Cena": "25900.00",
-    "Waluta": "PLN",
-    "Nazwa firmy": [
-        "magda5665",
-        1,
-        "--"
-    ],
-    "Lokalizacja": [
-        "warszawa, woj. mazowieckie",
-        "---",
-        1,
-        "+++"
-    ]
-}"offer_7443290042_mk3.html"{
-    "Cena": "45000.00",
-    "Waluta": "PLN",
-    "Nazwa firmy": [
-        "Piotr_Dominiak",
-        1,
-        "--"
-    ],
-    "Lokalizacja": [
-        "Olsztyn, woj. warmińsko-mazurskie",
-        "---",
-        1,
-        "+++"
-    ]
-}"offer_7448771374_e60.html"{
-    "Cena": "21900.00",
-    "Waluta": "PLN",
-    "Nazwa firmy": [
-        "kondzik_c",
-        1,
-        "--"
-    ],
-    "Lokalizacja": [
-        "Myślenice, woj. małopolskie",
-        "---",
-        1,
-        "+++"
-    ]
-}"offer_7449026955_mk3.html"{
-    "Cena": "35500.00",
-    "Waluta": "PLN",
-    "Nazwa firmy": [
-        "Marlon_n",
-        1,
-        "--"
-    ],
-    "Lokalizacja": [
-        "Szczecin, woj. zachodniopomorskie",
-        "---",
-        1,
-        "+++"
-    ]
-}"offer_7449331466_mk3.html"{
-    "Cena": "41900.00",
-    "Waluta": "PLN",
-    "Nazwa firmy": [
-        "1dopiewo",
-        1,
-        "--"
-    ],
-    "Lokalizacja": [
-        "Dopiewo, woj. wielkopolskie",
-        "---",
-        1,
-        "+++"
-    ]
-}"offer_7449830617_e60.html"{
-    "Cena": "27999.00",
-    "Waluta": "PLN",
-    "Nazwa firmy": [
-        "auto-raf_pl",
-        1,
-        "--"
-    ],
-    "Lokalizacja": [
-        "Gostyń, woj. wielkopolskie",
-        "---",
-        1,
-        "+++"
-    ]
-}"offer_7452136138_mk3.html"{
-    "Cena": "39999.00",
-    "Waluta": "PLN",
-    "Nazwa firmy": [
-        "dorotka850",
-        1,
-        "--"
-    ],
-    "Lokalizacja": [
-        "kraków, woj. małopolskie",
-        "---",
-        1,
-        "+++"
-    ]
-}"offer_7456634978_e60.html"{
-    "Cena": "12900.00",
-    "Waluta": "PLN",
-    "Nazwa firmy": [
-        "autauk1",
-        1,
-        "--"
-    ],
-    "Lokalizacja": [
-        "Jędrzejów, woj. świętokrzyskie",
-        "---",
-        1,
-        "+++"
-    ]
-}"offer_7457220742_e60.html"{
-    "Cena": "30500.00",
-    "Waluta": "PLN",
-    "Nazwa firmy": [
-        "rafciu1993",
-        1,
-        "--"
-    ],
-    "Lokalizacja": [
-        "Mńsk Mazowiecki, woj. mazowieckie",
-        "---",
-        1,
-        "+++"
-    ]
-}"offer_7470754739_mk3.html"{
-    "Cena": "29900.00",
-    "Waluta": "PLN",
-    "Nazwa firmy": [
-        "KMW2003",
-        1,
-        "--"
-    ],
-    "Lokalizacja": [
-        "Łódź, woj. łódzkie",
-        "---",
-        1,
-        "+++"
-    ]
-}"offer_7471656396_e60.html"{
-    "Cena": "39500.00",
-    "Waluta": "PLN",
-    "Nazwa firmy": [
-        "robertkudzia",
-        1,
-        "--"
-    ],
-    "Lokalizacja": [
-        "Spytkowice, woj. małopolskie",
-        "---",
-        1,
-        "+++"
-    ]
-}"offer_7473267216_e60.html"{
-    "Cena": "49900.00",
-    "Waluta": "PLN",
-    "Nazwa firmy": [
-        "Orzelkomis",
-        1,
-        "--"
-    ],
-    "Lokalizacja": [
-        "ŁÓDŹ, woj. łódzkie",
-        "---",
-        1,
-        "+++"
-    ]
-}"offer_7476634007_e60.html"{
-    "Cena": "20900.00",
-    "Waluta": "PLN",
-    "Nazwa firmy": [
-        "autokutno_pl",
-        1,
-        "--"
-    ],
-    "Lokalizacja": [
-        "Kutno, woj. łódzkie",
-        "---",
-        1,
-        "+++"
-    ]
-}"offer_7481899871_e60.html"{
-    "Cena": "42000.00",
-    "Waluta": "PLN",
-    "Nazwa firmy": [
-        "telemaks",
-        1,
-        "--"
-    ],
-    "Lokalizacja": [
-        "Wschowa, woj. lubuskie",
-        "---",
-        1,
-        "+++"
-    ]
-}"offer_7482680529_e60.html"{
-    "Cena": "28900.00",
-    "Waluta": "PLN",
-    "Nazwa firmy": [
-        "maxplay",
-        1,
-        "--"
-    ],
-    "Lokalizacja": [
-        "Krotoszyn, woj. wielkopolskie",
-        "---",
-        1,
-        "+++"
-    ]
-}"offer_7483373566_e60.html"{
-    "Cena": "9900.00",
-    "Waluta": "PLN",
-    "Nazwa firmy": [
-        "autauk1",
-        1,
-        "--"
-    ],
-    "Lokalizacja": [
-        "Jędrzejów, woj. świętokrzyskie",
-        "---",
-        1,
-        "+++"
-    ]
-}"offer_7496090637_mk3.html"{
-    "Cena": "31900.00",
-    "Waluta": "PLN",
-    "Nazwa firmy": [
-        "KMW2003",
-        1,
-        "--"
-    ],
-    "Lokalizacja": [
-        "Łódź, woj. łódzkie",
-        "---",
-        1,
-        "+++"
-    ]
-}"offer_7496572471_e60.html"{
-    "Cena": "37500.00",
-    "Waluta": "PLN",
-    "Nazwa firmy": [
-        "Zbys1237",
-        1,
-        "--"
-    ],
-    "Lokalizacja": [
-        "Wieliczka, woj. małopolskie",
-        "---",
-        1,
-        "+++"
-    ]
-}"offer_7499163879_e60.html"{
-    "Cena": "27500.00",
-    "Waluta": "PLN",
-    "Nazwa firmy": [
-        "ut_jacek",
-        1,
-        "--"
-    ],
-    "Lokalizacja": [
-        "Ostrów Mazowiecka, woj. mazowieckie",
-        "---",
-        1,
-        "+++"
-    ]
-}"offer_7519420298_mk3.html"{
-    "Cena": "29900.00",
-    "Waluta": "PLN",
-    "Nazwa firmy": [
-        "Jodex1",
-        1,
-        "--"
-    ],
-    "Lokalizacja": [
-        "Grodzisk Mazowiecki, Kozerki, woj. mazowieckie",
-        "---",
-        1,
-        "+++"
-    ]
-}"offer_7519681417_mk3.html"{
-    "Cena": "23500.00",
-    "Waluta": "PLN",
-    "Nazwa firmy": [
-        "pomiko",
-        1,
-        "--"
-    ],
-    "Lokalizacja": [
-        "Szczecin, woj. zachodniopomorskie",
-        "---",
-        1,
-        "+++"
-    ]
-}"offer_7519892329_e60.html"{
-    "Cena": "23900.00",
-    "Waluta": "PLN",
-    "Nazwa firmy": [
-        "DamyReklamy_pl",
-        1,
-        "--"
-    ],
-    "Lokalizacja": [
-        "Gniezno, woj. wielkopolskie",
-        "---",
-        1,
-        "+++"
-    ]
-}"offer_7519909560_e60.html"{
-    "Cena": "16200.00",
-    "Waluta": "PLN",
-    "Nazwa firmy": [
-        "aneta26drzewica",
-        1,
-        "--"
-    ],
-    "Lokalizacja": [
-        "Drzewica, woj. łódzkie",
-        "---",
-        1,
-        "+++"
-    ]
-}"offer_7523372829_e60.html"{
-    "Cena": "39900.00",
-    "Waluta": "PLN",
-    "Nazwa firmy": [
-        "tlumaczenie24h",
-        1,
-        "--"
-    ],
-    "Lokalizacja": [
-        "LUBLIN, woj. lubelskie",
-        "---",
-        1,
-        "+++"
-    ]
-}"offer_7523871079_e60.html"{
-    "Cena": "16300.00",
-    "Waluta": "PLN",
-    "Nazwa firmy": [
-        "Aries-2004",
-        1,
-        "--"
-    ],
-    "Lokalizacja": [
-        "Prochowice, woj. dolnośląskie",
-        "---",
-        1,
-        "+++"
-    ]
-}"offer_7526091045_mk3.html"{
-    "Cena": "143000.00",
-    "Waluta": "PLN",
-    "Nazwa firmy": [
-        "swim001",
-        1,
-        "--"
-    ],
-    "Lokalizacja": [
-        "Łomianki, woj. mazowieckie",
-        "---",
-        1,
-        "+++"
-    ]
-}"offer_7527547747_mk3.html"{
-    "Cena": "49900.00",
-    "Waluta": "PLN",
-    "Nazwa firmy": [
-        "kurasao",
-        1,
-        "--"
-    ],
-    "Lokalizacja": [
-        "Łódź, woj. łódzkie",
-        "---",
-        1,
-        "+++"
-    ]
-}"offer_7531595095_e60.html"{
-    "Cena": "21500.00",
-    "Waluta": "PLN",
-    "Nazwa firmy": [
-        "psaallegro",
-        1,
-        "--"
-    ],
-    "Lokalizacja": [
-        "Łukówiec, woj. mazowieckie",
-        "---",
-        1,
-        "+++"
-    ]
-}"offer_7531595567_e60.html"{
-    "Cena": "24900.00",
-    "Waluta": "PLN",
-    "Nazwa firmy": [
-        "psaallegro",
-        1,
-        "--"
-    ],
-    "Lokalizacja": [
-        "Łukówiec, woj. mazowieckie",
-        "---",
-        1,
-        "+++"
-    ]
-}"offer_7531596094_e60.html"{
-    "Cena": "23900.00",
-    "Waluta": "PLN",
-    "Nazwa firmy": [
-        "psaallegro",
-        1,
-        "--"
-    ],
-    "Lokalizacja": [
-        "Łukówiec, woj. mazowieckie",
-        "---",
-        1,
-        "+++"
-    ]
-}
+"offer_7186600321_e60.html""offer_7192730975_mk3.html""offer_7233616545_e60.html""offer_7241087132_e60.html""offer_7324652851_e60.html""offer_7350326221_mk3.html""offer_7360271118_e60.html""offer_7416899668_e60.html""offer_7426766798_e60.html""offer_7433526768_mk3.html""offer_7436521721_e60.html""offer_7443290042_mk3.html""offer_7448771374_e60.html""offer_7449026955_mk3.html""offer_7449331466_mk3.html""offer_7449830617_e60.html""offer_7452136138_mk3.html""offer_7456634978_e60.html""offer_7457220742_e60.html""offer_7470754739_mk3.html""offer_7471656396_e60.html""offer_7473267216_e60.html""offer_7476634007_e60.html""offer_7481899871_e60.html""offer_7482680529_e60.html""offer_7483373566_e60.html""offer_7496090637_mk3.html""offer_7496572471_e60.html""offer_7499163879_e60.html""offer_7519420298_mk3.html""offer_7519681417_mk3.html""offer_7519892329_e60.html""offer_7519909560_e60.html""offer_7523372829_e60.html""offer_7523871079_e60.html""offer_7526091045_mk3.html""offer_7527547747_mk3.html""offer_7531595095_e60.html""offer_7531595567_e60.html""offer_7531596094_e60.html"[
+    {
+        "Faktura": "Wystawiam fakturę VAT-marża",
+        "Kolor": "Czarny",
+        "Liczba drzwi": "4/5",
+        "Liczba miejsc": "5",
+        "Moc": "197 KM",
+        "Napęd": "Na przednie koła",
+        "Pojemność silnika": "2993 cm³",
+        "Przebieg": "240000 km",
+        "Rodzaj paliwa": "Diesel",
+        "Rok produkcji": "2008",
+        "Stan": "Uszkodzony",
+        "Uszkodzony": "Tak",
+        "Cena": "23900.00",
+        "Waluta": "PLN",
+        "Nazwa firmy": [
+            "psaallegro",
+            1,
+            "--"
+        ],
+        "Lokalizacja": [
+            "Łukówiec, woj. mazowieckie",
+            "---",
+            1,
+            "+++"
+        ],
+        "Informacje dodatkowe": "Pierwszy właściciel, Zarejestrowany w Polsce",
+        "Kierownica po prawej (Anglik)": "Nie",
+        "Kraj pochodzenia": "Niemcy",
+        "Lakier": "Metalik"
+    },
+    {
+        "Faktura": "Wystawiam fakturę VAT-marża",
+        "Kolor": "Czarny",
+        "Liczba drzwi": "4/5",
+        "Liczba miejsc": "5",
+        "Moc": "197 KM",
+        "Napęd": "Na przednie koła",
+        "Pojemność silnika": "2993 cm³",
+        "Przebieg": "240000 km",
+        "Rodzaj paliwa": "Diesel",
+        "Rok produkcji": "2008",
+        "Stan": "Uszkodzony",
+        "Uszkodzony": "Tak",
+        "Cena": "23900.00",
+        "Waluta": "PLN",
+        "Nazwa firmy": [
+            "psaallegro",
+            1,
+            "--"
+        ],
+        "Lokalizacja": [
+            "Łukówiec, woj. mazowieckie",
+            "---",
+            1,
+            "+++"
+        ],
+        "Informacje dodatkowe": "Pierwszy właściciel, Zarejestrowany w Polsce",
+        "Kierownica po prawej (Anglik)": "Nie",
+        "Kraj pochodzenia": "Niemcy",
+        "Lakier": "Metalik"
+    },
+    {
+        "Faktura": "Wystawiam fakturę VAT-marża",
+        "Kolor": "Czarny",
+        "Liczba drzwi": "4/5",
+        "Liczba miejsc": "5",
+        "Moc": "197 KM",
+        "Napęd": "Na przednie koła",
+        "Pojemność silnika": "2993 cm³",
+        "Przebieg": "240000 km",
+        "Rodzaj paliwa": "Diesel",
+        "Rok produkcji": "2008",
+        "Stan": "Uszkodzony",
+        "Uszkodzony": "Tak",
+        "Cena": "23900.00",
+        "Waluta": "PLN",
+        "Nazwa firmy": [
+            "psaallegro",
+            1,
+            "--"
+        ],
+        "Lokalizacja": [
+            "Łukówiec, woj. mazowieckie",
+            "---",
+            1,
+            "+++"
+        ],
+        "Informacje dodatkowe": "Pierwszy właściciel, Zarejestrowany w Polsce",
+        "Kierownica po prawej (Anglik)": "Nie",
+        "Kraj pochodzenia": "Niemcy",
+        "Lakier": "Metalik"
+    },
+    {
+        "Faktura": "Wystawiam fakturę VAT-marża",
+        "Kolor": "Czarny",
+        "Liczba drzwi": "4/5",
+        "Liczba miejsc": "5",
+        "Moc": "197 KM",
+        "Napęd": "Na przednie koła",
+        "Pojemność silnika": "2993 cm³",
+        "Przebieg": "240000 km",
+        "Rodzaj paliwa": "Diesel",
+        "Rok produkcji": "2008",
+        "Stan": "Uszkodzony",
+        "Uszkodzony": "Tak",
+        "Cena": "23900.00",
+        "Waluta": "PLN",
+        "Nazwa firmy": [
+            "psaallegro",
+            1,
+            "--"
+        ],
+        "Lokalizacja": [
+            "Łukówiec, woj. mazowieckie",
+            "---",
+            1,
+            "+++"
+        ],
+        "Informacje dodatkowe": "Pierwszy właściciel, Zarejestrowany w Polsce",
+        "Kierownica po prawej (Anglik)": "Nie",
+        "Kraj pochodzenia": "Niemcy",
+        "Lakier": "Metalik"
+    },
+    {
+        "Faktura": "Wystawiam fakturę VAT-marża",
+        "Kolor": "Czarny",
+        "Liczba drzwi": "4/5",
+        "Liczba miejsc": "5",
+        "Moc": "197 KM",
+        "Napęd": "Na przednie koła",
+        "Pojemność silnika": "2993 cm³",
+        "Przebieg": "240000 km",
+        "Rodzaj paliwa": "Diesel",
+        "Rok produkcji": "2008",
+        "Stan": "Uszkodzony",
+        "Uszkodzony": "Tak",
+        "Cena": "23900.00",
+        "Waluta": "PLN",
+        "Nazwa firmy": [
+            "psaallegro",
+            1,
+            "--"
+        ],
+        "Lokalizacja": [
+            "Łukówiec, woj. mazowieckie",
+            "---",
+            1,
+            "+++"
+        ],
+        "Informacje dodatkowe": "Pierwszy właściciel, Zarejestrowany w Polsce",
+        "Kierownica po prawej (Anglik)": "Nie",
+        "Kraj pochodzenia": "Niemcy",
+        "Lakier": "Metalik"
+    },
+    {
+        "Faktura": "Wystawiam fakturę VAT-marża",
+        "Kolor": "Czarny",
+        "Liczba drzwi": "4/5",
+        "Liczba miejsc": "5",
+        "Moc": "197 KM",
+        "Napęd": "Na przednie koła",
+        "Pojemność silnika": "2993 cm³",
+        "Przebieg": "240000 km",
+        "Rodzaj paliwa": "Diesel",
+        "Rok produkcji": "2008",
+        "Stan": "Uszkodzony",
+        "Uszkodzony": "Tak",
+        "Cena": "23900.00",
+        "Waluta": "PLN",
+        "Nazwa firmy": [
+            "psaallegro",
+            1,
+            "--"
+        ],
+        "Lokalizacja": [
+            "Łukówiec, woj. mazowieckie",
+            "---",
+            1,
+            "+++"
+        ],
+        "Informacje dodatkowe": "Pierwszy właściciel, Zarejestrowany w Polsce",
+        "Kierownica po prawej (Anglik)": "Nie",
+        "Kraj pochodzenia": "Niemcy",
+        "Lakier": "Metalik"
+    },
+    {
+        "Faktura": "Wystawiam fakturę VAT-marża",
+        "Kolor": "Czarny",
+        "Liczba drzwi": "4/5",
+        "Liczba miejsc": "5",
+        "Moc": "197 KM",
+        "Napęd": "Na przednie koła",
+        "Pojemność silnika": "2993 cm³",
+        "Przebieg": "240000 km",
+        "Rodzaj paliwa": "Diesel",
+        "Rok produkcji": "2008",
+        "Stan": "Uszkodzony",
+        "Uszkodzony": "Tak",
+        "Cena": "23900.00",
+        "Waluta": "PLN",
+        "Nazwa firmy": [
+            "psaallegro",
+            1,
+            "--"
+        ],
+        "Lokalizacja": [
+            "Łukówiec, woj. mazowieckie",
+            "---",
+            1,
+            "+++"
+        ],
+        "Informacje dodatkowe": "Pierwszy właściciel, Zarejestrowany w Polsce",
+        "Kierownica po prawej (Anglik)": "Nie",
+        "Kraj pochodzenia": "Niemcy",
+        "Lakier": "Metalik"
+    },
+    {
+        "Faktura": "Wystawiam fakturę VAT-marża",
+        "Kolor": "Czarny",
+        "Liczba drzwi": "4/5",
+        "Liczba miejsc": "5",
+        "Moc": "197 KM",
+        "Napęd": "Na przednie koła",
+        "Pojemność silnika": "2993 cm³",
+        "Przebieg": "240000 km",
+        "Rodzaj paliwa": "Diesel",
+        "Rok produkcji": "2008",
+        "Stan": "Uszkodzony",
+        "Uszkodzony": "Tak",
+        "Cena": "23900.00",
+        "Waluta": "PLN",
+        "Nazwa firmy": [
+            "psaallegro",
+            1,
+            "--"
+        ],
+        "Lokalizacja": [
+            "Łukówiec, woj. mazowieckie",
+            "---",
+            1,
+            "+++"
+        ],
+        "Informacje dodatkowe": "Pierwszy właściciel, Zarejestrowany w Polsce",
+        "Kierownica po prawej (Anglik)": "Nie",
+        "Kraj pochodzenia": "Niemcy",
+        "Lakier": "Metalik"
+    },
+    {
+        "Faktura": "Wystawiam fakturę VAT-marża",
+        "Kolor": "Czarny",
+        "Liczba drzwi": "4/5",
+        "Liczba miejsc": "5",
+        "Moc": "197 KM",
+        "Napęd": "Na przednie koła",
+        "Pojemność silnika": "2993 cm³",
+        "Przebieg": "240000 km",
+        "Rodzaj paliwa": "Diesel",
+        "Rok produkcji": "2008",
+        "Stan": "Uszkodzony",
+        "Uszkodzony": "Tak",
+        "Cena": "23900.00",
+        "Waluta": "PLN",
+        "Nazwa firmy": [
+            "psaallegro",
+            1,
+            "--"
+        ],
+        "Lokalizacja": [
+            "Łukówiec, woj. mazowieckie",
+            "---",
+            1,
+            "+++"
+        ],
+        "Informacje dodatkowe": "Pierwszy właściciel, Zarejestrowany w Polsce",
+        "Kierownica po prawej (Anglik)": "Nie",
+        "Kraj pochodzenia": "Niemcy",
+        "Lakier": "Metalik"
+    },
+    {
+        "Faktura": "Wystawiam fakturę VAT-marża",
+        "Kolor": "Czarny",
+        "Liczba drzwi": "4/5",
+        "Liczba miejsc": "5",
+        "Moc": "197 KM",
+        "Napęd": "Na przednie koła",
+        "Pojemność silnika": "2993 cm³",
+        "Przebieg": "240000 km",
+        "Rodzaj paliwa": "Diesel",
+        "Rok produkcji": "2008",
+        "Stan": "Uszkodzony",
+        "Uszkodzony": "Tak",
+        "Cena": "23900.00",
+        "Waluta": "PLN",
+        "Nazwa firmy": [
+            "psaallegro",
+            1,
+            "--"
+        ],
+        "Lokalizacja": [
+            "Łukówiec, woj. mazowieckie",
+            "---",
+            1,
+            "+++"
+        ],
+        "Informacje dodatkowe": "Pierwszy właściciel, Zarejestrowany w Polsce",
+        "Kierownica po prawej (Anglik)": "Nie",
+        "Kraj pochodzenia": "Niemcy",
+        "Lakier": "Metalik"
+    },
+    {
+        "Faktura": "Wystawiam fakturę VAT-marża",
+        "Kolor": "Czarny",
+        "Liczba drzwi": "4/5",
+        "Liczba miejsc": "5",
+        "Moc": "197 KM",
+        "Napęd": "Na przednie koła",
+        "Pojemność silnika": "2993 cm³",
+        "Przebieg": "240000 km",
+        "Rodzaj paliwa": "Diesel",
+        "Rok produkcji": "2008",
+        "Stan": "Uszkodzony",
+        "Uszkodzony": "Tak",
+        "Cena": "23900.00",
+        "Waluta": "PLN",
+        "Nazwa firmy": [
+            "psaallegro",
+            1,
+            "--"
+        ],
+        "Lokalizacja": [
+            "Łukówiec, woj. mazowieckie",
+            "---",
+            1,
+            "+++"
+        ],
+        "Informacje dodatkowe": "Pierwszy właściciel, Zarejestrowany w Polsce",
+        "Kierownica po prawej (Anglik)": "Nie",
+        "Kraj pochodzenia": "Niemcy",
+        "Lakier": "Metalik"
+    },
+    {
+        "Faktura": "Wystawiam fakturę VAT-marża",
+        "Kolor": "Czarny",
+        "Liczba drzwi": "4/5",
+        "Liczba miejsc": "5",
+        "Moc": "197 KM",
+        "Napęd": "Na przednie koła",
+        "Pojemność silnika": "2993 cm³",
+        "Przebieg": "240000 km",
+        "Rodzaj paliwa": "Diesel",
+        "Rok produkcji": "2008",
+        "Stan": "Uszkodzony",
+        "Uszkodzony": "Tak",
+        "Cena": "23900.00",
+        "Waluta": "PLN",
+        "Nazwa firmy": [
+            "psaallegro",
+            1,
+            "--"
+        ],
+        "Lokalizacja": [
+            "Łukówiec, woj. mazowieckie",
+            "---",
+            1,
+            "+++"
+        ],
+        "Informacje dodatkowe": "Pierwszy właściciel, Zarejestrowany w Polsce",
+        "Kierownica po prawej (Anglik)": "Nie",
+        "Kraj pochodzenia": "Niemcy",
+        "Lakier": "Metalik"
+    },
+    {
+        "Faktura": "Wystawiam fakturę VAT-marża",
+        "Kolor": "Czarny",
+        "Liczba drzwi": "4/5",
+        "Liczba miejsc": "5",
+        "Moc": "197 KM",
+        "Napęd": "Na przednie koła",
+        "Pojemność silnika": "2993 cm³",
+        "Przebieg": "240000 km",
+        "Rodzaj paliwa": "Diesel",
+        "Rok produkcji": "2008",
+        "Stan": "Uszkodzony",
+        "Uszkodzony": "Tak",
+        "Cena": "23900.00",
+        "Waluta": "PLN",
+        "Nazwa firmy": [
+            "psaallegro",
+            1,
+            "--"
+        ],
+        "Lokalizacja": [
+            "Łukówiec, woj. mazowieckie",
+            "---",
+            1,
+            "+++"
+        ],
+        "Informacje dodatkowe": "Pierwszy właściciel, Zarejestrowany w Polsce",
+        "Kierownica po prawej (Anglik)": "Nie",
+        "Kraj pochodzenia": "Niemcy",
+        "Lakier": "Metalik"
+    },
+    {
+        "Faktura": "Wystawiam fakturę VAT-marża",
+        "Kolor": "Czarny",
+        "Liczba drzwi": "4/5",
+        "Liczba miejsc": "5",
+        "Moc": "197 KM",
+        "Napęd": "Na przednie koła",
+        "Pojemność silnika": "2993 cm³",
+        "Przebieg": "240000 km",
+        "Rodzaj paliwa": "Diesel",
+        "Rok produkcji": "2008",
+        "Stan": "Uszkodzony",
+        "Uszkodzony": "Tak",
+        "Cena": "23900.00",
+        "Waluta": "PLN",
+        "Nazwa firmy": [
+            "psaallegro",
+            1,
+            "--"
+        ],
+        "Lokalizacja": [
+            "Łukówiec, woj. mazowieckie",
+            "---",
+            1,
+            "+++"
+        ],
+        "Informacje dodatkowe": "Pierwszy właściciel, Zarejestrowany w Polsce",
+        "Kierownica po prawej (Anglik)": "Nie",
+        "Kraj pochodzenia": "Niemcy",
+        "Lakier": "Metalik"
+    },
+    {
+        "Faktura": "Wystawiam fakturę VAT-marża",
+        "Kolor": "Czarny",
+        "Liczba drzwi": "4/5",
+        "Liczba miejsc": "5",
+        "Moc": "197 KM",
+        "Napęd": "Na przednie koła",
+        "Pojemność silnika": "2993 cm³",
+        "Przebieg": "240000 km",
+        "Rodzaj paliwa": "Diesel",
+        "Rok produkcji": "2008",
+        "Stan": "Uszkodzony",
+        "Uszkodzony": "Tak",
+        "Cena": "23900.00",
+        "Waluta": "PLN",
+        "Nazwa firmy": [
+            "psaallegro",
+            1,
+            "--"
+        ],
+        "Lokalizacja": [
+            "Łukówiec, woj. mazowieckie",
+            "---",
+            1,
+            "+++"
+        ],
+        "Informacje dodatkowe": "Pierwszy właściciel, Zarejestrowany w Polsce",
+        "Kierownica po prawej (Anglik)": "Nie",
+        "Kraj pochodzenia": "Niemcy",
+        "Lakier": "Metalik"
+    },
+    {
+        "Faktura": "Wystawiam fakturę VAT-marża",
+        "Kolor": "Czarny",
+        "Liczba drzwi": "4/5",
+        "Liczba miejsc": "5",
+        "Moc": "197 KM",
+        "Napęd": "Na przednie koła",
+        "Pojemność silnika": "2993 cm³",
+        "Przebieg": "240000 km",
+        "Rodzaj paliwa": "Diesel",
+        "Rok produkcji": "2008",
+        "Stan": "Uszkodzony",
+        "Uszkodzony": "Tak",
+        "Cena": "23900.00",
+        "Waluta": "PLN",
+        "Nazwa firmy": [
+            "psaallegro",
+            1,
+            "--"
+        ],
+        "Lokalizacja": [
+            "Łukówiec, woj. mazowieckie",
+            "---",
+            1,
+            "+++"
+        ],
+        "Informacje dodatkowe": "Pierwszy właściciel, Zarejestrowany w Polsce",
+        "Kierownica po prawej (Anglik)": "Nie",
+        "Kraj pochodzenia": "Niemcy",
+        "Lakier": "Metalik"
+    },
+    {
+        "Faktura": "Wystawiam fakturę VAT-marża",
+        "Kolor": "Czarny",
+        "Liczba drzwi": "4/5",
+        "Liczba miejsc": "5",
+        "Moc": "197 KM",
+        "Napęd": "Na przednie koła",
+        "Pojemność silnika": "2993 cm³",
+        "Przebieg": "240000 km",
+        "Rodzaj paliwa": "Diesel",
+        "Rok produkcji": "2008",
+        "Stan": "Uszkodzony",
+        "Uszkodzony": "Tak",
+        "Cena": "23900.00",
+        "Waluta": "PLN",
+        "Nazwa firmy": [
+            "psaallegro",
+            1,
+            "--"
+        ],
+        "Lokalizacja": [
+            "Łukówiec, woj. mazowieckie",
+            "---",
+            1,
+            "+++"
+        ],
+        "Informacje dodatkowe": "Pierwszy właściciel, Zarejestrowany w Polsce",
+        "Kierownica po prawej (Anglik)": "Nie",
+        "Kraj pochodzenia": "Niemcy",
+        "Lakier": "Metalik"
+    },
+    {
+        "Faktura": "Wystawiam fakturę VAT-marża",
+        "Kolor": "Czarny",
+        "Liczba drzwi": "4/5",
+        "Liczba miejsc": "5",
+        "Moc": "197 KM",
+        "Napęd": "Na przednie koła",
+        "Pojemność silnika": "2993 cm³",
+        "Przebieg": "240000 km",
+        "Rodzaj paliwa": "Diesel",
+        "Rok produkcji": "2008",
+        "Stan": "Uszkodzony",
+        "Uszkodzony": "Tak",
+        "Cena": "23900.00",
+        "Waluta": "PLN",
+        "Nazwa firmy": [
+            "psaallegro",
+            1,
+            "--"
+        ],
+        "Lokalizacja": [
+            "Łukówiec, woj. mazowieckie",
+            "---",
+            1,
+            "+++"
+        ],
+        "Informacje dodatkowe": "Pierwszy właściciel, Zarejestrowany w Polsce",
+        "Kierownica po prawej (Anglik)": "Nie",
+        "Kraj pochodzenia": "Niemcy",
+        "Lakier": "Metalik"
+    },
+    {
+        "Faktura": "Wystawiam fakturę VAT-marża",
+        "Kolor": "Czarny",
+        "Liczba drzwi": "4/5",
+        "Liczba miejsc": "5",
+        "Moc": "197 KM",
+        "Napęd": "Na przednie koła",
+        "Pojemność silnika": "2993 cm³",
+        "Przebieg": "240000 km",
+        "Rodzaj paliwa": "Diesel",
+        "Rok produkcji": "2008",
+        "Stan": "Uszkodzony",
+        "Uszkodzony": "Tak",
+        "Cena": "23900.00",
+        "Waluta": "PLN",
+        "Nazwa firmy": [
+            "psaallegro",
+            1,
+            "--"
+        ],
+        "Lokalizacja": [
+            "Łukówiec, woj. mazowieckie",
+            "---",
+            1,
+            "+++"
+        ],
+        "Informacje dodatkowe": "Pierwszy właściciel, Zarejestrowany w Polsce",
+        "Kierownica po prawej (Anglik)": "Nie",
+        "Kraj pochodzenia": "Niemcy",
+        "Lakier": "Metalik"
+    },
+    {
+        "Faktura": "Wystawiam fakturę VAT-marża",
+        "Kolor": "Czarny",
+        "Liczba drzwi": "4/5",
+        "Liczba miejsc": "5",
+        "Moc": "197 KM",
+        "Napęd": "Na przednie koła",
+        "Pojemność silnika": "2993 cm³",
+        "Przebieg": "240000 km",
+        "Rodzaj paliwa": "Diesel",
+        "Rok produkcji": "2008",
+        "Stan": "Uszkodzony",
+        "Uszkodzony": "Tak",
+        "Cena": "23900.00",
+        "Waluta": "PLN",
+        "Nazwa firmy": [
+            "psaallegro",
+            1,
+            "--"
+        ],
+        "Lokalizacja": [
+            "Łukówiec, woj. mazowieckie",
+            "---",
+            1,
+            "+++"
+        ],
+        "Informacje dodatkowe": "Pierwszy właściciel, Zarejestrowany w Polsce",
+        "Kierownica po prawej (Anglik)": "Nie",
+        "Kraj pochodzenia": "Niemcy",
+        "Lakier": "Metalik"
+    },
+    {
+        "Faktura": "Wystawiam fakturę VAT-marża",
+        "Kolor": "Czarny",
+        "Liczba drzwi": "4/5",
+        "Liczba miejsc": "5",
+        "Moc": "197 KM",
+        "Napęd": "Na przednie koła",
+        "Pojemność silnika": "2993 cm³",
+        "Przebieg": "240000 km",
+        "Rodzaj paliwa": "Diesel",
+        "Rok produkcji": "2008",
+        "Stan": "Uszkodzony",
+        "Uszkodzony": "Tak",
+        "Cena": "23900.00",
+        "Waluta": "PLN",
+        "Nazwa firmy": [
+            "psaallegro",
+            1,
+            "--"
+        ],
+        "Lokalizacja": [
+            "Łukówiec, woj. mazowieckie",
+            "---",
+            1,
+            "+++"
+        ],
+        "Informacje dodatkowe": "Pierwszy właściciel, Zarejestrowany w Polsce",
+        "Kierownica po prawej (Anglik)": "Nie",
+        "Kraj pochodzenia": "Niemcy",
+        "Lakier": "Metalik"
+    },
+    {
+        "Faktura": "Wystawiam fakturę VAT-marża",
+        "Kolor": "Czarny",
+        "Liczba drzwi": "4/5",
+        "Liczba miejsc": "5",
+        "Moc": "197 KM",
+        "Napęd": "Na przednie koła",
+        "Pojemność silnika": "2993 cm³",
+        "Przebieg": "240000 km",
+        "Rodzaj paliwa": "Diesel",
+        "Rok produkcji": "2008",
+        "Stan": "Uszkodzony",
+        "Uszkodzony": "Tak",
+        "Cena": "23900.00",
+        "Waluta": "PLN",
+        "Nazwa firmy": [
+            "psaallegro",
+            1,
+            "--"
+        ],
+        "Lokalizacja": [
+            "Łukówiec, woj. mazowieckie",
+            "---",
+            1,
+            "+++"
+        ],
+        "Informacje dodatkowe": "Pierwszy właściciel, Zarejestrowany w Polsce",
+        "Kierownica po prawej (Anglik)": "Nie",
+        "Kraj pochodzenia": "Niemcy",
+        "Lakier": "Metalik"
+    },
+    {
+        "Faktura": "Wystawiam fakturę VAT-marża",
+        "Kolor": "Czarny",
+        "Liczba drzwi": "4/5",
+        "Liczba miejsc": "5",
+        "Moc": "197 KM",
+        "Napęd": "Na przednie koła",
+        "Pojemność silnika": "2993 cm³",
+        "Przebieg": "240000 km",
+        "Rodzaj paliwa": "Diesel",
+        "Rok produkcji": "2008",
+        "Stan": "Uszkodzony",
+        "Uszkodzony": "Tak",
+        "Cena": "23900.00",
+        "Waluta": "PLN",
+        "Nazwa firmy": [
+            "psaallegro",
+            1,
+            "--"
+        ],
+        "Lokalizacja": [
+            "Łukówiec, woj. mazowieckie",
+            "---",
+            1,
+            "+++"
+        ],
+        "Informacje dodatkowe": "Pierwszy właściciel, Zarejestrowany w Polsce",
+        "Kierownica po prawej (Anglik)": "Nie",
+        "Kraj pochodzenia": "Niemcy",
+        "Lakier": "Metalik"
+    },
+    {
+        "Faktura": "Wystawiam fakturę VAT-marża",
+        "Kolor": "Czarny",
+        "Liczba drzwi": "4/5",
+        "Liczba miejsc": "5",
+        "Moc": "197 KM",
+        "Napęd": "Na przednie koła",
+        "Pojemność silnika": "2993 cm³",
+        "Przebieg": "240000 km",
+        "Rodzaj paliwa": "Diesel",
+        "Rok produkcji": "2008",
+        "Stan": "Uszkodzony",
+        "Uszkodzony": "Tak",
+        "Cena": "23900.00",
+        "Waluta": "PLN",
+        "Nazwa firmy": [
+            "psaallegro",
+            1,
+            "--"
+        ],
+        "Lokalizacja": [
+            "Łukówiec, woj. mazowieckie",
+            "---",
+            1,
+            "+++"
+        ],
+        "Informacje dodatkowe": "Pierwszy właściciel, Zarejestrowany w Polsce",
+        "Kierownica po prawej (Anglik)": "Nie",
+        "Kraj pochodzenia": "Niemcy",
+        "Lakier": "Metalik"
+    },
+    {
+        "Faktura": "Wystawiam fakturę VAT-marża",
+        "Kolor": "Czarny",
+        "Liczba drzwi": "4/5",
+        "Liczba miejsc": "5",
+        "Moc": "197 KM",
+        "Napęd": "Na przednie koła",
+        "Pojemność silnika": "2993 cm³",
+        "Przebieg": "240000 km",
+        "Rodzaj paliwa": "Diesel",
+        "Rok produkcji": "2008",
+        "Stan": "Uszkodzony",
+        "Uszkodzony": "Tak",
+        "Cena": "23900.00",
+        "Waluta": "PLN",
+        "Nazwa firmy": [
+            "psaallegro",
+            1,
+            "--"
+        ],
+        "Lokalizacja": [
+            "Łukówiec, woj. mazowieckie",
+            "---",
+            1,
+            "+++"
+        ],
+        "Informacje dodatkowe": "Pierwszy właściciel, Zarejestrowany w Polsce",
+        "Kierownica po prawej (Anglik)": "Nie",
+        "Kraj pochodzenia": "Niemcy",
+        "Lakier": "Metalik"
+    },
+    {
+        "Faktura": "Wystawiam fakturę VAT-marża",
+        "Kolor": "Czarny",
+        "Liczba drzwi": "4/5",
+        "Liczba miejsc": "5",
+        "Moc": "197 KM",
+        "Napęd": "Na przednie koła",
+        "Pojemność silnika": "2993 cm³",
+        "Przebieg": "240000 km",
+        "Rodzaj paliwa": "Diesel",
+        "Rok produkcji": "2008",
+        "Stan": "Uszkodzony",
+        "Uszkodzony": "Tak",
+        "Cena": "23900.00",
+        "Waluta": "PLN",
+        "Nazwa firmy": [
+            "psaallegro",
+            1,
+            "--"
+        ],
+        "Lokalizacja": [
+            "Łukówiec, woj. mazowieckie",
+            "---",
+            1,
+            "+++"
+        ],
+        "Informacje dodatkowe": "Pierwszy właściciel, Zarejestrowany w Polsce",
+        "Kierownica po prawej (Anglik)": "Nie",
+        "Kraj pochodzenia": "Niemcy",
+        "Lakier": "Metalik"
+    },
+    {
+        "Faktura": "Wystawiam fakturę VAT-marża",
+        "Kolor": "Czarny",
+        "Liczba drzwi": "4/5",
+        "Liczba miejsc": "5",
+        "Moc": "197 KM",
+        "Napęd": "Na przednie koła",
+        "Pojemność silnika": "2993 cm³",
+        "Przebieg": "240000 km",
+        "Rodzaj paliwa": "Diesel",
+        "Rok produkcji": "2008",
+        "Stan": "Uszkodzony",
+        "Uszkodzony": "Tak",
+        "Cena": "23900.00",
+        "Waluta": "PLN",
+        "Nazwa firmy": [
+            "psaallegro",
+            1,
+            "--"
+        ],
+        "Lokalizacja": [
+            "Łukówiec, woj. mazowieckie",
+            "---",
+            1,
+            "+++"
+        ],
+        "Informacje dodatkowe": "Pierwszy właściciel, Zarejestrowany w Polsce",
+        "Kierownica po prawej (Anglik)": "Nie",
+        "Kraj pochodzenia": "Niemcy",
+        "Lakier": "Metalik"
+    },
+    {
+        "Faktura": "Wystawiam fakturę VAT-marża",
+        "Kolor": "Czarny",
+        "Liczba drzwi": "4/5",
+        "Liczba miejsc": "5",
+        "Moc": "197 KM",
+        "Napęd": "Na przednie koła",
+        "Pojemność silnika": "2993 cm³",
+        "Przebieg": "240000 km",
+        "Rodzaj paliwa": "Diesel",
+        "Rok produkcji": "2008",
+        "Stan": "Uszkodzony",
+        "Uszkodzony": "Tak",
+        "Cena": "23900.00",
+        "Waluta": "PLN",
+        "Nazwa firmy": [
+            "psaallegro",
+            1,
+            "--"
+        ],
+        "Lokalizacja": [
+            "Łukówiec, woj. mazowieckie",
+            "---",
+            1,
+            "+++"
+        ],
+        "Informacje dodatkowe": "Pierwszy właściciel, Zarejestrowany w Polsce",
+        "Kierownica po prawej (Anglik)": "Nie",
+        "Kraj pochodzenia": "Niemcy",
+        "Lakier": "Metalik"
+    },
+    {
+        "Faktura": "Wystawiam fakturę VAT-marża",
+        "Kolor": "Czarny",
+        "Liczba drzwi": "4/5",
+        "Liczba miejsc": "5",
+        "Moc": "197 KM",
+        "Napęd": "Na przednie koła",
+        "Pojemność silnika": "2993 cm³",
+        "Przebieg": "240000 km",
+        "Rodzaj paliwa": "Diesel",
+        "Rok produkcji": "2008",
+        "Stan": "Uszkodzony",
+        "Uszkodzony": "Tak",
+        "Cena": "23900.00",
+        "Waluta": "PLN",
+        "Nazwa firmy": [
+            "psaallegro",
+            1,
+            "--"
+        ],
+        "Lokalizacja": [
+            "Łukówiec, woj. mazowieckie",
+            "---",
+            1,
+            "+++"
+        ],
+        "Informacje dodatkowe": "Pierwszy właściciel, Zarejestrowany w Polsce",
+        "Kierownica po prawej (Anglik)": "Nie",
+        "Kraj pochodzenia": "Niemcy",
+        "Lakier": "Metalik"
+    },
+    {
+        "Faktura": "Wystawiam fakturę VAT-marża",
+        "Kolor": "Czarny",
+        "Liczba drzwi": "4/5",
+        "Liczba miejsc": "5",
+        "Moc": "197 KM",
+        "Napęd": "Na przednie koła",
+        "Pojemność silnika": "2993 cm³",
+        "Przebieg": "240000 km",
+        "Rodzaj paliwa": "Diesel",
+        "Rok produkcji": "2008",
+        "Stan": "Uszkodzony",
+        "Uszkodzony": "Tak",
+        "Cena": "23900.00",
+        "Waluta": "PLN",
+        "Nazwa firmy": [
+            "psaallegro",
+            1,
+            "--"
+        ],
+        "Lokalizacja": [
+            "Łukówiec, woj. mazowieckie",
+            "---",
+            1,
+            "+++"
+        ],
+        "Informacje dodatkowe": "Pierwszy właściciel, Zarejestrowany w Polsce",
+        "Kierownica po prawej (Anglik)": "Nie",
+        "Kraj pochodzenia": "Niemcy",
+        "Lakier": "Metalik"
+    },
+    {
+        "Faktura": "Wystawiam fakturę VAT-marża",
+        "Kolor": "Czarny",
+        "Liczba drzwi": "4/5",
+        "Liczba miejsc": "5",
+        "Moc": "197 KM",
+        "Napęd": "Na przednie koła",
+        "Pojemność silnika": "2993 cm³",
+        "Przebieg": "240000 km",
+        "Rodzaj paliwa": "Diesel",
+        "Rok produkcji": "2008",
+        "Stan": "Uszkodzony",
+        "Uszkodzony": "Tak",
+        "Cena": "23900.00",
+        "Waluta": "PLN",
+        "Nazwa firmy": [
+            "psaallegro",
+            1,
+            "--"
+        ],
+        "Lokalizacja": [
+            "Łukówiec, woj. mazowieckie",
+            "---",
+            1,
+            "+++"
+        ],
+        "Informacje dodatkowe": "Pierwszy właściciel, Zarejestrowany w Polsce",
+        "Kierownica po prawej (Anglik)": "Nie",
+        "Kraj pochodzenia": "Niemcy",
+        "Lakier": "Metalik"
+    },
+    {
+        "Faktura": "Wystawiam fakturę VAT-marża",
+        "Kolor": "Czarny",
+        "Liczba drzwi": "4/5",
+        "Liczba miejsc": "5",
+        "Moc": "197 KM",
+        "Napęd": "Na przednie koła",
+        "Pojemność silnika": "2993 cm³",
+        "Przebieg": "240000 km",
+        "Rodzaj paliwa": "Diesel",
+        "Rok produkcji": "2008",
+        "Stan": "Uszkodzony",
+        "Uszkodzony": "Tak",
+        "Cena": "23900.00",
+        "Waluta": "PLN",
+        "Nazwa firmy": [
+            "psaallegro",
+            1,
+            "--"
+        ],
+        "Lokalizacja": [
+            "Łukówiec, woj. mazowieckie",
+            "---",
+            1,
+            "+++"
+        ],
+        "Informacje dodatkowe": "Pierwszy właściciel, Zarejestrowany w Polsce",
+        "Kierownica po prawej (Anglik)": "Nie",
+        "Kraj pochodzenia": "Niemcy",
+        "Lakier": "Metalik"
+    },
+    {
+        "Faktura": "Wystawiam fakturę VAT-marża",
+        "Kolor": "Czarny",
+        "Liczba drzwi": "4/5",
+        "Liczba miejsc": "5",
+        "Moc": "197 KM",
+        "Napęd": "Na przednie koła",
+        "Pojemność silnika": "2993 cm³",
+        "Przebieg": "240000 km",
+        "Rodzaj paliwa": "Diesel",
+        "Rok produkcji": "2008",
+        "Stan": "Uszkodzony",
+        "Uszkodzony": "Tak",
+        "Cena": "23900.00",
+        "Waluta": "PLN",
+        "Nazwa firmy": [
+            "psaallegro",
+            1,
+            "--"
+        ],
+        "Lokalizacja": [
+            "Łukówiec, woj. mazowieckie",
+            "---",
+            1,
+            "+++"
+        ],
+        "Informacje dodatkowe": "Pierwszy właściciel, Zarejestrowany w Polsce",
+        "Kierownica po prawej (Anglik)": "Nie",
+        "Kraj pochodzenia": "Niemcy",
+        "Lakier": "Metalik"
+    },
+    {
+        "Faktura": "Wystawiam fakturę VAT-marża",
+        "Kolor": "Czarny",
+        "Liczba drzwi": "4/5",
+        "Liczba miejsc": "5",
+        "Moc": "197 KM",
+        "Napęd": "Na przednie koła",
+        "Pojemność silnika": "2993 cm³",
+        "Przebieg": "240000 km",
+        "Rodzaj paliwa": "Diesel",
+        "Rok produkcji": "2008",
+        "Stan": "Uszkodzony",
+        "Uszkodzony": "Tak",
+        "Cena": "23900.00",
+        "Waluta": "PLN",
+        "Nazwa firmy": [
+            "psaallegro",
+            1,
+            "--"
+        ],
+        "Lokalizacja": [
+            "Łukówiec, woj. mazowieckie",
+            "---",
+            1,
+            "+++"
+        ],
+        "Informacje dodatkowe": "Pierwszy właściciel, Zarejestrowany w Polsce",
+        "Kierownica po prawej (Anglik)": "Nie",
+        "Kraj pochodzenia": "Niemcy",
+        "Lakier": "Metalik"
+    },
+    {
+        "Faktura": "Wystawiam fakturę VAT-marża",
+        "Kolor": "Czarny",
+        "Liczba drzwi": "4/5",
+        "Liczba miejsc": "5",
+        "Moc": "197 KM",
+        "Napęd": "Na przednie koła",
+        "Pojemność silnika": "2993 cm³",
+        "Przebieg": "240000 km",
+        "Rodzaj paliwa": "Diesel",
+        "Rok produkcji": "2008",
+        "Stan": "Uszkodzony",
+        "Uszkodzony": "Tak",
+        "Cena": "23900.00",
+        "Waluta": "PLN",
+        "Nazwa firmy": [
+            "psaallegro",
+            1,
+            "--"
+        ],
+        "Lokalizacja": [
+            "Łukówiec, woj. mazowieckie",
+            "---",
+            1,
+            "+++"
+        ],
+        "Informacje dodatkowe": "Pierwszy właściciel, Zarejestrowany w Polsce",
+        "Kierownica po prawej (Anglik)": "Nie",
+        "Kraj pochodzenia": "Niemcy",
+        "Lakier": "Metalik"
+    },
+    {
+        "Faktura": "Wystawiam fakturę VAT-marża",
+        "Kolor": "Czarny",
+        "Liczba drzwi": "4/5",
+        "Liczba miejsc": "5",
+        "Moc": "197 KM",
+        "Napęd": "Na przednie koła",
+        "Pojemność silnika": "2993 cm³",
+        "Przebieg": "240000 km",
+        "Rodzaj paliwa": "Diesel",
+        "Rok produkcji": "2008",
+        "Stan": "Uszkodzony",
+        "Uszkodzony": "Tak",
+        "Cena": "23900.00",
+        "Waluta": "PLN",
+        "Nazwa firmy": [
+            "psaallegro",
+            1,
+            "--"
+        ],
+        "Lokalizacja": [
+            "Łukówiec, woj. mazowieckie",
+            "---",
+            1,
+            "+++"
+        ],
+        "Informacje dodatkowe": "Pierwszy właściciel, Zarejestrowany w Polsce",
+        "Kierownica po prawej (Anglik)": "Nie",
+        "Kraj pochodzenia": "Niemcy",
+        "Lakier": "Metalik"
+    },
+    {
+        "Faktura": "Wystawiam fakturę VAT-marża",
+        "Kolor": "Czarny",
+        "Liczba drzwi": "4/5",
+        "Liczba miejsc": "5",
+        "Moc": "197 KM",
+        "Napęd": "Na przednie koła",
+        "Pojemność silnika": "2993 cm³",
+        "Przebieg": "240000 km",
+        "Rodzaj paliwa": "Diesel",
+        "Rok produkcji": "2008",
+        "Stan": "Uszkodzony",
+        "Uszkodzony": "Tak",
+        "Cena": "23900.00",
+        "Waluta": "PLN",
+        "Nazwa firmy": [
+            "psaallegro",
+            1,
+            "--"
+        ],
+        "Lokalizacja": [
+            "Łukówiec, woj. mazowieckie",
+            "---",
+            1,
+            "+++"
+        ],
+        "Informacje dodatkowe": "Pierwszy właściciel, Zarejestrowany w Polsce",
+        "Kierownica po prawej (Anglik)": "Nie",
+        "Kraj pochodzenia": "Niemcy",
+        "Lakier": "Metalik"
+    },
+    {
+        "Faktura": "Wystawiam fakturę VAT-marża",
+        "Kolor": "Czarny",
+        "Liczba drzwi": "4/5",
+        "Liczba miejsc": "5",
+        "Moc": "197 KM",
+        "Napęd": "Na przednie koła",
+        "Pojemność silnika": "2993 cm³",
+        "Przebieg": "240000 km",
+        "Rodzaj paliwa": "Diesel",
+        "Rok produkcji": "2008",
+        "Stan": "Uszkodzony",
+        "Uszkodzony": "Tak",
+        "Cena": "23900.00",
+        "Waluta": "PLN",
+        "Nazwa firmy": [
+            "psaallegro",
+            1,
+            "--"
+        ],
+        "Lokalizacja": [
+            "Łukówiec, woj. mazowieckie",
+            "---",
+            1,
+            "+++"
+        ],
+        "Informacje dodatkowe": "Pierwszy właściciel, Zarejestrowany w Polsce",
+        "Kierownica po prawej (Anglik)": "Nie",
+        "Kraj pochodzenia": "Niemcy",
+        "Lakier": "Metalik"
+    },
+    {
+        "Faktura": "Wystawiam fakturę VAT-marża",
+        "Kolor": "Czarny",
+        "Liczba drzwi": "4/5",
+        "Liczba miejsc": "5",
+        "Moc": "197 KM",
+        "Napęd": "Na przednie koła",
+        "Pojemność silnika": "2993 cm³",
+        "Przebieg": "240000 km",
+        "Rodzaj paliwa": "Diesel",
+        "Rok produkcji": "2008",
+        "Stan": "Uszkodzony",
+        "Uszkodzony": "Tak",
+        "Cena": "23900.00",
+        "Waluta": "PLN",
+        "Nazwa firmy": [
+            "psaallegro",
+            1,
+            "--"
+        ],
+        "Lokalizacja": [
+            "Łukówiec, woj. mazowieckie",
+            "---",
+            1,
+            "+++"
+        ],
+        "Informacje dodatkowe": "Pierwszy właściciel, Zarejestrowany w Polsce",
+        "Kierownica po prawej (Anglik)": "Nie",
+        "Kraj pochodzenia": "Niemcy",
+        "Lakier": "Metalik"
+    },
+    {
+        "Faktura": "Wystawiam fakturę VAT-marża",
+        "Kolor": "Czarny",
+        "Liczba drzwi": "4/5",
+        "Liczba miejsc": "5",
+        "Moc": "197 KM",
+        "Napęd": "Na przednie koła",
+        "Pojemność silnika": "2993 cm³",
+        "Przebieg": "240000 km",
+        "Rodzaj paliwa": "Diesel",
+        "Rok produkcji": "2008",
+        "Stan": "Uszkodzony",
+        "Uszkodzony": "Tak",
+        "Cena": "23900.00",
+        "Waluta": "PLN",
+        "Nazwa firmy": [
+            "psaallegro",
+            1,
+            "--"
+        ],
+        "Lokalizacja": [
+            "Łukówiec, woj. mazowieckie",
+            "---",
+            1,
+            "+++"
+        ],
+        "Informacje dodatkowe": "Pierwszy właściciel, Zarejestrowany w Polsce",
+        "Kierownica po prawej (Anglik)": "Nie",
+        "Kraj pochodzenia": "Niemcy",
+        "Lakier": "Metalik"
+    }
+]

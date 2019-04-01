@@ -6,7 +6,9 @@ import json
 from bs4 import BeautifulSoup
 from parsel import Selector
 
-offers_data = {}
+
+# Create output list
+output = []
 
 # Function to load an offer file data from offer catalog
 def load_offer(_offer):
@@ -71,7 +73,7 @@ def get_details(_data):
         # Search for brand
         filtered = selector2.css('body > div.main-wrapper > div:nth-child(3) > div > div > div:nth-child(1) > div > div > div > div > div > div:nth-child(6) > a > span::text').get()
         print("Marka : " + filtered)
-        offers_data['Msrka'] = filtered
+        offers_data['Marka'] = filtered
         # filtered = soup.find("title")
         # print("Marka : " + (filtered.text.split(' ', 1)[0]).capitalize())
         # offers_data['Marka'] = (filtered.text.split(' ', 1)[0]).capitalize()
@@ -96,14 +98,15 @@ def get_details(_data):
 with open('stored_offers_data.json', 'w', encoding="utf-8") as data_file:
     offers = os.listdir('offers')
     for offer in offers:
+        offers_data = {}
         # Print offer file name
         print(offer)
-        # Save offers title to json's file
-        json.dump(offer, data_file, indent=4, ensure_ascii=False)
         # Load an offer file data from offer catalog
         data = load_offer(offer)
         # Print searched data of the corresponding offer
-        print(get_details(data))
-        # Save offers details to json's file
-        json.dump(offers_data, data_file, indent=4, ensure_ascii=False)
+        get_details(data)
+        # Add searched data to the output list
+        output.append(offers_data)
 
+    # Save offers details to json's file
+    json.dump(output, data_file, indent=4, ensure_ascii=False)
