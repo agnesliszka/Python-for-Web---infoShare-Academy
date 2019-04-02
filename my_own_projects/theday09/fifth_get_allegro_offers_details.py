@@ -37,18 +37,20 @@ def get_details(_data):
     labels = ["Rok produkcji", "Przebieg", "Pojemność silnika", "Moc", "Rodzaj paliwa",
               "Kolor", "Uszkodzony", "Kraj pochodzenia", "Napęd", "Liczba miejsc"]
 
+    database_labels = ['production_year', 'course', 'capacity', 'power', 'fuel_type', 'colour', 'damaged', 'country', 'driving_gear', 'number_of_seats']
+
     # Loop for searched data (listed as labels)
     for element in filtered:
 
         # Search for offer_id
         filtered = soup.find("span", attrs={"class": "_6c864829"})
         print("ID oferty : ", filtered.find_next_sibling("span").text)
-        offers_data['ID oferty'] = filtered.find_next_sibling("span").text
+        offers_data['offer_id'] = filtered.find_next_sibling("span").text
 
         # Search for seller_id
         filtered = soup.find(attrs={"data-analytics-click-value": "sellerLogin"})
         print("ID sprzedajacego : " + filtered.text)
-        offers_data['ID sprzedajacego'] = filtered.text
+        offers_data['seller_id'] = filtered.text
         # for i in filtered:
         #     print("Nazwa firmy : " + i)
         #     offers_data['Nazwa firmy'] = i
@@ -56,7 +58,7 @@ def get_details(_data):
         # Search for location
         filtered = soup.find(attrs={'data-analytics-interaction-value': "locationShow"})
         print("Lokalizacja : " + filtered.text)
-        offers_data['Lokalizacja'] = filtered.text
+        offers_data['location'] = filtered.text
         # for i in filtered:
         #     print("Lokalizacja : " + i, '---', len(filtered), '+++')
         #     offers_data['Lokalizacja'] = i, '---', len(filtered), '+++'
@@ -64,19 +66,19 @@ def get_details(_data):
         # Search for title
         filtered = soup.find("title")
         print("Tytul : " + filtered.text)
-        offers_data['Tytul'] = filtered.text
+        offers_data['title'] = filtered.text
 
         # Search for price
         filtered = soup.find(itemprop="price")
         print("Cena : " + filtered.get('content'))
-        offers_data['Cena'] = filtered.get('content')
+        offers_data['price'] = filtered.get('content')
 
         selector2 = Selector(text=_data)
 
         # Search for brand
         filtered = selector2.css('body > div.main-wrapper > div:nth-child(3) > div > div > div:nth-child(1) > div > div > div > div > div > div:nth-child(6) > a > span::text').get()
         print("Marka : " + filtered)
-        offers_data['Marka'] = filtered
+        offers_data['brand'] = filtered
         # filtered = soup.find("title")
         # print("Marka : " + (filtered.text.split(' ', 1)[0]).capitalize())
         # offers_data['Marka'] = (filtered.text.split(' ', 1)[0]).capitalize()
@@ -84,17 +86,17 @@ def get_details(_data):
         # Search for model
         filtered = selector2.css('body > div.main-wrapper > div:nth-child(3) > div > div > div:nth-child(1) > div > div > div > div > div > div:nth-child(7) > a > span::text').get()
         print("Model : " + filtered)
-        offers_data['Model'] = filtered
-        # # filtered = name_filtered[2]
+        offers_data['model'] = filtered
+        # filtered = name_filtered[2]
 
         for label in labels:
+            index = labels.index(label)
             anchor = element.find("div", text=label + ":")
             if (label+":") in filtered_div_data:
                 print(label, ':', anchor.find_next_sibling("div").text)
-                offers_data[label] = anchor.find_next_sibling("div").text
+                offers_data[database_labels[index]] = anchor.find_next_sibling("div").text
             else:
-                offers_data[label] = 'none' #why it does not work?
-                # continue
+                continue
 
         print('')
 

@@ -1,5 +1,5 @@
 # 3rd party imports
-from sqlalchemy import Column, Integer, String, ForeignKey
+from sqlalchemy import Column, Integer, String, Date, ForeignKey
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import relationship
 
@@ -54,21 +54,21 @@ class Offer(Base):
     # Additional columns
     offer_id = Column(String)
     seller_id = Column(String)
-    location = Column(String)
-    title = Column(String)
-    price = Column(String)
-    brand = Column(String)
-    model = Column(String)
-    production_year = Column(String)
-    course = Column(String)
-    capacity = Column(String)
-    power = Column(String)
-    fuel_type = Column(String)
-    colour = Column(String)
-    damaged = Column(String)
-    country = Column(String)
-    driving_gear = Column(String)
-    number_of_seats = Column(String)
+    location = Column(String, nullable='True')
+    title = Column(String, nullable='True')
+    price = Column(String, nullable='True')
+    brand = Column(String, nullable='True')
+    model = Column(String, nullable='True')
+    production_year = Column(String, nullable='True')
+    course = Column(String, nullable='True')
+    capacity = Column(String, nullable='True')
+    power = Column(String, nullable='True')
+    fuel_type = Column(String, nullable='True')
+    colour = Column(String, nullable='True')
+    damaged = Column(String, nullable='True')
+    country = Column(String, nullable='True')
+    driving_gear = Column(String, nullable='True')
+    number_of_seats = Column(String, nullable='True')
 
     # Create a relation between tables
     campaign = relationship('Campaign', back_populates='offers')

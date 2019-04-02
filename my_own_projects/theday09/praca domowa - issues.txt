@@ -1,2 +1,6 @@
 liczba ofert w podziale na modele (sixth_statistics): 
-1) mam QUERY_MAP, moge "wyciagnac ilosc modeli kazdego typu (count_models_of cars) i rodzaje tych modeli (models_of_cars) - jak teraz to przelozyc na zapisanie liczby ofert w podziale na modele
+1) jak odniesc sie do foreign key przy dodawaniu rekordow do bazy
+2) mam QUERY_MAP, moge "wyciagnac ilosc modeli kazdego typu (count_models_of cars) i rodzaje tych modeli (models_of_cars) - jak teraz to przelozyc na zapisanie liczby ofert w podziale na modele
+3) statistics
+4) jak zlapac oferty ktore sa "niewidoczne", bo sa na nastepnej stronie
+pobrac link z guzika next page - xpath i request do kolejnej strony
