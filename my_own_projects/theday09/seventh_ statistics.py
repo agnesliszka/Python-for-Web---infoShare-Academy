@@ -23,37 +23,37 @@ def statistics():
     number_of_offers = len(offers)
     print('Number of offers in the database: ' + str(number_of_offers))
 
-# Numbers of offers in the database - second method
-QUERY_MAP = {
-    'all_offers': 'SELECT COUNT * FROM offers;',
-    'searched_data': 'SELECT id, price, course, model;',
-    'models': 'SELECT id, price, model FROM offer GROUP BY model;',
-    'count_models_of_cars': 'SELECT COUNT model FROM offer GROUP BY model;',
-    'models_of_cars': 'SELECT model FROM offer GROUP BY model;'
-}
-dirname = os.path.dirname(__file__)
-db_name = 'offers.db'
-path_to_db = os.path.join(dirname, 'example_dbs', db_name)
-print(path_to_db)
-print(run_query(QUERY_MAP['all'], path_to_db))
-
-results = session.query(Offer).all()
-# model_results = session.query(Offer).filter(Offer.model == '').all()
-print('Number of offers in the database: ' + results)
+# # Numbers of offers in the database - second method
+# QUERY_MAP = {
+#     'all_offers': 'SELECT COUNT * FROM offers;',
+#     'searched_data': 'SELECT id, price, course, model;',
+#     'models': 'SELECT id, price, model FROM offer GROUP BY model;',
+#     'count_models_of_cars': 'SELECT COUNT model FROM offer GROUP BY model;',
+#     'models_of_cars': 'SELECT model FROM offer GROUP BY model;'
+# }
+# dirname = os.path.dirname(__file__)
+# db_name = 'offers.db'
+# path_to_db = os.path.join(dirname, 'example_dbs', db_name)
+# print(path_to_db)
+# print(run_query(QUERY_MAP['all_offers'], path_to_db))
+#
+# results = session.query(Offer).all()
+# # model_results = session.query(Offer).filter(Offer.model == '').all()
+# print('Number of offers in the database: ' + results)
 
 # Function to get minimum and maximum price and minimum and maximum course
 def min_max():
+    min_price_value = session.query(func.min(Offer.price)).one()
+    print('Mix price:', min_price_value[0])
+
     max_price_value = session.query(func.max(Offer.price)).one()
     print('Max price:', max_price_value[0])
 
-    min_price_value = session.query(func.min(Offer.price)).one()
-    print('Min price:', min_price_value[0])
+    min_course = session.query(func.min(Offer.course)).one()
+    print('Min course:', min_course[0])
 
     max_course = session.query(func.max(Offer.course)).one()
     print('Max course:', max_course[0])
-
-    min_course = session.query(func.min(Offer.course)).one()
-    print('Min course:', min_course[0])
 
 # Create a menu representing available options
 def menu():

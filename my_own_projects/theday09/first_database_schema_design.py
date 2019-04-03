@@ -5,6 +5,20 @@ from sqlalchemy.orm import relationship
 
 Base = declarative_base()
 
+# Create 'portal' database schema
+class Portal(Base):
+    # Set a table name
+    __tablename__ = 'portals'
+
+    # Primary key
+    id = Column(Integer, primary_key=True)
+
+    # Additional columns
+    name = Column(String)
+
+    # Creating a relation between tables
+    campaign = relationship('Campaign', back_populates='portal')
+
 # Create 'campaign' database schema
 class Campaign(Base):
     # Set a table name
@@ -23,22 +37,6 @@ class Campaign(Base):
     # Creating a relation between tables
     portal = relationship('Portal', back_populates='campaign')
     offers = relationship('Offer', back_populates='campaign')
-
-
-# Create 'portal' database schema
-class Portal(Base):
-    # Set a table name
-    __tablename__ = 'portals'
-
-    # Primary key
-    id = Column(Integer, primary_key=True)
-
-    # Additional columns
-    name = Column(String)
-
-    # Creating a relation between tables
-    campaign = relationship('Campaign', back_populates='portal')
-
 
 # Create 'offers' database schema
 class Offer(Base):
