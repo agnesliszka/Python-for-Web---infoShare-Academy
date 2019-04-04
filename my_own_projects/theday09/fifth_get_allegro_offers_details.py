@@ -101,7 +101,7 @@ def get_details(_data):
                     match = re.search(pattern, output_data)
                     start_position = match.start()
                     end_position = match.end()
-                    data_without_units = data[start_position:end_position]
+                    data_without_units = output_data[start_position:end_position]
 
                     print(label, ':', anchor.find_next_sibling("div").text)
                     offers_data[database_labels[index]] = data_without_units

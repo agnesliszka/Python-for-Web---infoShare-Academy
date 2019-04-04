@@ -18,6 +18,7 @@
 		2. wyœwietlenie wartoœci min/max - done
 	2. wyjœcie z aplikacji - done
 
+poprawic wyciaganie danych dla mocy, przebiegu i ...
 zrobic scrapper do kolejnej strony
 
 jest 60 ofert na stronie czyli potrzebujemy 42 strony pobrac

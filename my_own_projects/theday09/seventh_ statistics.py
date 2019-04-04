@@ -17,41 +17,36 @@ def run_query(query, db):
         result = cursor.fetchall()
         return result
 
-# Numbers of offers in the database - first method
-def statistics():
-    offers = os.listdir('offers')
-    number_of_offers = len(offers)
-    print('Number of offers in the database: ' + str(number_of_offers))
-
-
+# Define a query map
 QUERY_MAP = {
-    'all': 'select * from offers;',
     'number_of_offers': 'SELECT COUNT (*) FROM offers;',
     'models_of_cars': 'SELECT model FROM offers GROUP BY model;',
     'count_models_of_cars': 'SELECT COUNT (model) FROM offers GROUP BY model;',
 }
 
+# Define database path
 dirname = os.path.dirname(__file__)
 db_name = 'offers.db'
 path_to_db = os.path.join(dirname, db_name)
 
-# Numbers of offers in the database - second method
-number_of_offers = run_query(QUERY_MAP['number_of_offers'], path_to_db)
-print('Number of offers in the database: ' + str(number_of_offers))
+def general_statistics():
+    # Get numbers of offers in the database - first method
+    offers = os.listdir('offers')
+    number_of_offers = len(offers)
+    print('Number of offers in the database: ' + str(number_of_offers))
 
-print(run_query(QUERY_MAP['all'], path_to_db))
-print(run_query(QUERY_MAP['models_of_cars'], path_to_db))
-print(run_query(QUERY_MAP['count_models_of_cars'], path_to_db))
+    # Get numbers of offers in the database - second method
+    number_of_offers = run_query(QUERY_MAP['number_of_offers'], path_to_db)
+    print('Number of offers in the database: ' + str(number_of_offers))
 
+def statistics_offers_divided_by_models():
+    # Get number of offers divided into models
+    models_of_cars = run_query(QUERY_MAP['models_of_cars'], path_to_db)
+    count_models_of_cars = run_query(QUERY_MAP['count_models_of_cars'], path_to_db)
 
-# Models of cars in the database
-# models_of_cars = run_query(QUERY_MAP['models_of_cars'], path_to_db))
-# print(models_of_cars)
-
-
-# results = session.query(Offer).all()
-# # model_results = session.query(Offer).filter(Offer.model == '').all()
-
+    for model_of_car in models_of_cars:
+        idx = models_of_cars.index(model_of_car)
+        print('There is/are ' + f'{count_models_of_cars[idx]}' + ' offer(s) of car - model: ' + f'{model_of_car}')
 
 # Function to get minimum and maximum price and minimum and maximum course
 def min_max():
@@ -72,16 +67,26 @@ def menu():
     while True:
         user_choice = input('''
         What would you like to do now? 
-        Please choose one of the following options:
-                
+        Please input one of the following options:         
         1 - show statistics,
         2 - show min/max price and min/max course
         3 - quit  
-
         ''')
 
         if user_choice == "1":
-            statistics()
+            deeper_user_choice = input('''
+                    Which statistics are you interested in? 
+                    Please input one of the following options:         
+                    1 - number of offers
+                    2 - number of offers divided into models
+                    3 - quit  
+                    ''')
+            if deeper_user_choice == "1":
+                general_statistics()
+            elif deeper_user_choice == "2":
+                statistics_offers_divided_by_models()
+            elif user_choice == "3":
+                return
 
         elif user_choice == "2":
             min_max()
@@ -93,13 +98,3 @@ def menu():
 
 if __name__ == "__main__":
     menu()
-
-
-# Offer.query.count().filter(model='cos')
-
-# max_val_from_Poland = session.query(func.max(Offer.price)).filter(Goods.origin == 'Poland').one()
-# print('Max price:', max_val_from_Poland[0])
-#
-# min_val_from_Poland = session.query(func.min(Offer.price)).filter(Goods.origin == 'Poland').one()
-# print('Min price:', min_val_from_Poland[0])
-
