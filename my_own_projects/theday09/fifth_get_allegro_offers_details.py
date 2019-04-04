@@ -1,5 +1,6 @@
 # Standard library imports
 import os
+import re
 import json
 
 # 3rd party imports
@@ -85,18 +86,33 @@ def get_details(_data):
 
         # Search for model
         filtered = selector2.css('body > div.main-wrapper > div:nth-child(3) > div > div > div:nth-child(1) > div > div > div > div > div > div:nth-child(7) > a > span::text').get()
-        print("Model : " + filtered)
+        print("Model : " + str(filtered))
         offers_data['model'] = filtered
         # filtered = name_filtered[2]
 
         for label in labels:
             index = labels.index(label)
             anchor = element.find("div", text=label + ":")
-            if (label+":") in filtered_div_data:
-                print(label, ':', anchor.find_next_sibling("div").text)
-                offers_data[database_labels[index]] = anchor.find_next_sibling("div").text
+            if label in ["Przebieg", "Pojemność silnika", "Moc"]:
+                if (label+":") in filtered_div_data:
+                    output_data = anchor.find_next_sibling("div").text
+                    # pattern = '\d+'
+                    pattern = '[0-9]+'
+                    match = re.search(pattern, output_data)
+                    start_position = match.start()
+                    end_position = match.end()
+                    data_without_units = data[start_position:end_position]
+
+                    print(label, ':', anchor.find_next_sibling("div").text)
+                    offers_data[database_labels[index]] = data_without_units
+                else:
+                    continue
             else:
-                continue
+                if (label+":") in filtered_div_data:
+                    print(label, ':', anchor.find_next_sibling("div").text)
+                    offers_data[database_labels[index]] = anchor.find_next_sibling("div").text
+                else:
+                    continue
 
         print('')
 

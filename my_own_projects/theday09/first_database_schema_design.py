@@ -41,9 +41,6 @@ class Campaign(Base):
     portal = relationship('Portal', back_populates='campaign')
     offers = relationship('Offer', back_populates='campaign')
 
-    def __repr__(self):
-        return f'<Campaign(portal_id={self.portal_id}, date={self.date})>'
-
 # Create 'offers' database schema
 class Offer(Base):
     # Set a table name
@@ -77,5 +74,3 @@ class Offer(Base):
     # Create a relation between tables
     campaign = relationship('Campaign', back_populates='offers')
 
-    def __repr__(self):
-        return f'<Offer(campaign_id={self.campaign_id})>'

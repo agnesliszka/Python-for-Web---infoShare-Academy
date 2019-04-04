@@ -7,7 +7,8 @@ from parsel import Selector
 
 
 # Get page from url
-url = 'https://allegro.pl/kategoria/porsche-911-14667?order=m&bmatch=baseline-n-ann-1-2-0131'
+# url = 'https://allegro.pl/kategoria/porsche-911-14667?order=m&bmatch=baseline-n-ann-1-2-0131'
+url = 'https://allegro.pl/kategoria/samochody-osobowe-4029?order=m&bmatch=baseline-n-ann-1-5-0131'
 response = requests.get(url)
 content = response.text
 

@@ -18,5 +18,6 @@
 		2. wyœwietlenie wartoœci min/max - done
 	2. wyjœcie z aplikacji - done
 
+zrobic scrapper do kolejnej strony
 
-jeszcze mozna popracowac nad menu, zeby po wybraniu opcji pytal czy wybrac ponownie ktoras z opcji 
+jest 60 ofert na stronie czyli potrzebujemy 42 strony pobrac
