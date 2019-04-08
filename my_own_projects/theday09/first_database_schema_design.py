@@ -3,6 +3,7 @@ from sqlalchemy import Column, Integer, String, Date, ForeignKey
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import relationship
 
+
 Base = declarative_base()
 
 # Create 'portal' database schema
@@ -16,7 +17,7 @@ class Portal(Base):
     # Additional columns
     name = Column(String)
 
-    # Creating a relation between tables
+    # Create a relation between tables
     campaign = relationship('Campaign', back_populates='portal')
 
     def __repr__(self):
@@ -31,13 +32,13 @@ class Campaign(Base):
     id = Column(Integer, primary_key=True)
 
     # Foreign key
-    portal_id = Column(Integer, ForeignKey('portals.id'))
+    portal_id = Column(Integer, ForeignKey('portals.id'), autoincrement='True')
 
     # Additional columns
     date = Column(String)
     api_type = Column(String)
 
-    # Creating a relation between tables
+    # Create a relation between tables
     portal = relationship('Portal', back_populates='campaign')
     offers = relationship('Offer', back_populates='campaign')
 
@@ -50,7 +51,7 @@ class Offer(Base):
     id = Column(Integer, primary_key=True)
 
     # Foreign key
-    campaign_id = Column(Integer, ForeignKey('campaigns.id'))
+    campaign_id = Column(Integer, ForeignKey('campaigns.id'), autoincrement='True')
 
     # Additional columns
     offer_id = Column(String)
@@ -73,4 +74,3 @@ class Offer(Base):
 
     # Create a relation between tables
     campaign = relationship('Campaign', back_populates='offers')
-

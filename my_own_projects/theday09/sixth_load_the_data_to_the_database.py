@@ -9,28 +9,26 @@ from first_database_schema_design import Campaign, Portal, Offer
 
 session = Session()
 
-# Create first object representing portal 'allegro'
+# Create first object representing portal 'allegro' and input required data
 allegro = Portal(name = 'allegro')
-# allegro = Portal(name = 'allegro', campaign = '1')
 session.add(allegro)
 session.commit()
-
 
 # Check database status
 print(session.query(Portal).all())
 
-# Create second object representing campaign '2018.11.31'
+# Create second object representing campaign and input required data
 current_date = datetime.date.today()
 allegro_campaign = Campaign(portal_id = 1, date = current_date)
 session.add(allegro_campaign)
 session.commit()
+
 # Check database status
 print(session.query(Campaign).all())
 
-# Create third object representing offers
+# Create third object representing offers and input required data
 with open('stored_offers_data.json', 'r', encoding="utf-8") as data_file:
     reader = json.load(data_file)
-
     for single_offers_data in reader:
         # i = reader.index(element) + 1
         # for key, value in element.items():
@@ -44,8 +42,8 @@ with open('stored_offers_data.json', 'r', encoding="utf-8") as data_file:
         # session.add(offer)
         # session.commit()
 
-        offer = Offer(**single_offers_data)
-        session.add(offer)
+        offer_data = Offer(**single_offers_data, campaign_id='1')
+        session.add(offer_data)
         session.commit()
 
 # Check database status

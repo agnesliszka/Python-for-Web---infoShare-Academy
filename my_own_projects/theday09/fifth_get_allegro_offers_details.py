@@ -22,7 +22,7 @@ def load_offer(_offer):
 def get_details(_data):
     soup = BeautifulSoup(_data, 'html.parser')
 
-    # Get table where searched parameters and their values are storedclients_orm.db
+    # Get table where searched parameters and their values are stored
     filtered = soup.find_all(attrs={"data-box-name": "Parameters"})
     filtered_string = str(filtered)
 
@@ -30,7 +30,7 @@ def get_details(_data):
     selector = Selector(text=filtered_string)
     filtered_div_data = selector.css('div::text').getall()
 
-    # List searched labels
+    # List of searched labels
     # labels = ["Rok produkcji", "Przebieg", "Pojemność silnika", "Moc", "Rodzaj paliwa",
     #           "Kolor", "Uszkodzony", "Faktura", "Informacje dodatkowe", "Kraj pochodzenia",
     #           "Napęd", "Liczba miejsc"]
@@ -90,6 +90,7 @@ def get_details(_data):
         offers_data['model'] = filtered
         # filtered = name_filtered[2]
 
+        # Search for additional parameters and their values
         for label in labels:
             index = labels.index(label)
             anchor = element.find("div", text=label + ":")
@@ -113,9 +114,7 @@ def get_details(_data):
                     offers_data[database_labels[index]] = anchor.find_next_sibling("div").text
                 else:
                     continue
-
         print('')
-
     return ''
 
 # Create a json file to store the offers data
@@ -132,5 +131,5 @@ with open('stored_offers_data.json', 'w', encoding="utf-8") as data_file:
         # Add searched data to the output list
         output.append(offers_data)
 
-    # Save offers details to json's file
+    # Save offers details to a json's file
     json.dump(output, data_file, indent=4, ensure_ascii=False)
