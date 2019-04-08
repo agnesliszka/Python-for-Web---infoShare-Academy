@@ -18,9 +18,4 @@
 		2. wyœwietlenie wartoœci min/max - done
 	2. wyjœcie z aplikacji - done
 
-to do list and issues:
-- zrobic scrapper do kolejnej strony - pobrac link z guzika next page - xpath i request do kolejnej strony
-- jak odniesc sie do foreign key przy dodawaniu rekordow do bazy
-- jest 60 ofert na stronie czyli potrzebujemy 42 strony pobrac
 
-- fifth_get_allegro_offers_details - nad kolejnoscia plikow zapanowac - pododawac 0 do nazw
