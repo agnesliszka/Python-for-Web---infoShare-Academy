@@ -31,10 +31,6 @@ def get_details(_data):
     filtered_div_data = selector.css('div::text').getall()
 
     # List of searched labels
-    # labels = ["Rok produkcji", "Przebieg", "Pojemność silnika", "Moc", "Rodzaj paliwa",
-    #           "Kolor", "Uszkodzony", "Faktura", "Informacje dodatkowe", "Kraj pochodzenia",
-    #           "Napęd", "Liczba miejsc"]
-
     labels = ["Rok produkcji", "Przebieg", "Pojemność silnika", "Moc", "Rodzaj paliwa",
               "Kolor", "Uszkodzony", "Kraj pochodzenia", "Napęd", "Liczba miejsc"]
 
