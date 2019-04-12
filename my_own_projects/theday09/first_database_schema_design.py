@@ -46,7 +46,7 @@ class Campaign(Base):
 class Offer(Base):
     # Set a table name
     __tablename__ = 'offers'
-    'offers'
+    
     # Primary key
     id = Column(Integer, primary_key=True)
 
