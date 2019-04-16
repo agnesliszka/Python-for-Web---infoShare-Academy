@@ -1,0 +1,7 @@
+dodac kolumne w tabeli oferty, wartoscia domyslna ma byc pusty string; 
+alter table uzyc by zupdateowac tabele nie tracac danych
+mozna tez uzyc dump sqlite - zrzucamy dane, ktore mozemy zaladowac do bazy, ale o tym samym schemacie, wiec trzebaby przeparsowac i dodac np pusty string
+
+alembic - dokonanie migracji bazy danych
+
+wybrac olx, Otomoto lub Autoscout24 - jeden z nich
