@@ -116,17 +116,17 @@ def get_details_otomoto(data):
     print("Uszkodzony : " + str(filtered))
     offers_data['damaged'] = filtered
 
-    # # Search for country
-    # filtered = selector.xpath('//*[@id="parameters"]/ul[2]/li[7]/div/a/text()').get()
-    # filtered = filtered.strip()
-    # print("Kraj pochodzenia : " + str(filtered))
-    # offers_data['country'] = filtered
-    #
-    # # Search for driving_gear
-    # filtered = selector.css('/html/body/div[3]/main/div[2]/div[1]/div[1]/div[3]/div[1]/ul[2]/li[7]/div/a/text()').get()
-    # # filtered = filtered.strip()
-    # print("Naped : " + str(filtered))
-    # offers_data['driving_gear'] = filtered
+    # Search for country
+    filtered = selector.xpath('//*[@id="parameters"]/ul[2]/li[4]/div/a/text()').get()
+    filtered = filtered.strip()
+    print("Kraj pochodzenia : " + str(filtered))
+    offers_data['country'] = filtered
+
+    # Search for driving_gear
+    filtered = selector.css('#parameters > ul:nth-child(2) > li:nth-child(1) > div > a::text').get()
+    filtered = filtered.strip()
+    print("Naped : " + str(filtered))
+    offers_data['driving_gear'] = filtered
 
     # Search for number_of_seats
     filtered = selector.xpath('//*[@id="parameters"]/ul[1]/li[13]/div/text()').get()
@@ -141,7 +141,7 @@ def get_details_olx(data):
 
     # Search for offer_id
     filtered_basic = selector.xpath('//*[@id="offerdescription"]/div[2]/div[1]/em/small/text()').get()
-    # filtered_basic = filtered_basic.strip()
+    filtered_basic = filtered_basic.strip()
     pattern = '[0-9]+'
     match = re.search(pattern, filtered_basic)
     if match:
@@ -153,19 +153,19 @@ def get_details_olx(data):
 
     # Search for seller_id
     filtered = selector.xpath('//*[@id="offeractions"]/div[3]/div[2]/h4/a/text()').get()
-    # filtered = filtered.strip()
+    filtered = filtered.strip()
     print("ID sprzedajacego : " + filtered)
     offers_data['seller_id'] = filtered
 
     # Search for location
     filtered = selector.xpath('//*[@id="offerdescription"]/div[2]/div[1]/a/strong/text()').get()
-    # filtered = filtered.strip()
+    filtered = filtered.strip()
     print("Lokalizacja : " + filtered)
     offers_data['location'] = filtered
 
     # Search for title
     filtered = selector.css('title::text').get()
-    # filtered = filtered.strip()
+    filtered = filtered.strip()
     print("Tytul : " + filtered)
     offers_data['title'] = filtered
 
@@ -176,68 +176,70 @@ def get_details_olx(data):
     print("Cena : " + filtered)
     offers_data['price'] = filtered
 
-    # # Search for brand
-    # filtered = selector.xpath('/html/body/div[3]/section/div[3]/div/div[1]/div[1]/div[1]/div/div[3]/table/tbody/tr[1]/td[2]/table/tbody/tr/td/strong/a/text()').get()
-    # # filtered = filtered.strip()
-    # print("Marka : " + filtered)
-    # offers_data['brand'] = filtered
+    # Search for brand
+    filtered = selector.xpath('//*[@id="offerdescription"]/div[3]/table/tr/td[2]/table/tr/td/strong/a/text()').get()
+    filtered = filtered.strip()
+    print("Marka : " + filtered)
+    offers_data['brand'] = filtered
 
-    # # Search for model
-    # filtered = selector.css('.details > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(1) > td:nth-child(2) > strong:nth-child(1) > a:nth-child(1)::text').get()
-    # # filtered = filtered.strip()
-    # print("Model : " + str(filtered))
-    # offers_data['model'] = filtered
-    #
-    # # Search for production_year
-    # filtered = selector.xpath('//*[@id="offerdescription"]/div[3]/table/tbody/tr[2]/td[2]/table/tbody/tr/td/strong/text()').get()
-    # # filtered = filtered.strip()
-    # print("Rok produkcji : " + str(filtered))
-    # offers_data['production_year'] = filtered
+    # Search for model
+    filtered = selector.xpath('//*[@id="offerdescription"]/div[3]/table/tr[2]/td/table/tr/td/strong/a/text()').get()
+    filtered = filtered.strip()
+    print("Model : " + str(filtered))
+    offers_data['model'] = filtered
 
-    # # Search for course
-    # filtered = selector.xpath('//*[@id="offerdescription"]/div[3]/table/tbody/tr[4]/td[2]/table/tbody/tr/td/strong/text()').get()
-    # filtered = filtered.strip()
-    # filtered = filtered[:-3]
-    # print("Przebieg : " + str(filtered))
-    # offers_data['course'] = filtered
+    # Search for production_year
+    filtered = selector.xpath('//*[@id="offerdescription"]/div[3]/table/tr[2]/td[2]/table/tr/td/strong/text()').get()
+    filtered = filtered.strip()
+    print("Rok produkcji : " + str(filtered))
+    offers_data['production_year'] = filtered
+
+    # Search for course
+    filtered = selector.xpath('//*[@id="offerdescription"]/div[3]/table/tr[4]/td[2]/table/tr/td/strong/text()').get()
+    filtered = filtered.strip()
+    filtered = filtered[:-3]
+    print("Przebieg : " + str(filtered))
+    offers_data['course'] = filtered
 
     # Search for capacity
-    filtered = selector.xpath('//*[@id="offerdescription"]/div[3]/table/tbody/tr[3]/td[1]/table/tbody/tr/td/strong/text()').get()
-    # filtered = filtered.strip()
-    # filtered = filtered[:-3]
+    filtered = selector.xpath('//*[@id="offerdescription"]/div[3]/table/tr[3]/td/table/tr/td/strong/text()').get()
+    filtered = filtered.strip()
+    filtered = filtered[:-3]
     print("Pojemnosc : " + str(filtered))
     offers_data['capacity'] = filtered
 
     # Search for power
-    filtered = selector.xpath('//*[@id="offerdescription"]/div[3]/table/tbody/tr[4]/td[1]/table/tbody/tr/td/strong/text()').get()
-    # filtered = filtered.strip()
-    # filtered = filtered[:-3]
+    filtered = selector.xpath('//*[@id="offerdescription"]/div[3]/table/tr[4]/td/table/tr/td/strong/text()').get()
+    filtered = filtered.strip()
+    filtered = filtered[:-3]
     print("Moc : " + str(filtered))
     offers_data['power'] = filtered
 
     # Search for fuel_type
-    filtered = selector.xpath('//*[@id="offerdescription"]/div[3]/table/tbody/tr[3]/td[2]/table/tbody/tr/td/strong/a/text()').get()
-    # filtered = filtered.strip()
+    filtered = selector.xpath('//*[@id="offerdescription"]/div[3]/table/tr[3]/td[2]/table/tr/td/strong/a/text()').get()
+    filtered = filtered.strip()
     print("Rodzaj paliwa : " + str(filtered))
     offers_data['fuel_type'] = filtered
 
     # Search for colour
-    filtered = selector.xpath('//*[@id="offerdescription"]/div[3]/table/tbody/tr[5]/td[2]/table/tbody/tr/td/strong/a/text()').get()
-    # filtered = filtered.strip()
+    filtered = selector.xpath('//*[@id="offerdescription"]/div[3]/table/tr[5]/td[2]/table/tr/td/strong/a/text()').get()
+    filtered = filtered.strip()
     print("Kolor : " + str(filtered))
     offers_data['colour'] = filtered
 
     # Search if damaged - in oto moto "Bezwypadkowy" category instead of "Uszkodzony"
-    filtered = selector.xpath('//*[@id="offerdescription"]/div[3]/table/tbody/tr[6]/td[1]/table/tbody/tr/td/strong/a/text()').get()
+    filtered = selector.xpath('//*[@id="offerdescription"]/div[3]/table/tr[6]/td/table/tr/td/strong/a/text()').get()
+    filtered = filtered.strip()
     print("Uszkodzony : " + str(filtered))
     offers_data['damaged'] = filtered
 
     # Search for country
-    filtered = selector.xpath('//*[@id="offerdescription"]/div[3]/table/tbody/tr[7]/td[1]/table/tbody/tr/td/strong/a/text()').get()
+    filtered = selector.xpath('//*[@id="offerdescription"]/div[3]/table/tr[7]/td/table/tr/td/strong/a/text()').get()
+    filtered = filtered.strip()
     print("Kraj pochodzenia : " + str(filtered))
     offers_data['country'] = filtered
 
-    # Search for driving_gear
+    # # Search for driving_gear
     filtered = 'brak danych'
     print("Naped : " + str(filtered))
     offers_data['driving_gear'] = filtered
