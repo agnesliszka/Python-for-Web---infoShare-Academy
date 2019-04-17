@@ -66,22 +66,32 @@ def get_details_otomoto(data):
     offers_data['model'] = filtered
 
     # Search for production_year
-    filtered = selector.xpath('//*[@id="parameters"]/ul[1]/li[5]/div/text()').get()
-    filtered = filtered.strip()
+    pattern = '[0-9]{4}\s*<\/div>'
+    match = re.search(pattern, data)
+    start_position = match.start()
+    end_position = match.end()
+    regex_data = data[start_position:end_position]
+    filtered = regex_data[ :-7]
     print("Rok produkcji : " + str(filtered))
     offers_data['production_year'] = filtered
 
     # Search for course
-    filtered = selector.xpath('//*[@id="parameters"]/ul[1]/li[6]/div/text()').get()
-    filtered = filtered.strip()
-    filtered = filtered[:-3]
+    pattern = '[0-9]*\s*[0-9]*\s*km\s*<\/div>'
+    match = re.search(pattern, data)
+    start_position = match.start()
+    end_position = match.end()
+    regex_data = data[start_position:end_position]
+    filtered = regex_data[ :-17]
     print("Przebieg : " + str(filtered))
     offers_data['course'] = filtered
 
     # Search for capacity
-    filtered = selector.xpath('//*[@id="parameters"]/ul[1]/li[7]/div/text()').get()
-    filtered = filtered.strip()
-    filtered = filtered[:-3]
+    pattern = '[0-9]*\s*km\s*<\/div>' # to be corrected
+    match = re.search(pattern, data)
+    start_position = match.start()
+    end_position = match.end()
+    regex_data = data[start_position:end_position]
+    filtered = regex_data[:-5]
     print("Pojemnosc : " + str(filtered))
     offers_data['capacity'] = filtered
 
