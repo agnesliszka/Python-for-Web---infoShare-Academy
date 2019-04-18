@@ -1,0 +1,2 @@
+* cene ogarnac zeby byla jako integer w zad 09 tez
+
