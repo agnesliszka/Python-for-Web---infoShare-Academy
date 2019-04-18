@@ -54,125 +54,57 @@ def get_details_otomoto(data):
     print("Cena : " + filtered)
     offers_data['price'] = filtered
 
-    # Search for searched data
-    searched_data = selector.xpath('//*[@id="parameters"]').get()
-    soup = BeautifulSoup(searched_data, 'html.parser')
+    # Search for table with data
+    searched_table = selector.xpath('//*[@id="parameters"]').get()
+    soup = BeautifulSoup(searched_table, 'html.parser')
 
-    # Get table where searched parameters and their values are stored
+    # Search for rows - list elements of table with searched data
     searched_row = soup.find_all('li')
-    searched_row_string = str(searched_row)
+    # print(searched_row)
+    # searched_row_string = str(searched_row)
 
     # List of searched labels
-    labels = ["Marka", "Model"]
-    # index = searched_row.index(element)
+    labels1 = ["Marka pojazdu", "Model pojazdu", "Rodzaj paliwa", "Kolor", "Bezwypadkowy", "Kraj pochodzenia", "Napęd", ]
+    labels_in_table1 = ["brand", "model", "fuel_type", "colour", "damaged", "country", "driving_gear"]
 
-    for element in searched_row:
-        # print("element:"+str(element))
-        for label in labels:
-            if label in element:
-                print("jest")
-                # # Loop for searched data (listed as labels)
-                # searched_label_data = soup.a.string
-                # print(searched_label_data)
-                searched_label_data_string = str(searched_label_data)
+    labels2 = ["Rok produkcji", "Przebieg", "Pojemność skokowa", "Moc", "Liczba miejsc"]
+    labels_in_table2 = ["production_year", "course", "capacity", "power", "number_of_seats"]
 
-
-        # if (label) in searched_data:
-        #     print(label, ':', searched_label_data.find_next_sibling("div").text)
-            # offers_data[database_labels[index]] = anchor.find_next_sibling("div").text
-
-    # # Search for brand
-    # filtered = selector.xpath('//*[@id="parameters"]/ul[1]/li[3]/div/a/text()').get()
-    # filtered = filtered.strip()
-    # print("Marka : " + filtered)
-    # offers_data['brand'] = filtered
-    #
-    # # Search for model
-    # filtered = selector.xpath('//*[@id="parameters"]/ul[1]/li[4]/div/a/text()').get()
-    # filtered = filtered.strip()
-    # print("Model : " + str(filtered))
-    # offers_data['model'] = filtered
-    #
-    # # Search for production_year
-    # pattern = '[0-9]{4}\s*<\/div>'
-    # match = re.search(pattern, searched_data)
-    # start_position = match.start()
-    # end_position = match.end()
-    # regex_data = searched_data[start_position:end_position]
-    # filtered = regex_data[ :-7]
-    # print("Rok produkcji : " + str(filtered))
-    # offers_data['production_year'] = filtered
-    #
-    # # Search for course
-    # pattern = '[0-9]*\s*[0-9]*\s*[0-9]*\s*km\s*<\/div>' # zrobic cos z blanc
-    # match = re.search(pattern, searched_data)
-    # start_position = match.start()
-    # end_position = match.end()
-    # regex_data = searched_data[start_position:end_position]
-    # filtered = regex_data[ :-17]
-    # filtered = filtered.strip()
-    # print("Przebieg : " + str(filtered))
-    # offers_data['course'] = filtered
-    #
-    # # Search for capacity
-    # pattern = '[0-9]*\s*[0-9]*\s*[0-9]*\s*cm3\s*<\/div>'
-    # match = re.search(pattern, searched_data)
-    # start_position = match.start()
-    # end_position = match.end()
-    # regex_data = searched_data[start_position:end_position]
-    # filtered = regex_data[:-18]
-    # filtered = filtered.strip()
-    # print("Pojemnosc : " + str(filtered))
-    # offers_data['capacity'] = filtered
-    #
-    # # Search for power
-    # filtered = selector.xpath('//*[@id="parameters"]/ul[1]/li[9]/div/text()').get()
-    # filtered = filtered.strip()
-    # filtered = filtered[:-3]
-    # print("Moc : " + str(filtered))
-    # offers_data['power'] = filtered
-    #
-    # # # Search for fuel_type
-    # # filtered = selector.xpath('//*[@id="parameters"]/ul[1]/li[8]/div/a/text()').get()
-    # # filtered = filtered.strip()
-    # # print("Rodzaj paliwa : " + str(filtered))
-    # # offers_data['fuel_type'] = filtered
-    #
-    # # Search for colour
-    # filtered = selector.xpath('//*[@id="parameters"]/ul[2]/li[1]/div/a/text()').get()
-    # filtered = filtered.strip()
-    # print("Kolor : " + str(filtered))
-    # offers_data['colour'] = filtered
-    #
-    # # Search if damaged - in oto moto "Bezwypadkowy" category instead of "Uszkodzony"
-    # filtered = selector.xpath('//*[@id="parameters"]/ul[2]/li[8]/div/a/text()').get()
-    # filtered = filtered.strip().lower()
-    # if filtered == "tak":
-    #     filtered = "Bezwypadkowy"
-    # elif filtered == "nie":
-    #     filtered = "Uszkodzony"
-    # else:
-    #     filtered = "brak danych"
-    # print("Uszkodzony : " + str(filtered))
-    # offers_data['damaged'] = filtered
-    #
-    # # Search for country
-    # filtered = selector.xpath('//*[@id="parameters"]/ul[2]/li[4]/div/a/text()').get()
-    # filtered = filtered.strip()
-    # print("Kraj pochodzenia : " + str(filtered))
-    # offers_data['country'] = filtered
-    #
-    # # Search for driving_gear
-    # filtered = selector.css('#parameters > ul:nth-child(2) > li:nth-child(1) > div > a::text').get()
-    # filtered = filtered.strip()
-    # print("Naped : " + str(filtered))
-    # offers_data['driving_gear'] = filtered
-    #
-    # # Search for number_of_seats
-    # filtered = selector.xpath('//*[@id="parameters"]/ul[1]/li[13]/div/text()').get()
-    # filtered = filtered.strip()
-    # print("Liczba miejsc : " + str(filtered))
-    # offers_data['number_of_seats'] = filtered
+    for row in searched_row:
+        soup = BeautifulSoup(str(row), 'html.parser')
+        # selector_row = Selector(text=str(row))
+        for label1 in labels1:
+            idx1 = labels1.index(label1)
+            if label1 in str(row):
+                # Get label data
+                searched_label_data1 = soup.a.string
+                # searched_label_data = selector_row.xpath('//li/div/a/text()').get()
+                searched_label_data1 = searched_label_data1.strip()
+                if label1 == "Bezwypadkowy":
+                    if searched_label_data1.lower() == "tak":
+                        searched_label_data1 = "Bezwypadkowy"
+                    elif searched_label_data1.lower() == "nie":
+                        searched_label_data1 = "Uszkodzony"
+                    else:
+                        searched_label_data1 = "brak danych"
+                    print("Uszkodzony : " + searched_label_data1)
+                    offers_data[labels_in_table1[idx1]] = searched_label_data1
+                else:
+                    print(label1+" : " + searched_label_data1)
+                    offers_data[labels_in_table1[idx1]] = searched_label_data1
+        for label2 in labels2:
+            idx2 = labels2.index(label2)
+            if label2 in str(row):
+                # Get label data
+                searched_label_data2 = soup.div.string
+                searched_label_data2 = searched_label_data2.strip()
+                if label2 in ["Przebieg", "Pojemność skokowa", "Moc"]:
+                    searched_label_data2 = searched_label_data2[:-3]
+                    print(label2 + " : " + searched_label_data2)
+                    offers_data[labels_in_table2[idx2]] = searched_label_data2
+                else:
+                    print(label2+" : " + searched_label_data2)
+                    offers_data[labels_in_table2[idx2]] = searched_label_data2
 
 # Function to get required data of the corresponding offer from olx portal
 def get_details_olx(data):
@@ -192,10 +124,16 @@ def get_details_olx(data):
     offers_data['offer_id'] = filtered
 
     # Search for seller_id
-    filtered = selector.xpath('//*[@id="offeractions"]/div[3]/div[2]/h4/a/text()').get()
-    filtered = filtered.strip()
-    print("ID sprzedajacego : " + filtered)
-    offers_data['seller_id'] = filtered
+    try:
+        filtered = selector.xpath('//*[@id="offeractions"]/div[3]/div[2]/h4/a/text()').get()
+        filtered = filtered.strip()
+        print("ID sprzedajacego : " + filtered)
+        offers_data['seller_id'] = filtered
+    except:
+        filtered = selector.xpath('//*[@id="offeractions"]/div[3]/div[2]/h4/text()').get()
+        filtered = filtered.strip()
+        print("ID sprzedajacego : " + filtered)
+        offers_data['seller_id'] = filtered
 
     # Search for location
     filtered = selector.xpath('//*[@id="offerdescription"]/div[2]/div[1]/a/strong/text()').get()
@@ -216,68 +154,47 @@ def get_details_olx(data):
     print("Cena : " + filtered)
     offers_data['price'] = filtered
 
-    # Search for brand
-    filtered = selector.xpath('//*[@id="offerdescription"]/div[3]/table/tr/td[2]/table/tr/td/strong/a/text()').get()
-    filtered = filtered.strip()
-    print("Marka : " + filtered)
-    offers_data['brand'] = filtered
+    # Search for table with data
+    searched_table = selector.xpath('//*[@id="offerdescription"]/div[3]/table').get()
+    selector_row = Selector(text=searched_table)
 
-    # Search for model
-    filtered = selector.xpath('//*[@id="offerdescription"]/div[3]/table/tr[2]/td/table/tr/td/strong/a/text()').get()
-    filtered = filtered.strip()
-    print("Model : " + str(filtered))
-    offers_data['model'] = filtered
+    # Search for rows - list elements of table with searched data
+    searched_row = selector_row.css(".col").getall()
+    # print(searched_row)
+    # searched_row_string = str(searched_row)
 
-    # Search for production_year
-    filtered = selector.xpath('//*[@id="offerdescription"]/div[3]/table/tr[2]/td[2]/table/tr/td/strong/text()').get()
-    filtered = filtered.strip()
-    print("Rok produkcji : " + str(filtered))
-    offers_data['production_year'] = filtered
+    # List of searched labels
+    labels1 = ["Marka", "Model", "Paliwo", "Kolor", "Stan techniczny", "Kraj pochodzenia"]
+    labels_in_table1 = ["brand", "model", "fuel_type", "colour", "damaged", "country"]
 
-    # Search for course
-    filtered = selector.xpath('//*[@id="offerdescription"]/div[3]/table/tr[4]/td[2]/table/tr/td/strong/text()').get()
-    filtered = filtered.strip()
-    filtered = filtered[:-3]
-    print("Przebieg : " + str(filtered))
-    offers_data['course'] = filtered
+    labels2 = ["Rok produkcji", "Przebieg", "Poj. silnika", "Moc silnika"]
+    labels_in_table2 = ["production_year", "course", "capacity", "power"]
 
-    # Search for capacity
-    filtered = selector.xpath('//*[@id="offerdescription"]/div[3]/table/tr[3]/td/table/tr/td/strong/text()').get()
-    filtered = filtered.strip()
-    filtered = filtered[:-3]
-    print("Pojemnosc : " + str(filtered))
-    offers_data['capacity'] = filtered
-
-    # Search for power
-    filtered = selector.xpath('//*[@id="offerdescription"]/div[3]/table/tr[4]/td/table/tr/td/strong/text()').get()
-    filtered = filtered.strip()
-    filtered = filtered[:-3]
-    print("Moc : " + str(filtered))
-    offers_data['power'] = filtered
-
-    # Search for fuel_type
-    filtered = selector.xpath('//*[@id="offerdescription"]/div[3]/table/tr[3]/td[2]/table/tr/td/strong/a/text()').get()
-    filtered = filtered.strip()
-    print("Rodzaj paliwa : " + str(filtered))
-    offers_data['fuel_type'] = filtered
-
-    # Search for colour
-    filtered = selector.xpath('//*[@id="offerdescription"]/div[3]/table/tr[5]/td[2]/table/tr/td/strong/a/text()').get()
-    filtered = filtered.strip()
-    print("Kolor : " + str(filtered))
-    offers_data['colour'] = filtered
-
-    # Search if damaged - in oto moto "Bezwypadkowy" category instead of "Uszkodzony"
-    filtered = selector.xpath('//*[@id="offerdescription"]/div[3]/table/tr[6]/td/table/tr/td/strong/a/text()').get()
-    filtered = filtered.strip()
-    print("Uszkodzony : " + str(filtered))
-    offers_data['damaged'] = filtered
-
-    # Search for country
-    filtered = selector.xpath('//*[@id="offerdescription"]/div[3]/table/tr[7]/td/table/tr/td/strong/a/text()').get()
-    filtered = filtered.strip()
-    print("Kraj pochodzenia : " + str(filtered))
-    offers_data['country'] = filtered
+    for row in searched_row:
+        soup = BeautifulSoup(str(row), 'html.parser')
+        # selector_row = Selector(text=str(row))
+        for label1 in labels1:
+            idx1 = labels1.index(label1)
+            if label1 in str(row):
+                # Get label data
+                searched_label_data1 = soup.a.string
+                # searched_label_data = selector_row.xpath('//li/div/a/text()').get()
+                searched_label_data1 = searched_label_data1.strip()
+                print(label1+" : " + searched_label_data1)
+                offers_data[labels_in_table1[idx1]] = searched_label_data1
+        for label2 in labels2:
+            idx2 = labels2.index(label2)
+            if label2 in str(row):
+                # Get label data
+                searched_label_data2 = soup.strong.string
+                searched_label_data2 = searched_label_data2.strip()
+                if label2 in ["Przebieg", "Poj. silnika", "Moc silnika"]:
+                    searched_label_data2 = searched_label_data2[:-3]
+                    print(label2 + " : " + searched_label_data2)
+                    offers_data[labels_in_table2[idx2]] = searched_label_data2
+                else:
+                    print(label2+" : " + searched_label_data2)
+                    offers_data[labels_in_table2[idx2]] = searched_label_data2
 
     # Search for driving_gear
     filtered = 'brak danych'
@@ -309,9 +226,9 @@ with open('stored_offers_data.json', 'w', encoding="utf-8") as data_file:
         data = load_offer(offer)
         # Print searched data of the corresponding offer
         if portal == "oto":
+            print("")
             get_details_otomoto(data)
         elif portal == "olx":
-            print("")
             get_details_olx(data)
         # Add searched data to the output list
         output.append(offers_data)
