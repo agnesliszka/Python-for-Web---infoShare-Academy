@@ -31,16 +31,29 @@ def get_details_otomoto(data):
     offers_data['offer_id'] = filtered
 
     # Search for seller_id
-    filtered = selector.xpath('//*[@id="siteWrap"]/main/div[1]/div/div[5]/div/div[1]/h2/text()').get()
-    filtered = filtered.strip()
-    print("ID sprzedajacego : " + filtered)
-    offers_data['seller_id'] = filtered
+    try:
+        filtered = selector.xpath('//*[@id="siteWrap"]/main/div[1]/div/div[5]/div/div[1]/h2/text()').get()
+        filtered = filtered.strip()
+        print("ID sprzedajacego : " + filtered)
+        offers_data['seller_id'] = filtered
+    except:
+        print("ok")
+        filtered = selector.xpath('//*[@id="siteWrap"]/main/div[1]/div/div[5]/div/div[1]/h2/a/text()').get()
+        filtered = filtered.strip()
+        print("ID sprzedajacego : " + filtered)
+        offers_data['seller_id'] = filtered
 
     # Search for location
-    filtered = selector.xpath('//*[@id="siteWrap"]/main/div[1]/div/div[5]/div/div[2]/span[2]/text()').get()
-    filtered = filtered.strip()
-    print("Lokalizacja : " + filtered)
-    offers_data['location'] = filtered
+    try:
+        filtered = selector.xpath('//*[@id="siteWrap"]/main/div[1]/div/div[5]/div/div[2]/span[2]/text()').get()
+        filtered = filtered.strip()
+        print("Lokalizacja : " + filtered)
+        offers_data['location'] = filtered
+    except:
+        filtered = selector.xpath('//*[@id="siteWrap"]/main/div[1]/div/div[5]/div/div[3]/span[2]/text()').get()
+        filtered = filtered.strip()
+        print("Lokalizacja : " + filtered)
+        offers_data['location'] = filtered
 
     # Search for title
     filtered = selector.css('title::text').get()
