@@ -279,7 +279,7 @@ def get_details_olx(data):
     print("Kraj pochodzenia : " + str(filtered))
     offers_data['country'] = filtered
 
-    # # Search for driving_gear
+    # Search for driving_gear
     filtered = 'brak danych'
     print("Naped : " + str(filtered))
     offers_data['driving_gear'] = filtered
@@ -312,7 +312,7 @@ with open('stored_offers_data.json', 'w', encoding="utf-8") as data_file:
             get_details_otomoto(data)
         elif portal == "olx":
             print("")
-            # get_details_olx(data)
+            get_details_olx(data)
         # Add searched data to the output list
         output.append(offers_data)
 

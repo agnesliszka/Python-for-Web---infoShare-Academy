@@ -1,1 +1,0 @@
-czy jak mamy dane, ktorych nie bedzie bo takie dane nie sa podawane w tym portalu to mamy je usunac ze schematu bazy, czy zostawic kolumne pusta?
