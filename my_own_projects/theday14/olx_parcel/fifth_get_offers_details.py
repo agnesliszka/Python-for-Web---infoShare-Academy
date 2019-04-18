@@ -239,7 +239,6 @@ with open('stored_offers_data.json', 'w', encoding="utf-8") as data_file:
         data = load_offer(offer)
         # Print searched data of the corresponding offer
         if portal == "oto":
-            print("")
             get_details_otomoto(data)
         elif portal == "olx":
             get_details_olx(data)
