@@ -8,8 +8,9 @@ dbCon = sqlite3.connect("offers.db")
 cur = dbCon.cursor()
 
 # Add a new column to student table
-addColumn = "ALTER TABLE offers ADD COLUMN abnormalities VARCHAR NULL"
+addColumn = "ALTER TABLE offers ADD COLUMN abnormalities VARCHAR DEFAULT '' "
 cur.execute(addColumn)
 
 # Close the database connection
 dbCon.close()
+
