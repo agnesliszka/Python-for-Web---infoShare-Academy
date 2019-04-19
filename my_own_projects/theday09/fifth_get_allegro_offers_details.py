@@ -6,7 +6,7 @@ import json
 # 3rd party imports
 from bs4 import BeautifulSoup
 from parsel import Selector
-
+from decimal import *
 
 # Create output list
 output = []
@@ -68,7 +68,7 @@ def get_details(_data):
         # Search for price
         filtered = soup.find(itemprop="price")
         print("Cena : " + filtered.get('content'))
-        offers_data['price'] = filtered.get('content')
+        offers_data['price'] = float(filtered.get('content'))
 
         selector2 = Selector(text=_data)
 
@@ -99,9 +99,8 @@ def get_details(_data):
                     start_position = match.start()
                     end_position = match.end()
                     data_without_units = output_data[start_position:end_position]
-
-                    print(label, ':', anchor.find_next_sibling("div").text)
-                    offers_data[database_labels[index]] = data_without_units
+                    print(label, ':', float(data_without_units))
+                    offers_data[database_labels[index]] = float(data_without_units)
                 else:
                     continue
             else:

@@ -6,6 +6,7 @@ import json
 # 3rd party imports
 from parsel import Selector
 from bs4 import BeautifulSoup
+from decimal import Decimal
 
 
 # Create output list
@@ -64,8 +65,9 @@ def get_details_otomoto(data):
     # Search for price
     filtered = selector.xpath('//*[@id="siteWrap"]/main/section/div[3]/div[1]/span[1]/text()').get()
     filtered = filtered.strip()
+    filtered = filtered.replace(" ", "")
     print("Cena : " + filtered)
-    offers_data['price'] = filtered
+    offers_data['price'] = float(filtered)
 
     # Search for table with data
     searched_table = selector.xpath('//*[@id="parameters"]').get()
@@ -113,8 +115,9 @@ def get_details_otomoto(data):
                 searched_label_data2 = searched_label_data2.strip()
                 if label2 in ["Przebieg", "Pojemność skokowa", "Moc"]:
                     searched_label_data2 = searched_label_data2[:-3]
+                    searched_label_data2 = searched_label_data2.replace(" ", "")
                     print(label2 + " : " + searched_label_data2)
-                    offers_data[labels_in_table2[idx2]] = searched_label_data2
+                    offers_data[labels_in_table2[idx2]] = float(searched_label_data2)
                 else:
                     print(label2+" : " + searched_label_data2)
                     offers_data[labels_in_table2[idx2]] = searched_label_data2
@@ -164,8 +167,9 @@ def get_details_olx(data):
     filtered = selector.xpath('//*[@id="offeractions"]/div[1]/strong/text()').get()
     filtered = filtered.strip()
     filtered = filtered[:-3]
+    filtered = filtered.replace(" ", "")
     print("Cena : " + filtered)
-    offers_data['price'] = filtered
+    offers_data['price'] = float(filtered)
 
     # Search for table with data
     searched_table = selector.xpath('//*[@id="offerdescription"]/div[3]/table').get()
@@ -203,8 +207,9 @@ def get_details_olx(data):
                 searched_label_data2 = searched_label_data2.strip()
                 if label2 in ["Przebieg", "Poj. silnika", "Moc silnika"]:
                     searched_label_data2 = searched_label_data2[:-3]
+                    searched_label_data2 = searched_label_data2.replace(" ", "")
                     print(label2 + " : " + searched_label_data2)
-                    offers_data[labels_in_table2[idx2]] = searched_label_data2
+                    offers_data[labels_in_table2[idx2]] = float(searched_label_data2)
                 else:
                     print(label2+" : " + searched_label_data2)
                     offers_data[labels_in_table2[idx2]] = searched_label_data2

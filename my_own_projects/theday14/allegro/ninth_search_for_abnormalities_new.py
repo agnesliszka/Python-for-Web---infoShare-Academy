@@ -32,28 +32,32 @@ blank_data = run_query(QUERY_MAP['blanc_data'])
 low_price = run_query(QUERY_MAP['low_price'])
 small_course = run_query(QUERY_MAP['small_course'])
 
-def update_task(conn, task):
-        sql = ''' UPDATE offers
-                  SET abnormalities = ?
-                  WHERE id = ?'''
-        cur = conn.cursor()
-        cur.execute(sql, task)
+print(blank_data)
+print(low_price)
+print(small_course)
 
-def update_omments():
-    # database = "offers.db"
-    # # create a database connection
-    # conn = create_connection(database)
-    with conn:
-        for element in low_price:
-            update_task(conn, element)
-        for item in blank_data:
-            update_task(conn, item)
-        for data in small_course:
-            update_task(conn, data)
-
-if __name__ == '__main__':
-    update_omments()
-
+# def update_task(conn, task):
+#         sql = ''' UPDATE offers
+#                   SET abnormalities = ?
+#                   WHERE id = ?'''
+#         cur = conn.cursor()
+#         cur.execute(sql, task)
+#
+# def update_omments():
+#     # database = "offers.db"
+#     # # create a database connection
+#     # conn = create_connection(database)
+#     with conn:
+#         for element in low_price:
+#             update_task(conn, element)
+#         for item in blank_data:
+#             update_task(conn, item)
+#         for data in small_course:
+#             update_task(conn, data)
+#
+# if __name__ == '__main__':
+#     update_omments()
+#
 
 # http://www.sqlitetutorial.net/sqlite-python/update/
 

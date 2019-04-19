@@ -1,5 +1,5 @@
 # 3rd party imports
-from sqlalchemy import Column, Integer, String, Date, ForeignKey
+from sqlalchemy import Column, Integer, Float, String, Date, ForeignKey
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import relationship
 
@@ -35,7 +35,7 @@ class Campaign(Base):
     portal_id = Column(Integer, ForeignKey('portals.id'), autoincrement='True')
 
     # Additional columns
-    date = Column(String)
+    date = Column(Date)
     api_type = Column(String)
 
     # Create a relation between tables
@@ -58,19 +58,19 @@ class Offer(Base):
     seller_id = Column(String)
     location = Column(String, nullable='True')
     title = Column(String, nullable='True')
-    price = Column(String, nullable='True')
+    price = Column(Float, nullable='True')
     brand = Column(String, nullable='True')
     model = Column(String, nullable='True')
     production_year = Column(String, nullable='True')
-    course = Column(String, nullable='True')
-    capacity = Column(String, nullable='True')
-    power = Column(String, nullable='True')
+    course = Column(Float, nullable='True')
+    capacity = Column(Float, nullable='True')
+    power = Column(Float, nullable='True')
     fuel_type = Column(String, nullable='True')
     colour = Column(String, nullable='True')
     damaged = Column(String, nullable='True')
     country = Column(String, nullable='True')
     driving_gear = Column(String, nullable='True')
-    number_of_seats = Column(String, nullable='True')
+    number_of_seats = Column(Integer, nullable='True')
 
     # Create a relation between tables
     campaign = relationship('Campaign', back_populates='offers')
