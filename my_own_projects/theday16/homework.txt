@@ -1,0 +1,2 @@
+napisac aplikacje webowa laczaca sie z baza z zadania 14 
+Ofert.query.filter(marka = form.data['marka'])

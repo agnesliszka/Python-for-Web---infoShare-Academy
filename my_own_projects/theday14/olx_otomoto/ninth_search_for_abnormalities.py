@@ -51,14 +51,19 @@ blank_data_text = 'blank data'
 low_price_text = 'low price'
 small_course_text = 'small course'
 
+# Update comments in appropriate cell of abnormalities column in offers.db when a certain condition is met
 for item in blank_data_ids_updated:
     # print(item)
     cur.execute('''UPDATE offers SET abnormalities = ? WHERE id = ?''', (blank_data_text, item))
+    conn.commit()
 
 for item in low_price_ids_updated:
     cur.execute('''UPDATE offers SET abnormalities = ? WHERE id = ?''', (low_price_text, item))
+    conn.commit()
 
 for item in small_course_ids_updated:
     cur.execute('''UPDATE offers SET abnormalities = ? WHERE id = ?''', (small_course_text, item))
+    conn.commit()
 
 # https://stackoverflow.com/questions/22872814/how-do-i-update-values-in-an-sql-database-sqlite-python
+# https://stackoverflow.com/questions/2847999/why-the-need-to-commit-explicitly-when-doing-an-update

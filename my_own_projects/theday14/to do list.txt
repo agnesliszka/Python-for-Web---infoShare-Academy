@@ -1,4 +1,0 @@
-* cene ogarnac zeby byla jako integer w zad 09 tez
-* ninth_search_for_abnormalities_new plik ogarnac
-
-
