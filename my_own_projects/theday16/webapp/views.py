@@ -9,6 +9,7 @@ from. import db
 def get_offers():
     # Get data from offers table
     offers = Offer.query.all()
+    print(offers)
 
     # Create data provided to the template
     data = {'offers': offers}
@@ -16,6 +17,11 @@ def get_offers():
     # Fulfill the template with the data and send it to the internet browser
     return render_template('offers.html', **data)
 
+@app.route('/')
+def home():
+    offers = Offer.query.all()
+    print(offers)
+    return 'hello'
 
 # @app.route('/add', methods=['GET', 'POST'])
 # def add_offer():

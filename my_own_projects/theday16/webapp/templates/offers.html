@@ -4,26 +4,13 @@
 <ol>
     {% for offer in offers %}
         <li>{{ offer.id }} {{ offer.campaign_id }}</li>
+<!--        <li>{{ offer.id }} {{ offer.campaign_id }} {{ offer.offer_id }} {{ offer.seller_id }}-->
+<!--        {{ offer.location }} {{ offer.title }} {{ offer.price }} {{ offer.brand }}-->
+<!--        {{ offer.model }} {{ offer.production_year }} {{ offer.course }} {{ offer.capacity }}-->
+<!--        {{ offer.power }} {{ offer.fuel_type }} {{ offer.colour }}-->
+<!--        {{ offer.damaged }} {{ offer.country }} {{ offer.driving_gear }}-->
+<!--        {{ offer.number_of_seats }} {{ offer.abnormalities }} </li>-->
     {% else %}
         No offers in the database.
     {% endfor %}
 </ol>
-
-<!--    offer_id = db.Column(db.String)-->
-<!--    seller_id = db.Column(db.String)-->
-<!--    location = db.Column(db.String)-->
-<!--    title = db.Column(db.String)-->
-<!--    price = db.Column(db.Float)-->
-<!--    brand = db.Column(db.String)-->
-<!--    model = db.Column(db.String)-->
-<!--    production_year = db.Column(db.String)-->
-<!--    course = db.Column(db.Float)-->
-<!--    capacity = db.Column(db.Float)-->
-<!--    power = db.Column(db.Float)-->
-<!--    fuel_type = db.Column(db.String)-->
-<!--    colour = db.Column(db.String)-->
-<!--    damaged = db.Column(db.String)-->
-<!--    country = db.Column(db.String)-->
-<!--    driving_gear = db.Column(db.String)-->
-<!--    number_of_seats = db.Column(db.Integer)-->
-<!--    abnormalities = db.Column(db.String)-->
