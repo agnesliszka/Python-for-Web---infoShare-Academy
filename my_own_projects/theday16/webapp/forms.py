@@ -25,3 +25,6 @@ class OfferForm(FlaskForm):
     number_of_seats = IntegerField('Number of seats')
     abnormalities = StringField('Abnormalities')
 
+class SearchForModelForm(FlaskForm):
+    model = StringField('Model')
+

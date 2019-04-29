@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Brand search</title>
+</head>
+<body>
+    <h1 style="color: orangered">{{ specific_model_offer }}</h1>
+
+
+    <ol>
+        {% for offer in offers %}
+            <li>{{ offer.id }} {{ offer.campaign_id }} {{ offer.offer_id }} {{ offer.seller_id }}
+            {{ offer.location }} {{ offer.title }} {{ offer.price }} {{ offer.brand }}
+            {{ offer.model }} {{ offer.production_year }} {{ offer.course }} {{ offer.capacity }}
+            {{ offer.power }} {{ offer.fuel_type }} {{ offer.colour }}
+            {{ offer.damaged }} {{ offer.country }} {{ offer.driving_gear }}
+            {{ offer.number_of_seats }} {{ offer.abnormalities }} </li>
+        {% else %}
+            No offers in the database.
+        {% endfor %}
+    </ol>
+
+</body>
+</html>

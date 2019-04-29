@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Offers search page</title>
+</head>
+<body>
+    <h1>Welcome to the offers search page</h1>
+    <h2>If you want to see the database offers use the following link:</h2>
+    <a href="{{ url_for('get_offers') }}">{{ url_for('get_offers') }}</a>
+    <h2>If you want to search for the specific model of the car use the following link:</h2>
+    <a href="{{ url_for('brand_search') }}">{{ url_for('brand_search') }}</a>
+</body>
+</html>

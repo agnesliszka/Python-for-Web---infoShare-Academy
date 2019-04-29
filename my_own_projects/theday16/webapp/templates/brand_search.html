@@ -1,0 +1,9 @@
+<!-- empty action equals the same url -->
+
+<form method="GET", action="/show_searched_brand">
+    {{ form.csrf_token }}
+    {{ form.brand.label }}:{{ form.brand }}
+
+    <input type="submit" value="Send inquiry">
+
+</form>
