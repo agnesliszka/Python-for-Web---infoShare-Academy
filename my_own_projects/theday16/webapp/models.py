@@ -2,6 +2,7 @@ from . import db
 
 
 class Offer(db.Model):
+    __tablename__ = 'offers'
     id = db.Column(db.Integer, primary_key=True)
     campaign_id = db.Column(db.Integer)
     offer_id = db.Column(db.String)

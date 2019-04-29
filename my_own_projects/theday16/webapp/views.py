@@ -42,11 +42,14 @@ def home():
 #     return render_template('offer_form.html', form=form)
 
 
-# # @app.route('/offers_search')
-# # def home():
-# #     clients = Offer.query.all()
-# #     print(clients)
-# #     return 'hello'
-#
-#         # db.session.add(offer)
-#         # db.session.commit()
+# @app.route('/offers_search', methods=['GET', 'POST'])
+# def offers_search():
+#     form = OfferForm()
+
+      # brand =
+
+#     search_for_brand = Offer.query.filter(brand=form.data['brand'])
+
+# Fulfill the template with the data and send it to the internet browser
+#     return render_template('search_for_brand.html', search_for_brand)
+

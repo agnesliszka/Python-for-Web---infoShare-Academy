@@ -1,15 +1,14 @@
 
-<!--If you want to see the database offers use the following link:-->
-<!--<a href="{{ url_for('get_offers') }}">{{ url_for('get_offers') }}</a>-->
+If you want to see the database offers use the following link:
+<a href="{{ url_for('get_offers') }}">{{ url_for('get_offers') }}</a>
 <ol>
     {% for offer in offers %}
-        <li>{{ offer.id }} {{ offer.campaign_id }}</li>
-<!--        <li>{{ offer.id }} {{ offer.campaign_id }} {{ offer.offer_id }} {{ offer.seller_id }}-->
-<!--        {{ offer.location }} {{ offer.title }} {{ offer.price }} {{ offer.brand }}-->
-<!--        {{ offer.model }} {{ offer.production_year }} {{ offer.course }} {{ offer.capacity }}-->
-<!--        {{ offer.power }} {{ offer.fuel_type }} {{ offer.colour }}-->
-<!--        {{ offer.damaged }} {{ offer.country }} {{ offer.driving_gear }}-->
-<!--        {{ offer.number_of_seats }} {{ offer.abnormalities }} </li>-->
+        <li>{{ offer.id }} {{ offer.campaign_id }} {{ offer.offer_id }} {{ offer.seller_id }}
+        {{ offer.location }} {{ offer.title }} {{ offer.price }} {{ offer.brand }}
+        {{ offer.model }} {{ offer.production_year }} {{ offer.course }} {{ offer.capacity }}
+        {{ offer.power }} {{ offer.fuel_type }} {{ offer.colour }}
+        {{ offer.damaged }} {{ offer.country }} {{ offer.driving_gear }}
+        {{ offer.number_of_seats }} {{ offer.abnormalities }} </li>
     {% else %}
         No offers in the database.
     {% endfor %}
