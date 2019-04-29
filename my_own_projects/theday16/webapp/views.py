@@ -30,8 +30,9 @@ def brand_search():
 
     # redirect?
 
-# @app.route('/show_searched_brand', methods=['GET', 'POST'])
-# def show_searched_brand(form)
+@app.route('/show_searched_brand', methods=['GET', 'POST'])
+def show_searched_brand():
+    return "It works"
 #     searched_offer_model = Offer.query.filter(brand=form.data['brand'])
 #     /results?show_searched_brand=Audi
 

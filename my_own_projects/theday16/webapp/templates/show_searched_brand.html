@@ -5,9 +5,6 @@
     <title>Brand search</title>
 </head>
 <body>
-    <h1 style="color: orangered">{{ specific_model_offer }}</h1>
-
-
     <ol>
         {% for offer in offers %}
             <li>{{ offer.id }} {{ offer.campaign_id }} {{ offer.offer_id }} {{ offer.seller_id }}
