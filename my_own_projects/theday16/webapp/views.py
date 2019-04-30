@@ -30,8 +30,9 @@ def brand_search():
 @app.route('/show_searched_brand', methods=['GET', 'POST'])
 def show_searched_brand():
     brand = request.args.get('brand')
-    searched_offer_model = Offer.query.filter(brand==brand)
+    searched_offer_model = Offer.query.filter(brand=brand)
     return render_template('show_searched_brand.html', form=searched_offer_model)
+
 
 
 # form = OfferForm()
