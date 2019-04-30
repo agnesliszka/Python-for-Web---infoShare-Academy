@@ -30,10 +30,14 @@ def brand_search():
 @app.route('/show_searched_brand', methods=['GET', 'POST'])
 def show_searched_brand():
     brand = request.args.get('brand')
-    searched_offer_model = Offer.query.filter(brand=brand)
+    print(brand)
+    searched_offer_model = Offer.query.filter(brand==brand)
     return render_template('show_searched_brand.html', form=searched_offer_model)
 
 
+# Count number of rows in the table
+# number_of_rows = offers.query.filter_by(brand=brand).count()
+# return render_template('show_searched_brand.html', form=number_of_rows)
 
 # form = OfferForm()
 # searched_offer_model = Offer.query.filter(brand=form.data[brand])
@@ -59,5 +63,4 @@ def show_searched_brand():
 #     return render_template('offer_form.html', form=form)
 
 
-#
 
