@@ -1,6 +1,7 @@
 from . import db
 
 
+# Create offers model
 class Offer(db.Model):
     __tablename__ = 'offers'
     id = db.Column(db.Integer, primary_key=True)

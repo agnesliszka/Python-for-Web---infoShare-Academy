@@ -3,6 +3,7 @@ from wtforms import IntegerField, FloatField, StringField
 from wtforms.validators import DataRequired
 
 
+# Create offers form
 class OfferForm(FlaskForm):
     id = IntegerField('id', validators=[DataRequired()])
     campaign_id = IntegerField('Campaign id')
@@ -25,6 +26,5 @@ class OfferForm(FlaskForm):
     number_of_seats = IntegerField('Number of seats')
     abnormalities = StringField('Abnormalities')
 
-class SearchForModelForm(FlaskForm):
-    model = StringField('Model')
+
 
