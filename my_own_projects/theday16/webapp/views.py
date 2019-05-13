@@ -31,9 +31,10 @@ def show_searched_brand():
     # Get selected brand of the car
     brand = request.args.get('brand')
     # Filter offers of selected brand of the car
-    offers_of_selected_brands = Offer.query.filter(brand == brand).all()
+    offers_of_selected_brands = Offer.query.filter(Offer.brand == brand)
+    print(offers_of_selected_brands)
     # Create data provided to the template
-    selected_offers_data = {'searched_offer_model': offers_of_selected_brands}
+    selected_offers_data = {'offers': offers_of_selected_brands}
     # Show offers of selected brand of the car on the website
     return render_template('show_searched_brand.html', **selected_offers_data)
 
