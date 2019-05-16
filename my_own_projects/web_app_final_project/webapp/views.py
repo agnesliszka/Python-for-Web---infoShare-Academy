@@ -1,4 +1,6 @@
 from flask import render_template, redirect, request
+from flask.views import View
+
 from .forms import OfferForm
 from .models import Offer
 from . import app
@@ -9,15 +11,6 @@ def home():
     # Show home page
     html = render_template("home.html")
     return html
-
-@app.route('/offers')
-def get_offers():
-    # Get data from offers table
-    offers = Offer.query.all()
-    # Create data provided to the template
-    data = {'offers': offers}
-    # Fulfill the template with the data and send it to the internet browser
-    return render_template('show_offers.html', **data)
 
 @app.route('/brand_search', methods=['GET'])
 def brand_search():
@@ -37,5 +30,37 @@ def show_searched_brand():
     selected_offers_data = {'offers': offers_of_selected_brands, 'number_of_rows': number_of_rows}
     # Show offers of selected brand of the car on the website
     return render_template('show_searched_brand.html', **selected_offers_data)
+
+# @app.route('/offers')
+# def get_offers():
+#     # Get data from offers table
+#     offers = Offer.query.all()
+#     # Create data provided to the template
+#     data = {'offers': offers}
+#     # Fulfill the template with the data and send it to the internet browser
+#     return render_template('show_offers.html', **data)
+
+class ListView(View):
+    template_name = 'objects_list.html'
+
+    def get_objects(self):
+        raise NotImplementedError()
+
+    def get_context(self):
+        return {'objects': self.get_objects()}
+
+    def render_template(self, context):
+        return render_template(self.__class__.template_name, **context)
+
+    def dispatch_request(self):
+        return self.render_template(self.get_context())
+
+class OfferListView(ListView):
+    template_name = 'show_offers.html'
+
+    def get_objects(self):
+        return Offer.query.all()
+
+app.add_url_rule('/show_offers', view_func=OfferListView.as_view('get_offers'))
 
 

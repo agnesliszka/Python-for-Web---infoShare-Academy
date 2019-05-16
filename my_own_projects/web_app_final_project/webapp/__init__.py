@@ -1,6 +1,7 @@
 from flask import Flask
+from flask_admin import Admin
 from flask_sqlalchemy import SQLAlchemy
-
+from flask_admin.contrib.sqla import ModelView
 
 app = Flask(__name__)
 
@@ -17,5 +18,6 @@ db.create_all()
 from . import views
 from . import forms
 
-
+admin = Admin(app, name="Offers search")
+admin.add_view(ModelView(models.Offer, db.session))
 
