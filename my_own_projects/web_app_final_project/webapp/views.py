@@ -54,6 +54,7 @@ class ListView(View):
     def render_template(self, context):
         return render_template(self.__class__.template_name, **context)
 
+    @login_required
     def dispatch_request(self):
         return self.render_template(self.get_context())
 
