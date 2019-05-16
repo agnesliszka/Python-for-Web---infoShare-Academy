@@ -2,7 +2,6 @@ from flask import render_template, redirect, request
 from .forms import OfferForm
 from .models import Offer
 from . import app
-from. import db
 
 
 @app.route('/')
@@ -29,43 +28,14 @@ def brand_search():
 @app.route('/show_searched_brand', methods=['GET', 'POST'])
 def show_searched_brand():
     # Get selected brand of the car
-    brand = request.args.get('brand')
+    searched_brand = request.args.get('brand')
     # Filter offers of selected brand of the car
-    offers_of_selected_brands = Offer.query.filter(Offer.brand == brand)
-    print(offers_of_selected_brands)
+    offers_of_selected_brands = Offer.query.filter(Offer.brand == searched_brand).all()
+    # Count number of rows in the table
+    number_of_rows = Offer.query.filter_by(brand=searched_brand).count()
     # Create data provided to the template
-    selected_offers_data = {'offers': offers_of_selected_brands}
+    selected_offers_data = {'offers': offers_of_selected_brands, 'number_of_rows': number_of_rows}
     # Show offers of selected brand of the car on the website
     return render_template('show_searched_brand.html', **selected_offers_data)
-
-    # return render_template('show_searched_brand.html', form=searched_offer_model)
-
-# Count number of rows in the table
-# number_of_rows = offers.query.filter_by(brand=brand).count()
-# return render_template('show_searched_brand.html', form=number_of_rows)
-
-# form = OfferForm()
-# searched_offer_model = Offer.query.filter(brand=form.data[brand])
-
-
-
-# @app.route('/add', methods=['GET', 'POST'])
-# def add_offer():
-#     form = OfferForm()
-#
-#     if form.validate_on_submit():
-#         validated_data = form.data.copy()
-#         validated_data.pop('csrf_token')
-#
-#         new_offer = Offer(**validated_data)
-#
-#         # add new offer to the database
-#         db.session.add(new_offer)
-#         db.session.commit()
-#
-#         return redirect('/')
-#
-#     return render_template('offer_form.html', form=form)
-
 
 
