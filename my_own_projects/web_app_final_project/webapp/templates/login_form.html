@@ -1,6 +1,5 @@
 {% include "header.html" %}
 
-
 <div class="container">
     <h3>Logging panel:</h3>
     <br>
@@ -19,7 +18,10 @@
             </tr>
         </table>
     </form>
-
+    <br>
+    <br>
+    <br>
+    <h5>
     {% with messages = get_flashed_messages() %}
         {% if messages %}
             <ul class=flashes>
@@ -29,5 +31,8 @@
             </ul>
         {% endif %}
     {% endwith %}
+    </h5>
+
 </div>
 
+{% include "footer.html" %}

@@ -1,0 +1,21 @@
+{% include "header.html" %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Offers search page</title>
+</head>
+<body>
+    <h1>Welcome to the offers search page</h1>
+    <h2>To login/logout use the following links:</h2>
+    <ol>
+        <li>
+            <a href="{{ url_for("login") }}">{{ url_for("login") }}</a>
+        </li>
+        <li>
+            <a href="{{ url_for("logout") }}">{{ url_for("logout") }}</a>
+        </li>
+    </ol>
+</body>
+</html>

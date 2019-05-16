@@ -1,12 +1,6 @@
 {% include "header.html" %}
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Offers search page</title>
-</head>
-<body>
+<div class="container">
     <h1>Welcome to the offers search page</h1>
     <h2>To login/logout use the following links:</h2>
     <ol>
@@ -17,11 +11,24 @@
             <a href="{{ url_for("logout") }}">{{ url_for("logout") }}</a>
         </li>
     </ol>
-
     <h3>If you want to see the database offers use the following link:</h3>
     <a href="{{ url_for('get_offers') }}">{{ url_for('get_offers') }}</a>
     <h3>If you want to search for the specific model of the car use the following link:</h3>
     <a href="{{ url_for('brand_search') }}">{{ url_for('brand_search') }}</a>
+    <br>
+    <br>
+    <br>
+    <h5>
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            <ul class=flashes>
+                {% for message in messages %}
+                    <li>{{ message }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    {% endwith %}
+    </h5>
+</div>
 
-</body>
-</html>
+{% include "footer.html" %}

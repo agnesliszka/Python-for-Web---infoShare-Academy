@@ -6,8 +6,6 @@ from .forms import OfferForm, LoginForm
 from .models import Offer, User
 from . import app
 
-
-
 @app.route('/')
 def home():
     # Show home page
@@ -34,6 +32,7 @@ def show_searched_brand():
     return render_template('show_searched_brand.html', **selected_offers_data)
 
 # @app.route('/offers')
+# @login_required
 # def get_offers():
 #     # Get data from offers table
 #     offers = Offer.query.all()
@@ -90,11 +89,11 @@ def login():
 
     return render_template('login_form.html', form=form)
 
-
 @app.route('/logout')
 def logout():
     if current_user.is_authenticated:
         logout_user()
+        flash('You have successfully logged out')
 
     return redirect(url_for('home'))
 

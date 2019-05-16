@@ -1,30 +1,31 @@
 {% include "header.html" %}
 
-<form method="POST", action="">
-    {{ form.csrf_token }}
-    {{ form.id.label }}:{{ form.id }}
-    {{ form.campaign_id.label }}:{{ form.campaign_id }}
-    {{ form.offer_id.label }}:{{ form.offer_id }}
-    {{ form.seller_id.label }}:{{ form.seller_id }}
-    {{ form.location.label }}:{{ form.location }}
-    {{ form.title.label }}:{{ form.title }}
-    {{ form.price.label }}:{{ form.price }}
-    {{ form.brand.label }}:{{ form.brand }}
-    {{ form.model.label }}:{{ form.model }}
-    {{ form.production_year.label }}:{{ form.production_year }}
-    {{ form.course.label }}:{{ form.course }}
-    {{ form.capacity.label }}:{{ form.capacity }}
-    {{ form.power.label }}:{{ form.power }}
-    {{ form.fuel_type.label }}:{{ form.fuel_type }}
-    {{ form.colour.label }}:{{ form.colour }}
-    {{ form.damaged.label }}:{{ form.damaged }}
-    {{ form.country.label }}:{{ form.country }}
-    {{ form.driving_gear.label }}:{{ form.driving_gear }}
-    {{ form.number_of_seats.label }}:{{ form.number_of_seats }}
-    {{ form.abnormalities.label }}:{{ form.abnormalities }}
+<div class="container">
+    <form method="POST", action="">
+        {{ form.csrf_token }}
+        {{ form.id.label }}:{{ form.id }}
+        {{ form.campaign_id.label }}:{{ form.campaign_id }}
+        {{ form.offer_id.label }}:{{ form.offer_id }}
+        {{ form.seller_id.label }}:{{ form.seller_id }}
+        {{ form.location.label }}:{{ form.location }}
+        {{ form.title.label }}:{{ form.title }}
+        {{ form.price.label }}:{{ form.price }}
+        {{ form.brand.label }}:{{ form.brand }}
+        {{ form.model.label }}:{{ form.model }}
+        {{ form.production_year.label }}:{{ form.production_year }}
+        {{ form.course.label }}:{{ form.course }}
+        {{ form.capacity.label }}:{{ form.capacity }}
+        {{ form.power.label }}:{{ form.power }}
+        {{ form.fuel_type.label }}:{{ form.fuel_type }}
+        {{ form.colour.label }}:{{ form.colour }}
+        {{ form.damaged.label }}:{{ form.damaged }}
+        {{ form.country.label }}:{{ form.country }}
+        {{ form.driving_gear.label }}:{{ form.driving_gear }}
+        {{ form.number_of_seats.label }}:{{ form.number_of_seats }}
+        {{ form.abnormalities.label }}:{{ form.abnormalities }}
 
-    <input type="submit" value="Send inquiry">
+        <input type="submit" value="Send inquiry">
+    </form>
+</div>
 
-</form>
-
-
+{% include "footer.html" %}
