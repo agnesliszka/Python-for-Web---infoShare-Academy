@@ -13,6 +13,7 @@ def home():
     return html
 
 @app.route('/brand_search', methods=['GET'])
+@login_required
 def brand_search():
     # Create a website to search for the specific brand of the car
     form = OfferForm()
