@@ -34,6 +34,7 @@ def show_searched_brand():
 
 # @app.route('/offers')
 # @login_required
+# @login_required
 # def get_offers():
 #     # Get data from offers table
 #     offers = Offer.query.all()

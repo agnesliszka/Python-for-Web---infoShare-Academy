@@ -27,6 +27,6 @@ class OfferForm(FlaskForm):
     abnormalities = StringField('Abnormalities')
 
 class LoginForm(FlaskForm):
-    login = StringField('Login', validators=[DataRequired()])
+    login = StringField('Username', validators=[DataRequired()])
     password = PasswordField('Password', validators=[DataRequired()])
 
