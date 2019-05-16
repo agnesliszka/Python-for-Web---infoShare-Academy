@@ -1,9 +1,11 @@
-from flask import render_template, redirect, request
+from flask import render_template, redirect, request, url_for, flash
 from flask.views import View
+from flask_login import current_user, login_user, logout_user, login_required
 
-from .forms import OfferForm
-from .models import Offer
+from .forms import OfferForm, LoginForm
+from .models import Offer, User
 from . import app
+
 
 
 @app.route('/')
@@ -61,6 +63,39 @@ class OfferListView(ListView):
     def get_objects(self):
         return Offer.query.all()
 
+    def get_context(self):
+        return {'offers': self.get_objects()}
+
 app.add_url_rule('/show_offers', view_func=OfferListView.as_view('get_offers'))
+
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+    if current_user.is_authenticated:
+        flash('You are already logged in')
+        return redirect(url_for('home'))
+
+    form = LoginForm()
+
+    if form.validate_on_submit():
+        user = User.query.filter_by(login=form.login.data,
+                                    password=form.password.data).first()
+
+        if user is None:
+            flash('Incorrect login/password')
+            return redirect(url_for('home'))
+
+        login_user(user)
+        flash('You have successfully logged in')
+        return redirect(url_for('home'))
+
+    return render_template('login_form.html', form=form)
+
+
+@app.route('/logout')
+def logout():
+    if current_user.is_authenticated:
+        logout_user()
+
+    return redirect(url_for('home'))
 
 

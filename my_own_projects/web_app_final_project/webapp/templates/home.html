@@ -1,3 +1,5 @@
+{% include "header.html" %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,9 +8,20 @@
 </head>
 <body>
     <h1>Welcome to the offers search page</h1>
-    <h2>If you want to see the database offers use the following link:</h2>
+    <h2>To login/logout use the following links:</h2>
+    <ol>
+        <li>
+            <a href="{{ url_for("login") }}">{{ url_for("login") }}</a>
+        </li>
+        <li>
+            <a href="{{ url_for("logout") }}">{{ url_for("logout") }}</a>
+        </li>
+    </ol>
+
+    <h3>If you want to see the database offers use the following link:</h3>
     <a href="{{ url_for('get_offers') }}">{{ url_for('get_offers') }}</a>
-    <h2>If you want to search for the specific model of the car use the following link:</h2>
+    <h3>If you want to search for the specific model of the car use the following link:</h3>
     <a href="{{ url_for('brand_search') }}">{{ url_for('brand_search') }}</a>
+
 </body>
 </html>

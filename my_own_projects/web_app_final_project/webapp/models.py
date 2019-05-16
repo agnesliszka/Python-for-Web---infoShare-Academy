@@ -1,3 +1,5 @@
+from flask_login import UserMixin
+
 from . import db
 
 
@@ -25,7 +27,12 @@ class Offer(db.Model):
     number_of_seats = db.Column(db.Integer)
     abnormalities = db.Column(db.String)
 
+class User(UserMixin, db.Model):
+    __tablename__ = 'users'
 
+    id = db.Column(db.Integer, primary_key=True)
+    login = db.Column(db.String(100))
+    password = db.Column(db.String(64))
 
 
 

@@ -1,5 +1,5 @@
 from flask_wtf import FlaskForm
-from wtforms import IntegerField, FloatField, StringField
+from wtforms import IntegerField, FloatField, StringField, PasswordField
 from wtforms.validators import DataRequired
 
 
@@ -26,5 +26,7 @@ class OfferForm(FlaskForm):
     number_of_seats = IntegerField('Number of seats')
     abnormalities = StringField('Abnormalities')
 
-
+class LoginForm(FlaskForm):
+    login = StringField('Login', validators=[DataRequired()])
+    password = PasswordField('Password', validators=[DataRequired()])
 
