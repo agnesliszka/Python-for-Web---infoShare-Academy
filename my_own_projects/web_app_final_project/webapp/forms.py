@@ -31,6 +31,6 @@ class LoginForm(FlaskForm):
     password = PasswordField('Password', validators=[DataRequired()])
 
 class GraphForm(FlaskForm):
-    marka = SelectField('Marka')
-    rocznik_min = SelectField('Rocznik min')
-    rocznik_max = SelectField('Rocznik max')
+    brand = SelectField('Brand')
+    production_year_min = SelectField('Production year min')
+    production_year_max = SelectField('Production year max')

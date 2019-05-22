@@ -173,9 +173,8 @@ def graph():
 
         for brand in brands:
             ofx = offers_df[
-                (offers_df.marka == brand) &
-                (offers_df.przebieg > 10000) &
-                (offers_df.production_year.between(production_year_start, production_year_stop))
+                (offers_df.brand == brand) &
+                (offers_df.course > 10000)
                 ].groupby('production_year')
 
             ax.plot(ofx.course.mean(), label=brand)
