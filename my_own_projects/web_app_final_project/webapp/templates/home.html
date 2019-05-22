@@ -3,22 +3,23 @@
 <div class="container">
     <h1>Welcome to the offers search page</h1>
     <h2>To login/logout use the following links:</h2>
-    <ol>
+    <ul>
         <li>
-            <a href="{{ url_for("login") }}">{{ url_for("login") }}</a>
+            <a href="{{ url_for("login") }}" class="btn btn-info">Login</a>
         </li>
+        <br>
         <li>
-            <a href="{{ url_for("logout") }}">{{ url_for("logout") }}</a>
+            <a href="{{ url_for("logout") }}" class="btn btn-info">Logout</a>
         </li>
-    </ol>
-    <h3>If you want to see the graph use the following button:</h3>
-    <a href="{{ url_for('graph') }}" class="btn btn-info" role="button" aria-pressed="true">Graph</a>
-    <h3>If you want to see the statistics use the following button:</h3>
-    <a href="{{ url_for('statistics') }}" class="btn btn-info" role="button" aria-pressed="true">Statistics</a>
-    <h3>If you want to see the database offers use the following link:</h3>
-    <a href="{{ url_for('get_offers') }}">{{ url_for('get_offers') }}</a>
-    <h3>If you want to search for the specific model of the car use the following link:</h3>
-    <a href="{{ url_for('brand_search') }}">{{ url_for('brand_search') }}</a>
+    </ul>
+    <h3>To see the graph use the following button:</h3>
+    <a href="{{ url_for('graph') }}" class="btn btn-secondary">Graph</a>
+    <h3>To see the statistics use the following button:</h3>
+    <a href="{{ url_for('statistics') }}" class="btn btn-secondary">Statistics</a>
+    <h3>To see the database offers use the following button:</h3>
+    <a href="{{ url_for('get_offers') }}" class="btn btn-secondary">Show offers</a>
+    <h3>To search for the specific model of the car use the following button:</h3>
+    <a href="{{ url_for('brand_search') }}" class="btn btn-secondary">Brand search</a>
     <br>
     <br>
     <br>
