@@ -1,0 +1,18 @@
+{% include "header.html" %}
+
+<div class="container">
+    <h1>Statistics</h1>
+    <table class="table">
+        {% for key, value in objects.items() %}
+            <tr>
+                <th>{{ key }}</th>
+                <td>{{ value }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+
+    {% include "flashes.html" %}
+
+</div>
+
+{% include "footer.html" %}

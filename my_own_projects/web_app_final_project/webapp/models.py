@@ -2,12 +2,32 @@ from flask_login import UserMixin
 
 from . import db
 
+class Portal(db.Model):
 
-# Create offers model
+    __tablename__ = 'portals'
+
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String)
+    campaign = db.relationship('Campaign', back_populates='portal')
+
+class Campaign(db.Model):
+
+    __tablename__ = 'campaigns'
+
+    id = db.Column(db.Integer, primary_key=True)
+
+    portal_id = db.Column(db.Integer, db.ForeignKey('portals.id'), autoincrement='True')
+    date = db.Column(db.Date)
+    api_type = db.Column(db.String)
+
+    portal = db.relationship('Portal', back_populates='campaign')
+    offers = db.relationship('Offer', back_populates='campaign')
+
 class Offer(db.Model):
     __tablename__ = 'offers'
+
     id = db.Column(db.Integer, primary_key=True)
-    campaign_id = db.Column(db.Integer)
+    campaign_id = db.Column(db.Integer, db.ForeignKey('campaigns.id'), autoincrement='True')
     offer_id = db.Column(db.String)
     seller_id = db.Column(db.String)
     location = db.Column(db.String)
@@ -26,6 +46,8 @@ class Offer(db.Model):
     driving_gear = db.Column(db.String)
     number_of_seats = db.Column(db.Integer)
     abnormalities = db.Column(db.String)
+
+    campaign = db.relationship('Campaign', back_populates='offers')
 
 class User(UserMixin, db.Model):
     __tablename__ = 'users'

@@ -1,0 +1,15 @@
+{% include "header.html" %}
+
+<div class="container">
+    {% include "graph_form_common.html" %}
+</div>
+
+<hr>
+<h5><strong>Chart for brand:</strong> {{ ",".join(brand) }}</h5>
+<h5><strong>The range of production year:</strong> {{ year_range[0] }} - {{ year_range[1] }}</h5>
+
+<img src='{{ url_for("static", filename=filename) }}' class="img-responsive">
+
+{% include "flashes.html" %}
+
+{% include "footer.html" %}

@@ -1,0 +1,11 @@
+
+<h3>Set chart parameters</h3>
+
+<form method="POST">
+    {{ form.csrf_token }}
+    {{ form.brand.label }} {{ form.brand }}
+    {{ form.production_year_min.label }} {{ form.production_year_min }}
+    {{ form.production_year_max.label }} {{ form.production_year_max }}
+    <input type="submit" value="Go">
+</form>
+

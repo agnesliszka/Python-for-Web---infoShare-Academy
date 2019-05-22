@@ -1,5 +1,5 @@
 from flask_wtf import FlaskForm
-from wtforms import IntegerField, FloatField, StringField, PasswordField
+from wtforms import IntegerField, FloatField, StringField, PasswordField, SelectField
 from wtforms.validators import DataRequired
 
 
@@ -30,3 +30,7 @@ class LoginForm(FlaskForm):
     login = StringField('Username', validators=[DataRequired()])
     password = PasswordField('Password', validators=[DataRequired()])
 
+class GraphForm(FlaskForm):
+    marka = SelectField('Marka')
+    rocznik_min = SelectField('Rocznik min')
+    rocznik_max = SelectField('Rocznik max')

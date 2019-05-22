@@ -11,6 +11,10 @@
             <a href="{{ url_for("logout") }}">{{ url_for("logout") }}</a>
         </li>
     </ol>
+    <h3>If you want to see the graph use the following button:</h3>
+    <a href="{{ url_for('graph') }}" class="btn btn-info" role="button" aria-pressed="true">Graph</a>
+    <h3>If you want to see the statistics use the following button:</h3>
+    <a href="{{ url_for('statistics') }}" class="btn btn-info" role="button" aria-pressed="true">Statistics</a>
     <h3>If you want to see the database offers use the following link:</h3>
     <a href="{{ url_for('get_offers') }}">{{ url_for('get_offers') }}</a>
     <h3>If you want to search for the specific model of the car use the following link:</h3>
@@ -19,15 +23,7 @@
     <br>
     <br>
     <h5>
-    {% with messages = get_flashed_messages() %}
-        {% if messages %}
-            <ul class=flashes>
-                {% for message in messages %}
-                    <li>{{ message }}</li>
-                {% endfor %}
-            </ul>
-        {% endif %}
-    {% endwith %}
+    {% include "flashes.html" %}
     </h5>
 </div>
 
